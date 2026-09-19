@@ -4,9 +4,15 @@
 
 > **Jev** is TypeSafe AI's first *System One* model (released **2026-09-15**): it never generates text. You send it unstructured state plus typed questions — **Noul** (yes/no probability), **Choice** (option distribution + confidence), **Score** (rubric rating) — and it returns calibrated, machine-consumable decisions in **70–500 ms** at **$0.042/M input tokens, output free**.
 
-This repository tracks **what the world actually built with Jev** — every case verified against a primary source (repo, live demo, or embedded original tweet), organized, quantified, and updated **daily by automated monitoring plus manual deep scans**.
+This repository tracks **what the world actually built with Jev** — every case verified against a primary source (repo, live demo, or embedded original tweet), organized, quantified, and kept current by automated monitoring plus manual deep scans.
 
-![status](https://img.shields.io/badge/monitor-active-brightgreen) ![cases](https://img.shields.io/badge/curated_cases-220%2B-blue) ![repos tracked](https://img.shields.io/badge/ecosystem_repos-500%2B-orange) ![cadence](https://img.shields.io/badge/daily_scan-09%3A00-informational) ![license](https://img.shields.io/badge/CC_BY_4.0-content-green)
+> ### 🔬 Every project in this registry is verified, scanned, and carries a confidence score
+> - **Scanned every 3 hours** — automated sweep of GitHub, X/Twitter and five community directories; changes are committed to this repo on every scan that finds something new
+> - **Evidence-graded** — each entry carries a verification tier with a confidence value (see below)
+> - **No hearsay** — claims without a primary source are rejected; author-reported numbers are labeled as such
+> - 🧭 New to Jev? Start with the **[API 申请攻略 / Access Guide](./docs/jev-api-access-guide.zh.md)** — waitlist, expedite trick, and no-wait alternatives (OpenRouter / Netlify / OpenJev)
+
+![status](https://img.shields.io/badge/monitor-active-brightgreen) ![cases](https://img.shields.io/badge/curated_cases-220%2B-blue) ![repos tracked](https://img.shields.io/badge/ecosystem_repos-500%2B-orange) ![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-blue) ![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC_置信度-purple) ![guide](https://img.shields.io/badge/API_access_guide-included-success) ![license](https://img.shields.io/badge/CC_BY_4.0-content-green)
 
 ---
 
@@ -43,14 +49,27 @@ This repository tracks **what the world actually built with Jev** — every case
 - **Cost advantage is real and universally reported** — $1.43 / 34.1M tokens; $0.00003 per routed turn; $0.0002 per voice decision
 - ⚠️ **Fake demo alert** — viral "superhuman speed" videos with sped-up footage are circulating; trust repos with methodology/trace (`jev-ultrafast`, `tsai-sc`, `WindTunnel`)
 
+## 🔬 Verification & confidence scoring
+
+Every entry in [`data/projects.json`](./data/projects.json) carries a `verification` block, assigned during research and re-checked on each scan:
+
+| Tier | Confidence | Meaning | How it is earned |
+|---|---|---|---|
+| **A** | **0.90** | Artifact inspected | Repo README fetched & read · live page accessed · full original post read · official docs read · API call made |
+| **B** | 0.75 | Primary source on record | Project URL (repo or original post) verified to exist; inspected at description level |
+| **C** | 0.60 | Secondary index only | Aggregated from community directories; original not opened yet — promoted on the next scan |
+
+Current distribution: **38 × A · 70 × B · 0 × C** (108 curated). Metrics inside entries are **as reported by their authors** unless independently reproduced (reproduced numbers are marked). Known ecosystem-level caveats are documented in the casebook: confidence≠correctness, ordering sensitivity, and the circulating fake-demo warning.
+
 ## 📁 Repository contents
 
 | File | What it is |
 |---|---|
 | [`CASEBOOK.md`](./CASEBOOK.md) | **The full casebook (中文)** — 14 sections, 10 documented deep-scan logs, per-case primary sources + tweet addresses |
-| [`data/projects.json`](./data/projects.json) | Structured, machine-readable registry of curated projects (uniform schema: name / author / category / primitives / status / URL / tweet / stars / metrics) |
+| [`data/projects.json`](./data/projects.json) | Structured, machine-readable registry of curated projects — uniform schema incl. `verification: {tier, method, confidence}` |
+| [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API 申请攻略** — waitlist walkthrough (incl. the homepage-button bug & expedite email), official SDK quickstart, and no-wait alternatives: OpenRouter / Netlify AI Gateway / OpenJev / free playgrounds |
 
-Update cadence: **automated daily scan 09:00** (GitHub × directories × X) appended to the casebook's monitoring log, plus manual deep scans on demand.
+Update cadence: **automated scan every 3 hours** (GitHub × X/Twitter × five directories) — the casebook's monitoring log grows in place, and this repo receives a commit on every scan that finds new evidence; plus manual deep scans on demand.
 
 ## 🗂 Sources swept
 
@@ -76,5 +95,7 @@ Jev 是 TypeSafe AI 于 2026-09-15 发布的首个 System One 决策模型(不�
 
 - 发布 4 天,生态已达 **~500 仓库 / 21,600+ 星**;本雷达精选收录 **220+ 案例**
 - 八大场景密度排名:agent 安全 → 上下文压缩 → 模型路由 → 实时决策层(浏览器/语音/游戏)→ 内容评分 → 交易 → SQL/系统原语 → 垂直业务
+- **每 3 小时自动扫描与更新**(GitHub × X × 五大目录站),有新发现即提交到本仓库;**所有项目经过检验并给出置信度评分**(A=工件直检 0.90 / B=一手源在档 0.75 / C=仅目录收录 0.60,见 [data/projects.json](./data/projects.json) 的 verification 字段)
 - 完整内容见 [CASEBOOK.md](./CASEBOOK.md)(14 个章节 + 10 次扫描日志);结构化数据见 [data/projects.json](./data/projects.json)
+- **想上手 Jev?看 [API 申请攻略](./docs/jev-api-access-guide.zh.md)**:waitlist 全流程(含官网按钮 bug 与加急邮件技巧)、官方 SDK quickstart、以及 OpenRouter / Netlify / OpenJev 免排队替代通道
 - 独立研究,与 TypeSafe AI 无关联;引用数据均来自公开原始出处

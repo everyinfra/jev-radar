@@ -34,6 +34,11 @@
       "stars": "GitHub stars at snapshot (null if N/A)",
       "one_liner": "what it does",
       "metrics": "notable measured numbers (null if none)"
+    },
+    "verification_tiers": {
+      "A · 0.90": "artifact-inspected: repo README fetched / live page accessed / full original post read / official docs read / API call made",
+      "B · 0.75": "primary-source-exists: project URL (repo or original post) on record, inspected at description level",
+      "C · 0.60": "secondary-index: aggregated from community directories; original not opened yet — promoted on next scan"
     }
   },
   "projects": [
@@ -49,7 +54,13 @@
       "tweet": "https://x.com/AISuperDomain/status/2100536937664938408",
       "stars": 65,
       "one_liner": "Jev-powered second pair of eyes for the Pi coding agent: judges irreversibility/intent-match of every tool call and steers instead of interrupting",
-      "metrics": "self-graded on 17k real calls: 42 holds, ~88% correct, ~2% regret"
+      "metrics": "self-graded on 17k real calls: 42 holds, ~88% correct, ~2% regret",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "foreman",
@@ -63,7 +74,13 @@
       "tweet": null,
       "stars": 309,
       "one_liner": "Software-factory supervisor: parallel Noul questions (implementation_complete / worker_stuck / needs_verification) over a live Codex worker",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "rh-guard",
@@ -77,7 +94,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Reward-hack radar: blocks agents tampering with graders/hidden tests; structural denies + Jev sidecar",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "hermes-jev-approvals",
@@ -91,7 +114,13 @@
       "tweet": null,
       "stars": 4,
       "one_liner": "Jev as reviewer for Hermes Agent smart-command approvals",
-      "metrics": "8.7x faster, 4x cheaper on 153 commands"
+      "metrics": "8.7x faster, 4x cheaper on 153 commands",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "is-malicious",
@@ -105,7 +134,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "CLI scanning source/CI/config files for malicious behavior with file+line pointers",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-guard (specpi)",
@@ -119,7 +154,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Command guard built on OpenRouter's Jev endpoint",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "winnow",
@@ -133,7 +174,13 @@
       "tweet": null,
       "stars": 17,
       "one_liner": "Calibrated context sieve for Claude Code: judges every ~25-line block, replaces unneeded ones with recoverable stubs",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-pruner",
@@ -147,7 +194,13 @@
       "tweet": "https://madewithjev.com/builds/instant-compaction",
       "stars": 12,
       "one_liner": "Claude Code plugin: prunes Bash stdout after execution, before the model sees it",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "fast-jev-compaction",
@@ -161,7 +214,13 @@
       "tweet": "https://madewithjev.com/builds/instant-compaction",
       "stars": 2735,
       "one_liner": "Claude Code compaction via Jev decisions, verbatim keep — #1 starred community tooling repo",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-codex-router",
@@ -176,7 +235,13 @@
       "tweet": null,
       "stars": 29,
       "one_liner": "Per-turn model + reasoning-effort routing for Codex driven by Jev",
-      "metrics": "-60% cost on 7-day/237-turn backtest; $0.00003 per decision"
+      "metrics": "-60% cost on 7-day/237-turn backtest; $0.00003 per decision",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-router",
@@ -190,7 +255,13 @@
       "tweet": null,
       "stars": 154,
       "one_liner": "Routes Claude Code tasks to the cheapest capable model via Jev",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "vexjoy-agent",
@@ -204,7 +275,13 @@
       "tweet": null,
       "stars": 420,
       "one_liner": "'/do' routes plain-English requests to the right skill",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-ultrafast",
@@ -218,7 +295,13 @@
       "tweet": "https://x.com/gregpr07/status/2100411066966749359",
       "stars": 5955,
       "one_liner": "Browser agent with dynamic indexed action space; one Jev request decides operation + target, small LLM only types text",
-      "metrics": "Zurich→London flights in 7.1s ($0.0039); protocol calls 1092→101"
+      "metrics": "Zurich→London flights in 7.1s ($0.0039); protocol calls 1092→101",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-voice-browser",
@@ -233,7 +316,13 @@
       "tweet": "https://x.com/moritzkremb/status/2100577979021832365",
       "stars": 42,
       "one_liner": "Control a real browser by voice: 9-11 typed questions per partial transcript decide act/wait/ask/ignore",
-      "metrics": "~250-350ms per decision, $0.0002 per call"
+      "metrics": "~250-350ms per decision, $0.0002 per call",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "x-post-firewall",
@@ -248,7 +337,13 @@
       "tweet": "https://x.com/marcelpociot/status/2100520134481735729",
       "stars": null,
       "one_liner": "Browser extension hiding/collapsing X posts via natural language",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "x-scanner",
@@ -263,7 +358,13 @@
       "tweet": null,
       "stars": 7,
       "one_liner": "Labels every X post with 6 typed judgments + exact-cost counter",
-      "metrics": "~150ms/post; '80 posts, $0.0027' exact USD"
+      "metrics": "~150ms/post; '80 posts, $0.0027' exact USD",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "typesafe-adblock",
@@ -277,7 +378,13 @@
       "tweet": "https://madewithjev.com/builds/realtime-ad-blocker",
       "stars": 48,
       "one_liner": "Chrome extension asking Jev 'is this DOM element an ad?'",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "youtube-sponsor-skipper",
@@ -291,7 +398,13 @@
       "tweet": "https://madewithjev.com/builds/youtube-sponsor-skipper",
       "stars": 57,
       "one_liner": "Listens to YouTube audio, detects sponsor segments, skips in real time",
-      "metrics": "~$0.005 per video"
+      "metrics": "~$0.005 per video",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "linkedin-noslop-extension",
@@ -305,7 +418,13 @@
       "tweet": "https://www.linkedin.com/posts/walid-boulanouar_i-built-a-browser-extension-that-removes-activity-7506661817759383553-mAdD",
       "stars": null,
       "one_liner": "Blurs low-value LinkedIn feed posts",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "zhihu-ai-filter",
@@ -319,7 +438,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Edge extension filtering Zhihu feed with Jev — first Chinese-platform-native filter",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "killmyidea",
@@ -333,7 +458,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Scores startup ideas via 10 parallel 0-4 rubrics; weighted verdict in code",
-      "metrics": "sub-second; documented phrasing-sensitivity failure"
+      "metrics": "sub-second; documented phrasing-sensitivity failure",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "SuperX post scoring",
@@ -347,7 +478,13 @@
       "tweet": "https://x.com/robj3d3/status/2100722975645598191",
       "stars": null,
       "one_liner": "61 typed questions per draft post; virality scoring fitted on 9,481 real posts",
-      "metrics": "~1s and $0.0004 per post; picks viral post 2-in-3"
+      "metrics": "~1s and $0.0004 per post; picks viral post 2-in-3",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "competitor-ad-teardown",
@@ -362,7 +499,13 @@
       "tweet": "https://madewithjev.com/builds/competitor-ad-teardown",
       "stars": null,
       "one_liner": "Broke down 724 live ads from 37 brands (hook/format/offer/CTA/mismatch)",
-      "metrics": "~40s, $0.09; shipping in stealads + MCP"
+      "metrics": "~40s, $0.09; shipping in stealads + MCP",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "x-post-analysis",
@@ -376,7 +519,13 @@
       "tweet": "https://madewithjev.com/builds/x-post-analysis",
       "stars": null,
       "one_liner": "Analyzed own 3,282 X posts (100M views) with 8 questions each",
-      "metrics": "4.25M tokens, 8m34s, $0.1282; how-to median 150 vs 44 likes"
+      "metrics": "4.25M tokens, 8m34s, $0.1282; how-to median 150 vs 44 likes",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "every-editorial-judgments",
@@ -390,7 +539,13 @@
       "tweet": "https://madewithjev.com/categories/content-and-growth",
       "stars": null,
       "one_liner": "Editorial vibe-check at Every: production writing-quality gate",
-      "metrics": "1,709 judgments, <$0.01 total, 0.35s median"
+      "metrics": "1,709 judgments, <$0.01 total, 0.35s median",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "supercov",
@@ -404,7 +559,13 @@
       "tweet": null,
       "stars": 25,
       "one_liner": "Per-file code quality scores so coding agents know what to fix first",
-      "metrics": "matches CodeRabbit-class scores at ~100x lower cost (author-reported)"
+      "metrics": "matches CodeRabbit-class scores at ~100x lower cost (author-reported)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-review",
@@ -418,7 +579,13 @@
       "tweet": null,
       "stars": 253,
       "one_liner": "Staged code-review workflow + local dashboard over focused Jev calls",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-review (MCP)",
@@ -432,7 +599,13 @@
       "tweet": "https://madewithjev.com/builds/jev-review",
       "stars": 113,
       "one_liner": "Local-first MCP plugin: quality feedback loop while the agent works",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "git-judge-jev",
@@ -446,7 +619,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "GitHub Action: comments what an agent-written PR actually does",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "diffjury",
@@ -460,7 +639,13 @@
       "tweet": "https://madewithjev.com/builds/diffjury",
       "stars": null,
       "one_liner": "Paste a PR link, Jev rules safe-to-merge vs needs-review",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "attest",
@@ -474,7 +659,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Claim-verification API; verdicts cite exact supporting/contradicting spans",
-      "metrics": "95.9% verdict accuracy / 1.6% overclaim on 190 labels; order flips 5.8%"
+      "metrics": "95.9% verdict accuracy / 1.6% overclaim on 190 labels; order flips 5.8%",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "tax-doc-classifier",
@@ -488,7 +679,13 @@
       "tweet": null,
       "stars": 153,
       "one_liner": "Tax document page classification",
-      "metrics": "100% strict accuracy across 261 IRS forms (author-reported)"
+      "metrics": "100% strict accuracy across 261 IRS forms (author-reported)",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "LegalForecast-MTD",
@@ -502,7 +699,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Predicts federal motion-to-dismiss rulings; micro-Brier scoring",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "typesafe-screening-mcp",
@@ -516,7 +719,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Screens PubMed titles/abstracts against a clinical question (MCP)",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-reviewer",
@@ -530,7 +739,13 @@
       "tweet": null,
       "stars": 1,
       "one_liner": "Systematic-review data extraction with verbatim quotes from papers",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-loan-triage",
@@ -545,7 +760,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Voice loan-call triage: intent, info sufficiency, lending decision",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "clay-workflows",
@@ -559,7 +780,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Jev builds GTM workflows in Clay instantly",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "mac-support-agent",
@@ -573,7 +800,13 @@
       "tweet": "https://madewithjev.com/categories/triage-and-routing",
       "stars": null,
       "one_liner": "Offline install/troubleshooting QA: Jev picks which manual article answers, app answers from its own docs",
-      "metrics": "42/42 on held-out set"
+      "metrics": "42/42 on held-out set",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "fraud-detection cascade",
@@ -587,7 +820,13 @@
       "tweet": "https://madewithjev.com/builds/fraud-detection-jev-kimi",
       "stars": null,
       "one_liner": "Jev classifies, sub-95%-confidence routes to Kimi K3 — the textbook cascade",
-      "metrics": "100 emails in 1.42s; pipeline 96/100 at $0.07"
+      "metrics": "100 emails in 1.42s; pipeline 96/100 at $0.07",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "1kpapers",
@@ -601,7 +840,13 @@
       "tweet": "https://madewithjev.com/builds/1kpapers",
       "stars": null,
       "one_liner": "1,018 papers × 24 topic choices each",
-      "metrics": "$0.08 total, 256ms median"
+      "metrics": "$0.08 total, 256ms median",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "keep.md search+tagging",
@@ -615,7 +860,13 @@
       "tweet": "https://madewithjev.com/categories/research-and-data",
       "stars": null,
       "one_liner": "Production migration of keep.md search rerank + tagging (Cloudflare Workers)",
-      "metrics": "rerank 7x faster, tagging 50x faster vs GLM 4.7 Flash, zero failures"
+      "metrics": "rerank 7x faster, tagging 50x faster vs GLM 4.7 Flash, zero failures",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "regex-to-jev migration",
@@ -629,7 +880,13 @@
       "tweet": "https://madewithjev.com/builds/regex-to-jev",
       "stars": null,
       "one_liner": "Moved vibe-coded regex rules to Jev across 3 production sites (aiseotracker/linkdr/genppt)",
-      "metrics": "~10x faster, ~50% cheaper (author-reported)"
+      "metrics": "~10x faster, ~50% cheaper (author-reported)",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-trader",
@@ -643,7 +900,13 @@
       "tweet": "https://x.com/jarrodwatts/status/2100356151468585346",
       "stars": 929,
       "one_liner": "One AI trade decision every 300ms Monad block on Kuru MON-USDC",
-      "metrics": "real on-chain orders; demo at jev-trader.vercel.app"
+      "metrics": "real on-chain orders; demo at jev-trader.vercel.app",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "paper-trading engine",
@@ -657,7 +920,13 @@
       "tweet": "https://x.com/BrendanPlayford/status/2100614031845539975",
       "stars": null,
       "one_liner": "Jev + fine-tuned model trading engine, forward paper results",
-      "metrics": "375 paper trades, 41.1% win rate (honest, unfiltered)"
+      "metrics": "375 paper trades, 41.1% win rate (honest, unfiltered)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "10k-trading",
@@ -671,7 +940,13 @@
       "tweet": "https://madewithjev.com/builds/10k-trading",
       "stars": null,
       "one_liner": "'I gave Jev $10,000 and let it trade'",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jevocks",
@@ -686,7 +961,13 @@
       "tweet": "https://madewithjev.com/builds/jevocks",
       "stars": null,
       "one_liner": "Stock terminal: Valyu brings evidence, Jev gives the status",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "crowdcheck",
@@ -700,7 +981,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Tests a 144-char post against 10,000 persistent synthetic personas",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "ha-jev",
@@ -716,7 +1003,13 @@
       "tweet": null,
       "stars": 6,
       "one_liner": "Home Assistant integration: typed questions over entity state as sensors/automations, with token-budget fuse",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "pg-jev",
@@ -732,7 +1025,13 @@
       "tweet": "https://madewithjev.com/builds/postgres-jev-function",
       "stars": 175,
       "one_liner": "PostgreSQL extension: WHERE jev(people, 'could work from home')",
-      "metrics": "129 rows judged ~1s for $0.0009; 6ms cached"
+      "metrics": "129 rows judged ~1s for $0.0009; 6ms cached",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "vgi-typesafe",
@@ -748,7 +1047,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "DuckDB: Choice/Noul/Score as SQL table functions + is_true() in WHERE",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jevframe",
@@ -764,7 +1069,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Semantic layer for pandas/Polars: classify/score DataFrame rows",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-shell-history",
@@ -778,7 +1089,13 @@
       "tweet": null,
       "stars": 33,
       "one_liner": "Fish-style zsh autosuggestions ranked by Jev, async per keystroke",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-cli (jevctl)",
@@ -794,7 +1111,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Jev judgments as pipeable exit-code shell commands; TypeSafe/OpenRouter/CF Workers AI; Claude Code plugin",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jevmeter",
@@ -808,7 +1131,13 @@
       "tweet": "https://x.com/chetaslua/status/2100473581251748216",
       "stars": 53,
       "one_liner": "Live per-sentence truthiness meter rendered onto video",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "qingliu (清流)",
@@ -822,7 +1151,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "X-timeline cleaner (FeedSieve derivative) — the only Chinese project publishing calibration data",
-      "metrics": "0.7% false-kill; +47% catch vs keyword lists"
+      "metrics": "0.7% false-kill; +47% catch vs keyword lists",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jevplays-pokemon",
@@ -836,7 +1171,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "GBA Pokémon battle decisions from stats/moves/state",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "tsai-sc (StarCraft)",
@@ -850,7 +1191,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Original StarCraft campaign with structured-state harness, verified run + probability trace",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "typesafe-mario",
@@ -864,7 +1211,13 @@
       "tweet": "https://madewithjev.com/builds/jev-plays-mario",
       "stars": 260,
       "one_liner": "Super Mario Bros from structured emulator state",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "heist-one",
@@ -880,7 +1233,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Browser stealth game where Jev supplies batched guard judgments",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-drone",
@@ -896,7 +1255,13 @@
       "tweet": null,
       "stars": 58,
       "one_liner": "Camera-only MuJoCo quadrotor; code owns control, Jev judges tactics",
-      "metrics": "2.5 Hz judgment loop"
+      "metrics": "2.5 Hz judgment loop",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev_vampire_survivors",
@@ -910,7 +1275,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Jev plays Vampire Survivors on Steam via BepInEx plugin — first commercial-game mod",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "slay-the-spire-2",
@@ -924,7 +1295,13 @@
       "tweet": "https://madewithjev.com/builds/slay-the-spire-2",
       "stars": null,
       "one_liner": "Slay the Spire 2 at superhuman speed (most-shared Chinese-language demo)",
-      "metrics": "0.7s per move"
+      "metrics": "0.7s per move",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "subway-surfers",
@@ -938,7 +1315,13 @@
       "tweet": "https://madewithjev.com/builds/subway-surfers",
       "stars": null,
       "one_liner": "Superhuman Subway Surfers, 50 games at once",
-      "metrics": "<$0.01 per run"
+      "metrics": "<$0.01 per run",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "smash-bros",
@@ -952,7 +1335,13 @@
       "tweet": "https://madewithjev.com/builds/smash-bros",
       "stars": null,
       "one_liner": "Jev controls all 4 Smash Bros characters against itself",
-      "metrics": "22M tokens for a few cents"
+      "metrics": "22M tokens for a few cents",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-plays-tetris",
@@ -966,7 +1355,13 @@
       "tweet": "https://madewithjev.com/builds/jev-plays-tetris",
       "stars": null,
       "one_liner": "Tetris hard mode",
-      "metrics": "0.3s/move; 134 lines in 2 min"
+      "metrics": "0.3s/move; 134 lines in 2 min",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jevpilot",
@@ -980,7 +1375,13 @@
       "tweet": null,
       "stars": 77,
       "one_liner": "Three.js driving simulator with Jev autopilot",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-piano",
@@ -994,7 +1395,13 @@
       "tweet": "https://madewithjev.com/builds/jev-piano",
       "stars": null,
       "one_liner": "'Jev can't write a note, but with the right questions it improvises piano'",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "realtime-game-levels",
@@ -1008,7 +1415,13 @@
       "tweet": "https://madewithjev.com/builds/realtime-game-levels",
       "stars": null,
       "one_liner": "Real-time level generation by choosing among level components",
-      "metrics": "~319ms per segment"
+      "metrics": "~319ms per segment",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "webmcp-benchmark (WindTunnel)",
@@ -1022,7 +1435,13 @@
       "tweet": "https://madewithjev.com/builds/webmcp-benchmark",
       "stars": null,
       "one_liner": "Jev+Mercury+WebMCP benchmark; most important baseline finding of week 1",
-      "metrics": "49/49 tasks at ~112x lower model cost vs GPT-6 Astra; bare Jev only 25/49"
+      "metrics": "49/49 tasks at ~112x lower model cost vs GPT-6 Astra; bare Jev only 25/49",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "janus",
@@ -1036,7 +1455,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Calibration measurement on Banking77 + Web of Science; routing params do NOT transfer across datasets",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-judge-vs-dimensions",
@@ -1052,7 +1477,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "One judge call vs 12-14 scored dimensions across 3 tasks",
-      "metrics": "$1.43 / 34.1M tokens; 12-way Choice only 0.40; confidence>=0.9 rows only 72.2% accurate"
+      "metrics": "$1.43 / 34.1M tokens; 12-way Choice only 0.40; confidence>=0.9 rows only 72.2% accurate",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "openjev (hosted)",
@@ -1064,7 +1495,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Jev-API-compatible server on DiffusionGemma (Matt Mastracci's vLLM PR), free hosting at codiv.ai — NOT official",
-      "metrics": "DiffusionGemma-as-Jev 198/201 vs Jev 191/201 (mmastrac evals)"
+      "metrics": "DiffusionGemma-as-Jev 198/201 vs Jev 191/201 (mmastrac evals)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "semif",
@@ -1076,7 +1513,13 @@
       "tweet": null,
       "stars": 1647,
       "one_liner": "'Semantic ifs from open models, on a 3090 at home' — top-starred replica — NOT official",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jevlike",
@@ -1088,7 +1531,13 @@
       "tweet": null,
       "stars": 905,
       "one_liner": "Reverse-engineered one-pass option scorer; same head scores Doom buttons & chess from image patches — NOT official",
-      "metrics": "~100x faster than small decoder writing 400 tokens"
+      "metrics": "~100x faster than small decoder writing 400 tokens",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "nanajev",
@@ -1100,7 +1549,13 @@
       "tweet": null,
       "stars": 451,
       "one_liner": "Nano replica: parallel decisions, dynamic candidates, end-to-end training pipeline — NOT official",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "simple-jev",
@@ -1112,7 +1567,13 @@
       "tweet": null,
       "stars": 99,
       "one_liner": "Turn any open model into a Jev-style endpoint — NOT official",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "eve",
@@ -1124,7 +1585,13 @@
       "tweet": null,
       "stars": 5253,
       "one_liner": "Vercel's agent engine ships Jev as the default evaluation model",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "typesafe skill",
@@ -1136,7 +1603,13 @@
       "tweet": null,
       "stars": 205,
       "one_liner": "Official agent skill for designing TypeSafe workflows",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "smart-home demo",
@@ -1151,7 +1624,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Official demo: speculative questions + LLM fallback",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "doom bot",
@@ -1165,7 +1644,13 @@
       "tweet": "https://x.com/CompleteSkeptic/status/2099924592534183936",
       "stars": null,
       "one_liner": "Official launch demo: Jev plays Doom on structured text state",
-      "metrics": "~10 queries/s, ~$7/hour"
+      "metrics": "~10 queries/s, ~$7/hour",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "keystroke-oracle",
@@ -1179,7 +1664,13 @@
       "tweet": "https://madewithjev.com/builds/predictive-launcher",
       "stars": 254,
       "one_liner": "Predictive launcher / spreadsheets / Gmail intent search (experiment collection)",
-      "metrics": "~100ms per keystroke"
+      "metrics": "~100ms per keystroke",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-calc",
@@ -1193,7 +1684,13 @@
       "tweet": "https://madewithjev.com/builds/jev-calc",
       "stars": null,
       "one_liner": "Smart calculator notebook that 'can calculate ANYTHING'",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "skillbox",
@@ -1207,7 +1704,13 @@
       "tweet": null,
       "stars": 163,
       "one_liner": "Self-hosted versioned skills library with optional Jev recommendations",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "unclutter",
@@ -1221,7 +1724,13 @@
       "tweet": null,
       "stars": 107,
       "one_liner": "WXT extension: per-element Jev decisions remove page clutter",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-browser-use",
@@ -1235,7 +1744,13 @@
       "tweet": null,
       "stars": 131,
       "one_liner": "Jev clicks, Codex thinks and verifies — production at EZCollegeApp",
-      "metrics": "5-10x faster browser operations (author-reported)"
+      "metrics": "5-10x faster browser operations (author-reported)",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "stagehand-remote-browser",
@@ -1249,7 +1764,13 @@
       "tweet": "https://madewithjev.com/builds/stagehand-remote-browser",
       "stars": null,
       "one_liner": "Jev + Stagehand: a11y tree as state, near-instant remote browser ops",
-      "metrics": "$0.001 per task"
+      "metrics": "$0.001 per task",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "computer-use-without-screenshots",
@@ -1263,7 +1784,13 @@
       "tweet": "https://madewithjev.com/builds/computer-use-without-screenshots",
       "stars": null,
       "one_liner": "Local CoreML UI segmentation + OCR → Jev decides; no screenshots, no pixels leave the machine",
-      "metrics": "~90ms per decision"
+      "metrics": "~90ms per decision",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "typesafe-computer-use",
@@ -1277,7 +1804,13 @@
       "tweet": null,
       "stars": 202,
       "one_liner": "macOS computer use, one Jev decision per step",
-      "metrics": "~$0.0002 per step"
+      "metrics": "~$0.0002 per step",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "mobile-jev",
@@ -1291,7 +1824,13 @@
       "tweet": null,
       "stars": 99,
       "one_liner": "Standalone Android agent + React studio + Uber demo",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "snifftest",
@@ -1305,7 +1844,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Linter for AI-writing tells",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "riff",
@@ -1319,7 +1864,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "ruff-style prose linter from Scale Venture Partners",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "commit-miner",
@@ -1333,7 +1884,13 @@
       "tweet": null,
       "stars": 21,
       "one_liner": "Rust commit classification with CVE/CWE linkage",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "pkg-gate",
@@ -1347,7 +1904,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "npm lifecycle-script security gate",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-chess",
@@ -1361,7 +1924,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Chess moves, evaluations, persona opponents, game classification",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "jev-tree",
@@ -1375,7 +1944,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Recursive Choice past the 255-option ceiling — community patch to an official limit",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "invalidate",
@@ -1389,7 +1964,13 @@
       "tweet": null,
       "stars": 2,
       "one_liner": "Invalidation layer for AI memory: every fact gets a lease, new evidence ends it",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "kamchatka assisted-shell",
@@ -1403,7 +1984,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Color-coded safety rating for every shell command an agent wants to run; + Jev compaction example",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "type-safe typewriter",
@@ -1419,7 +2006,13 @@
       "tweet": "https://x.com/stevekrouse/status/2100287368221659289",
       "stars": null,
       "one_liner": "16 live typed judgments updating as you type",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "roulette-wars",
@@ -1433,7 +2026,13 @@
       "tweet": "https://x.com/NicoSaraintaris/status/2100745151622664392",
       "stars": null,
       "one_liner": "Jev played the author's own game start-to-finish with zero human input",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "robo-harness",
@@ -1447,7 +2046,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "SO-101 real robot-arm workbench picking bounded joint steps under budget",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "zero-shot robot tasks",
@@ -1461,7 +2066,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Spoken instruction → zero-shot manipulation demo",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "madewithjev.com",
@@ -1473,7 +2084,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "178 builds / 76 embedded X posts / 78 GitHub projects, each with cost & latency",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "awesomejev.com",
@@ -1485,7 +2102,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "488 entries / 21,644 stars tracked — the largest directory",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "typesafeai.app",
@@ -1497,7 +2120,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Evidence-graded capability index (all entries editor-reproduced)",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "peepo-comfy safety layer",
@@ -1511,7 +2140,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Tool-call safety scoring layer + model-router concept (in progress)",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "api router over 250-300 calls",
@@ -1525,7 +2160,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Natural-language routing to one of 250-300 internal APIs",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "cv reranking",
@@ -1539,7 +2180,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Rerank top-20 candidates in an existing internal matching engine",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     },
     {
       "name": "gbc translation navigation",
@@ -1553,7 +2200,13 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Menu navigation decisions for GameBoy Color game translation",
-      "metrics": null
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
     }
   ]
 }
