@@ -1,104 +1,158 @@
+<div align="center">
+
 # Jev Radar 📡
 
-### **The world's most comprehensive tracker of the Jev ecosystem** — independent whitepaper · live monitor · scanned every 3 hours
+### 全网最全的 Jev 生态独立白皮书与实时监控
+### The world's most comprehensive independent field report & live monitor of the Jev ecosystem
 
-> **全网最全,没有之一 · The Most Complete.** If it was built with Jev, it's in this radar — 220+ documented cases, 108 confidence-graded registry entries, swept from 8 source classes including every major community directory.
+**全网最全,没有之一 · The Most Complete — if it was built with Jev, it's in this radar.**
 
-> **Jev** is TypeSafe AI's first *System One* model (released **2026-09-15**): it never generates text. You send it unstructured state plus typed questions — **Noul** (yes/no probability), **Choice** (option distribution + confidence), **Score** (rubric rating) — and it returns calibrated, machine-consumable decisions in **70–500 ms** at **$0.042/M input tokens, output free**.
+[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-108_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
 
-This repository tracks **what the world actually built with Jev** — every case verified against a primary source (repo, live demo, or embedded original tweet), organized, quantified, and kept current by automated monitoring plus manual deep scans.
+**[English](#english) · [中文](#中文)**
 
-> ### 🔬 Every project in this registry is verified, scanned, and carries a confidence score
-> - **Scanned every 3 hours** — automated sweep of GitHub, X/Twitter and five community directories; changes are committed to this repo on every scan that finds something new
-> - **Evidence-graded** — each entry carries a verification tier with a confidence value (see below)
-> - **No hearsay** — claims without a primary source are rejected; author-reported numbers are labeled as such
-> - 🧭 New to Jev? Start with the **[API 申请攻略 / Access Guide](./docs/jev-api-access-guide.zh.md)** — waitlist, expedite trick, and no-wait alternatives (OpenRouter / Netlify / OpenJev)
-
-![status](https://img.shields.io/badge/monitor-active-brightgreen) ![cases](https://img.shields.io/badge/curated_cases-220%2B-blue) ![repos tracked](https://img.shields.io/badge/ecosystem_repos-500%2B-orange) ![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-blue) ![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC_置信度-purple) ![guide](https://img.shields.io/badge/API_access_guide-included-success) ![license](https://img.shields.io/badge/CC_BY_4.0-content-green)
+</div>
 
 ---
 
-## 📊 The ecosystem, 4 days after launch
+## English
 
-| Signal | Number |
+### What is Jev?
+
+Jev is TypeSafe AI's first *System One* model, released on **September 15, 2026**. It never writes a single sentence. Instead, you send it some unstructured state plus a set of typed questions, and it returns decisions your code can branch on directly:
+
+| Primitive | Question it answers | What you get back |
+|---|---|---|
+| **Noul** | Is this true? | A calibrated 0–1 probability |
+| **Choice** | Which option fits? | Full distribution + confidence |
+| **Score** | How good, on your rubric? | Probability-weighted rating |
+
+The pitch that took over developer Twitter: **70–500 ms** end-to-end latency, **$0.042 per million input tokens, output free** — roughly 20–200× faster and 40–400× cheaper than routing the same judgments through a frontier LLM.
+
+### What this repository is
+
+Four days after launch, the Jev ecosystem had already grown to **~500 repositories and 21,600+ stars**. Jev Radar is an independent attempt to answer one question with evidence: **what is the world actually building with this thing?**
+
+Every case here was verified against a primary source — a repository we opened, a live demo we hit, or the author's original post. No hearsay, no listicle padding. And the work doesn't stop: an automated sweep (GitHub · X/Twitter · five community directories) re-runs **every three hours**, and anything new gets verified, graded, and committed.
+
+### Why you can trust it
+
+Each of the 108 structured registry entries carries a `verification` block assigned during research:
+
+| Tier | Confidence | How it's earned |
+|---|---|---|
+| **A** | 0.90 | We inspected the artifact: read the repo README, fetched the live page, read the full original post, or called the API ourselves |
+| **B** | 0.75 | Primary source on record (repo or original post), inspected at description level |
+| **C** | 0.60 | Directory-indexed only — promoted on the next scan once opened |
+
+Current distribution: **38 × A · 70 × B · 0 × C**. Numbers inside entries are **as reported by their authors** unless marked reproduced. We also document what *doesn't* work: confidence ≠ correctness, ordering sensitivity, and a circulating wave of sped-up fake demos — with guidance on which repos carry real traces.
+
+### What people are building (by density)
+
+1. **Agent safety & supervision** — a Jev "second pair of eyes" on every tool call. Flagship: [`pi-warden`](https://github.com/DevMortimer/pi-warden), self-graded on 17,000 real calls (88% of holds correct)
+2. **Context compaction** — score every tool result, keep what matters. [`fast-jev-compaction`](https://github.com/tamaratran/fast-jev-compaction) leads at 2.7k★
+3. **Model routing** — 10+ implementations; [`jev-codex-router`](https://github.com/0xNatoshi/jev-codex-router) measured **−60% cost** on a 237-turn backtest
+4. **Real-time decision layers** — browser (7.1s flight booking), voice (~300ms per phrase), games (Pokémon, StarCraft, Tetris at superhuman speed)
+5. **Content scoring & growth** — 61 questions per draft post at $0.0004; 724 competitor ads torn down for $0.09
+6. **Trading** — one decision per 300ms blockchain block ([`jev-trader`](https://github.com/jarrodwatts/jev-trader)); first honest paper-trading numbers published
+7. **Jev as a systems primitive** — Postgres/DuckDB predicates, pandas layers, zsh history, Neovim, Emacs
+8. **Verticals arriving** — tax forms (100% strict accuracy on 261 IRS forms), legal ruling prediction, PubMed screening, GTM workflows
+
+### Field-tested lessons
+
+- **Feed it narrow, mechanical questions** — "LLMs survive junk input; Jev doesn't"
+- **Big option lists collapse** — a 12-way Choice scored 0.40 on real bookkeeping data
+- **Confidence is not a halo** — rows with confidence ≥ 0.9 were only 72.2% accurate in one large independent eval
+- **Order and phrasing matter** — evidence order flips 5.8% of one verifier's rulings
+- **The cost story is real** — $1.43 per 34.1M tokens; $0.00003 per routed turn; $0.0002 per voice decision
+
+### Repository contents
+
+| Path | What it is |
 |---|---|
-| GitHub repos in the ecosystem | **~500** (539 → 718 search-count growth in 24h on day 4) |
-| Total stars across ecosystem | **21,600+** |
-| Cases documented in the casebook (with primary sources) | **220+** |
-| Structured, confidence-graded registry entries | **108** (38 × A · 70 × B) |
-| Star leaders | browser-use/jev-ultrafast (~6.0k★) · vercel/eve ships Jev as default eval model (5.3k★) · fast-jev-compaction (2.7k★) · SemIf open replica (1.6k★) |
-| Open replicas / clones | **13+** (OpenJev, SemIf, jevlike, NanoJev, openjev-sglang, jeff, Kev…) |
-| Aggregator directories born in 4 days | **8** (madewithjev.com, awesomejev.com, typesafeai.app, jevable.com, risetive.com/jev, …) |
-| Community SDKs | **40+** languages/frameworks (Rust, Swift, Kotlin, Java, PHP, .NET, Elixir, Scala/ZIO, Haskell, Zig, Laravel, Rails, n8n…) |
-| Platform adoptions | Vercel eve (default eval model), LanceDB reranker, LiteLLM pass-through, Pydantic AI model, Netlify + Vercel gateways, OpenRouter |
+| [`CASEBOOK.md`](./CASEBOOK.md) | The full casebook — 14 sections, per-case sources & tweet links, 10 documented deep-scan logs |
+| [`data/projects.json`](./data/projects.json) | Machine-readable registry: uniform schema incl. `verification {tier, method, confidence}` |
+| [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API access guide** — waitlist walkthrough, the expedite-email trick, and no-wait alternatives (OpenRouter / Netlify / OpenJev / free playgrounds) |
 
-## 🔥 What people are actually using Jev for (ranked by density)
+**Cadence:** automated scan every 3 hours; the repo receives a commit on every scan that finds new evidence.
+**Sources swept:** awesome-typesafe · awesomejev.com (488 entries) · madewithjev.com (178 builds) · risetive.com/jev (98) · jevable.com · typesafeai.app · GitHub Search · X · Reddit · HN · V2EX/linux.do/Bilibili · YouTube · LinkedIn.
 
-1. **Agent safety / supervision** (25+ projects) — a Jev "second pair of eyes" judging every tool call: irreversible? matches intent? reward-hacking? (`pi-warden` self-graded on 17k real calls: 88% of holds correct)
-2. **Context compaction** — score every tool result, drop what's irrelevant (`winnow`'s recoverable stubs, `jev-pruner`, 2.7k★ `fast-jev-compaction`)
-3. **Model routing** (10+ implementations) — `jev-codex-router` measured **−60% cost** on a 237-turn backtest
-4. **Real-time browser / voice / game decision layers** — 7.1s flight search (`jev-ultrafast`), ~300ms/phrase voice control (`jev-voice-browser`), Pokémon/StarCraft/Tetris/Subway Surfers
-5. **Content scoring & growth analytics** — SuperX virality scoring (61 questions/post, $0.0004), 724 ad teardown ($0.09), Every's editorial gate (<$0.01/1,709 judgments)
-6. **Trading** — one decision per 300ms Monad block (`jev-trader`, 900+★); honest paper-trading data now public (375 trades, 41.1% win)
-7. **Jev as SQL / system primitive** — pg-jev, vgi-typesafe (DuckDB), jevframe (pandas/Polars), zsh history, Neovim, Emacs
-8. **Verticals arriving** — IRS tax forms (100% strict accuracy, 261 forms), federal MTD ruling prediction, PubMed screening, systematic-review extraction, Clay GTM workflows
+### Contributing
 
-## 🧪 Field-tested lessons (recurring, multi-source)
+Missed a project? Open an issue or PR with: **project URL + original post URL (if any) + primitives used + any measured numbers.** Submissions without primary sources are not accepted.
 
-- **Input quality decides everything** — Jev needs narrow, mechanical questions ("LLMs survive junk input; Jev doesn't")
-- **Too many options collapse accuracy** — a 12-way Choice scored 0.40 on real bookkeeping data
-- **Confidence is not a halo** — rows with confidence ≥0.9 were only 72.2% accurate (agentjournal); Attest deleted a constant 0.95–0.99 confidence field entirely
-- **Ordering & phrasing sensitivity** — evidence order flips 5.8% of Attest verdicts
-- **Cost advantage is real and universally reported** — $1.43 / 34.1M tokens; $0.00003 per routed turn; $0.0002 per voice decision
-- ⚠️ **Fake demo alert** — viral "superhuman speed" videos with sped-up footage are circulating; trust repos with methodology/trace (`jev-ultrafast`, `tsai-sc`, `WindTunnel`)
+### License & disclaimer
 
-## 🔬 Verification & confidence scoring
-
-Every entry in [`data/projects.json`](./data/projects.json) carries a `verification` block, assigned during research and re-checked on each scan:
-
-| Tier | Confidence | Meaning | How it is earned |
-|---|---|---|---|
-| **A** | **0.90** | Artifact inspected | Repo README fetched & read · live page accessed · full original post read · official docs read · API call made |
-| **B** | 0.75 | Primary source on record | Project URL (repo or original post) verified to exist; inspected at description level |
-| **C** | 0.60 | Secondary index only | Aggregated from community directories; original not opened yet — promoted on the next scan |
-
-Current distribution: **38 × A · 70 × B · 0 × C** (108 curated). Metrics inside entries are **as reported by their authors** unless independently reproduced (reproduced numbers are marked). Known ecosystem-level caveats are documented in the casebook: confidence≠correctness, ordering sensitivity, and the circulating fake-demo warning.
-
-## 📁 Repository contents
-
-| File | What it is |
-|---|---|
-| [`CASEBOOK.md`](./CASEBOOK.md) | **The full casebook (中文)** — 14 sections, 10 documented deep-scan logs, per-case primary sources + tweet addresses |
-| [`data/projects.json`](./data/projects.json) | Structured, machine-readable registry of curated projects — uniform schema incl. `verification: {tier, method, confidence}` |
-| [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API 申请攻略** — waitlist walkthrough (incl. the homepage-button bug & expedite email), official SDK quickstart, and no-wait alternatives: OpenRouter / Netlify AI Gateway / OpenJev / free playgrounds |
-
-Update cadence: **automated scan every 3 hours** (GitHub × X/Twitter × five directories) — the casebook's monitoring log grows in place, and this repo receives a commit on every scan that finds new evidence; plus manual deep scans on demand.
-
-## 🗂 Sources swept
-
-awesome-typesafe · awesomejev.com (488 entries) · madewithjev.com (178 builds, 76 embedded tweets) · risetive.com/jev (98) · jevable.com · typesafeai.app (evidence-graded) · GitHub Search API · X/Twitter · Reddit (r/PiCodingAgent, r/LocalLLaMA, r/SideProject, r/singularity) · Hacker News (Algolia) · V2EX / linux.do / Bilibili / Zhihu KOLs · YouTube · LinkedIn.
-
-## 📮 Contributing
-
-Found a Jev project we missed? Open an issue or PR with: **project URL + tweet/post URL (if any) + which primitives it uses + any measured numbers**. Claims without primary sources are not accepted.
-
-## ⚖️ License & disclaimer
-
-Content: **CC BY 4.0**. Data (`data/`): **CC0**.
-
-Independent community research. **Not affiliated with, endorsed by, or sponsored by TypeSafe AI.** "Jev" and "TypeSafe" belong to their owners. Metrics are as reported by their authors unless marked otherwise; star counts are point-in-time snapshots (2026-09-19).
+Content: **CC BY 4.0** · Data: **CC0**. Independent community research — **not affiliated with TypeSafe AI**. Metrics are as reported by their authors; star counts are point-in-time snapshots (2026-09-19).
 
 ---
 
-## 中文版块
+## 中文
 
-**Jev Radar——全网最全的 Jev 生态独立白皮书与实时监控。**
+### Jev 是什么?
 
-Jev 是 TypeSafe AI 于 2026-09-15 发布的首个 System One 决策模型(不生成文本,只输出 Noul/Choice/Score 三类带校准概率的判断,70-500ms,输入 $0.042/M token、输出免费)。本仓库追踪**全世界真正用 Jev 做出来的东西**:每个案例均有原始出处(仓库/线上 demo/作者原推文),按场景分类、带实测数据,并由**每日定时监控 + 人工深扫**持续更新。
+Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它一个字都不写:你给它一段非结构化状态、一组带类型的问题,它直接返回代码可以拿去分支的判断——
 
-- 发布 4 天,生态已达 **~500 仓库 / 21,600+ 星**;案例集收录 **220+ 案例**,结构化注册表 **108 条**(A/B 置信度分级)
-- 八大场景密度排名:agent 安全 → 上下文压缩 → 模型路由 → 实时决策层(浏览器/语音/游戏)→ 内容评分 → 交易 → SQL/系统原语 → 垂直业务
-- **每 3 小时自动扫描与更新**(GitHub × X × 五大目录站),有新发现即提交到本仓库;**所有项目经过检验并给出置信度评分**(A=工件直检 0.90 / B=一手源在档 0.75 / C=仅目录收录 0.60,见 [data/projects.json](./data/projects.json) 的 verification 字段)
-- 完整内容见 [CASEBOOK.md](./CASEBOOK.md)(14 个章节 + 10 次扫描日志);结构化数据见 [data/projects.json](./data/projects.json)
-- **想上手 Jev?看 [API 申请攻略](./docs/jev-api-access-guide.zh.md)**:waitlist 全流程(含官网按钮 bug 与加急邮件技巧)、官方 SDK quickstart、以及 OpenRouter / Netlify / OpenJev 免排队替代通道
-- 独立研究,与 TypeSafe AI 无关联;引用数据均来自公开原始出处
+| 原语 | 回答什么问题 | 返回什么 |
+|---|---|---|
+| **Noul** | 这句话成立吗? | 校准过的 0–1 概率 |
+| **Choice** | 哪个选项合适? | 完整概率分布 + 置信度 |
+| **Score** | 按你的量规打几分? | 概率加权分值 |
+
+让它刷屏开发者圈的理由:**端到端 70–500 毫秒,输入 $0.042/百万 token、输出免费**——同样的判断走前沿 LLM 要慢 20–200 倍、贵 40–400 倍。
+
+### 这个仓库是什么
+
+发布 4 天,Jev 生态已经长到 **约 500 个仓库、21,600+ 星**。Jev Radar 想用证据回答一个问题:**大家到底在用它做什么?**
+
+这里收录的每个案例都核对过一手出处——我们打开过的仓库、访问过的线上 demo、或作者原帖。不收传闻,不凑数。而且这件事没有终点:一套自动化巡检(GitHub · X · 五个社区目录站)**每 3 小时重跑一次**,新东西先检验、再定级、然后提交进仓库。
+
+### 为什么可信
+
+108 条结构化注册记录,每条都带研究时打上的 `verification` 块:
+
+| 层级 | 置信度 | 怎么挣来的 |
+|---|---|---|
+| **A** | 0.90 | 我们亲手检验过工件:读过仓库 README、抓过线上页、读过原帖全文、或实测过 API |
+| **B** | 0.75 | 一手源(仓库/原帖)在档,做过描述级核查 |
+| **C** | 0.60 | 暂仅目录收录——下次扫描打开后升级 |
+
+当前分布:**38 × A · 70 × B · 0 × C**。条目里的数字均为**作者自报**,复现过的会单独标注。我们同样记录不好用的部分:置信度 ≠ 正确性、对输入顺序敏感、以及市面上流通的加速假 demo——并告诉你哪些仓库带真实 trace。
+
+### 大家在做什么(按密度排序)
+
+1. **Agent 安全与监督**——给每次工具调用配"第二双眼睛"。旗舰:[`pi-warden`](https://github.com/DevMortimer/pi-warden),在 17,000 次真实调用上自评(拦截 88% 拦得对)
+2. **上下文压缩**——逐条给工具输出打分、只留有用的。[`fast-jev-compaction`](https://github.com/tamaratran/fast-jev-compaction) 以 2.7k★ 领跑
+3. **模型路由**——10+ 个实现;[`jev-codex-router`](https://github.com/0xNatoshi/jev-codex-router) 在 237 轮回测中实测**省 60% 成本**
+4. **实时决策层**——浏览器(7.1 秒订好机票)、语音(每句 ~300ms)、游戏(宝可梦/星际/俄罗斯方块,超人类速度)
+5. **内容评分与增长**——每条草稿帖 61 个问题只要 $0.0004;724 条竞品广告 $0.09 全拆完
+6. **交易**——每 300ms 一个区块链区块决策一次([`jev-trader`](https://github.com/jarrodwatts/jev-trader));第一批诚实的模拟盘战绩已公开
+7. **当系统原语用**——Postgres/DuckDB 谓词、pandas 语义层、zsh 历史、Neovim、Emacs
+8. **垂直行业进场**——税单分类(261 份 IRS 表单 100% 严格准确)、司法裁定预测、PubMed 文献筛查、销售工作流
+
+### 实战教训
+
+- **问题要窄、要机械**——"LLM 吃垃圾输入也能凑合,Jev 不行"
+- **选项一多就崩**——真实记账数据上,12 选 1 的 Choice 只打出 0.40
+- **置信度不是免死金牌**——一项大型独立评测里,置信度 ≥ 0.9 的行只有 72.2% 是对的
+- **顺序和措辞都敏感**——证据顺序能翻转某验证器 5.8% 的判决
+- **成本优势是真的**——34.1M token 花 $1.43;每轮路由 $0.00003;每句语音 $0.0002
+
+### 仓库内容
+
+| 路径 | 是什么 |
+|---|---|
+| [`CASEBOOK.md`](./CASEBOOK.md) | 完整案例集——14 个章节、逐案例出处与推文链接、10 次深扫日志 |
+| [`data/projects.json`](./data/projects.json) | 机器可读注册表:统一 schema,含 `verification {tier, method, confidence}` |
+| [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API 申请攻略**——waitlist 全流程(含官网按钮 bug 与加急邮件技巧)、OpenRouter / Netlify / OpenJev 免排队通道、免费 Playground |
+
+**节奏:**每 3 小时自动扫描一次;只要扫到新东西,仓库就会多一个 commit。
+**覆盖来源:** awesome-typesafe · awesomejev.com(488 条)· madewithjev.com(178 个 build)· risetive.com/jev(98)· jevable.com · typesafeai.app · GitHub 搜索 · X · Reddit · HN · V2EX/linux.do/B站 · YouTube · LinkedIn。
+
+### 参与贡献
+
+发现了我们漏掉的项目?开 issue 或 PR,附:**项目地址 + 原帖地址(如有)+ 用的原语 + 实测数字**。没有一手出处的提交不收。
+
+### 许可与免责
+
+内容 **CC BY 4.0** · 数据 **CC0**。独立社区研究,**与 TypeSafe AI 无关联**。指标均为作者自报;星数为 2026-09-19 时点快照。
