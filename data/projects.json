@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 114,
+    "total_curated": 120,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -2319,6 +2319,128 @@
       "tweet": null,
       "stars": 5,
       "one_liner": "Verification layer for AI evaluations: checks the instrument, not just the score",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jevcache",
+      "author": "kushals256",
+      "category": "routing",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/kushals256/jevcache",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "OpenAI-compatible local proxy: Jev does calibrated same-intent admission so repeated questions hit cache and skip expensive LLM calls; fails open",
+      "metrics": "demo MISS ~3.2s vs HIT ~0.4s; npm + Docker",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jevassert",
+      "author": "dtduc-git",
+      "category": "eval",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/dtduc-git/jevassert",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Regression tests for Jev question packs: assert accuracy, calibration and cost in CI; record once, replay offline deterministically; compare across model versions",
+      "metrics": "PyPI; CI badge; works with system-one-adapter for LLM baselines",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jev-bench",
+      "author": "kamo-shika",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kamo-shika/jev-bench",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Unofficial Japanese benchmark comparing Jev vs open models reading probabilities directly, on Japanese public data",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jev-mail-classifier",
+      "author": "parth-kp",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/parth-kp/jev-mail-classifier",
+      "tweet": null,
+      "stars": 5,
+      "one_liner": "Classify your inbox: tag, move, flag, notify",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "JevPilot",
+      "author": "InfamousCube",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/InfamousCube/JevPilot",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Computer use in German: control PC, browser, games and Android phone by prompt",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "gg-friggin-ez",
+      "author": "ItisShikhar",
+      "category": "content-scoring",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/ItisShikhar/gg-friggin-ez",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Fast drop-in profanity & toxicity screener for Node.js, powered by Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
