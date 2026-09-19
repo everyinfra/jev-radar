@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 134,
+    "total_curated": 141,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -2726,6 +2726,151 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Everything to run Jev with Claude Code: tool-call guard, tier guards and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "hunch",
+      "author": "carldaws",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/carldaws/hunch",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Probabilistic control flow for Ruby: possibly?/likely?/probably?/almost_certainly?/definitely? as thresholded boolean helpers; chance/pick/rate map the three primitives",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-browser-qa",
+      "author": "jonymusky",
+      "category": "code-quality",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/jonymusky/jev-browser-qa",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Browser QA where Playwright drives and films, Jev judges: NL assertions, self-healing locators, goal-driven click loops, dashboard",
+      "metrics": "judgments <400ms, zero generated tokens",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-classification-benchmark",
+      "author": "rachit-srivastava-devx",
+      "category": "eval",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/rachit-srivastava-devx/jev-classification-benchmark",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "20-arm benchmark spec (Jev vs 15 chat-model configs) on support-ticket routing; spec frozen, implementation in progress",
+      "metrics": "probe: Jev $0.0000166/classification; reasoning tokens dominate chat cost (13x swing)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "rjif",
+      "author": "doublerobust",
+      "category": "sdk",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/doublerobust/rjif",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Calibrated if-statements in R: judgment-based control flow",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "mysql-ailike",
+      "author": "maayanlevy",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/maayanlevy/mysql-ailike",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Natural-language row filtering for MySQL (third database family member after Postgres and DuckDB)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "pi-jev-sentinel",
+      "author": "harshwasan",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/harshwasan/pi-jev-sentinel",
+      "tweet": null,
+      "stars": 6,
+      "one_liner": "Pi coding-agent extension: Jev checks tool calls, tool outputs and replies",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev_playground",
+      "author": "JYeswak",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/JYeswak/jev_playground",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Measure what Jev can actually do before you build on it: graded findings, ruled-out candidates",
       "metrics": null,
       "verification": {
         "tier": "B",
