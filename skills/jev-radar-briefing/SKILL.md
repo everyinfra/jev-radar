@@ -171,3 +171,4 @@ cron:`0 9 * * * /bin/bash /path/to/pull-and-brief.sh`
 
 - 数据与内容来自 [everyinfra/jev-radar](https://github.com/everyinfra/jev-radar),内容 CC BY 4.0、数据 CC0,独立社区研究,与 TypeSafe AI 无关联。
 - 本 skill 文件本身可自由分发,请保留仓库链接。
+- 维护方:[EveryInfra](https://everyinfra.com) · [文档](https://everyinfra.com/docs)。

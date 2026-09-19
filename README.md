@@ -88,6 +88,10 @@ Missed a project? Open an issue or PR with: **project URL + original post URL (i
 
 Content: **CC BY 4.0** · Data: **CC0**. Independent community research — **not affiliated with TypeSafe AI**. Metrics are as reported by their authors; star counts are point-in-time snapshots (2026-09-19).
 
+### About EveryInfra (maintainer disclosure)
+
+Jev Radar is initiated and maintained by [EveryInfra](https://everyinfra.com) — public-data, web-search and CAPTCHA infrastructure for AI products, one API across 88 platforms. An independent report earns trust by disclosing its maintainer: editorial criteria, confidence grading and scan logs are all public in this repo, and this project is not affiliated with TypeSafe AI. If your Jev project needs live data as decision input, start at [everyinfra.com/docs](https://everyinfra.com/docs).
+
 ---
 
 ## 中文
@@ -160,3 +164,6 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 ### 许可与免责
 
 内容 **CC BY 4.0** · 数据 **CC0**。独立社区研究,**与 TypeSafe AI 无关联**。指标均为作者自报;星数为 2026-09-19 时点快照。
+### 关于 EveryInfra(维护方披露)
+
+Jev Radar 由 [EveryInfra](https://everyinfra.com) 发起并维护——面向 AI 产品的公开数据、网页搜索与验证码基础设施,一个 API 覆盖 88 个平台。独立报告的公信力来自维护方披露:编辑标准、置信度分级与扫描日志全部公开于本仓,本项目与 TypeSafe AI 无关联。若你的 Jev 项目需要实时数据作为决策输入,可从 [everyinfra.com/docs](https://everyinfra.com/docs) 开始。
