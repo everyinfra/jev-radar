@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 120,
+    "total_curated": 127,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -2441,6 +2441,142 @@
       "tweet": null,
       "stars": 1,
       "one_liner": "Fast drop-in profanity & toxicity screener for Node.js, powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jev-semgrep",
+      "author": "uehaj",
+      "category": "data-infra",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/uehaj/jev-semgrep",
+      "tweet": null,
+      "stars": 42,
+      "one_liner": "grep by meaning, across languages: an English meaning finds Japanese/French/Russian lines; AND/OR/NOT combinable",
+      "metrics": "30 lines per request, 8 concurrent; 210-line file <1s; zero deps",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "stanley-code",
+      "author": "devagrawal09",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/devagrawal09/stanley-code",
+      "tweet": null,
+      "stars": 12,
+      "one_liner": "Jev-first self-improving coding agent: routes to deterministic workflows, writes its own new workflow when none fits, validates and stages it for promotion (formerly jev-code)",
+      "metrics": "npm: stanley-code; CI badge",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jev-palette",
+      "author": "amycardoso",
+      "category": "content-scoring",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/amycardoso/jev-palette",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Semantic command palette: one Choice over 77 commands per keystroke, the full probability distribution IS the ranking; PT/EN intent, honest fuzzy baseline side-by-side",
+      "metrics": "~100ms and ~$0.00004 per keystroke (~900 input tokens)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jev-ptbr-bench",
+      "author": "amycardoso",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/amycardoso/jev-ptbr-bench",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Accuracy and calibration benchmark for Jev on Brazilian Portuguese tasks",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jev-bonsai-2-27B",
+      "author": "cyberumut",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/cyberumut/jev-bonsai-2-27B",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev-style typed decisions from a local Ternary Bonsai 2 27B on Apple Silicon — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jev-gmail-ai-spam-filter-and-labeling",
+      "author": "ilyamk",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Self-hosted AI email classifier for Gmail: custom labels, organize, filter",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jev-storyboard-lab",
+      "author": "jimmyliao",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jimmyliao/jev-storyboard-lab",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Google ADK vs Microsoft Agent Framework for structured-output agents, with Jev in the loop",
       "metrics": null,
       "verification": {
         "tier": "B",
