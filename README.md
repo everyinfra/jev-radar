@@ -75,6 +75,7 @@ Current distribution: **38 × A · 70 × B · 0 × C**. Numbers inside entries a
 | [`CASEBOOK.md`](./CASEBOOK.md) | The full casebook — 14 sections, per-case sources & tweet links, 10 documented deep-scan logs |
 | [`data/projects.json`](./data/projects.json) | Machine-readable registry: uniform schema incl. `verification {tier, method, confidence}` |
 | [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API access guide** — waitlist walkthrough, the expedite-email trick, and no-wait alternatives (OpenRouter / Netlify / OpenJev / free playgrounds) |
+| [`skills/jev-radar-briefing/SKILL.md`](./skills/jev-radar-briefing/SKILL.md) | **One-file quickstart + daily-briefing skill** — drop into any SKILL.md-compatible agent for scheduled pulls and auto-generated digests; includes a no-agent shell script |
 
 **Cadence:** automated scan every 3 hours; the repo receives a commit on every scan that finds new evidence.
 **Sources swept:** awesome-typesafe · awesomejev.com (488 entries) · madewithjev.com (178 builds) · risetive.com/jev (98) · jevable.com · typesafeai.app · GitHub Search · X · Reddit · HN · V2EX/linux.do/Bilibili · YouTube · LinkedIn.
@@ -147,6 +148,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 | [`CASEBOOK.md`](./CASEBOOK.md) | 完整案例集——14 个章节、逐案例出处与推文链接、10 次深扫日志 |
 | [`data/projects.json`](./data/projects.json) | 机器可读注册表:统一 schema,含 `verification {tier, method, confidence}` |
 | [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API 申请攻略**——waitlist 全流程(含官网按钮 bug 与加急邮件技巧)、OpenRouter / Netlify / OpenJev 免排队通道、免费 Playground |
+| [`skills/jev-radar-briefing/SKILL.md`](./skills/jev-radar-briefing/SKILL.md) | **单文件接入 + 每日简报 Skill**——装进任意支持 SKILL.md 的 agent 即可定时拉取、自动生成日报;附不开 agent 的纯脚本版 |
 
 **节奏:**每 3 小时自动扫描一次;只要扫到新东西,仓库就会多一个 commit。
 **覆盖来源:** awesome-typesafe · awesomejev.com(488 条)· madewithjev.com(178 个 build)· risetive.com/jev(98)· jevable.com · typesafeai.app · GitHub 搜索 · X · Reddit · HN · V2EX/linux.do/B站 · YouTube · LinkedIn。
