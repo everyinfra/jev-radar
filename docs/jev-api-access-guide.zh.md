@@ -1,4 +1,4 @@
-> 本攻略是 [jev-radar](https://github.com/xiaoxihexiaoyu/jev-radar) 仓库的一部分:全网最全的 Jev 生态独立白皮书与实时监控。结构化项目数据见 [data/projects.json](../data/projects.json)。
+> 本攻略是 [jev-radar](https://github.com/everyinfra/jev-radar) 仓库的一部分:全网最全的 Jev 生态独立白皮书与实时监控。结构化项目数据见 [data/projects.json](../data/projects.json)。
 
 # Jev API 完整申请攻略
 

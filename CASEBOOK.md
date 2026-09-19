@@ -1,6 +1,6 @@
 # Jev Radar · Casebook — Jev(TypeSafe AI)项目案例集
 
-> 本案例集是 [jev-radar](https://github.com/xiaoxihexiaoyu/jev-radar) 仓库的主文档:全网最全的 Jev 生态独立白皮书与实时监控。结构化数据见 [data/projects.json](./data/projects.json)。
+> 本案例集是 [jev-radar](https://github.com/everyinfra/jev-radar) 仓库的主文档:全网最全的 Jev 生态独立白皮书与实时监控。结构化数据见 [data/projects.json](./data/projects.json)。
 
 > **生成时间**:2026-09-19(首版基于 2026-09-15 ~ 09-19 的全网检索)
 > **对象**:TypeSafe AI 于 2026-09-15 发布的 System One 模型 Jev(Noul 是非判断 / Choice 选项分布 / Score 量规打分;70-500ms;$0.042/M 输入 token,输出免费)。
