@@ -3,10 +3,26 @@
     "name": "jev-radar",
     "description": "Curated registry of real projects built with Jev (TypeSafe AI System One)",
     "model": "jev-1.13.0 (aka jev-latest), released 2026-09-15",
-    "primitives": ["noul", "choice", "score"],
+    "primitives": [
+      "noul",
+      "choice",
+      "score"
+    ],
     "generated_at": "2026-09-19",
-    "total_curated": 92,
-    "sources": ["awesome-typesafe", "awesomejev.com", "madewithjev.com", "risetive.com/jev", "jevable.com", "typesafeai.app", "GitHub Search API", "X/Twitter", "Reddit", "Hacker News", "V2EX/linux.do/Bilibili"],
+    "total_curated": 108,
+    "sources": [
+      "awesome-typesafe",
+      "awesomejev.com",
+      "madewithjev.com",
+      "risetive.com/jev",
+      "jevable.com",
+      "typesafeai.app",
+      "GitHub Search API",
+      "X/Twitter",
+      "Reddit",
+      "Hacker News",
+      "V2EX/linux.do/Bilibili"
+    ],
     "schema": {
       "name": "project name",
       "author": "author handle/org",
@@ -21,113 +37,1523 @@
     }
   },
   "projects": [
-    {"name": "pi-warden", "author": "DevMortimer (u/95-cosmo-changer)", "category": "agent-safety", "primitives": ["noul"], "status": "live", "url": "https://github.com/DevMortimer/pi-warden", "tweet": "https://x.com/AISuperDomain/status/2100536937664938408", "stars": 65, "one_liner": "Jev-powered second pair of eyes for the Pi coding agent: judges irreversibility/intent-match of every tool call and steers instead of interrupting", "metrics": "self-graded on 17k real calls: 42 holds, ~88% correct, ~2% regret"},
-    {"name": "foreman", "author": "thruwire", "category": "agent-safety", "primitives": ["noul"], "status": "live", "url": "https://github.com/thruwire/foreman", "tweet": null, "stars": 309, "one_liner": "Software-factory supervisor: parallel Noul questions (implementation_complete / worker_stuck / needs_verification) over a live Codex worker", "metrics": null},
-    {"name": "rh-guard", "author": "24601", "category": "agent-safety", "primitives": ["noul"], "status": "live", "url": "https://github.com/24601/rh-guard", "tweet": null, "stars": null, "one_liner": "Reward-hack radar: blocks agents tampering with graders/hidden tests; structural denies + Jev sidecar", "metrics": null},
-    {"name": "hermes-jev-approvals", "author": "anpicasso", "category": "agent-safety", "primitives": ["noul"], "status": "live", "url": "https://github.com/anpicasso/hermes-jev-approvals", "tweet": null, "stars": 4, "one_liner": "Jev as reviewer for Hermes Agent smart-command approvals", "metrics": "8.7x faster, 4x cheaper on 153 commands"},
-    {"name": "is-malicious", "author": "lu4p_ (luantak)", "category": "agent-safety", "primitives": ["noul"], "status": "live", "url": "https://github.com/luantak/is-malicious", "tweet": null, "stars": null, "one_liner": "CLI scanning source/CI/config files for malicious behavior with file+line pointers", "metrics": null},
-    {"name": "jev-guard (specpi)", "author": "fingerthief", "category": "agent-safety", "primitives": ["score"], "status": "prototype", "url": "https://tannermidd.github.io/specpi-jev-guard/", "tweet": null, "stars": null, "one_liner": "Command guard built on OpenRouter's Jev endpoint", "metrics": null},
-    {"name": "winnow", "author": "GhalebDweikat", "category": "compaction", "primitives": ["noul"], "status": "live", "url": "https://github.com/GhalebDweikat/winnow", "tweet": null, "stars": 17, "one_liner": "Calibrated context sieve for Claude Code: judges every ~25-line block, replaces unneeded ones with recoverable stubs", "metrics": null},
-    {"name": "jev-pruner", "author": "tamaratran", "category": "compaction", "primitives": ["noul"], "status": "live", "url": "https://github.com/tamaratran/jev-pruner", "tweet": "https://madewithjev.com/builds/instant-compaction", "stars": 12, "one_liner": "Claude Code plugin: prunes Bash stdout after execution, before the model sees it", "metrics": null},
-    {"name": "fast-jev-compaction", "author": "tamaratran", "category": "compaction", "primitives": ["noul"], "status": "live", "url": "https://github.com/tamaratran/fast-jev-compaction", "tweet": "https://madewithjev.com/builds/instant-compaction", "stars": 2735, "one_liner": "Claude Code compaction via Jev decisions, verbatim keep — #1 starred community tooling repo", "metrics": null},
-    {"name": "jev-codex-router", "author": "0xNatoshi", "category": "routing", "primitives": ["choice", "score"], "status": "live", "url": "https://github.com/0xNatoshi/jev-codex-router", "tweet": null, "stars": 29, "one_liner": "Per-turn model + reasoning-effort routing for Codex driven by Jev", "metrics": "-60% cost on 7-day/237-turn backtest; $0.00003 per decision"},
-    {"name": "jev-router", "author": "gargpratyush", "category": "routing", "primitives": ["choice"], "status": "live", "url": "https://github.com/gargpratyush/jev-router", "tweet": null, "stars": 154, "one_liner": "Routes Claude Code tasks to the cheapest capable model via Jev", "metrics": null},
-    {"name": "vexjoy-agent", "author": "notque", "category": "routing", "primitives": ["choice"], "status": "live", "url": "https://github.com/notque/vexjoy-agent", "tweet": null, "stars": 420, "one_liner": "'/do' routes plain-English requests to the right skill", "metrics": null},
-    {"name": "jev-ultrafast", "author": "browser-use (Gregor Zunic @gregpr07)", "category": "browser-agent", "primitives": ["choice"], "status": "live", "url": "https://github.com/browser-use/jev-ultrafast", "tweet": "https://x.com/gregpr07/status/2100411066966749359", "stars": 5955, "one_liner": "Browser agent with dynamic indexed action space; one Jev request decides operation + target, small LLM only types text", "metrics": "Zurich→London flights in 7.1s ($0.0039); protocol calls 1092→101"},
-    {"name": "jev-voice-browser", "author": "moritzkremb", "category": "voice", "primitives": ["choice", "noul"], "status": "live", "url": "https://github.com/moritzkremb/jev-voice-browser", "tweet": "https://x.com/moritzkremb/status/2100577979021832365", "stars": 42, "one_liner": "Control a real browser by voice: 9-11 typed questions per partial transcript decide act/wait/ask/ignore", "metrics": "~250-350ms per decision, $0.0002 per call"},
-    {"name": "x-post-firewall", "author": "@marcelpociot", "category": "browser-extension", "primitives": ["noul", "choice"], "status": "live", "url": "https://x.com/marcelpociot/status/2100520134481735729", "tweet": "https://x.com/marcelpociot/status/2100520134481735729", "stars": null, "one_liner": "Browser extension hiding/collapsing X posts via natural language", "metrics": null},
-    {"name": "x-scanner", "author": "oso95", "category": "browser-extension", "primitives": ["noul", "choice"], "status": "live", "url": "https://github.com/oso95/x-scanner", "tweet": null, "stars": 7, "one_liner": "Labels every X post with 6 typed judgments + exact-cost counter", "metrics": "~150ms/post; '80 posts, $0.0027' exact USD"},
-    {"name": "typesafe-adblock", "author": "realZachi (@iam_zachi)", "category": "browser-extension", "primitives": ["noul"], "status": "live", "url": "https://github.com/realZachi/typesafe-adblock", "tweet": "https://madewithjev.com/builds/realtime-ad-blocker", "stars": 48, "one_liner": "Chrome extension asking Jev 'is this DOM element an ad?'", "metrics": null},
-    {"name": "youtube-sponsor-skipper", "author": "Tony Dinh (@tdinh_me, trungdq88)", "category": "browser-extension", "primitives": ["noul"], "status": "live", "url": "https://github.com/trungdq88/youtube-sponsor-detection", "tweet": "https://madewithjev.com/builds/youtube-sponsor-skipper", "stars": 57, "one_liner": "Listens to YouTube audio, detects sponsor segments, skips in real time", "metrics": "~$0.005 per video"},
-    {"name": "linkedin-noslop-extension", "author": "sushrutb17 (+ Walid Boulanouar 2-layer)", "category": "browser-extension", "primitives": ["noul"], "status": "live", "url": "https://github.com/sushrutb17/linkedin-noslop-extension", "tweet": "https://www.linkedin.com/posts/walid-boulanouar_i-built-a-browser-extension-that-removes-activity-7506661817759383553-mAdD", "stars": null, "one_liner": "Blurs low-value LinkedIn feed posts", "metrics": null},
-    {"name": "zhihu-ai-filter", "author": "yink12138", "category": "browser-extension", "primitives": ["noul"], "status": "live", "url": "https://github.com/yink12138/zhihu-ai-filter", "tweet": null, "stars": null, "one_liner": "Edge extension filtering Zhihu feed with Jev — first Chinese-platform-native filter", "metrics": null},
-    {"name": "killmyidea", "author": "stemonte", "category": "content-scoring", "primitives": ["score"], "status": "live", "url": "http://killmyidea.stemonte.io", "tweet": null, "stars": null, "one_liner": "Scores startup ideas via 10 parallel 0-4 rubrics; weighted verdict in code", "metrics": "sub-second; documented phrasing-sensitivity failure"},
-    {"name": "SuperX post scoring", "author": "@robj3d3 (Rob Hallam)", "category": "content-scoring", "primitives": ["score"], "status": "live", "url": "https://madewithjev.com/builds/superx-post-scoring", "tweet": "https://x.com/robj3d3/status/2100722975645598191", "stars": null, "one_liner": "61 typed questions per draft post; virality scoring fitted on 9,481 real posts", "metrics": "~1s and $0.0004 per post; picks viral post 2-in-3"},
-    {"name": "competitor-ad-teardown", "author": "@TheMattBerman", "category": "content-scoring", "primitives": ["choice", "score"], "status": "live", "url": "https://madewithjev.com/builds/competitor-ad-teardown", "tweet": "https://madewithjev.com/builds/competitor-ad-teardown", "stars": null, "one_liner": "Broke down 724 live ads from 37 brands (hook/format/offer/CTA/mismatch)", "metrics": "~40s, $0.09; shipping in stealads + MCP"},
-    {"name": "x-post-analysis", "author": "@iannuttall (Ian Nuttall)", "category": "content-scoring", "primitives": ["score"], "status": "live", "url": "https://madewithjev.com/builds/x-post-analysis", "tweet": "https://madewithjev.com/builds/x-post-analysis", "stars": null, "one_liner": "Analyzed own 3,282 X posts (100M views) with 8 questions each", "metrics": "4.25M tokens, 8m34s, $0.1282; how-to median 150 vs 44 likes"},
-    {"name": "every-editorial-judgments", "author": "@danshipper (Every)", "category": "content-scoring", "primitives": ["score"], "status": "live", "url": "https://madewithjev.com/categories/content-and-growth", "tweet": "https://madewithjev.com/categories/content-and-growth", "stars": null, "one_liner": "Editorial vibe-check at Every: production writing-quality gate", "metrics": "1,709 judgments, <$0.01 total, 0.35s median"},
-    {"name": "supercov", "author": "@Nedomas (supercorp-ai)", "category": "code-quality", "primitives": ["score"], "status": "live", "url": "https://github.com/supercorp-ai/supercov", "tweet": null, "stars": 25, "one_liner": "Per-file code quality scores so coding agents know what to fix first", "metrics": "matches CodeRabbit-class scores at ~100x lower cost (author-reported)"},
-    {"name": "jev-review", "author": "devagrawal09", "category": "code-quality", "primitives": ["score"], "status": "live", "url": "https://github.com/devagrawal09/jev-review", "tweet": null, "stars": 253, "one_liner": "Staged code-review workflow + local dashboard over focused Jev calls", "metrics": null},
-    {"name": "jev-review (MCP)", "author": "NiazMorshed2007 (@niazmorshed_)", "category": "code-quality", "primitives": ["score"], "status": "live", "url": "https://github.com/NiazMorshed2007/jev-review", "tweet": "https://madewithjev.com/builds/jev-review", "stars": 113, "one_liner": "Local-first MCP plugin: quality feedback loop while the agent works", "metrics": null},
-    {"name": "git-judge-jev", "author": "davidrydberg", "category": "code-quality", "primitives": ["choice"], "status": "live", "url": "https://github.com/davidrydberg/git-judge-jev", "tweet": null, "stars": null, "one_liner": "GitHub Action: comments what an agent-written PR actually does", "metrics": null},
-    {"name": "diffjury", "author": "@raihankhan_rk", "category": "code-quality", "primitives": ["noul"], "status": "live", "url": "https://diffjury.up.railway.app", "tweet": "https://madewithjev.com/builds/diffjury", "stars": null, "one_liner": "Paste a PR link, Jev rules safe-to-merge vs needs-review", "metrics": null},
-    {"name": "attest", "author": "quorumtech.ch", "category": "vertical", "primitives": ["choice"], "status": "live", "url": "https://quorumtech.ch/attest", "tweet": null, "stars": null, "one_liner": "Claim-verification API; verdicts cite exact supporting/contradicting spans", "metrics": "95.9% verdict accuracy / 1.6% overclaim on 190 labels; order flips 5.8%"},
-    {"name": "tax-doc-classifier", "author": "kyotofin", "category": "vertical", "primitives": ["choice"], "status": "live", "url": "https://github.com/kyotofin/tax-doc-classifier", "tweet": null, "stars": 153, "one_liner": "Tax document page classification", "metrics": "100% strict accuracy across 261 IRS forms (author-reported)"},
-    {"name": "LegalForecast-MTD", "author": "johnhughes3", "category": "vertical", "primitives": ["choice"], "status": "live", "url": "https://risetive.com/jev", "tweet": null, "stars": null, "one_liner": "Predicts federal motion-to-dismiss rulings; micro-Brier scoring", "metrics": null},
-    {"name": "typesafe-screening-mcp", "author": "masa-med-ai", "category": "vertical", "primitives": ["noul"], "status": "live", "url": "https://github.com/masa-med-ai/typesafe-screening-mcp", "tweet": null, "stars": null, "one_liner": "Screens PubMed titles/abstracts against a clinical question (MCP)", "metrics": null},
-    {"name": "jev-reviewer", "author": "choxos (Ahmad Sofi-Mahmudi)", "category": "vertical", "primitives": ["choice"], "status": "live", "url": "https://github.com/choxos/jev-reviewer", "tweet": null, "stars": 1, "one_liner": "Systematic-review data extraction with verbatim quotes from papers", "metrics": null},
-    {"name": "jev-loan-triage", "author": "ravikadam", "category": "vertical", "primitives": ["choice", "score"], "status": "live", "url": "https://github.com/ravikadam/jev-loan-triage", "tweet": null, "stars": null, "one_liner": "Voice loan-call triage: intent, info sufficiency, lending decision", "metrics": null},
-    {"name": "clay-workflows", "author": "@outboundphd", "category": "vertical", "primitives": ["choice"], "status": "live", "url": "https://www.linkedin.com/posts/outboundphd_so-jev-does-in-fact-work-for-building-clay-activity-7506771976632451072-co-4", "tweet": null, "stars": null, "one_liner": "Jev builds GTM workflows in Clay instantly", "metrics": null},
-    {"name": "mac-support-agent", "author": "@malekoo", "category": "vertical", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/categories/triage-and-routing", "tweet": "https://madewithjev.com/categories/triage-and-routing", "stars": null, "one_liner": "Offline install/troubleshooting QA: Jev picks which manual article answers, app answers from its own docs", "metrics": "42/42 on held-out set"},
-    {"name": "fraud-detection cascade", "author": "@nutlope (Hassan)", "category": "content-scoring", "primitives": ["noul"], "status": "live", "url": "https://madewithjev.com/builds/fraud-detection-jev-kimi", "tweet": "https://madewithjev.com/builds/fraud-detection-jev-kimi", "stars": null, "one_liner": "Jev classifies, sub-95%-confidence routes to Kimi K3 — the textbook cascade", "metrics": "100 emails in 1.42s; pipeline 96/100 at $0.07"},
-    {"name": "1kpapers", "author": "@nutlope (Hassan)", "category": "content-scoring", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/1kpapers", "tweet": "https://madewithjev.com/builds/1kpapers", "stars": null, "one_liner": "1,018 papers × 24 topic choices each", "metrics": "$0.08 total, 256ms median"},
-    {"name": "keep.md search+tagging", "author": "@iannuttall", "category": "content-scoring", "primitives": ["score"], "status": "live", "url": "https://madewithjev.com/categories/research-and-data", "tweet": "https://madewithjev.com/categories/research-and-data", "stars": null, "one_liner": "Production migration of keep.md search rerank + tagging (Cloudflare Workers)", "metrics": "rerank 7x faster, tagging 50x faster vs GLM 4.7 Flash, zero failures"},
-    {"name": "regex-to-jev migration", "author": "@illyism (ILIAS ISM)", "category": "platform", "primitives": ["noul"], "status": "live", "url": "https://madewithjev.com/builds/regex-to-jev", "tweet": "https://madewithjev.com/builds/regex-to-jev", "stars": null, "one_liner": "Moved vibe-coded regex rules to Jev across 3 production sites (aiseotracker/linkdr/genppt)", "metrics": "~10x faster, ~50% cheaper (author-reported)"},
-    {"name": "jev-trader", "author": "@jarrodwatts", "category": "trading", "primitives": ["choice"], "status": "live", "url": "https://github.com/jarrodwatts/jev-trader", "tweet": "https://x.com/jarrodwatts/status/2100356151468585346", "stars": 929, "one_liner": "One AI trade decision every 300ms Monad block on Kuru MON-USDC", "metrics": "real on-chain orders; demo at jev-trader.vercel.app"},
-    {"name": "paper-trading engine", "author": "@BrendanPlayford", "category": "trading", "primitives": ["choice"], "status": "live", "url": "https://x.com/BrendanPlayford/status/2100614031845539975", "tweet": "https://x.com/BrendanPlayford/status/2100614031845539975", "stars": null, "one_liner": "Jev + fine-tuned model trading engine, forward paper results", "metrics": "375 paper trades, 41.1% win rate (honest, unfiltered)"},
-    {"name": "10k-trading", "author": "@abolbuild", "category": "trading", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/10k-trading", "tweet": "https://madewithjev.com/builds/10k-trading", "stars": null, "one_liner": "'I gave Jev $10,000 and let it trade'", "metrics": null},
-    {"name": "jevocks", "author": "Prosper Otemuyiwa", "category": "trading", "primitives": ["noul", "score"], "status": "live", "url": "https://madewithjev.com/builds/jevocks", "tweet": "https://madewithjev.com/builds/jevocks", "stars": null, "one_liner": "Stock terminal: Valyu brings evidence, Jev gives the status", "metrics": null},
-    {"name": "crowdcheck", "author": "vercel.app demo", "category": "content-scoring", "primitives": ["noul"], "status": "live", "url": "https://crowdcheck-ai.vercel.app/", "tweet": null, "stars": null, "one_liner": "Tests a 144-char post against 10,000 persistent synthetic personas", "metrics": null},
-    {"name": "ha-jev", "author": "AboveColin", "category": "data-infra", "primitives": ["noul", "choice", "score"], "status": "live", "url": "https://github.com/AboveColin/HA-Jev", "tweet": null, "stars": 6, "one_liner": "Home Assistant integration: typed questions over entity state as sensors/automations, with token-budget fuse", "metrics": null},
-    {"name": "pg-jev", "author": "realZachi (@iam_zachi)", "category": "data-infra", "primitives": ["noul", "choice", "score"], "status": "live", "url": "https://github.com/realZachi/pg-jev", "tweet": "https://madewithjev.com/builds/postgres-jev-function", "stars": 175, "one_liner": "PostgreSQL extension: WHERE jev(people, 'could work from home')", "metrics": "129 rows judged ~1s for $0.0009; 6ms cached"},
-    {"name": "vgi-typesafe", "author": "Query-farm", "category": "data-infra", "primitives": ["noul", "choice", "score"], "status": "live", "url": "https://github.com/Query-farm/vgi-typesafe", "tweet": null, "stars": null, "one_liner": "DuckDB: Choice/Noul/Score as SQL table functions + is_true() in WHERE", "metrics": null},
-    {"name": "jevframe", "author": "ktaletsk", "category": "data-infra", "primitives": ["noul", "choice", "score"], "status": "live", "url": "https://github.com/ktaletsk/jevframe", "tweet": null, "stars": null, "one_liner": "Semantic layer for pandas/Polars: classify/score DataFrame rows", "metrics": null},
-    {"name": "jev-shell-history", "author": "mrnugget", "category": "data-infra", "primitives": ["choice"], "status": "live", "url": "https://github.com/mrnugget/jev-shell-history", "tweet": null, "stars": 33, "one_liner": "Fish-style zsh autosuggestions ranked by Jev, async per keystroke", "metrics": null},
-    {"name": "jev-cli (jevctl)", "author": "Nasrallah-AL", "category": "data-infra", "primitives": ["noul", "choice", "score"], "status": "live", "url": "https://github.com/Nasrallah-AL/jev-cli", "tweet": null, "stars": null, "one_liner": "Jev judgments as pipeable exit-code shell commands; TypeSafe/OpenRouter/CF Workers AI; Claude Code plugin", "metrics": null},
-    {"name": "jevmeter", "author": "ChetasLua (@chetaslua)", "category": "content-scoring", "primitives": ["score"], "status": "live", "url": "https://github.com/ChetasLua/jevmeter", "tweet": "https://x.com/chetaslua/status/2100473581251748216", "stars": 53, "one_liner": "Live per-sentence truthiness meter rendered onto video", "metrics": null},
-    {"name": "qingliu (清流)", "author": "pjrpjr", "category": "browser-extension", "primitives": ["noul"], "status": "live", "url": "https://github.com/pjrpjr/qingliu", "tweet": null, "stars": null, "one_liner": "X-timeline cleaner (FeedSieve derivative) — the only Chinese project publishing calibration data", "metrics": "0.7% false-kill; +47% catch vs keyword lists"},
-    {"name": "jevplays-pokemon", "author": "anxkhn / milanboers", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://github.com/anxkhn/JevPlaysPokemon", "tweet": null, "stars": null, "one_liner": "GBA Pokémon battle decisions from stats/moves/state", "metrics": null},
-    {"name": "tsai-sc (StarCraft)", "author": "phyous", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://github.com/phyous/tsai-sc", "tweet": null, "stars": null, "one_liner": "Original StarCraft campaign with structured-state harness, verified run + probability trace", "metrics": null},
-    {"name": "typesafe-mario", "author": "fhshaik (@faadilhshaik)", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://github.com/fhshaik/typesafe-mario", "tweet": "https://madewithjev.com/builds/jev-plays-mario", "stars": 260, "one_liner": "Super Mario Bros from structured emulator state", "metrics": null},
-    {"name": "heist-one", "author": "AbdelStark", "category": "game", "primitives": ["noul", "choice", "score"], "status": "live", "url": "https://github.com/AbdelStark/heist-one", "tweet": null, "stars": null, "one_liner": "Browser stealth game where Jev supplies batched guard judgments", "metrics": null},
-    {"name": "jev-drone", "author": "RomanSlack", "category": "robotics", "primitives": ["noul", "choice", "score"], "status": "live", "url": "https://github.com/RomanSlack/jev-drone", "tweet": null, "stars": 58, "one_liner": "Camera-only MuJoCo quadrotor; code owns control, Jev judges tactics", "metrics": "2.5 Hz judgment loop"},
-    {"name": "jev_vampire_survivors", "author": "oldmoldycake", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://github.com/oldmoldycake/jev_vampire_survivors", "tweet": null, "stars": null, "one_liner": "Jev plays Vampire Survivors on Steam via BepInEx plugin — first commercial-game mod", "metrics": null},
-    {"name": "slay-the-spire-2", "author": "@coolish (paulwei)", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/slay-the-spire-2", "tweet": "https://madewithjev.com/builds/slay-the-spire-2", "stars": null, "one_liner": "Slay the Spire 2 at superhuman speed (most-shared Chinese-language demo)", "metrics": "0.7s per move"},
-    {"name": "subway-surfers", "author": "@_MaxBlade", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/subway-surfers", "tweet": "https://madewithjev.com/builds/subway-surfers", "stars": null, "one_liner": "Superhuman Subway Surfers, 50 games at once", "metrics": "<$0.01 per run"},
-    {"name": "smash-bros", "author": "@maubaron", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/smash-bros", "tweet": "https://madewithjev.com/builds/smash-bros", "stars": null, "one_liner": "Jev controls all 4 Smash Bros characters against itself", "metrics": "22M tokens for a few cents"},
-    {"name": "jev-plays-tetris", "author": "@AlanDaitch", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/jev-plays-tetris", "tweet": "https://madewithjev.com/builds/jev-plays-tetris", "stars": null, "one_liner": "Tetris hard mode", "metrics": "0.3s/move; 134 lines in 2 min"},
-    {"name": "jevpilot", "author": "standardagents", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://github.com/standardagents/jevpilot", "tweet": null, "stars": 77, "one_liner": "Three.js driving simulator with Jev autopilot", "metrics": null},
-    {"name": "jev-piano", "author": "Paul / Stephen Wu", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/jev-piano", "tweet": "https://madewithjev.com/builds/jev-piano", "stars": null, "one_liner": "'Jev can't write a note, but with the right questions it improvises piano'", "metrics": null},
-    {"name": "realtime-game-levels", "author": "@HugoDuprez", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/realtime-game-levels", "tweet": "https://madewithjev.com/builds/realtime-game-levels", "stars": null, "one_liner": "Real-time level generation by choosing among level components", "metrics": "~319ms per segment"},
-    {"name": "webmcp-benchmark (WindTunnel)", "author": "nekuda-ai (@0xidanlevin)", "category": "eval", "primitives": ["choice"], "status": "live", "url": "https://github.com/nekuda-ai/WindTunnel", "tweet": "https://madewithjev.com/builds/webmcp-benchmark", "stars": null, "one_liner": "Jev+Mercury+WebMCP benchmark; most important baseline finding of week 1", "metrics": "49/49 tasks at ~112x lower model cost vs GPT-6 Astra; bare Jev only 25/49"},
-    {"name": "janus", "author": "FirasSX914", "category": "eval", "primitives": ["noul"], "status": "live", "url": "https://github.com/FirasSX914/Janus", "tweet": null, "stars": null, "one_liner": "Calibration measurement on Banking77 + Web of Science; routing params do NOT transfer across datasets", "metrics": null},
-    {"name": "jev-judge-vs-dimensions", "author": "agentjournal.dev", "category": "eval", "primitives": ["noul", "choice", "score"], "status": "live", "url": "https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/", "tweet": null, "stars": null, "one_liner": "One judge call vs 12-14 scored dimensions across 3 tasks", "metrics": "$1.43 / 34.1M tokens; 12-way Choice only 0.40; confidence>=0.9 rows only 72.2% accurate"},
-    {"name": "openjev (hosted)", "author": "razorback16 (u/Every-Comment5473)", "category": "clone", "primitives": [], "status": "live", "url": "https://github.com/razorback16/openjev", "tweet": null, "stars": null, "one_liner": "Jev-API-compatible server on DiffusionGemma (Matt Mastracci's vLLM PR), free hosting at codiv.ai — NOT official", "metrics": "DiffusionGemma-as-Jev 198/201 vs Jev 191/201 (mmastrac evals)"},
-    {"name": "semif", "author": "TheoLeeCJ", "category": "clone", "primitives": [], "status": "live", "url": "https://github.com/TheoLeeCJ/SemIf", "tweet": null, "stars": 1647, "one_liner": "'Semantic ifs from open models, on a 3090 at home' — top-starred replica — NOT official", "metrics": null},
-    {"name": "jevlike", "author": "vinnylarouge (Vincent Wang-Maścianica)", "category": "clone", "primitives": [], "status": "live", "url": "https://github.com/vinnylarouge/jevlike", "tweet": null, "stars": 905, "one_liner": "Reverse-engineered one-pass option scorer; same head scores Doom buttons & chess from image patches — NOT official", "metrics": "~100x faster than small decoder writing 400 tokens"},
-    {"name": "nanajev", "author": "TianyuCodings", "category": "clone", "primitives": [], "status": "live", "url": "https://github.com/TianyuCodings/NanoJev", "tweet": null, "stars": 451, "one_liner": "Nano replica: parallel decisions, dynamic candidates, end-to-end training pipeline — NOT official", "metrics": null},
-    {"name": "simple-jev", "author": "featherless-ai", "category": "clone", "primitives": [], "status": "live", "url": "https://github.com/featherless-ai/simple-jev", "tweet": null, "stars": 99, "one_liner": "Turn any open model into a Jev-style endpoint — NOT official", "metrics": null},
-    {"name": "eve", "author": "vercel", "category": "platform", "primitives": [], "status": "live", "url": "https://github.com/vercel/eve", "tweet": null, "stars": 5253, "one_liner": "Vercel's agent engine ships Jev as the default evaluation model", "metrics": null},
-    {"name": "typesafe skill", "author": "typesafe-ai", "category": "official", "primitives": [], "status": "live", "url": "https://github.com/typesafe-ai/skills", "tweet": null, "stars": 205, "one_liner": "Official agent skill for designing TypeSafe workflows", "metrics": null},
-    {"name": "smart-home demo", "author": "typesafe-ai", "category": "official", "primitives": ["choice", "noul"], "status": "live", "url": "https://docs.typesafe.ai/demos/smart-home", "tweet": null, "stars": null, "one_liner": "Official demo: speculative questions + LLM fallback", "metrics": null},
-    {"name": "doom bot", "author": "typesafe-ai", "category": "official", "primitives": ["choice"], "status": "live", "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev", "tweet": "https://x.com/CompleteSkeptic/status/2099924592534183936", "stars": null, "one_liner": "Official launch demo: Jev plays Doom on structured text state", "metrics": "~10 queries/s, ~$7/hour"},
-    {"name": "keystroke-oracle", "author": "@dabit3 (Nader Dabit)", "category": "content-scoring", "primitives": ["choice"], "status": "live", "url": "https://github.com/dabit3/jev-experiments", "tweet": "https://madewithjev.com/builds/predictive-launcher", "stars": 254, "one_liner": "Predictive launcher / spreadsheets / Gmail intent search (experiment collection)", "metrics": "~100ms per keystroke"},
-    {"name": "jev-calc", "author": "@thekitze", "category": "content-scoring", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/jev-calc", "tweet": "https://madewithjev.com/builds/jev-calc", "stars": null, "one_liner": "Smart calculator notebook that 'can calculate ANYTHING'", "metrics": null},
-    {"name": "skillbox", "author": "@thekitze", "category": "sdk", "primitives": ["score"], "status": "live", "url": "https://github.com/kitze/skillbox", "tweet": null, "stars": 163, "one_liner": "Self-hosted versioned skills library with optional Jev recommendations", "metrics": null},
-    {"name": "unclutter", "author": "@thekitze", "category": "browser-extension", "primitives": ["noul"], "status": "live", "url": "https://github.com/kitze/unclutter", "tweet": null, "stars": 107, "one_liner": "WXT extension: per-element Jev decisions remove page clutter", "metrics": null},
-    {"name": "jev-browser-use", "author": "wy-coliney (EZCollegeApp)", "category": "browser-agent", "primitives": ["choice"], "status": "live", "url": "https://github.com/wy-coliney/jev-browser-use", "tweet": null, "stars": 131, "one_liner": "Jev clicks, Codex thinks and verifies — production at EZCollegeApp", "metrics": "5-10x faster browser operations (author-reported)"},
-    {"name": "stagehand-remote-browser", "author": "@kylejeong", "category": "browser-agent", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/stagehand-remote-browser", "tweet": "https://madewithjev.com/builds/stagehand-remote-browser", "stars": null, "one_liner": "Jev + Stagehand: a11y tree as state, near-instant remote browser ops", "metrics": "$0.001 per task"},
-    {"name": "computer-use-without-screenshots", "author": "@milindlabs", "category": "browser-agent", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/computer-use-without-screenshots", "tweet": "https://madewithjev.com/builds/computer-use-without-screenshots", "stars": null, "one_liner": "Local CoreML UI segmentation + OCR → Jev decides; no screenshots, no pixels leave the machine", "metrics": "~90ms per decision"},
-    {"name": "typesafe-computer-use", "author": "awlevin (Andrew Levin)", "category": "browser-agent", "primitives": ["choice"], "status": "live", "url": "https://madewithjev.com/builds/typesafe-computer-use", "tweet": null, "stars": 202, "one_liner": "macOS computer use, one Jev decision per step", "metrics": "~$0.0002 per step"},
-    {"name": "mobile-jev", "author": "droidrun", "category": "browser-agent", "primitives": ["choice"], "status": "live", "url": "https://github.com/droidrun/mobile-jev", "tweet": null, "stars": 99, "one_liner": "Standalone Android agent + React studio + Uber demo", "metrics": null},
-    {"name": "snifftest", "author": "DanRWilloughby", "category": "code-quality", "primitives": ["noul"], "status": "live", "url": "https://github.com/DanRWilloughby/snifftest", "tweet": null, "stars": null, "one_liner": "Linter for AI-writing tells", "metrics": null},
-    {"name": "riff", "author": "scale-venture-partners", "category": "code-quality", "primitives": ["score"], "status": "live", "url": "https://github.com/scale-venture-partners/riff", "tweet": null, "stars": null, "one_liner": "ruff-style prose linter from Scale Venture Partners", "metrics": null},
-    {"name": "commit-miner", "author": "devanshbatham", "category": "agent-safety", "primitives": ["choice"], "status": "live", "url": "https://github.com/devanshbatham/commit-miner", "tweet": null, "stars": 21, "one_liner": "Rust commit classification with CVE/CWE linkage", "metrics": null},
-    {"name": "pkg-gate", "author": "hemanth", "category": "agent-safety", "primitives": ["noul"], "status": "live", "url": "https://github.com/hemanth/pkg-gate", "tweet": null, "stars": null, "one_liner": "npm lifecycle-script security gate", "metrics": null},
-    {"name": "jev-chess", "author": "hemanth", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://github.com/hemanth/jev-chess", "tweet": null, "stars": null, "one_liner": "Chess moves, evaluations, persona opponents, game classification", "metrics": null},
-    {"name": "jev-tree", "author": "nicobailon", "category": "sdk", "primitives": ["choice"], "status": "live", "url": "https://github.com/nicobailon/jev-tree", "tweet": null, "stars": null, "one_liner": "Recursive Choice past the 255-option ceiling — community patch to an official limit", "metrics": null},
-    {"name": "invalidate", "author": "chopratejas", "category": "agent-safety", "primitives": ["noul"], "status": "live", "url": "https://github.com/chopratejas/invalidate", "tweet": null, "stars": 2, "one_liner": "Invalidation layer for AI memory: every fact gets a lease, new evidence ends it", "metrics": null},
-    {"name": "kamchatka assisted-shell", "author": "ljedrz", "category": "agent-safety", "primitives": ["score"], "status": "live", "url": "https://github.com/ljedrz/nachalnik", "tweet": null, "stars": null, "one_liner": "Color-coded safety rating for every shell command an agent wants to run; + Jev compaction example", "metrics": null},
-    {"name": "type-safe typewriter", "author": "Steve Krouse (Val Town)", "category": "content-scoring", "primitives": ["noul", "choice", "score"], "status": "live", "url": "https://typesafe-demo.val.run/", "tweet": "https://x.com/stevekrouse/status/2100287368221659289", "stars": null, "one_liner": "16 live typed judgments updating as you type", "metrics": null},
-    {"name": "roulette-wars", "author": "@NicoSaraintaris", "category": "game", "primitives": ["choice"], "status": "live", "url": "https://x.com/NicoSaraintaris/status/2100745151622664392", "tweet": "https://x.com/NicoSaraintaris/status/2100745151622664392", "stars": null, "one_liner": "Jev played the author's own game start-to-finish with zero human input", "metrics": null},
-    {"name": "robo-harness", "author": "grmkris", "category": "robotics", "primitives": ["choice"], "status": "live", "url": "https://risetive.com/jev", "tweet": null, "stars": null, "one_liner": "SO-101 real robot-arm workbench picking bounded joint steps under budget", "metrics": null},
-    {"name": "zero-shot robot tasks", "author": "@taratt", "category": "robotics", "primitives": ["choice"], "status": "live", "url": "https://www.linkedin.com/posts/taratt_zero-shot-robot-tasks-with-the-new-typesafe-activity-7506600373059588096-FlJN", "tweet": null, "stars": null, "one_liner": "Spoken instruction → zero-shot manipulation demo", "metrics": null},
-    {"name": "madewithjev.com", "author": "community", "category": "directory", "primitives": [], "status": "live", "url": "https://madewithjev.com/", "tweet": null, "stars": null, "one_liner": "178 builds / 76 embedded X posts / 78 GitHub projects, each with cost & latency", "metrics": null},
-    {"name": "awesomejev.com", "author": "community", "category": "directory", "primitives": [], "status": "live", "url": "https://awesomejev.com/", "tweet": null, "stars": null, "one_liner": "488 entries / 21,644 stars tracked — the largest directory", "metrics": null},
-    {"name": "typesafeai.app", "author": "community", "category": "directory", "primitives": [], "status": "live", "url": "https://typesafeai.app/", "tweet": null, "stars": null, "one_liner": "Evidence-graded capability index (all entries editor-reproduced)", "metrics": null},
-    {"name": "peepo-comfy safety layer", "author": "u/peepo_comfy", "category": "idea", "primitives": ["score"], "status": "idea", "url": "https://www.reddit.com/r/PiCodingAgent/comments/1whsav6/", "tweet": null, "stars": null, "one_liner": "Tool-call safety scoring layer + model-router concept (in progress)", "metrics": null},
-    {"name": "api router over 250-300 calls", "author": "u/o_sht_hi", "category": "idea", "primitives": ["choice"], "status": "idea", "url": "https://www.reddit.com/r/PiCodingAgent/comments/1wjibh5/anyone_here_using_jev/", "tweet": null, "stars": null, "one_liner": "Natural-language routing to one of 250-300 internal APIs", "metrics": null},
-    {"name": "cv reranking", "author": "u/lovelace6329", "category": "idea", "primitives": ["score"], "status": "idea", "url": "https://www.reddit.com/r/PiCodingAgent/comments/1wjibh5/anyone_here_using_jev/", "tweet": null, "stars": null, "one_liner": "Rerank top-20 candidates in an existing internal matching engine", "metrics": null},
-    {"name": "gbc translation navigation", "author": "u/porkyminch", "category": "idea", "primitives": ["choice"], "status": "idea", "url": "https://www.reddit.com/r/PiCodingAgent/comments/1whsav6/", "tweet": null, "stars": null, "one_liner": "Menu navigation decisions for GameBoy Color game translation", "metrics": null}
+    {
+      "name": "pi-warden",
+      "author": "DevMortimer (u/95-cosmo-changer)",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/DevMortimer/pi-warden",
+      "tweet": "https://x.com/AISuperDomain/status/2100536937664938408",
+      "stars": 65,
+      "one_liner": "Jev-powered second pair of eyes for the Pi coding agent: judges irreversibility/intent-match of every tool call and steers instead of interrupting",
+      "metrics": "self-graded on 17k real calls: 42 holds, ~88% correct, ~2% regret"
+    },
+    {
+      "name": "foreman",
+      "author": "thruwire",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/thruwire/foreman",
+      "tweet": null,
+      "stars": 309,
+      "one_liner": "Software-factory supervisor: parallel Noul questions (implementation_complete / worker_stuck / needs_verification) over a live Codex worker",
+      "metrics": null
+    },
+    {
+      "name": "rh-guard",
+      "author": "24601",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/24601/rh-guard",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Reward-hack radar: blocks agents tampering with graders/hidden tests; structural denies + Jev sidecar",
+      "metrics": null
+    },
+    {
+      "name": "hermes-jev-approvals",
+      "author": "anpicasso",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/anpicasso/hermes-jev-approvals",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Jev as reviewer for Hermes Agent smart-command approvals",
+      "metrics": "8.7x faster, 4x cheaper on 153 commands"
+    },
+    {
+      "name": "is-malicious",
+      "author": "lu4p_ (luantak)",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/luantak/is-malicious",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "CLI scanning source/CI/config files for malicious behavior with file+line pointers",
+      "metrics": null
+    },
+    {
+      "name": "jev-guard (specpi)",
+      "author": "fingerthief",
+      "category": "agent-safety",
+      "primitives": [
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://tannermidd.github.io/specpi-jev-guard/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Command guard built on OpenRouter's Jev endpoint",
+      "metrics": null
+    },
+    {
+      "name": "winnow",
+      "author": "GhalebDweikat",
+      "category": "compaction",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/GhalebDweikat/winnow",
+      "tweet": null,
+      "stars": 17,
+      "one_liner": "Calibrated context sieve for Claude Code: judges every ~25-line block, replaces unneeded ones with recoverable stubs",
+      "metrics": null
+    },
+    {
+      "name": "jev-pruner",
+      "author": "tamaratran",
+      "category": "compaction",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/tamaratran/jev-pruner",
+      "tweet": "https://madewithjev.com/builds/instant-compaction",
+      "stars": 12,
+      "one_liner": "Claude Code plugin: prunes Bash stdout after execution, before the model sees it",
+      "metrics": null
+    },
+    {
+      "name": "fast-jev-compaction",
+      "author": "tamaratran",
+      "category": "compaction",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "tweet": "https://madewithjev.com/builds/instant-compaction",
+      "stars": 2735,
+      "one_liner": "Claude Code compaction via Jev decisions, verbatim keep — #1 starred community tooling repo",
+      "metrics": null
+    },
+    {
+      "name": "jev-codex-router",
+      "author": "0xNatoshi",
+      "category": "routing",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/0xNatoshi/jev-codex-router",
+      "tweet": null,
+      "stars": 29,
+      "one_liner": "Per-turn model + reasoning-effort routing for Codex driven by Jev",
+      "metrics": "-60% cost on 7-day/237-turn backtest; $0.00003 per decision"
+    },
+    {
+      "name": "jev-router",
+      "author": "gargpratyush",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/gargpratyush/jev-router",
+      "tweet": null,
+      "stars": 154,
+      "one_liner": "Routes Claude Code tasks to the cheapest capable model via Jev",
+      "metrics": null
+    },
+    {
+      "name": "vexjoy-agent",
+      "author": "notque",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/notque/vexjoy-agent",
+      "tweet": null,
+      "stars": 420,
+      "one_liner": "'/do' routes plain-English requests to the right skill",
+      "metrics": null
+    },
+    {
+      "name": "jev-ultrafast",
+      "author": "browser-use (Gregor Zunic @gregpr07)",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "tweet": "https://x.com/gregpr07/status/2100411066966749359",
+      "stars": 5955,
+      "one_liner": "Browser agent with dynamic indexed action space; one Jev request decides operation + target, small LLM only types text",
+      "metrics": "Zurich→London flights in 7.1s ($0.0039); protocol calls 1092→101"
+    },
+    {
+      "name": "jev-voice-browser",
+      "author": "moritzkremb",
+      "category": "voice",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/moritzkremb/jev-voice-browser",
+      "tweet": "https://x.com/moritzkremb/status/2100577979021832365",
+      "stars": 42,
+      "one_liner": "Control a real browser by voice: 9-11 typed questions per partial transcript decide act/wait/ask/ignore",
+      "metrics": "~250-350ms per decision, $0.0002 per call"
+    },
+    {
+      "name": "x-post-firewall",
+      "author": "@marcelpociot",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://x.com/marcelpociot/status/2100520134481735729",
+      "tweet": "https://x.com/marcelpociot/status/2100520134481735729",
+      "stars": null,
+      "one_liner": "Browser extension hiding/collapsing X posts via natural language",
+      "metrics": null
+    },
+    {
+      "name": "x-scanner",
+      "author": "oso95",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/oso95/x-scanner",
+      "tweet": null,
+      "stars": 7,
+      "one_liner": "Labels every X post with 6 typed judgments + exact-cost counter",
+      "metrics": "~150ms/post; '80 posts, $0.0027' exact USD"
+    },
+    {
+      "name": "typesafe-adblock",
+      "author": "realZachi (@iam_zachi)",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/realZachi/typesafe-adblock",
+      "tweet": "https://madewithjev.com/builds/realtime-ad-blocker",
+      "stars": 48,
+      "one_liner": "Chrome extension asking Jev 'is this DOM element an ad?'",
+      "metrics": null
+    },
+    {
+      "name": "youtube-sponsor-skipper",
+      "author": "Tony Dinh (@tdinh_me, trungdq88)",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/trungdq88/youtube-sponsor-detection",
+      "tweet": "https://madewithjev.com/builds/youtube-sponsor-skipper",
+      "stars": 57,
+      "one_liner": "Listens to YouTube audio, detects sponsor segments, skips in real time",
+      "metrics": "~$0.005 per video"
+    },
+    {
+      "name": "linkedin-noslop-extension",
+      "author": "sushrutb17 (+ Walid Boulanouar 2-layer)",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/sushrutb17/linkedin-noslop-extension",
+      "tweet": "https://www.linkedin.com/posts/walid-boulanouar_i-built-a-browser-extension-that-removes-activity-7506661817759383553-mAdD",
+      "stars": null,
+      "one_liner": "Blurs low-value LinkedIn feed posts",
+      "metrics": null
+    },
+    {
+      "name": "zhihu-ai-filter",
+      "author": "yink12138",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/yink12138/zhihu-ai-filter",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Edge extension filtering Zhihu feed with Jev — first Chinese-platform-native filter",
+      "metrics": null
+    },
+    {
+      "name": "killmyidea",
+      "author": "stemonte",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "http://killmyidea.stemonte.io",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Scores startup ideas via 10 parallel 0-4 rubrics; weighted verdict in code",
+      "metrics": "sub-second; documented phrasing-sensitivity failure"
+    },
+    {
+      "name": "SuperX post scoring",
+      "author": "@robj3d3 (Rob Hallam)",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/superx-post-scoring",
+      "tweet": "https://x.com/robj3d3/status/2100722975645598191",
+      "stars": null,
+      "one_liner": "61 typed questions per draft post; virality scoring fitted on 9,481 real posts",
+      "metrics": "~1s and $0.0004 per post; picks viral post 2-in-3"
+    },
+    {
+      "name": "competitor-ad-teardown",
+      "author": "@TheMattBerman",
+      "category": "content-scoring",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/competitor-ad-teardown",
+      "tweet": "https://madewithjev.com/builds/competitor-ad-teardown",
+      "stars": null,
+      "one_liner": "Broke down 724 live ads from 37 brands (hook/format/offer/CTA/mismatch)",
+      "metrics": "~40s, $0.09; shipping in stealads + MCP"
+    },
+    {
+      "name": "x-post-analysis",
+      "author": "@iannuttall (Ian Nuttall)",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/x-post-analysis",
+      "tweet": "https://madewithjev.com/builds/x-post-analysis",
+      "stars": null,
+      "one_liner": "Analyzed own 3,282 X posts (100M views) with 8 questions each",
+      "metrics": "4.25M tokens, 8m34s, $0.1282; how-to median 150 vs 44 likes"
+    },
+    {
+      "name": "every-editorial-judgments",
+      "author": "@danshipper (Every)",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/categories/content-and-growth",
+      "tweet": "https://madewithjev.com/categories/content-and-growth",
+      "stars": null,
+      "one_liner": "Editorial vibe-check at Every: production writing-quality gate",
+      "metrics": "1,709 judgments, <$0.01 total, 0.35s median"
+    },
+    {
+      "name": "supercov",
+      "author": "@Nedomas (supercorp-ai)",
+      "category": "code-quality",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/supercorp-ai/supercov",
+      "tweet": null,
+      "stars": 25,
+      "one_liner": "Per-file code quality scores so coding agents know what to fix first",
+      "metrics": "matches CodeRabbit-class scores at ~100x lower cost (author-reported)"
+    },
+    {
+      "name": "jev-review",
+      "author": "devagrawal09",
+      "category": "code-quality",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/devagrawal09/jev-review",
+      "tweet": null,
+      "stars": 253,
+      "one_liner": "Staged code-review workflow + local dashboard over focused Jev calls",
+      "metrics": null
+    },
+    {
+      "name": "jev-review (MCP)",
+      "author": "NiazMorshed2007 (@niazmorshed_)",
+      "category": "code-quality",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/NiazMorshed2007/jev-review",
+      "tweet": "https://madewithjev.com/builds/jev-review",
+      "stars": 113,
+      "one_liner": "Local-first MCP plugin: quality feedback loop while the agent works",
+      "metrics": null
+    },
+    {
+      "name": "git-judge-jev",
+      "author": "davidrydberg",
+      "category": "code-quality",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/davidrydberg/git-judge-jev",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "GitHub Action: comments what an agent-written PR actually does",
+      "metrics": null
+    },
+    {
+      "name": "diffjury",
+      "author": "@raihankhan_rk",
+      "category": "code-quality",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://diffjury.up.railway.app",
+      "tweet": "https://madewithjev.com/builds/diffjury",
+      "stars": null,
+      "one_liner": "Paste a PR link, Jev rules safe-to-merge vs needs-review",
+      "metrics": null
+    },
+    {
+      "name": "attest",
+      "author": "quorumtech.ch",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://quorumtech.ch/attest",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Claim-verification API; verdicts cite exact supporting/contradicting spans",
+      "metrics": "95.9% verdict accuracy / 1.6% overclaim on 190 labels; order flips 5.8%"
+    },
+    {
+      "name": "tax-doc-classifier",
+      "author": "kyotofin",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/kyotofin/tax-doc-classifier",
+      "tweet": null,
+      "stars": 153,
+      "one_liner": "Tax document page classification",
+      "metrics": "100% strict accuracy across 261 IRS forms (author-reported)"
+    },
+    {
+      "name": "LegalForecast-MTD",
+      "author": "johnhughes3",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://risetive.com/jev",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Predicts federal motion-to-dismiss rulings; micro-Brier scoring",
+      "metrics": null
+    },
+    {
+      "name": "typesafe-screening-mcp",
+      "author": "masa-med-ai",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/masa-med-ai/typesafe-screening-mcp",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Screens PubMed titles/abstracts against a clinical question (MCP)",
+      "metrics": null
+    },
+    {
+      "name": "jev-reviewer",
+      "author": "choxos (Ahmad Sofi-Mahmudi)",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/choxos/jev-reviewer",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Systematic-review data extraction with verbatim quotes from papers",
+      "metrics": null
+    },
+    {
+      "name": "jev-loan-triage",
+      "author": "ravikadam",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ravikadam/jev-loan-triage",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Voice loan-call triage: intent, info sufficiency, lending decision",
+      "metrics": null
+    },
+    {
+      "name": "clay-workflows",
+      "author": "@outboundphd",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://www.linkedin.com/posts/outboundphd_so-jev-does-in-fact-work-for-building-clay-activity-7506771976632451072-co-4",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Jev builds GTM workflows in Clay instantly",
+      "metrics": null
+    },
+    {
+      "name": "mac-support-agent",
+      "author": "@malekoo",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/categories/triage-and-routing",
+      "tweet": "https://madewithjev.com/categories/triage-and-routing",
+      "stars": null,
+      "one_liner": "Offline install/troubleshooting QA: Jev picks which manual article answers, app answers from its own docs",
+      "metrics": "42/42 on held-out set"
+    },
+    {
+      "name": "fraud-detection cascade",
+      "author": "@nutlope (Hassan)",
+      "category": "content-scoring",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/fraud-detection-jev-kimi",
+      "tweet": "https://madewithjev.com/builds/fraud-detection-jev-kimi",
+      "stars": null,
+      "one_liner": "Jev classifies, sub-95%-confidence routes to Kimi K3 — the textbook cascade",
+      "metrics": "100 emails in 1.42s; pipeline 96/100 at $0.07"
+    },
+    {
+      "name": "1kpapers",
+      "author": "@nutlope (Hassan)",
+      "category": "content-scoring",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/1kpapers",
+      "tweet": "https://madewithjev.com/builds/1kpapers",
+      "stars": null,
+      "one_liner": "1,018 papers × 24 topic choices each",
+      "metrics": "$0.08 total, 256ms median"
+    },
+    {
+      "name": "keep.md search+tagging",
+      "author": "@iannuttall",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/categories/research-and-data",
+      "tweet": "https://madewithjev.com/categories/research-and-data",
+      "stars": null,
+      "one_liner": "Production migration of keep.md search rerank + tagging (Cloudflare Workers)",
+      "metrics": "rerank 7x faster, tagging 50x faster vs GLM 4.7 Flash, zero failures"
+    },
+    {
+      "name": "regex-to-jev migration",
+      "author": "@illyism (ILIAS ISM)",
+      "category": "platform",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/regex-to-jev",
+      "tweet": "https://madewithjev.com/builds/regex-to-jev",
+      "stars": null,
+      "one_liner": "Moved vibe-coded regex rules to Jev across 3 production sites (aiseotracker/linkdr/genppt)",
+      "metrics": "~10x faster, ~50% cheaper (author-reported)"
+    },
+    {
+      "name": "jev-trader",
+      "author": "@jarrodwatts",
+      "category": "trading",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/jarrodwatts/jev-trader",
+      "tweet": "https://x.com/jarrodwatts/status/2100356151468585346",
+      "stars": 929,
+      "one_liner": "One AI trade decision every 300ms Monad block on Kuru MON-USDC",
+      "metrics": "real on-chain orders; demo at jev-trader.vercel.app"
+    },
+    {
+      "name": "paper-trading engine",
+      "author": "@BrendanPlayford",
+      "category": "trading",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://x.com/BrendanPlayford/status/2100614031845539975",
+      "tweet": "https://x.com/BrendanPlayford/status/2100614031845539975",
+      "stars": null,
+      "one_liner": "Jev + fine-tuned model trading engine, forward paper results",
+      "metrics": "375 paper trades, 41.1% win rate (honest, unfiltered)"
+    },
+    {
+      "name": "10k-trading",
+      "author": "@abolbuild",
+      "category": "trading",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/10k-trading",
+      "tweet": "https://madewithjev.com/builds/10k-trading",
+      "stars": null,
+      "one_liner": "'I gave Jev $10,000 and let it trade'",
+      "metrics": null
+    },
+    {
+      "name": "jevocks",
+      "author": "Prosper Otemuyiwa",
+      "category": "trading",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/jevocks",
+      "tweet": "https://madewithjev.com/builds/jevocks",
+      "stars": null,
+      "one_liner": "Stock terminal: Valyu brings evidence, Jev gives the status",
+      "metrics": null
+    },
+    {
+      "name": "crowdcheck",
+      "author": "vercel.app demo",
+      "category": "content-scoring",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://crowdcheck-ai.vercel.app/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Tests a 144-char post against 10,000 persistent synthetic personas",
+      "metrics": null
+    },
+    {
+      "name": "ha-jev",
+      "author": "AboveColin",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/AboveColin/HA-Jev",
+      "tweet": null,
+      "stars": 6,
+      "one_liner": "Home Assistant integration: typed questions over entity state as sensors/automations, with token-budget fuse",
+      "metrics": null
+    },
+    {
+      "name": "pg-jev",
+      "author": "realZachi (@iam_zachi)",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/realZachi/pg-jev",
+      "tweet": "https://madewithjev.com/builds/postgres-jev-function",
+      "stars": 175,
+      "one_liner": "PostgreSQL extension: WHERE jev(people, 'could work from home')",
+      "metrics": "129 rows judged ~1s for $0.0009; 6ms cached"
+    },
+    {
+      "name": "vgi-typesafe",
+      "author": "Query-farm",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Query-farm/vgi-typesafe",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "DuckDB: Choice/Noul/Score as SQL table functions + is_true() in WHERE",
+      "metrics": null
+    },
+    {
+      "name": "jevframe",
+      "author": "ktaletsk",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ktaletsk/jevframe",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Semantic layer for pandas/Polars: classify/score DataFrame rows",
+      "metrics": null
+    },
+    {
+      "name": "jev-shell-history",
+      "author": "mrnugget",
+      "category": "data-infra",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/mrnugget/jev-shell-history",
+      "tweet": null,
+      "stars": 33,
+      "one_liner": "Fish-style zsh autosuggestions ranked by Jev, async per keystroke",
+      "metrics": null
+    },
+    {
+      "name": "jev-cli (jevctl)",
+      "author": "Nasrallah-AL",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Nasrallah-AL/jev-cli",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Jev judgments as pipeable exit-code shell commands; TypeSafe/OpenRouter/CF Workers AI; Claude Code plugin",
+      "metrics": null
+    },
+    {
+      "name": "jevmeter",
+      "author": "ChetasLua (@chetaslua)",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ChetasLua/jevmeter",
+      "tweet": "https://x.com/chetaslua/status/2100473581251748216",
+      "stars": 53,
+      "one_liner": "Live per-sentence truthiness meter rendered onto video",
+      "metrics": null
+    },
+    {
+      "name": "qingliu (清流)",
+      "author": "pjrpjr",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/pjrpjr/qingliu",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "X-timeline cleaner (FeedSieve derivative) — the only Chinese project publishing calibration data",
+      "metrics": "0.7% false-kill; +47% catch vs keyword lists"
+    },
+    {
+      "name": "jevplays-pokemon",
+      "author": "anxkhn / milanboers",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/anxkhn/JevPlaysPokemon",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "GBA Pokémon battle decisions from stats/moves/state",
+      "metrics": null
+    },
+    {
+      "name": "tsai-sc (StarCraft)",
+      "author": "phyous",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/phyous/tsai-sc",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Original StarCraft campaign with structured-state harness, verified run + probability trace",
+      "metrics": null
+    },
+    {
+      "name": "typesafe-mario",
+      "author": "fhshaik (@faadilhshaik)",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/fhshaik/typesafe-mario",
+      "tweet": "https://madewithjev.com/builds/jev-plays-mario",
+      "stars": 260,
+      "one_liner": "Super Mario Bros from structured emulator state",
+      "metrics": null
+    },
+    {
+      "name": "heist-one",
+      "author": "AbdelStark",
+      "category": "game",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/AbdelStark/heist-one",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Browser stealth game where Jev supplies batched guard judgments",
+      "metrics": null
+    },
+    {
+      "name": "jev-drone",
+      "author": "RomanSlack",
+      "category": "robotics",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/RomanSlack/jev-drone",
+      "tweet": null,
+      "stars": 58,
+      "one_liner": "Camera-only MuJoCo quadrotor; code owns control, Jev judges tactics",
+      "metrics": "2.5 Hz judgment loop"
+    },
+    {
+      "name": "jev_vampire_survivors",
+      "author": "oldmoldycake",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/oldmoldycake/jev_vampire_survivors",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Jev plays Vampire Survivors on Steam via BepInEx plugin — first commercial-game mod",
+      "metrics": null
+    },
+    {
+      "name": "slay-the-spire-2",
+      "author": "@coolish (paulwei)",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/slay-the-spire-2",
+      "tweet": "https://madewithjev.com/builds/slay-the-spire-2",
+      "stars": null,
+      "one_liner": "Slay the Spire 2 at superhuman speed (most-shared Chinese-language demo)",
+      "metrics": "0.7s per move"
+    },
+    {
+      "name": "subway-surfers",
+      "author": "@_MaxBlade",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/subway-surfers",
+      "tweet": "https://madewithjev.com/builds/subway-surfers",
+      "stars": null,
+      "one_liner": "Superhuman Subway Surfers, 50 games at once",
+      "metrics": "<$0.01 per run"
+    },
+    {
+      "name": "smash-bros",
+      "author": "@maubaron",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/smash-bros",
+      "tweet": "https://madewithjev.com/builds/smash-bros",
+      "stars": null,
+      "one_liner": "Jev controls all 4 Smash Bros characters against itself",
+      "metrics": "22M tokens for a few cents"
+    },
+    {
+      "name": "jev-plays-tetris",
+      "author": "@AlanDaitch",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/jev-plays-tetris",
+      "tweet": "https://madewithjev.com/builds/jev-plays-tetris",
+      "stars": null,
+      "one_liner": "Tetris hard mode",
+      "metrics": "0.3s/move; 134 lines in 2 min"
+    },
+    {
+      "name": "jevpilot",
+      "author": "standardagents",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/standardagents/jevpilot",
+      "tweet": null,
+      "stars": 77,
+      "one_liner": "Three.js driving simulator with Jev autopilot",
+      "metrics": null
+    },
+    {
+      "name": "jev-piano",
+      "author": "Paul / Stephen Wu",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/jev-piano",
+      "tweet": "https://madewithjev.com/builds/jev-piano",
+      "stars": null,
+      "one_liner": "'Jev can't write a note, but with the right questions it improvises piano'",
+      "metrics": null
+    },
+    {
+      "name": "realtime-game-levels",
+      "author": "@HugoDuprez",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/realtime-game-levels",
+      "tweet": "https://madewithjev.com/builds/realtime-game-levels",
+      "stars": null,
+      "one_liner": "Real-time level generation by choosing among level components",
+      "metrics": "~319ms per segment"
+    },
+    {
+      "name": "webmcp-benchmark (WindTunnel)",
+      "author": "nekuda-ai (@0xidanlevin)",
+      "category": "eval",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/nekuda-ai/WindTunnel",
+      "tweet": "https://madewithjev.com/builds/webmcp-benchmark",
+      "stars": null,
+      "one_liner": "Jev+Mercury+WebMCP benchmark; most important baseline finding of week 1",
+      "metrics": "49/49 tasks at ~112x lower model cost vs GPT-6 Astra; bare Jev only 25/49"
+    },
+    {
+      "name": "janus",
+      "author": "FirasSX914",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/FirasSX914/Janus",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Calibration measurement on Banking77 + Web of Science; routing params do NOT transfer across datasets",
+      "metrics": null
+    },
+    {
+      "name": "jev-judge-vs-dimensions",
+      "author": "agentjournal.dev",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "One judge call vs 12-14 scored dimensions across 3 tasks",
+      "metrics": "$1.43 / 34.1M tokens; 12-way Choice only 0.40; confidence>=0.9 rows only 72.2% accurate"
+    },
+    {
+      "name": "openjev (hosted)",
+      "author": "razorback16 (u/Every-Comment5473)",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/razorback16/openjev",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Jev-API-compatible server on DiffusionGemma (Matt Mastracci's vLLM PR), free hosting at codiv.ai — NOT official",
+      "metrics": "DiffusionGemma-as-Jev 198/201 vs Jev 191/201 (mmastrac evals)"
+    },
+    {
+      "name": "semif",
+      "author": "TheoLeeCJ",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/TheoLeeCJ/SemIf",
+      "tweet": null,
+      "stars": 1647,
+      "one_liner": "'Semantic ifs from open models, on a 3090 at home' — top-starred replica — NOT official",
+      "metrics": null
+    },
+    {
+      "name": "jevlike",
+      "author": "vinnylarouge (Vincent Wang-Maścianica)",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/vinnylarouge/jevlike",
+      "tweet": null,
+      "stars": 905,
+      "one_liner": "Reverse-engineered one-pass option scorer; same head scores Doom buttons & chess from image patches — NOT official",
+      "metrics": "~100x faster than small decoder writing 400 tokens"
+    },
+    {
+      "name": "nanajev",
+      "author": "TianyuCodings",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/TianyuCodings/NanoJev",
+      "tweet": null,
+      "stars": 451,
+      "one_liner": "Nano replica: parallel decisions, dynamic candidates, end-to-end training pipeline — NOT official",
+      "metrics": null
+    },
+    {
+      "name": "simple-jev",
+      "author": "featherless-ai",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/featherless-ai/simple-jev",
+      "tweet": null,
+      "stars": 99,
+      "one_liner": "Turn any open model into a Jev-style endpoint — NOT official",
+      "metrics": null
+    },
+    {
+      "name": "eve",
+      "author": "vercel",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/vercel/eve",
+      "tweet": null,
+      "stars": 5253,
+      "one_liner": "Vercel's agent engine ships Jev as the default evaluation model",
+      "metrics": null
+    },
+    {
+      "name": "typesafe skill",
+      "author": "typesafe-ai",
+      "category": "official",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/typesafe-ai/skills",
+      "tweet": null,
+      "stars": 205,
+      "one_liner": "Official agent skill for designing TypeSafe workflows",
+      "metrics": null
+    },
+    {
+      "name": "smart-home demo",
+      "author": "typesafe-ai",
+      "category": "official",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://docs.typesafe.ai/demos/smart-home",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Official demo: speculative questions + LLM fallback",
+      "metrics": null
+    },
+    {
+      "name": "doom bot",
+      "author": "typesafe-ai",
+      "category": "official",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "tweet": "https://x.com/CompleteSkeptic/status/2099924592534183936",
+      "stars": null,
+      "one_liner": "Official launch demo: Jev plays Doom on structured text state",
+      "metrics": "~10 queries/s, ~$7/hour"
+    },
+    {
+      "name": "keystroke-oracle",
+      "author": "@dabit3 (Nader Dabit)",
+      "category": "content-scoring",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/dabit3/jev-experiments",
+      "tweet": "https://madewithjev.com/builds/predictive-launcher",
+      "stars": 254,
+      "one_liner": "Predictive launcher / spreadsheets / Gmail intent search (experiment collection)",
+      "metrics": "~100ms per keystroke"
+    },
+    {
+      "name": "jev-calc",
+      "author": "@thekitze",
+      "category": "content-scoring",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/jev-calc",
+      "tweet": "https://madewithjev.com/builds/jev-calc",
+      "stars": null,
+      "one_liner": "Smart calculator notebook that 'can calculate ANYTHING'",
+      "metrics": null
+    },
+    {
+      "name": "skillbox",
+      "author": "@thekitze",
+      "category": "sdk",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/kitze/skillbox",
+      "tweet": null,
+      "stars": 163,
+      "one_liner": "Self-hosted versioned skills library with optional Jev recommendations",
+      "metrics": null
+    },
+    {
+      "name": "unclutter",
+      "author": "@thekitze",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/kitze/unclutter",
+      "tweet": null,
+      "stars": 107,
+      "one_liner": "WXT extension: per-element Jev decisions remove page clutter",
+      "metrics": null
+    },
+    {
+      "name": "jev-browser-use",
+      "author": "wy-coliney (EZCollegeApp)",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/wy-coliney/jev-browser-use",
+      "tweet": null,
+      "stars": 131,
+      "one_liner": "Jev clicks, Codex thinks and verifies — production at EZCollegeApp",
+      "metrics": "5-10x faster browser operations (author-reported)"
+    },
+    {
+      "name": "stagehand-remote-browser",
+      "author": "@kylejeong",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/stagehand-remote-browser",
+      "tweet": "https://madewithjev.com/builds/stagehand-remote-browser",
+      "stars": null,
+      "one_liner": "Jev + Stagehand: a11y tree as state, near-instant remote browser ops",
+      "metrics": "$0.001 per task"
+    },
+    {
+      "name": "computer-use-without-screenshots",
+      "author": "@milindlabs",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/computer-use-without-screenshots",
+      "tweet": "https://madewithjev.com/builds/computer-use-without-screenshots",
+      "stars": null,
+      "one_liner": "Local CoreML UI segmentation + OCR → Jev decides; no screenshots, no pixels leave the machine",
+      "metrics": "~90ms per decision"
+    },
+    {
+      "name": "typesafe-computer-use",
+      "author": "awlevin (Andrew Levin)",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://madewithjev.com/builds/typesafe-computer-use",
+      "tweet": null,
+      "stars": 202,
+      "one_liner": "macOS computer use, one Jev decision per step",
+      "metrics": "~$0.0002 per step"
+    },
+    {
+      "name": "mobile-jev",
+      "author": "droidrun",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/droidrun/mobile-jev",
+      "tweet": null,
+      "stars": 99,
+      "one_liner": "Standalone Android agent + React studio + Uber demo",
+      "metrics": null
+    },
+    {
+      "name": "snifftest",
+      "author": "DanRWilloughby",
+      "category": "code-quality",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/DanRWilloughby/snifftest",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Linter for AI-writing tells",
+      "metrics": null
+    },
+    {
+      "name": "riff",
+      "author": "scale-venture-partners",
+      "category": "code-quality",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/scale-venture-partners/riff",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "ruff-style prose linter from Scale Venture Partners",
+      "metrics": null
+    },
+    {
+      "name": "commit-miner",
+      "author": "devanshbatham",
+      "category": "agent-safety",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/devanshbatham/commit-miner",
+      "tweet": null,
+      "stars": 21,
+      "one_liner": "Rust commit classification with CVE/CWE linkage",
+      "metrics": null
+    },
+    {
+      "name": "pkg-gate",
+      "author": "hemanth",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/hemanth/pkg-gate",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "npm lifecycle-script security gate",
+      "metrics": null
+    },
+    {
+      "name": "jev-chess",
+      "author": "hemanth",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/hemanth/jev-chess",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Chess moves, evaluations, persona opponents, game classification",
+      "metrics": null
+    },
+    {
+      "name": "jev-tree",
+      "author": "nicobailon",
+      "category": "sdk",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/nicobailon/jev-tree",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Recursive Choice past the 255-option ceiling — community patch to an official limit",
+      "metrics": null
+    },
+    {
+      "name": "invalidate",
+      "author": "chopratejas",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/chopratejas/invalidate",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Invalidation layer for AI memory: every fact gets a lease, new evidence ends it",
+      "metrics": null
+    },
+    {
+      "name": "kamchatka assisted-shell",
+      "author": "ljedrz",
+      "category": "agent-safety",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ljedrz/nachalnik",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Color-coded safety rating for every shell command an agent wants to run; + Jev compaction example",
+      "metrics": null
+    },
+    {
+      "name": "type-safe typewriter",
+      "author": "Steve Krouse (Val Town)",
+      "category": "content-scoring",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://typesafe-demo.val.run/",
+      "tweet": "https://x.com/stevekrouse/status/2100287368221659289",
+      "stars": null,
+      "one_liner": "16 live typed judgments updating as you type",
+      "metrics": null
+    },
+    {
+      "name": "roulette-wars",
+      "author": "@NicoSaraintaris",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://x.com/NicoSaraintaris/status/2100745151622664392",
+      "tweet": "https://x.com/NicoSaraintaris/status/2100745151622664392",
+      "stars": null,
+      "one_liner": "Jev played the author's own game start-to-finish with zero human input",
+      "metrics": null
+    },
+    {
+      "name": "robo-harness",
+      "author": "grmkris",
+      "category": "robotics",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://risetive.com/jev",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "SO-101 real robot-arm workbench picking bounded joint steps under budget",
+      "metrics": null
+    },
+    {
+      "name": "zero-shot robot tasks",
+      "author": "@taratt",
+      "category": "robotics",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://www.linkedin.com/posts/taratt_zero-shot-robot-tasks-with-the-new-typesafe-activity-7506600373059588096-FlJN",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Spoken instruction → zero-shot manipulation demo",
+      "metrics": null
+    },
+    {
+      "name": "madewithjev.com",
+      "author": "community",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://madewithjev.com/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "178 builds / 76 embedded X posts / 78 GitHub projects, each with cost & latency",
+      "metrics": null
+    },
+    {
+      "name": "awesomejev.com",
+      "author": "community",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://awesomejev.com/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "488 entries / 21,644 stars tracked — the largest directory",
+      "metrics": null
+    },
+    {
+      "name": "typesafeai.app",
+      "author": "community",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://typesafeai.app/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Evidence-graded capability index (all entries editor-reproduced)",
+      "metrics": null
+    },
+    {
+      "name": "peepo-comfy safety layer",
+      "author": "u/peepo_comfy",
+      "category": "idea",
+      "primitives": [
+        "score"
+      ],
+      "status": "idea",
+      "url": "https://www.reddit.com/r/PiCodingAgent/comments/1whsav6/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Tool-call safety scoring layer + model-router concept (in progress)",
+      "metrics": null
+    },
+    {
+      "name": "api router over 250-300 calls",
+      "author": "u/o_sht_hi",
+      "category": "idea",
+      "primitives": [
+        "choice"
+      ],
+      "status": "idea",
+      "url": "https://www.reddit.com/r/PiCodingAgent/comments/1wjibh5/anyone_here_using_jev/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Natural-language routing to one of 250-300 internal APIs",
+      "metrics": null
+    },
+    {
+      "name": "cv reranking",
+      "author": "u/lovelace6329",
+      "category": "idea",
+      "primitives": [
+        "score"
+      ],
+      "status": "idea",
+      "url": "https://www.reddit.com/r/PiCodingAgent/comments/1wjibh5/anyone_here_using_jev/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Rerank top-20 candidates in an existing internal matching engine",
+      "metrics": null
+    },
+    {
+      "name": "gbc translation navigation",
+      "author": "u/porkyminch",
+      "category": "idea",
+      "primitives": [
+        "choice"
+      ],
+      "status": "idea",
+      "url": "https://www.reddit.com/r/PiCodingAgent/comments/1whsav6/",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Menu navigation decisions for GameBoy Color game translation",
+      "metrics": null
+    }
   ]
 }
