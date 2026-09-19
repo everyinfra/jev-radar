@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 127,
+    "total_curated": 134,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -2583,6 +2583,155 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jev-reliability",
+      "author": "vcjdeboer",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/vcjdeboer/jev-reliability",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Pre-flight check for a Jev question: measures repeatability, framing sensitivity, resolution and answerability, then a verdict — as a swamp extension",
+      "metrics": "works on all three primitives",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-crawlers",
+      "author": "russfranky",
+      "category": "code-quality",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/russfranky/jev-crawlers",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Recursive bug-discovery crawlers: Unix-style seed|expand|judge|verify|report pipeline; mechanical expansion, one Jev verdict per node, separate falsifiable verifier",
+      "metrics": "~$0.00008 per node in calibration runs",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jevdevice",
+      "author": "Xopher00",
+      "category": "robotics",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Xopher00/jevdevice",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "MCP server letting an LLM agent control a real Android phone, with Jev in the decision path",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "JevPip",
+      "author": "yo4e",
+      "category": "trading",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/yo4e/JevPip",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Japanese local market-research terminal for FX/BTC: live charts, paper trading, backtests, safety supervision, Jev integration",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-for-chrome",
+      "author": "chy4pro",
+      "category": "browser-extension",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/chy4pro/jev-for-chrome",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Drives the tab you are looking at with sub-second Jev decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "Essentiel-Jev",
+      "author": "JacquesGariepy",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/JacquesGariepy/Essentiel-Jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "AI email, calendar, tasks and documents with typed probability-based triage",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-kit",
+      "author": "jonathanavis96",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/jonathanavis96/jev-kit",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Everything to run Jev with Claude Code: tool-call guard, tier guards and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
       }
     }
   ]
