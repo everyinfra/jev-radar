@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/assets/banner.png" width="880" alt="Jev Radar — the world's most comprehensive tracker of the Jev ecosystem" />
+
 # Jev Radar 📡
 
 ### 全网最全的 Jev 生态独立白皮书与实时监控

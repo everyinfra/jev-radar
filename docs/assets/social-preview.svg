@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.55"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <g transform="translate(600,320)">
+    <circle r="240" fill="none" stroke="#1f2a44" stroke-width="3"/>
+    <circle r="175" fill="none" stroke="#1f2a44" stroke-width="3"/>
+    <circle r="110" fill="none" stroke="#1f2a44" stroke-width="3"/>
+    <circle r="45" fill="none" stroke="#1f2a44" stroke-width="3"/>
+    <path d="M 0 0 L 240 0 A 240 240 0 0 0 170 -170 Z" fill="url(#sweep)"/>
+    <line x1="0" y1="0" x2="222" y2="-93" stroke="#34d399" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="126" cy="76" r="10" fill="#34d399"/>
+    <circle cx="-85" cy="140" r="9" fill="#fbbf24"/>
+    <circle cx="178" cy="-163" r="9" fill="#a78bfa"/>
+    <circle cx="0" cy="0" r="8" fill="#e5e7eb"/>
+  </g>
+  <text x="600" y="95" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="64" font-weight="800" fill="#f8fafc" letter-spacing="3">JEV RADAR</text>
+  <text x="600" y="140" text-anchor="middle" font-family="Helvetica Neue, Arial, PingFang SC, sans-serif" font-size="26" fill="#94a3b8">The world's most comprehensive tracker of the Jev ecosystem · 全网最全</text>
+  <text x="600" y="540" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" fill="#64748b">220+ cases · 108 confidence-graded entries · scanned every 3 hours</text>
+</svg>

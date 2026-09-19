@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.55"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <!-- radar -->
+  <g transform="translate(240,200)">
+    <circle r="165" fill="none" stroke="#1f2a44" stroke-width="2"/>
+    <circle r="120" fill="none" stroke="#1f2a44" stroke-width="2"/>
+    <circle r="75" fill="none" stroke="#1f2a44" stroke-width="2"/>
+    <circle r="30" fill="none" stroke="#1f2a44" stroke-width="2"/>
+    <line x1="-165" y1="0" x2="165" y2="0" stroke="#1f2a44" stroke-width="2"/>
+    <line x1="0" y1="-165" x2="0" y2="165" stroke="#1f2a44" stroke-width="2"/>
+    <path d="M 0 0 L 165 0 A 165 165 0 0 0 117 -117 Z" fill="url(#sweep)"/>
+    <line x1="0" y1="0" x2="152" y2="-64" stroke="#34d399" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="86" cy="52" r="7" fill="#34d399"/>
+    <circle cx="-58" cy="96" r="6" fill="#fbbf24"/>
+    <circle cx="122" cy="-112" r="6" fill="#a78bfa"/>
+    <circle cx="0" cy="0" r="5" fill="#e5e7eb"/>
+  </g>
+  <!-- wordmark -->
+  <text x="470" y="175" font-family="Helvetica Neue, Arial, PingFang SC, sans-serif" font-size="72" font-weight="800" fill="#f8fafc" letter-spacing="2">JEV RADAR</text>
+  <text x="472" y="228" font-family="Helvetica Neue, Arial, PingFang SC, sans-serif" font-size="27" fill="#94a3b8">The Most Complete · 全网最全，没有之一</text>
+  <text x="472" y="278" font-family="Helvetica Neue, Arial, PingFang SC, sans-serif" font-size="22" fill="#64748b">220+ cases · 108 graded entries · scanned every 3 hours</text>
+  <!-- tier dots legend -->
+  <g font-family="Helvetica Neue, Arial, sans-serif" font-size="19" fill="#94a3b8">
+    <circle cx="482" cy="318" r="6" fill="#34d399"/><text x="496" y="325">A 0.90</text>
+    <circle cx="586" cy="318" r="6" fill="#fbbf24"/><text x="600" y="325">B 0.75</text>
+    <circle cx="690" cy="318" r="6" fill="#a78bfa"/><text x="704" y="325">C 0.60</text>
+  </g>
+</svg>
