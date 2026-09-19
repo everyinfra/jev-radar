@@ -1,7 +1,5 @@
 # Jev Radar · Casebook — Jev(TypeSafe AI)项目案例集
 
-> 本案例集是 [jev-radar](https://github.com/everyinfra/jev-radar) 仓库的主文档:全网最全的 Jev 生态独立白皮书与实时监控。结构化数据见 [data/projects.json](./data/projects.json)。
-
 > **生成时间**:2026-09-19(首版基于 2026-09-15 ~ 09-19 的全网检索)
 > **对象**:TypeSafe AI 于 2026-09-15 发布的 System One 模型 Jev(Noul 是非判断 / Choice 选项分布 / Score 量规打分;70-500ms;$0.042/M 输入 token,输出免费)。
 > **收录标准**:有可点击原始出处、能确认真实存在(已上线/开源/带实测数据)或明确标注为想法的项目。已排除 Journal of Extracellular Vesicles 期刊、JEV 股票(Jericho Energy Ventures)等同名干扰项;OpenJev 等兼容克隆单独归类并明确标注"非官方"。
@@ -316,6 +314,7 @@ u/Nedomas,[supercorp-ai/supercov](https://github.com/supercorp-ai/supercov),Rust
 | [werewolf](https://github.com/asfarsadewa/werewolf) | 狼人杀:7 个村民的怀疑度=Jev 校准概率(09-19 晚) | ✅ 开源 |
 | [mcts-agent](https://github.com/lhemerly/mcts-agent) | 判别式 MCTS:Jev 原语 × Gemini(09-19 晚) | ✅ 开源实验 |
 | [jev_vampire_survivors](https://github.com/oldmoldycake/jev_vampire_survivors) | **Steam 商业游戏实机**:Vampire Survivors 的 BepInEx 插件 + Python 决策脑(09-19 午后) | ✅ 开源 |
+| [JevBall](https://github.com/atarikcaliskan/jevball) | **22 个 Jev 踢一场 3D 足球**:每球员一次 Choice(≤14 个本地预算好的候选),整队合成一个请求;球权者 0.30s 决策一次,可按 J 接管任一球员(09-19 17 时) | ✅ 开源 |
 | Roulette Wars 整局自玩 | [@NicoSaraintaris](https://x.com/NicoSaraintaris/status/2100745151622664392):让 Jev 把他自己的游戏从头玩到尾,零人工输入(09-19 夜) | ✅ 演示 |
 | [jevpilot](https://github.com/standardagents/jevpilot)(77★) | Three.js 驾驶模拟器 + Jev 自动驾驶(09-19 傍晚) | ✅ 开源 |
 | [TypeSafe Snake](https://risetive.com/jev)(sorrycc) | 贪吃蛇:sorrycc(知名前端/ArcoDesign 作者)在确定性状态上选合法移动 | ✅ 开源 |
@@ -342,6 +341,8 @@ u/Nedomas,[supercorp-ai/supercov](https://github.com/supercorp-ai/supercov),Rust
 - **TypeSafe AI Benchmark** — [iammrduncan](https://github.com/iammrduncan/typesafe-ai-benchmark)(31★):Jev vs Cerebras 上的 Qwen 结构化输出,含成本核算([配套视频](https://x.com/iamMrDuncan/status/2100467548298899918))。
 - **Jev Rerank Bench** — [anessbelbati](https://github.com/anessbelbati/jev-rerank-bench):重排对比,保留原始响应与不确定性区间。
 - **JevNoiseGate** — 09-18 新入 awesome-typesafe Showcases(噪声门控类工具,[提交记录](https://github.com/AbdelStark/awesome-typesafe/commits/main) 可溯)。
+- **提示词技术移植到 Jev(09-19 17 时,A 级)** — [leepokai/llm-prompt-techniques-on-jev](https://github.com/leepokai/llm-prompt-techniques-on-jev):把 refine/chain/choose/rerank 翻译给不生成文本的模型——**把 Jev 的类型化答案渲染回 state 再问一轮,等于用代码补上"草稿纸"**。BIG-Bench Hard/LegalBench/MMLU-Pro/CLERC 全条目实测(约 $9,响应已缓存),npm 包零依赖。直接回应了"Jev 不能多步推理"的已知短板。
+- **置信度换算器(09-19 17 时,A 级)** — [adarc8/how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev):`pip install jev-confidence`,把 Jev 概率分布折算成一个 0-1 数 + 人话判词(CERTAIN/CONFIDENT/LEANING/TORN/CLUELESS),六种公式可取共识——"置信度三件套"之后的第四件,解决"0.67 到底能不能自动执行"的落地问题。
 - **置信度校准审计(09-19 午后)** — [does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything):专门审计"Jev 自报的 confidence 到底意味着什么"——与 agentjournal(≥0.9 置度仅 72.2% 正确)、Attest(删掉恒 0.95-0.99 的置信度)构成三件套,置信度问题是社区反复回归的主题。
 - **⚠️ 假 demo 警示(09-19 晚,元信号)** — [steve8708 公开点名](https://www.linkedin.com/posts/steve8708_jev-is-awesome-but-for-the-love-of-god-please-activity-7506883009443303424-IrBJ):X 上病毒传播的 Jev demo 里混有**加速/伪造**内容("this viral JEV demo you may have seen is fake. This demo too, very fake...")。阅读任何"超人类速度"类 demo 时应保持怀疑,以带 methodology/trace 的仓库(如 jev-ultrafast、tsai-sc、WindTunnel)为准。
 - **基准/指标补充(09-19 夜)**:[browser-use-olympics](https://github.com/eriestra/almond-fastloop)(浏览器 agent 基准);jev-shield 自报"94% 拦截召回、0 误报"(作者口径);[jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench)(09-19 入 awesome-typesafe:"按 Jev 概率 ORDER BY 得到的排序站得住吗");typesafeai.app 的 30 条用例全部达到"E2 工件验证"级(编辑复现),含官方"监管简报 12.2× 降本"用例。
@@ -459,3 +460,4 @@ u/Nedomas,[supercorp-ai/supercov](https://github.com/supercorp-ai/supercov),Rust
   - **背书升级**:Hasura 联创 Tanmai Gopal("准确率超 Sol、便宜 100 倍")、沃顿教授 @Afinetheorem("LLM 本来就不是干这个的对的模型")。
   - **韩文区**:以解读为主(kimmonismus 推文 + FB 视频),项目仍少。
   - **修正**:dabit3 预测表格补推文直链;harshil1712 即 slidepilot 作者(awesomejev 收录)。
+- **2026-09-19 17:00**:新增 3 个 A 级项目:[llm-prompt-techniques-on-jev](https://github.com/leepokai/llm-prompt-techniques-on-jev)(CoT/self-refinement 移植到 Jev,四大基准)、[JevBall](https://github.com/atarikcaliskan/jevball)(22 个 Jev 踢 3D 足球)、[how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev)(概率分布→一个数+判词);B 级补充:[sift](https://github.com/bohutang/sift)(X 帖五维打标)、[clean-code-review](https://github.com/frostney/clean-code-review)(Uncle Bob 规则)、[dinostomp](https://github.com/collapseindex/dinostomp)(评测工具的验证层);awesome 目录再+2([valentynkit](https://github.com/valentynkit/awesome-jev-typesafe) 14★、[SeeAPI](https://github.com/SeeAPI/awesome-jev-use-cases),全生态已 11 个);GitHub 总数 718→**781**;X 无新重大项目(以教程/视频为主)。

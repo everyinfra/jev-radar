@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 108,
+    "total_curated": 114,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -2200,6 +2200,125 @@
       "tweet": null,
       "stars": null,
       "one_liner": "Menu navigation decisions for GameBoy Color game translation",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "llm-prompt-techniques-on-jev",
+      "author": "leepokai",
+      "category": "eval",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/leepokai/llm-prompt-techniques-on-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "LLM prompting techniques (refine/chain/choose/rerank) translated for Jev: typed answers fed back as state = scratchpad in code",
+      "metrics": "benchmarked on BIG-Bench Hard / LegalBench / MMLU-Pro / CLERC, all items, ~$9 total, npm package, cached responses",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jevball",
+      "author": "atarikcaliskan",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/atarikcaliskan/jevball",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "22 Jev models play a 3D football match; each player one Choice over <=14 locally pre-computed candidates, whole team batched per tick",
+      "metrics": "ball carrier decides every 0.30s; nearby 0.55s; rest 1.2s; API key kept server-side",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "how-sure-is-jev",
+      "author": "adarc8",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/adarc8/how-sure-is-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Turns Jev probability distributions into one 0-1 number + plain-English verdict (CERTAIN/CONFIDENT/LEANING/TORN/CLUELESS); six formulas + consensus",
+      "metrics": "pip install jev-confidence, zero dependencies",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "sift",
+      "author": "bohutang",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/bohutang/sift",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Chrome extension labeling every X post: Substance / Humor / Chit-chat / Promo / Junk",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "clean-code-review",
+      "author": "frostney",
+      "category": "code-quality",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/frostney/clean-code-review",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Every code file in a PR judged against Uncle Bob's Clean Code by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "dinostomp",
+      "author": "collapseindex",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/collapseindex/dinostomp",
+      "tweet": null,
+      "stars": 5,
+      "one_liner": "Verification layer for AI evaluations: checks the instrument, not just the score",
       "metrics": null,
       "verification": {
         "tier": "B",
