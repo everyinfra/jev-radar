@@ -39,7 +39,7 @@ Every case here was verified against a primary source — a repository we opened
 
 ### 🎁 Free Jev API keys for stargazers
 
-**Star this repo ⭐, then email [hello@everyinfra.com](mailto:hello@everyinfra.com) with your GitHub username → we verify the star and reply with a free Jev API key** (while supplies last). One key per person; nothing is made public. Keys come from the maintainer's own quota and are not affiliated with TypeSafe AI. Details: [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1).
+**Star this repo ⭐, then email [hello@everyinfra.com](mailto:hello@everyinfra.com) with your GitHub username → we verify the star and reply with a free Jev API key.** 5,000 keys this round, one per person, while supplies last; keys are issued manually after verification (not automatic). Nothing is made public — the only address we publish is hello@everyinfra.com. Keys come from the maintainer's own quota and are not affiliated with TypeSafe AI. Details: [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1).
 
 ### Why you can trust it
 
@@ -120,7 +120,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 
 ### 🎁 给仓库点 Star,免费领 Jev API key
 
-**点 Star ⭐,然后给 [hello@everyinfra.com](mailto:hello@everyinfra.com) 发邮件(正文附 GitHub 用户名)→ 核对后免费 Key 直接回复到你的邮箱**(数量有限,发完即止)。每人限领一个,全程不公开任何邮箱;Key 来源自维护方自有配额,与 TypeSafe AI 无关联。详见 [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1)。
+**点 Star ⭐,然后给 [hello@everyinfra.com](mailto:hello@everyinfra.com) 发邮件(正文附 GitHub 用户名)→ 核对后免费 Key 回复到你的邮箱。**本轮共 **5,000 个**,每人限领 1 个,发完即止;Key 为人工核对后逐一发放(非自动即时)。全程不公开任何邮箱,对外只公布 hello@everyinfra.com;Key 来源自维护方自有配额,与 TypeSafe AI 无关联。详见 [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1)。
 
 ### 为什么可信
 
