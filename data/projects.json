@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 176,
+    "total_curated": 183,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -3580,6 +3580,143 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Dynamic two-stage skill and tool pre-filtering for OpenClaw using decision models",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "openJev-verdict-2.0",
+      "author": "Heman10x-NGU",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Heman10x-NGU/openJev-verdict-2.0",
+      "tweet": null,
+      "stars": 148,
+      "one_liner": "151M non-autoregressive decision engine (ModernBERT/GLiClass); author-reported Top-1 77.10%, ECE 1.44%, ~20-25ms per decision, in-browser WebGPU — claims to beat Jev and Laya on LocalLLaMA typed-decisions — NOT official",
+      "metrics": "claims are author-reported; Apache-2.0; sibling repo Verdict-open-jev (33s)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "laya-jev-compatible-server",
+      "author": "exfly",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/exfly/laya-jev-compatible-server",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Jev-compatible HTTP server (POST /v1/systemone) for the open multilingual Laya model; works with the official typesafe-sdk via base_url — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-issue-radar",
+      "author": "Patrick-SCH03",
+      "category": "code-quality",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Patrick-SCH03/jev-issue-radar",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Read-only GitHub duplicate-issue triage: retrieve candidate pairs, Jev classifies the relationship, evidence shown side-by-side; never closes/labels/comments; honest experimental status",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "Jev-Playing-Flappy-Birds",
+      "author": "Vidit-Ostwal",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Vidit-Ostwal/Jev-Playing-Flipping-Birds",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev plays Flappy Bird via flappy-bird-gymnasium, live spectating over WebSocket",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-outlook-organizer",
+      "author": "Taveren7",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Taveren7/jev-outlook-organizer",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Self-hosted Outlook organization with Jev: custom categories, scoped Microsoft access",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-comment-analysis",
+      "author": "juanlentino",
+      "category": "content-scoring",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/juanlentino/jev-comment-analysis",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "WordPress comment moderation backed by Jev through their Connector plugin",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "systemone-lite",
+      "author": "fritzprix",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fritzprix/systemone-lite",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Toy local System One-style decision API (Jev-shaped) — NOT official",
       "metrics": null,
       "verification": {
         "tier": "B",
