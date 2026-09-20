@@ -9,7 +9,7 @@
 
 **全网最全,没有之一 · The Most Complete — if it was built with Jev, it's in this radar.**
 
-[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-141_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
+[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-148_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
 
 **[English](#english) · [中文](#中文)**
 
@@ -33,7 +33,7 @@ The pitch that took over developer Twitter: **70–500 ms** end-to-end latency, 
 
 ### What this repository is
 
-Four days after launch, the Jev ecosystem had already grown to **~500 repositories and 21,600+ stars**. Jev Radar is an independent attempt to answer one question with evidence: **what is the world actually building with this thing?**
+Four days after launch, the Jev ecosystem crossed **1,000 repositories** within five days (21,600+ stars at day 4). Jev Radar is an independent attempt to answer one question with evidence: **what is the world actually building with this thing?**
 
 Every case here was verified against a primary source — a repository we opened, a live demo we hit, or the author's original post. No hearsay, no listicle padding. And the work doesn't stop: an automated sweep (GitHub · X/Twitter · five community directories) re-runs **every three hours**, and anything new gets verified, graded, and committed.
 
@@ -110,7 +110,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 
 ### 这个仓库是什么
 
-发布 4 天,Jev 生态已经长到 **约 500 个仓库、21,600+ 星**。Jev Radar 想用证据回答一个问题:**大家到底在用它做什么?**
+发布 5 天,Jev 生态已突破 **1000 个仓库**(第 4 天口径 21,600+ 星)。Jev Radar 想用证据回答一个问题:**大家到底在用它做什么?**
 
 这里收录的每个案例都核对过一手出处——我们打开过的仓库、访问过的线上 demo、或作者原帖。不收传闻,不凑数。而且这件事没有终点:一套自动化巡检(GitHub · X · 五个社区目录站)**每 3 小时重跑一次**,新东西先检验、再定级、然后提交进仓库。
 

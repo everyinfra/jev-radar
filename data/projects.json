@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 141,
+    "total_curated": 148,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -2871,6 +2871,148 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Measure what Jev can actually do before you build on it: graded findings, ruled-out candidates",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jevcheck",
+      "author": "sathariels",
+      "category": "eval",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/sathariels/jevcheck",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "pytest for Jev: pin a production contract (model version + fixtures + expected answers), eval candidate models, fail the upgrade on answer flips or confidence drops; rejects floating jev-latest by default",
+      "metrics": "intel: official model list shows jev-1.14 and jev-preview aliases as of 2026-09-19",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "whoa",
+      "author": "PaulChen79",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/PaulChen79/whoa",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A stop-loss for coding agents: counts loops, judges drift with Jev; exhaustive secret-redaction rules that degrade safely rather than leak",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "xtags",
+      "author": "manifoldor",
+      "category": "browser-extension",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/manifoldor/xtags",
+      "tweet": null,
+      "stars": 8,
+      "one_liner": "Labels what each X post wants you to do (intent + rage-bait/synthetic/undisclosed-ad), one word plus one number; extension + userscript; most complete Chinese-language disclaimer",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-town",
+      "author": "CeciliaW888",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/CeciliaW888/jev-town",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A 3D town where 50 AI citizens each decide how to react to your broadcast, in parallel",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-builder",
+      "author": "collapseindex",
+      "category": "data-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/collapseindex/jev-builder",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Browser form for building Jev requests: pick a template, fill in the blanks",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "whatitdid",
+      "author": "YukunHe304",
+      "category": "code-quality",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/YukunHe304/whatitdid",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "See what an AI agent actually did, not just its score: labels every step of a CLI agent run",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-hft",
+      "author": "cristiancolon",
+      "category": "trading",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/cristiancolon/jev-hft",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Research pipeline testing whether Jev can judge news for high-frequency trading signals",
       "metrics": null,
       "verification": {
         "tier": "B",
