@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 190,
+    "total_curated": 197,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -3860,6 +3860,146 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Multiplayer fish game where every AI decision is a Jev call",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "rocky",
+      "author": "BenjisCollector",
+      "category": "voice",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/BenjisCollector/rocky",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Voice-controlled computer agent for macOS: one Jev request asks 13 routing questions; perception via accessibility tree only (no screenshots); dry-run by default, --act to execute",
+      "metrics": "'open photo booth' measured at confidence 1.00",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "watfile",
+      "author": "jexp",
+      "category": "data-infra",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/jexp/watfile",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Classify files with a Choice question and sort them into category folders; pluggable Classifier backend (local MLX/laya later); by the Neo4j dev",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "semantic-microscope",
+      "author": "abhishekmishragithub",
+      "category": "eval",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/abhishekmishragithub/semantic-microscope",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Label every sentence of a document with calibrated probabilities (5-6 typed questions per sentence), rendered as parallel lanes over the full document; presets for contract/prose/RFC",
+      "metrics": "3,000-sentence document ≈ $0.08 and ~3.5 minutes; no LLM anywhere",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "survey-qc-with-jev",
+      "author": "stephotee",
+      "category": "vertical",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/stephotee/survey-qc-with-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Survey respondent quality control: deterministic rules plus semantic judgments",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "aithyrion-director",
+      "author": "psychodissection-ship-it",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/psychodissection-ship-it/aithyrion-director",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "AI music video director: beat-synced full-motion MV generation pipeline with Jev in the loop",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-atlas",
+      "author": "ZeroX-01",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ZeroX-01/jev-atlas",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Continuously updated public index of Jev projects, videos and articles (12th directory)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "before-the-fall-jev",
+      "author": "muhammadaq1",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/muhammadaq1/before-the-fall-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Cinematic 2D rescue game: six people, 35 seconds, live AI decisions",
       "metrics": null,
       "verification": {
         "tier": "B",
