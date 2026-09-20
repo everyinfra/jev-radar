@@ -37,6 +37,10 @@ Four days after launch, the Jev ecosystem crossed **1,000 repositories** within 
 
 Every case here was verified against a primary source — a repository we opened, a live demo we hit, or the author's original post. No hearsay, no listicle padding. And the work doesn't stop: an automated sweep (GitHub · X/Twitter · five community directories) re-runs **every three hours**, and anything new gets verified, graded, and committed.
 
+### 🎁 Free Jev API keys for stargazers
+
+**Star this repo ⭐ + reply with your email in [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1) → receive a free Jev API key** (while supplies last). One key per person; replies are public, so a dedicated email is recommended. Keys come from the maintainer's own quota and are not affiliated with TypeSafe AI.
+
 ### Why you can trust it
 
 Each of the 108 structured registry entries carries a `verification` block assigned during research:
@@ -113,6 +117,10 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 发布 5 天,Jev 生态已突破 **1000 个仓库**(第 4 天口径 21,600+ 星)。Jev Radar 想用证据回答一个问题:**大家到底在用它做什么?**
 
 这里收录的每个案例都核对过一手出处——我们打开过的仓库、访问过的线上 demo、或作者原帖。不收传闻,不凑数。而且这件事没有终点:一套自动化巡检(GitHub · X · 五个社区目录站)**每 3 小时重跑一次**,新东西先检验、再定级、然后提交进仓库。
+
+### 🎁 给仓库点 Star,免费领 Jev API key
+
+**点 Star ⭐ + 在 [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1) 回复你的邮箱 → 免费获得一个 Jev API key**(数量有限,发完即止)。每人限领一个;回复公开可见,建议用专用邮箱;Key 来源自维护方自有配额,与 TypeSafe AI 无关联。
 
 ### 为什么可信
 
