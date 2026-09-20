@@ -110,6 +110,7 @@ print(response.answers["department"].choice)
 | **[OpenRouter](https://openrouter.ai/typesafe/jev-1.13)** | 最省事。模型名 `typesafe/jev-1.13`,用现有的 OpenRouter key 直接调,价格同官方($0.042/M 输入)。Reddit 已有人等不及全程用这个 |
 | **[Netlify AI Gateway](https://www.netlify.com/changelog/typesafe-jev-ai-gateway/)** | 装 `@typesafe-ai/sdk`,零配置走 Netlify 网关 |
 | **[OpenJev](https://www.reddit.com/r/LocalLLaMA/comments/1wjlyzr/still_on_the_jev_waitlist_i_hosted_openjev_its/)** | 社区架的免费开源兼容版,官方 SDK 改个 base URL 就能用,适合先开发再换正式 key |
+| **[Cloudflare Workers AI](https://developers.cloudflare.com/ai/models/typesafe/jev)** | 官方已上架 `typesafe/jev`(09-20 出现在 Cloudflare 开发者文档):用现有 Cloudflare API token 经 Workers AI 调用,第 4 条免排队通道 |
 
 **完全不想注册**:[console.typesafe.ai/playground](https://console.typesafe.ai/playground) 或社区站 [jevai.org/playground](https://jevai.org/playground) 免 key 试玩。
 
