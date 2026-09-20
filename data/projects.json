@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 183,
+    "total_curated": 190,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -3723,6 +3723,149 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "work-with-jev",
+      "author": "Adkid-Zephyr",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Adkid-Zephyr/work-with-jev",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Chinese work-message classifier for Feishu/WeCom: tell it who you are, four buckets (urgent/todo/worth-reading/skip) roll into a cross-group todo board; local-first, no-key demo, human-correctable",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "semantic-live-caption (听写纸)",
+      "author": "limboinf",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/limboinf/semantic-live-caption",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chinese real-time semantic captions: streaming ASR (Confucius4-R2T2) + per-sentence Jev judgments — key points bolded, emotion colored, intent stamped; four-gate intent thresholding (hit + conf>=0.55 + margin>=0.12 + Noul re-check 0.70)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "lgtm",
+      "author": "stardeckai",
+      "category": "code-quality",
+      "primitives": [
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/stardeckai/lgtm",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Prove your tests actually test something: reads each test block with its implementation and flags useless green tests; ships /lgtm and /actually-test agent skills",
+      "metrics": "16,000+ test blocks scored, 347 hand-labelled against implementations, thresholds fitted on real code",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-adrank",
+      "author": "leepokai",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/leepokai/jev-adrank",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Real-time ad ranking and creative review on a typed evaluation model — one call prices an ad",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-android",
+      "author": "dougsong",
+      "category": "sdk",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/dougsong/jev-android",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Kotlin Android SDK for UI automation powered by Jev, with an accessibility runtime",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-proxy",
+      "author": "Santiago-j-s",
+      "category": "data-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Santiago-j-s/jev-proxy",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Local observability proxy and playground for Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "TheFishGame",
+      "author": "muratcanberber",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/muratcanberber/JEV-TheFishGame",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Multiplayer fish game where every AI decision is a Jev call",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
       }
     }
   ]
