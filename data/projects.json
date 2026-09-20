@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 169,
+    "total_curated": 176,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -3442,6 +3442,144 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "n8n community node for Jev (second n8n integration)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "awesome-jev-zh",
+      "author": "yzfly",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/yzfly/awesome-jev-zh",
+      "tweet": null,
+      "stars": 26,
+      "one_liner": "Chinese curated hub for Jev: guides, illustrated explainer, daily auto-collected trending repos, and a 'sober look' section with critical independent data",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "shipit-gate",
+      "author": "thecoderpanda",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/thecoderpanda/shipit-gate",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "The AI deploy gate: ask Jev if it's safe to ship before you push; signals in, verdict in ~200ms, thresholds in code, explicit override",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "dynamic-context-engine",
+      "author": "rohanarun",
+      "category": "compaction",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/rohanarun/dynamic-context-engine",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Paragraph memory: SQLite storage, Jev judges per-paragraph relevance at request time, size-bounded source-tagged context — no embeddings, no vector DB",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-resume-match",
+      "author": "hamidfarmani",
+      "category": "vertical",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/hamidfarmani/jev-resume-match",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Score how well a resume matches a job description, Next.js app",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "Dual-Spectrum-Phishing-Guardian",
+      "author": "YuyaForest",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/YuyaForest/Dual-Spectrum-Phishing-Guardian",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "High-speed phishing and targeted-fraud guardian powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-typesafe-real-financial-use-cases",
+      "author": "IslamBaraka90",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/IslamBaraka90/jev-typesafe-real-financial-use-cases",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Fifty real-world financial use cases for Jev with typed structured answers",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "openclaw-tool-prefilter",
+      "author": "MertBasar0",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/MertBasar0/openclaw-tool-prefilter",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Dynamic two-stage skill and tool pre-filtering for OpenClaw using decision models",
       "metrics": null,
       "verification": {
         "tier": "B",
