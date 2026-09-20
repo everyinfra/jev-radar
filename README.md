@@ -39,7 +39,7 @@ Every case here was verified against a primary source — a repository we opened
 
 ### 🎁 Free Jev API keys for stargazers
 
-**Star this repo ⭐ + reply with your email in [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1) → receive a free Jev API key** (while supplies last). One key per person; replies are public, so a dedicated email is recommended. Keys come from the maintainer's own quota and are not affiliated with TypeSafe AI.
+**Star this repo ⭐ → receive a free Jev API key.** The claim process is being upgraded to protect everyone's email privacy (nothing public, nothing shared) — watch [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1) for the announcement. One key per person; keys come from the maintainer's own quota and are not affiliated with TypeSafe AI.
 
 ### Why you can trust it
 
@@ -120,7 +120,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 
 ### 🎁 给仓库点 Star,免费领 Jev API key
 
-**点 Star ⭐ + 在 [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1) 回复你的邮箱 → 免费获得一个 Jev API key**(数量有限,发完即止)。每人限领一个;回复公开可见,建议用专用邮箱;Key 来源自维护方自有配额,与 TypeSafe AI 无关联。
+**点 Star ⭐ → 免费获得一个 Jev API key。** 为保护大家的邮箱隐私,领取流程正在升级(全程不公开任何邮箱),新方式将在 [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1) 公布。每人限领一个;Key 来源自维护方自有配额,与 TypeSafe AI 无关联。
 
 ### 为什么可信
 
