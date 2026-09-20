@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 155,
+    "total_curated": 162,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -3156,6 +3156,149 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Zero-shot benchmark of Jev 1.13 vs open-weight non-generative decision models",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-moral-dilemmas",
+      "author": "krsna-smnt",
+      "category": "eval",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/krsna-smnt/jev-moral-dilemmas",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Repeatability experiments: 1,000 identical ticket calls (decisions 100% deterministic, confidence drifted up to 14 points) and 10,400 moral-dilemma calls (flips only below ~17% Choice confidence)",
+      "metrics": "practical flip-zone threshold: confidence < 17%",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "moomoo-jev-trader",
+      "author": "maxlibin",
+      "category": "trading",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/maxlibin/moomoo-jev-trader",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Live Moomoo/US-equities dashboard: real OpenD quotes, deterministic 7-factor setup, Jev typed market review every 5s, confidence-gated execution, SIMULATE-first warnings",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jevdash",
+      "author": "Sunwood-ai-labs",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Sunwood-ai-labs/jevdash",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "100% clean-room, copyright-free 2D platformer benchmark for Jev at 60 FPS deterministic physics",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "slop-filter",
+      "author": "adamnroman",
+      "category": "browser-extension",
+      "primitives": [
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/adamnroman/slop-filter",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chrome extension hiding AI-generated posts on X and LinkedIn, scored by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "grevi",
+      "author": "tpellet",
+      "category": "data-infra",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/tpellet/grevi",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "grep for meaning in Rust: find the error in a 10,000-line log, a commit by description",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-cordhub",
+      "author": "rmwahid",
+      "category": "content-scoring",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/rmwahid/jev-cordhub",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Ask a private Discord channel's pile of GitHub bookmarks in plain language; Jev judges what matches",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "laya-jev-lab",
+      "author": "yibie",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/yibie/laya-jev-lab",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Independent measurements: Jev (TypeSafe API) vs Laya (open weights)",
       "metrics": null,
       "verification": {
         "tier": "B",
