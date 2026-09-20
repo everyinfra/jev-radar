@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 162,
+    "total_curated": 169,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -3299,6 +3299,149 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Independent measurements: Jev (TypeSafe API) vs Laya (open weights)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-browser-chrome",
+      "author": "kofanlabs",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/kofanlabs/jev-browser-chrome",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Fork of jev-ultrafast driving your existing signed-in Chrome tabs via a local extension bridge — sidesteps headless login/anti-bot pain",
+      "metrics": "1x-speed verified flight-search demo with original timestamps",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "dsh-jev-guard",
+      "author": "7starsseeker",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/7starsseeker/dsh-jev-guard",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Pre-execution safety valve for DeepSeek Harness (Chinese): offline static rules then Jev (~300ms), returning allow/revise/block/escalate as a mandatory hook",
+      "metrics": "114-case calibration, 90.4% on Chinese input",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-sales-call",
+      "author": "tsekino62",
+      "category": "eval",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/tsekino62/jev-sales-call",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Japanese validation on 60 fictional sales calls, 5 questions each, with per-call viewer and honest weakness probes",
+      "metrics": "outcome 60/60; Noul Brier 0.012; median 250ms / p95 511ms; counting-speaker-turns ~random (37/60)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-architect",
+      "author": "karanb192",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/karanb192/jev-architect",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Find, design and evaluate Jev decision loops",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jeffrey",
+      "author": "thomasbrueggemann",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/thomasbrueggemann/jeffrey",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Coding-agent CLI where Jev (or Laya) decides what to do next",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "diff-risk-sentinel",
+      "author": "heliowap",
+      "category": "code-quality",
+      "primitives": [
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/heliowap/diff-risk-sentinel",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Risk triage for large git diffs (CRAP + Jev) plus repo-wide dead-code scan",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "n8n-nodes-jev-systemone",
+      "author": "withabdul",
+      "category": "platform",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/withabdul/n8n-nodes-jev-systemone",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "n8n community node for Jev (second n8n integration)",
       "metrics": null,
       "verification": {
         "tier": "B",
