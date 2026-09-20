@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 148,
+    "total_curated": 155,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -3013,6 +3013,149 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Research pipeline testing whether Jev can judge news for high-frequency trading signals",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "bias-bench",
+      "author": "natemoo-re",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/natemoo-re/bias-bench",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Resume-screening bias benchmark for decision models, starting with Jev; modeled on the resume-audit literature (Bertrand & Mullainathan 2004) and critiquing an earlier viral test's five methodological flaws",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "rspamd-jev",
+      "author": "rioriost",
+      "category": "vertical",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/rioriost/rspamd-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Shadow-evaluation plugin for Rspamd (production mail server): disabled by default, zero score, no delivery changes; Jev observations vs optional Ollama/OpenAI baselines",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jevusher",
+      "author": "cvsgireesh",
+      "category": "compaction",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/cvsgireesh/jevusher",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "The doorman for your context window: J1 route / J2 skill gate / J3 memories / J4-J7 filter-screen-stop-compact pipeline; cheap model reads everything, expensive reads survivors",
+      "metrics": "~350x cheaper than reading with Opus (author claim)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "kojev",
+      "author": "ItisNoMatter",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ItisNoMatter/kojev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Kotlin Multiplatform client for Jev returning your own enum/sealed types instead of strings",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-oas-sentinel",
+      "author": "ShuhanSun",
+      "category": "code-quality",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ShuhanSun/jev-oas-sentinel",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "OpenAPI compatibility checks powered by Jev, combining structural diff with semantic judgment",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "moongate",
+      "author": "brickfrog",
+      "category": "code-quality",
+      "primitives": [
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/brickfrog/moongate",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Semantic CI gate: evaluates committed repository changes against rules with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-20"
+      }
+    },
+    {
+      "name": "jev-vs-open-decision-models",
+      "author": "elcronos",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/elcronos/jev-vs-open-decision-models",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Zero-shot benchmark of Jev 1.13 vs open-weight non-generative decision models",
       "metrics": null,
       "verification": {
         "tier": "B",
