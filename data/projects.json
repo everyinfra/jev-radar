@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 204,
+    "total_curated": 211,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4144,6 +4144,149 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Use Jev yes/no probabilities directly in Python if conditions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-uipath-coded-agent",
+      "author": "1aifanatic",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/1aifanatic/jev-uipath-coded-agent",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "UiPath coded agent for AML alert triage (FINS demo): LLM gateway reads/extracts/does arithmetic/writes rationale, Jev makes every decision (5 red flags, risk level, disposition)",
+      "metrics": "~400ms per decision, fraction of a cent; first enterprise RPA integration",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "JevChat",
+      "author": "fruitymcdoo",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/fruitymcdoo/JevChat",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chat rebuilt from decisions: every word of a reply is a typed choice over a 17,000-word dictionary; a separate Jev judge decides whether the reply is good enough to send",
+      "metrics": "accepted rates 87-94%; finding: Jev picks words well with real sentence context, weak without",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "twitter-jev-guard",
+      "author": "qs-lll",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/qs-lll/twitter-jev-guard",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Chinese X-timeline guard: stamps low-quality posts with a translucent red STOP watermark (threshold 75%) and ads with an amber AD stamp instead of hiding them",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-debtgate",
+      "author": "smlayero",
+      "category": "code-quality",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/smlayero/jev-debtgate",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Jev-powered technical-debt gate for coding agents and CI",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jevseo",
+      "author": "epergaboni",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/epergaboni/jevseo",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Typed SEO, AEO and GEO judgments powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-subagent-router",
+      "author": "DefensiveSniper",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/DefensiveSniper/jev-subagent-router",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Use Jev to select subagent models and reasoning effort in Codex and Claude Code",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-laya-free",
+      "author": "Sharkelot",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Sharkelot/jev-laya-free",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Free local Jev-compatible typed decisions backed by rules or Laya, TypeSafe-SDK-compatible — NOT official",
       "metrics": null,
       "verification": {
         "tier": "B",
