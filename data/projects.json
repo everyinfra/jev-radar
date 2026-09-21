@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 234,
+    "total_curated": 241,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4733,6 +4733,148 @@
       "tweet": null,
       "stars": 320,
       "one_liner": "The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-computer",
+      "author": "RiwRiwara",
+      "category": "game",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/RiwRiwara/jev-computer",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "An 8-bit computer built from one yes/no question to Jev: 'are both a and b 1?' → NAND truth table → 2,102 NAND gates → 8-bit CPU with 16-byte RAM; programs are plain JSON",
+      "metrics": "7×6=42: 59 clock cycles, 124,018 gate evals, $0.000019, 0.9s",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-video-search",
+      "author": "Anmol-Srv",
+      "category": "content-scoring",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Anmol-Srv/jev-video-search",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Semantic video scene search: embeddings retrieve 50 candidates in ~30ms, Jev judges each for real match; Jev can abstain (embeddings can't) and handles relationships that embeddings structurally drop",
+      "metrics": "0.55-0.57 refusal margin on unanswerable queries (MSR-VTT); side-by-side dashboard",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-edge",
+      "author": "kiwi0719",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/kiwi0719/jev-edge",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Typed-judgment admission control at the traffic edge: three-layer prompt-injection and abuse detection",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-oasis",
+      "author": "badgerbees",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/badgerbees/jev-oasis",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "An ultra-low-cost social simulation engine based on OASIS, powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "ticket-triage",
+      "author": "jackkfan0305",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/jackkfan0305/ticket-triage",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Support ticket triage: Jev judgments plus an explicit policy layer for priority and routing",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "Jev.Sdk",
+      "author": "nothingmn",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/nothingmn/Jev.Sdk",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A .NET client library for the TypeSafe AI System One API",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-arm-lab",
+      "author": "Vankleben",
+      "category": "robotics",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Vankleben/jev-arm-lab",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Typed-judgment model driving task-level decisions on a simulated xArm7 robotic arm",
       "metrics": null,
       "verification": {
         "tier": "B",
