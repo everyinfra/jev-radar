@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 241,
+    "total_curated": 248,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4881,6 +4881,150 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "tabjev",
+      "author": "rishhavv",
+      "category": "browser-extension",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/rishhavv/tabjev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Every new Chrome tab sorts itself into the right tab group in ~150ms using Jev; ~1 cent/month at 1000 tabs; cold/warm latency visible in settings",
+      "metrics": "~250 input tokens per tab = $0.00001; cold call 1133ms (TLS+SW), warm far lower",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-factorio-agent",
+      "author": "CompleteDotTech",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/CompleteDotTech/jev-factorio-agent",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A Jev-powered Factorio agent: Jev makes macro decisions (goal/next action/stuck detection), deterministic code owns game rules and actuation; mock backend for fully offline runs",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-superpowers",
+      "author": "AkashPriyadarshii",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/AkashPriyadarshii/jev-superpowers",
+      "tweet": null,
+      "stars": 13,
+      "one_liner": "Systematic software development framework for AI coding agents upgraded with TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-curate",
+      "author": "AkashPriyadarshii",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/AkashPriyadarshii/jev-curate",
+      "tweet": null,
+      "stars": 13,
+      "one_liner": "High-throughput synthetic and pretraining dataset sifter powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "shunt-jev",
+      "author": "moelahmady",
+      "category": "compaction",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/moelahmady/shunt-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Blocks a full-file Read only when the file's contents aren't what you need",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "Footwork",
+      "author": "Tom-R-Main",
+      "category": "browser-agent",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Tom-R-Main/Footwork",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A dual-process browser agent: fast calibrated System 1 decisions from Jev in front, slower System 2 when needed",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-foundation-models",
+      "author": "peterfriese",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/peterfriese/jev-foundation-models",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "A lightweight native Swift 6 bridge integrating TypeSafe AI's Jev System One decision model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
       }
     }
   ]
