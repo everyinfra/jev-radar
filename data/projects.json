@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 248,
+    "total_curated": 255,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -5019,6 +5019,153 @@
       "tweet": null,
       "stars": 1,
       "one_liner": "A lightweight native Swift 6 bridge integrating TypeSafe AI's Jev System One decision model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "blockly-jev",
+      "author": "eriestra",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/eriestra/blockly-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Blockly extension putting Jev judgments into blocks: Noul→Boolean, Choice→String, Score→Number; any stock Blockly block can be driven by a Jev judgment",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-chrome-extension",
+      "author": "gavansmyth-arch",
+      "category": "browser-extension",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/gavansmyth-arch/jev-chrome-extension",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Chrome side-panel agent: type a goal and Jev clicks/types/scrolls the current tab until done; or highlight text and ask Jev yes/no/pick/rate; Alt+J global",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-prior-auth-triage",
+      "author": "vishalbitit",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/vishalbitit/jev-prior-auth-triage",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Prior-authorization triage POC for US health insurance: Jev decides where the PA request should go next (not whether to approve); synthetic data, full disclaimers, live dashboard",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "feedlens",
+      "author": "Klikwork",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Klikwork/feedlens",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Personal LinkedIn feed labels and ad dimming powered by Jev, BYO key",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "anti-dead-internet",
+      "author": "koz",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/koz/anti-dead-internet",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A Chrome extension that classifies and removes AI-generated posts on X/Twitter",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "moviejev",
+      "author": "SebasPinto",
+      "category": "content-scoring",
+      "primitives": [
+        "score",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/SebasPinto/moviejev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "LLM movie recommender using Jev as a calibrated reranker, with an offline mode",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-harness",
+      "author": "linksawakening",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/linksawakening/jev-harness",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Self-hosted project harness: code owns the loop, Jev owns the judgments, the LLM owns the writing",
       "metrics": null,
       "verification": {
         "tier": "B",
