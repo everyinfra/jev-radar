@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 211,
+    "total_curated": 218,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4287,6 +4287,149 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Free local Jev-compatible typed decisions backed by rules or Laya, TypeSafe-SDK-compatible — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "rag-jev",
+      "author": "Nixz0824",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Nixz0824/rag-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chinese LoL patch-notes RAG QA: numbers come only from deterministic structured extraction (never a generator); Jev does rerank + answer self-check; negative results published",
+      "metrics": "78-question independent blind eval (writer forbidden from corpus) + 48 parsing blind + 18 traps; refusals 10/10; Jev $0.0001/call; 93 unit tests; 30 versions / 4,995 chunks",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "ockev",
+      "author": "fancyboi999",
+      "category": "content-scoring",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/fancyboi999/ockev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Ship the result, not the conversation: 35ms local discriminative decision engine removing apophasis (what-the-agent-didn't-do padding) from agent deliverables",
+      "metrics": "TomatoEggBench-120 at 95.8% (author-reported); Apple Silicon MLX / CUDA",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "squint",
+      "author": "valsecchi75",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/valsecchi75/squint",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Claude reads the part of a large file that answers your question, not the whole file",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "exact-paste",
+      "author": "goodnight000",
+      "category": "browser-extension",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/goodnight000/exact-paste",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chrome extension: paste the exact value a form field wants, or the whole copied text",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "approval-judge-bridge",
+      "author": "oppih",
+      "category": "agent-safety",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/oppih/approval-judge-bridge",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "OpenAI-compatible judge endpoint for agent approval gates: typed Jev judgments via any OpenAI-compatible client",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "Jcua",
+      "author": "1deat0r",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/1deat0r/Jcua",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev computer-use agent: cross-platform, self-improving (cua offshoot)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-mcp-spring",
+      "author": "Ashfaqbs",
+      "category": "platform",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Ashfaqbs/jev-mcp-spring",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Java/Spring Boot MCP server for TypeSafe Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
