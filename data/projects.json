@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 197,
+    "total_curated": 204,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4000,6 +4000,150 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Cinematic 2D rescue game: six people, 35 seconds, live AI decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-ui",
+      "author": "etweisberg",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/etweisberg/jev-ui",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Probabilistic UI for React: JevSwitch picks a subtree, JevList orders/filters/truncates, JevReveal shows on condition; record/replay fixtures for free tests, keys server-side",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-board-game",
+      "author": "KeWang0622",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/KeWang0622/jev-board-game",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Belief as a primitive: Undercover/Werewolf/Avalon where every player is an independent Jev agent whose suspicion is a typed calibrated distribution; god's-eye viewer with belief bars and full decision log",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "MacWork",
+      "author": "gklab",
+      "category": "browser-agent",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/gklab/MacWork",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A worker that lives in your Mac: operates native interfaces (menus, AX tree, Shortcuts, App Intents) with Jev making fast which-one/is-it-done decisions; signed Swift helper holds permissions; MCP commands",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-tree-memory",
+      "author": "Pizzawookiee",
+      "category": "compaction",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Pizzawookiee/jev-tree-memory",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev + an n-ary memory tree for agentic memory routing and retrieval",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jevtriage",
+      "author": "sathariels",
+      "category": "code-quality",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/sathariels/jevtriage",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "GitHub Action + CLI triaging PRs with Jev (ready / needs review / risky), from the jevcheck author",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "DriftLab",
+      "author": "asmirrr",
+      "category": "trading",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/asmirrr/DriftLab",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Reproducible quantitative research CLI for testing momentum strategies and auditing research outputs",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "python-jev-if",
+      "author": "YosAwed",
+      "category": "sdk",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/YosAwed/python-jev-if",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Use Jev yes/no probabilities directly in Python if conditions",
       "metrics": null,
       "verification": {
         "tier": "B",
