@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 218,
+    "total_curated": 225,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4430,6 +4430,147 @@
       "tweet": null,
       "stars": 1,
       "one_liner": "Java/Spring Boot MCP server for TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-prompt-optimization",
+      "author": "j341nono",
+      "category": "eval",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/j341nono/jev-prompt-optimization",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Automatically optimize a Jev Choice's instructions and criteria descriptions from labeled data: evolutionary search (EvoPrompt/GEPA) with GPT as mutation operator, fitness = normalized Brier score on Jev's distribution; Web UI",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-labeler-action",
+      "author": "yamadashy",
+      "category": "code-quality",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/yamadashy/jev-labeler-action",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Zero-config AI issue labeling: one Noul per repo label (built from the label's own GitHub description), threshold 0.8, dry-run mode; hostile bodies can at worst earn a wrong label — nothing to hijack, no tool to call",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jevcraft",
+      "author": "Ege-BULUT",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Ege-BULUT/jevcraft",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev plays VoxeLibre (free block-world game) around the clock, with recordings",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-no-en",
+      "author": "patryckalves",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/patryckalves/jev-no-en",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Reproducible benchmark evaluating Jev on Brazil's ENEM national exam",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "arxiv-for-chat-users",
+      "author": "SalomonOli",
+      "category": "content-scoring",
+      "primitives": [
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/SalomonOli/arxiv-for-chat-users",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Which recent arXiv papers actually help a non-technical person get better work out of chat AI — Jev-scored filter",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-screen-mcp & jev-review-mcp",
+      "author": "jiawei686",
+      "category": "platform",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/jiawei686/jev-screen-mcp",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Single-purpose MCP gates (one tool, one job): content-moderation gate and code-review gate",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "jev-stock-decision-maker",
+      "author": "0xZee",
+      "category": "trading",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/0xZee/jev-stock-decision-maker",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Live demo turning market data into structured decisions",
       "metrics": null,
       "verification": {
         "tier": "B",
