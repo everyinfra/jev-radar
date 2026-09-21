@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 225,
+    "total_curated": 234,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4571,6 +4571,168 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Live demo turning market data into structured decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "QuantDinger",
+      "author": "OpenByteInc",
+      "category": "trading",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/OpenByteInc/QuantDinger",
+      "tweet": null,
+      "stars": 11904,
+      "one_liner": "Open-source AI Trading OS with agent trading, vibe trading, and Jev System One integration — #2 by stars in the entire ecosystem",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "kev",
+      "author": "jaredpalmer",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jaredpalmer/kev",
+      "tweet": null,
+      "stars": 1879,
+      "one_liner": "Tiny Jev-like family of decision models built on Qwen3.5, trainable and runnable locally — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "hippo-memory",
+      "author": "kitfunso",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kitfunso/hippo-memory",
+      "tweet": null,
+      "stars": 750,
+      "one_liner": "Biologically-inspired memory for AI agents: decay, retrieval strengthening, consolidation",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "reticle",
+      "author": "reticlehq",
+      "category": "code-quality",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/reticlehq/reticle",
+      "tweet": null,
+      "stars": 796,
+      "one_liner": "AI agents can generate code but struggle to understand what they build — reticle brings comprehension",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "distill",
+      "author": "samuelfaj",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/samuelfaj/distill",
+      "tweet": null,
+      "stars": 682,
+      "one_liner": "Get far more done with far fewer tokens",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "tiptour-macos",
+      "author": "milind-soni",
+      "category": "browser-agent",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/milind-soni/tiptour-macos",
+      "tweet": null,
+      "stars": 630,
+      "one_liner": "Open-source fast local computer use for macOS",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "agent-beacon",
+      "author": "Asymptote-Labs",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Asymptote-Labs/agent-beacon",
+      "tweet": null,
+      "stars": 606,
+      "one_liner": "The cross-harness self-improving memory layer for AI agents",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "phi",
+      "author": "pulseaiclub",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pulseaiclub/phi",
+      "tweet": null,
+      "stars": 481,
+      "one_liner": "A coding agent with RPC plugins, sub-agents, hashline edits, and MCP",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-21"
+      }
+    },
+    {
+      "name": "von",
+      "author": "wfzyx",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/wfzyx/von",
+      "tweet": null,
+      "stars": 320,
+      "one_liner": "The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative — NOT official",
       "metrics": null,
       "verification": {
         "tier": "B",
