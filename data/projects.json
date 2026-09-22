@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 269,
+    "total_curated": 276,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -5454,6 +5454,147 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Trier sa boîte mail avec Jev (French): 4 ready-to-use email triage templates",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jevyoumean",
+      "author": "syumai",
+      "category": "data-infra",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/syumai/jevyoumean",
+      "tweet": null,
+      "stars": 6,
+      "one_liner": "Semantic 'Did you mean?' for any CLI: wraps commands, reads help output, asks Jev which documented subcommand you meant — remove→rm, list→ps, undo→restore are close in meaning but far in spelling",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-wingman",
+      "author": "1104480426-hash",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/1104480426-hash/jev-wingman",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Chat co-pilot that works with any messaging app (QQ/WeChat/Feishu/DingTalk/Telegram): reads chat window via Accessibility, judges with typed decisions, never types for you; APK install; evolution of jev-qq-assist",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "gemini-quality-gate-jev",
+      "author": "ZongxingH",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ZongxingH/gemini-quality-gate-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Four quality gates for Gemini CLI (AfterAgent/BeforeTool/BeforeAgent/SessionStart) with official 3-tier confidence-gated routing; read-only ops filtered locally, only shell commands and sensitive writes sent to Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "askgrep",
+      "author": "fajarhide",
+      "category": "data-infra",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/fajarhide/askgrep",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "grep for the questions you cannot write as a pattern: reads every function instead of sampling lines",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "deslopify",
+      "author": "Pikaryu729",
+      "category": "browser-extension",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Pikaryu729/deslopify",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chrome/Firefox extension that grades every LinkedIn feed post as golden nugget, useful, or slop",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "yuru-come",
+      "author": "hiroyannnn",
+      "category": "content-scoring",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/hiroyannnn/yuru-come",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Loose comment viewer: bundles duplicate live-chat reactions and surfaces the comments actually worth reading",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "korea-ai-contest-tracker",
+      "author": "Sweet-Butters",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Sweet-Butters/korea-ai-contest-tracker",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Self-updating directory of AI competitions and hackathons in South Korea, with Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
