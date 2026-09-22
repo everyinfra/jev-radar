@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 304,
+    "total_curated": 311,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6145,6 +6145,142 @@
       "tweet": null,
       "stars": 1,
       "one_liner": "Real-world Jev use cases, open-source projects, benchmarks and criticism — what people actually built",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "TurboSlop",
+      "author": "mojomast",
+      "category": "content-scoring",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/mojomast/TurboSlop",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Machine-made, human-judged: brief in, designed/written/illustrated page out in ~1s for a fraction of a cent; Jev picks design from catalog, LLM writes copy, image model illustrates; model freedom bounded to picking a card",
+      "metrics": "47 tests, 1 runtime dep",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-paints",
+      "author": "danmana",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/danmana/jev-paints",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev paints: gets a 5x5 text grid of canvas (no pixels), picks each gesture from fixed lists; code renders p5.brush strokes; 60 palettes, 50 painter styles, 16 composition templates",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "system-one-bench",
+      "author": "rssr25",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/rssr25/system-one-bench",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Unified benchmark for System One decision models (Jev, Laya): calibration, ordinal fidelity, framing robustness, decomposition; PyPI sys1bench; cached requests, re-runs free",
+      "metrics": "Jev 1.13 and Laya 0.3 benchmarked; 31 tests",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "werr",
+      "author": "pCwOrM",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pCwOrM/werr",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "Zero-memory System-1 decision engine and Jev wire-compatible runtime powered by MLX — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "karnak",
+      "author": "kjmagnan1s",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/kjmagnan1s/karnak",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev picks Claude Code reasoning effort before every step",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-relevance",
+      "author": "saksham-malhotra-27",
+      "category": "platform",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/saksham-malhotra-27/jev-relevance",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Drop-in relevance filter for LangChain RAG retrievers powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "laya-railway",
+      "author": "nomideusz",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nomideusz/laya-railway",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Laya open-weights decision model behind a Jev-compatible API, as a Railway one-click template — NOT official",
       "metrics": null,
       "verification": {
         "tier": "B",
