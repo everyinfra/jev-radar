@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 283,
+    "total_curated": 290,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -5731,6 +5731,144 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "50 cas d'usage de prospection avec Jev (French): une question prête et un exemple pour chacun",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "qq-jev-hud",
+      "author": "Evan26Ma",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Evan26Ma/qq-jev-hud",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Non-intrusive Windows QQ chat HUD: intent & risk judgments as floating card; best feature is '怎么回 ▾' expanding 4 candidate replies each labelled with predicted outcome (soothed/lands well/feels brushed off/may get worse); click to fill into QQ — sending is always your call; works with Jev or any OpenAI-compatible LLM",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-slop-guard",
+      "author": "davertor",
+      "category": "browser-extension",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/davertor/jev-slop-guard",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chrome extension for X and LinkedIn: every post gets a slop probability pill; over threshold gets blurred and stamped SLOP with show-anyway button; one {slop, not_slop} choice per post, BYO key",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "omarchy-agent",
+      "author": "rohithreddy1095",
+      "category": "browser-agent",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/rohithreddy1095/omarchy-agent",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Two-tier Linux computer use: code perceives free (hyprctl+AT-SPI+CDP), Jev decides in ~200ms, Claude only on low confidence (~10s, ~0.18); Jev is 11-26% of wall clock — the desktop is the bottleneck, not the model",
+      "metrics": "one Claude escalation ≈ 100 Jev decisions; typical run never escalates",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jeveloper",
+      "author": "pur4v",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pur4v/jeveloper",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A System-1 reflex layer for Claude Code powered by Jev: route/gate tool calls",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-oncall",
+      "author": "mingleiw",
+      "category": "agent-safety",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/mingleiw/jev-oncall",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Incident triage on Jev: the model judges, plain code decides; routing on probabilities",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "action-vocabulary-forge",
+      "author": "FrancyJGLisboa",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/FrancyJGLisboa/action-vocabulary-forge",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Compile any system's decisions into an evidence-graded Action Bundle and a generated adapter",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "chat2jev",
+      "author": "Chandler-Sun",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Chandler-Sun/chat2jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Convert legacy chat completion API requests to Typesafe Jev API",
       "metrics": null,
       "verification": {
         "tier": "B",
