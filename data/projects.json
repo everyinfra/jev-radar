@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 255,
+    "total_curated": 262,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -5166,6 +5166,155 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Self-hosted project harness: code owns the loop, Jev owns the judgments, the LLM owns the writing",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-crash-course",
+      "author": "nadyth",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/nadyth/jev-crash-course",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "An 11-level crash course (0-10, ~65 min) on Jev from zero, with runnable examples against the real API; LLM half works on any provider via LiteLLM (incl. free)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "remember-me",
+      "author": "leonininder",
+      "category": "compaction",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/leonininder/remember-me",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Agent memory hydration gate: local recall finds candidates, Jev gates include/stub/skip/promote on a redacted set — 'Jev never ranks, only admits'; offline by default",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jevgram",
+      "author": "sksq96",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/sksq96/jevgram",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Can Jev do what Pangram does? 7,139 texts from RAID, HC3 and MAGE evaluated",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "deslop",
+      "author": "yoichiojima-2",
+      "category": "browser-extension",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/yoichiojima-2/deslop",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Score web pages for ads, slop, SEO and second-hand content, with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "judgevet",
+      "author": "Alberto-Codes",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Alberto-Codes/judgevet",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Typed client, CLI and MCP server for Jev judgment model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "sabr-jev",
+      "author": "harlanljones",
+      "category": "vertical",
+      "primitives": [
+        "score",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/harlanljones/sabr-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Season stats lie by omission: Sabr-Jev grades Batter|Pitcher seasons with typed AI judgments",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "readwise-jev-classifier",
+      "author": "osrim",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/osrim/readwise-jev-classifier",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Auto-tagging and triage of Readwise Reader articles using Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
