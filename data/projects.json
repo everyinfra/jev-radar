@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 262,
+    "total_curated": 269,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -5315,6 +5315,145 @@
       "tweet": null,
       "stars": 1,
       "one_liner": "Auto-tagging and triage of Readwise Reader articles using Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "meaning-assert",
+      "author": "JohnRSandoval",
+      "category": "code-quality",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/JohnRSandoval/meaning-assert",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Test what an output means, not what it literally says: write assertions in plain English, Jev judges the actual output against that requirement; paraphrase passes, changed facts fail, insufficient evidence is inconclusive",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-qq-assist",
+      "author": "1104480426-hash",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/1104480426-hash/jev-qq-assist",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Chinese QQ chat co-pilot on your phone: reads the chat window via Android Accessibility, judges 'are they waiting for a reply / what do they want / how emotional / will a casual reply backfire / which strategy'; only gives verdicts, never types for you; APK install, local ONNX or remote Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "typesafe-jev-tools",
+      "author": "wotai-dev",
+      "category": "code-quality",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/wotai-dev/typesafe-jev-tools",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "A Claude Code hook that asks 'does this decision need a model at all?': injects a three-way test (regex / frontier model / System One band) whenever you write code containing an LLM call",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "athena-jev",
+      "author": "MartinesEmanuel",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/MartinesEmanuel/athena-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "ATHENA gives coding agents reflexes — an open-source cognitive control layer",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "commander-oracle",
+      "author": "kitapplegate",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/kitapplegate/commander-oracle",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Buy/Hold/Sell outlook for new Magic: The Gathering cards, driven by Commander demand",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "dgui-hypermem",
+      "author": "ctaxnagomi",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ctaxnagomi/dgui-hypermem",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Self-hosted hybrid memory MCP server on Cloudflare Workers",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "tri-emails-jev",
+      "author": "ColinDargent",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/ColinDargent/tri-emails-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Trier sa boîte mail avec Jev (French): 4 ready-to-use email triage templates",
       "metrics": null,
       "verification": {
         "tier": "B",
