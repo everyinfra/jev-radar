@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 276,
+    "total_curated": 283,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -5595,6 +5595,142 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Self-updating directory of AI competitions and hackathons in South Korea, with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jevseek",
+      "author": "blingdivinity",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/blingdivinity/jevseek",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "DeepSeek proposes the next token, Jev chooses it: turns a decision model into a sampler; the output voice is distinctly NOT DeepSeek's — same prompt yields terse cold prose instead of typical AI flourish; descendant of jevgpt, 10 candidates at 1 call/token (~0.00005 each)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "should-i-jev",
+      "author": "yakubmurcek",
+      "category": "sdk",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/yakubmurcek/should-i-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Describe a feature, get a verdict: plain code, Jev, or a full LLM?",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jevlery",
+      "author": "backant-io",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/backant-io/jevlery",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A runtime for Jev: jevels in, verdicts out",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "hookgate",
+      "author": "Allan-Nava",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Allan-Nava/hookgate",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Calibrated, sub-second decisions in Claude Code's hooks, answered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "system-one-chess",
+      "author": "dperezcabrera",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/dperezcabcra/system-one-chess",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Chess against Jev through OpenRouter; also Texas Hold'em poker",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-dimabsa",
+      "author": "ZhangYiqun018",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ZhangYiqun018/jev-dimabsa",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "TypeSafe Jev baseline for DimABSA (SemEval-2026 Task 3): zero-shot and 3-shot",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-prospection",
+      "author": "iamachilles",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/iamachilles/jev-prospection",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "50 cas d'usage de prospection avec Jev (French): une question prête et un exemple pour chacun",
       "metrics": null,
       "verification": {
         "tier": "B",
