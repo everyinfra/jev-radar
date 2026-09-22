@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 290,
+    "total_curated": 297,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -5869,6 +5869,143 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Convert legacy chat completion API requests to Typesafe Jev API",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "guideme-rust",
+      "author": "pedro-pscunha",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/pedro-pscunha/guideme-rust",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev judgments as Rust control flow: Noul = if, Choice = exhaustive match over your own enum, Score = comparison over your own ordered levels; thresholds/unsure-bands/fallbacks explicit and composable; contract published in spec/ so every guideme SDK answers identically",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-fill-pdf",
+      "author": "takumi-golf",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/takumi-golf/jev-fill-pdf",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Fill Japanese government PDF forms in one click: Jev reads OCR fragments around each field and picks which profile item it maps to (79 fields in one request); values never leave the browser; ≥0.8 fill green, 0.5-0.8 fill+ask, <0.5 skip; live at ilove-ai.net/fill",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "evoke",
+      "author": "evoke-build",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/evoke-build/evoke",
+      "tweet": null,
+      "stars": 10,
+      "one_liner": "Software, by reflex: a sentence becomes a call of a small program, chosen by Jev; includes replay adapter for keyless testing",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jev-reflex-autonomy-lab",
+      "author": "khordoo",
+      "category": "robotics",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/khordoo/jev-reflex-autonomy-lab",
+      "tweet": null,
+      "stars": 16,
+      "one_liner": "Multi-drone autonomy lab demonstrating Jev reflex decisions with optional System 2",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "neurolink",
+      "author": "juspay",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/juspay/neurolink",
+      "tweet": null,
+      "stars": 137,
+      "one_liner": "The pipe layer of an AI nervous system — one interface connecting provider neurons to your app",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "jevmem",
+      "author": "Avinash-jetwani",
+      "category": "compaction",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Avinash-jetwani/jevmem",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev decides, the LLM writes one line, your project never forgets: Jev-powered memory layer",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "minesweeper-thinking-lab",
+      "author": "imom39a",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/imom39a/minesweeper-thinking-lab",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Minesweeper experiments comparing Jev, LLMs, hybrid policies, and deterministic solvers",
       "metrics": null,
       "verification": {
         "tier": "B",
