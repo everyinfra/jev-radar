@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 297,
+    "total_curated": 304,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6012,6 +6012,145 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-22"
+      }
+    },
+    {
+      "name": "JevBystander",
+      "author": "Nisaka520",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Nisaka520/JevBystander",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Chinese WeChat minimal reading: zero-dependency APK (861KB, no AndroidX/ML Kit/network lib), reads visible chat, pops 3 Toast lines (intent/emotion/suggestion); never generates replies, sends, or overlays; honest README crediting inspirations",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-exam",
+      "author": "Simon-zj1",
+      "category": "vertical",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Simon-zj1/jev-exam",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chinese self-exam generator: upload study material → auto-generate questions → Jev judges each scoring point individually → mistake tracker; 3 fixed roles (LLM writes/Jev judges/code composes); offline mode works without key",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "spring-ai-typesafe",
+      "author": "spring-ai-community",
+      "category": "platform",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/spring-ai-community/spring-ai-typesafe",
+      "tweet": null,
+      "stars": 28,
+      "one_liner": "Official Spring AI community Java SDK for Jev: Spring RestClient + Jackson 3, plus Spring AI integrations as Model-as-a-judge, guardrail, RAG post-processor, and tool index; on Maven Central — 5th major platform adoption",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "laya-vs-jev-arena",
+      "author": "PromptEngineer48",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/PromptEngineer48/laya-vs-jev-arena",
+      "tweet": null,
+      "stars": 23,
+      "one_liner": "Laya (open source, local) vs TypeSafe Jev (API): two AI models race in Snake and fight in an arena",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "better-jev-for-all",
+      "author": "asp616848",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/asp616848/better-jev-for-all",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Open, self-hostable, faster System One decision model — API-compatible alternative — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-vj",
+      "author": "TakuyaAbe",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/TakuyaAbe/jev-vj",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Audio-reactive visuals where three Jev units deliberate the show (MAGI style from Evangelion)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-in-the-wild",
+      "author": "Jessie-QingYu",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Jessie-QingYu/jev-in-the-wild",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Real-world Jev use cases, open-source projects, benchmarks and criticism — what people actually built",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
       }
     }
   ]
