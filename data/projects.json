@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 346,
+    "total_curated": 353,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6951,6 +6951,139 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Checking whether a model's probability means what it says: Jev and open-weights alternatives",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-dom",
+      "author": "eralabs-ai",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/eralabs-ai/jev-dom",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev driving any web page through its DOM — no WebMCP required: the page's own buttons/links/fields become the action space; 'add two cartons of oat milk' = 3 calls, 1.38s, ~0.0019",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "doorman",
+      "author": "0x4rch",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/0x4rch/doorman",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Bot and pitch detection for risky forms: P>=0.8 deliver, <0.2 drop, between=hold for human; every drop includes the line that gave it away, chosen by Jev; zero dependencies, mock mode without key",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-imap-router",
+      "author": "bquigley1",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/bquigley1/jev-imap-router",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "AI inbox sorting for any IMAP mailbox (Gmail/iCloud/Fastmail/Outlook/Yahoo/custom domain): plain-English categories, Jev picks one per email, files on the mail server so all clients see the same folders; never deletes; agent-installable",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "langchain-skill-router",
+      "author": "deyna256",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/deyna256/langchain-skill-router",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few relevant skills",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-agentic-workflows",
+      "author": "sir-ad",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sir-ad/jev-agentic-workflows",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Typed selection, independent verification, and bounded reconsideration for agent workflows",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "codex-task-router",
+      "author": "sir-ad",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sir-ad/codex-task-router",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Model, reasoning effort, skill, and bounded worker routing for Codex with optional TypeSafe",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-dotnet",
+      "author": "kkdev92",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kkdev92/jev-dotnet",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "An unofficial .NET 10 client for Jev, with typed decision plans",
       "metrics": null,
       "verification": {
         "tier": "B",
