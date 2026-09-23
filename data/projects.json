@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 332,
+    "total_curated": 339,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6683,6 +6683,137 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Chrome extension that hides X/Twitter replies matching a natural-language condition, judged by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-handbook",
+      "author": "Li-Evan",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Li-Evan/jev-handbook",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chinese Jev practical handbook: 90K chars, 17 chapters + appendix, best practices from 3000+ community projects organized by scenario; auto-generates EPUB/PDF/web; importable to WeChat Read",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-rubiks",
+      "author": "maxlibin",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/maxlibin/jev-rubiks",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Interactive 3D Rubik cube: code solves (Kociemba ~20ms) and Jev coaches your hand solves — deciding when to stay quiet, warn you undid progress, celebrate milestones, or offer next step; raw judgment values shown",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "obsidian-smart-tagger",
+      "author": "xinye1017",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/xinye1017/obsidian-smart-tagger",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "High-speed zero-hallucination System-1 tagging assistant for Obsidian: sub-200ms, 100% precision on held-out notes; bilingual docs",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "laya-server",
+      "author": "1Panel-dev",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/1Panel-dev/laya-server",
+      "tweet": null,
+      "stars": 35,
+      "one_liner": "Self-hosted API and web interface for Laya structured decision models, compatible with Jev — from 1Panel official; NOT official Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "starsearch",
+      "author": "kylemclaren",
+      "category": "data-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kylemclaren/starsearch",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Natural-language search over anyone's GitHub stars, re-ranked by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-skill-scout",
+      "author": "karanb192",
+      "category": "code-quality",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/karanb192/jev-skill-scout",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Finds the turns where Claude Code should have loaded one of your skills and did not",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "pairsort",
+      "author": "ericflo",
+      "category": "data-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ericflo/pairsort",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Rank anything with AI judges: many small pairwise questions coupled into one order",
       "metrics": null,
       "verification": {
         "tier": "B",
