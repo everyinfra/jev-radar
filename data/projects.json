@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 360,
+    "total_curated": 361,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -7218,6 +7218,27 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "An experimental Astra + Jev Fallout: New Vegas project: read-only game observation",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "codex-jev-router",
+      "author": "suenot",
+      "category": "routing",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/suenot/codex-jev-router",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Uses Jev Choice and Noul to select Codex subagent model and reasoning effort from a short task summary; local rules fall back to Sol when uncertain",
       "metrics": null,
       "verification": {
         "tier": "B",
