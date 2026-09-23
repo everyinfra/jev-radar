@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 311,
+    "total_curated": 318,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6281,6 +6281,145 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Laya open-weights decision model behind a Jev-compatible API, as a Railway one-click template — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-the-janitor",
+      "author": "kylehovance-ai",
+      "category": "data-infra",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/kylehovance-ai/jev-the-janitor",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "A janitor for markdown vaults: Jev judges each note across 7 typed questions (bucket/persist/secret/duplicate/decision/stale/orphan); never deletes or rewrites, only adds frontmatter or quarantines suspected secrets; 26 real notes measured in README",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "guideme-typescript",
+      "author": "pedro-pscunha",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/pedro-pscunha/guideme-typescript",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "TypeScript guideme SDK: a Jev judgment returns as a normal TS value (boolean/your own option key/your own level key); shares spec/ contract with the Rust version for cross-language consistency",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jevcast",
+      "author": "RyanErkal",
+      "category": "data-infra",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/RyanErkal/jevcast",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Native macOS launcher and window manager with optional natural-language matching via Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jevpdf",
+      "author": "kylemclaren",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/kylemclaren/jevpdf",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Ask a PDF in your own words and watch the matching lines light up (React + pdf.js + Jev)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-retrieval",
+      "author": "romeromarcelo",
+      "category": "data-infra",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/romeromarcelo/jev-retrieval",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Semantic code and document search CLI: BM25 recall + Jev calibrated precision",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-triage-race",
+      "author": "Vybavnag",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Vybavnag/jev-triage-race",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Race Jev classifier against an LLM on support-ticket triage: live speed, cost and accuracy",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "baza-wiedzy-ai-engineering",
+      "author": "gzawadzki",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gzawadzki/baza-wiedzy-ai-engineering",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "AI Engineering knowledge base and Obsidian automated extractor (Polish; Jev + DeepSeek)",
       "metrics": null,
       "verification": {
         "tier": "B",

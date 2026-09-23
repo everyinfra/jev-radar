@@ -9,7 +9,7 @@
 
 **全网最全,没有之一 · The Most Complete — if it was built with Jev, it's in this radar.**
 
-[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-311_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
+[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-318_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
 
 **[English](#english) · [中文](#中文)**
 
