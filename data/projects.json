@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 325,
+    "total_curated": 332,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6555,6 +6555,134 @@
       "tweet": null,
       "stars": 2,
       "one_liner": "DSH plugin registering Jev as an agent tool (jev_decide)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-docs-zh",
+      "author": "Bald0Wang",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Bald0Wang/jev-docs-zh",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Complete unofficial Chinese translation of the official Jev documentation: 109 pages, path-matched to the original site; pure-Python static site builder; GitHub Pages online",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "awesome-jev-robustness",
+      "author": "Yifan-Lan",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Yifan-Lan/awesome-jev-robustness",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Robustness-specific awesome list (109 independent experiments): only entries testing how Jev answers/probabilities change with wording, order, repeated calls, language, planted steering, or no-match inputs; machine-readable entries.tsv; excludes accuracy-only benchmarks",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "mina-terrarium",
+      "author": "kavehmz",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kavehmz/mina-terrarium",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Mina, an artificial person who feels time pass; Jev watches her body",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-aita",
+      "author": "dchristopoulos",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/dchristopoulos/jev-aita",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Benchmark of Jev against Sonnet 5, GPT-5 nano and local LLMs on 770 Reddit AITA posts",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "michelin-jev-search",
+      "author": "wsmontes",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/wsmontes/michelin-jev-search",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Michelin restaurant search with Jev (Portuguese): 6,802 restaurants, sampling approach",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "selectia",
+      "author": "AISidesKicks",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/AISidesKicks/selectia",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A family of System One-style models fine-tuned from LFM 2.5, designed for one-pass decisions — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "veil",
+      "author": "force416",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/force416/veil",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chrome extension that hides X/Twitter replies matching a natural-language condition, judged by Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
