@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 318,
+    "total_curated": 325,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6420,6 +6420,141 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "AI Engineering knowledge base and Obsidian automated extractor (Polish; Jev + DeepSeek)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-chat-windows-deepseek-jev",
+      "author": "Aimark-dai",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Aimark-dai/jev-chat-windows-deepseek-jev",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Chinese WeChat desktop reply assistant (Windows stable + macOS preview): JEV pre-judges, DeepSeek generates 3 candidates, JEV re-reviews and ranks; auto-send default off with 3s countdown; based on jev-chat-windows fork",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-tutorial-ko",
+      "author": "ohama",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ohama/jev-tutorial",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Korean-language Jev cookbook (mdBook) — first Korean tutorial resource",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-reranker",
+      "author": "shinpr",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/shinpr/jev-reranker",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Rerank, filter, and compress JSON search results with Jev; one request per 30 candidates by default",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jevcumber",
+      "author": "RubyBrewsday",
+      "category": "code-quality",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/RubyBrewsday/jevcumber",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Write Cucumber tests with just the .feature file — no step definitions, Jev decides",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "dsh-jev-kit",
+      "author": "jackchen13755",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jackchen13755/dsh-jev-kit",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "22 named typed judgments for DeepSeek Harness (privacy scan, change risk, etc.)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jevdoom",
+      "author": "ethanhinson",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/ethanhinson/jevdoom",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev plays Doom (independent implementation)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "dsh-jev-decide",
+      "author": "nanami-0713",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nanami-0713/dsh-jev-decide",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "DSH plugin registering Jev as an agent tool (jev_decide)",
       "metrics": null,
       "verification": {
         "tier": "B",
