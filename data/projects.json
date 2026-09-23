@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 353,
+    "total_curated": 360,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -7090,6 +7090,140 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-agent-design-with-topk-logits-choices",
+      "author": "6Mikao9",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/6Mikao9/jev-agent-design-with-topk-logits-choices",
+      "tweet": null,
+      "stars": 20,
+      "one_liner": "Jev-native agent runtime research (Chinese): Open world -> Virtual Option Space -> Resident Option Space -> Jev decision -> State transition; PAGE/EXPAND for coverage, REFINE for granularity; honest about prior art in top-k/fallback/cascade",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "claude-herdr-jev-compaction",
+      "author": "jpwinans",
+      "category": "compaction",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/jpwinans/claude-herdr-jev-compaction",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Auto-compact Claude Code when a task finishes instead of when context fills up: Stop hook, Jev judges if the work is done, then types /compact; one Python file, stdlib only",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "mock-interview-signals",
+      "author": "ajaffer",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ajaffer/mock-interview-signals",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Interviewer-side live signal layer for mock interviews: transcript in, bounded typed judgments out (probe/redirect/move on); README includes a 'known to miss' signal and a failed usefulness gate — the most honest evaluation in the ecosystem",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "lichen",
+      "author": "Mushroom-Systems",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Mushroom-Systems/lichen",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A local, API-compatible replacement for Jev — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "SwiftJev",
+      "author": "spprichard",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/spprichard/SwiftJev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Type-safe Swift client package for TypeSafe library",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "mind-your-tone",
+      "author": "tomviner",
+      "category": "game",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/tomviner/mind-your-tone",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A live target-tone game written by IBM Granite and scored by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "astra-jev-new-vegas",
+      "author": "0mis",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/0mis/astra-jev-new-vegas",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "An experimental Astra + Jev Fallout: New Vegas project: read-only game observation",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
       }
     }
   ]
