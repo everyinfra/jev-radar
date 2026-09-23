@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 339,
+    "total_curated": 346,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6814,6 +6814,143 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Rank anything with AI judges: many small pairwise questions coupled into one order",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "agent-chaperone",
+      "author": "agent-chaperone",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/agent-chaperone/agent-chaperone",
+      "tweet": null,
+      "stars": 20,
+      "one_liner": "A calibrated firewall for AI agent tool calls: screens calls before they run and results before the agent reads them; every decision has a probability, thresholds live in a policy file; starts in shadow mode; measured results at agentchaperone.dev",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "are-they-into-you",
+      "author": "vincenth19",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/vincenth19/are-they-into-you",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Paste your DMs, find out if they are into you: scale 0(they like you) to 4(friendzoned) with score + confidence; under 400 lines, live at friendzone.vincenth19.com",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "Home-Jarvis",
+      "author": "Zizlik",
+      "category": "voice",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Zizlik/Home-Jarvis",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Czech voice assistant Hey Jarvis: speak Czech, Jev picks the card, Czech parsers compute values, voice via gpt-live-1 + MCP",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-holdem",
+      "author": "TencentEdgeOne",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/TencentEdgeOne/jev-holdem",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Heads-up no-limit Texas hold'em against Jev, from Tencent EdgeOne team; local engine deals and settles",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jqv",
+      "author": "Octalab-Inc",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Octalab-Inc/jqv",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Decision API on stock Qwen3: shared-state prefill, isolated question branches, direct choice head — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jev-the-spire",
+      "author": "alexmeckes",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/alexmeckes/jev-the-spire",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Watch Jev play Slay the Spire 2 with a local decision dashboard and offline eval",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "d3code-calibration",
+      "author": "gkastanis",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gkastanis/d3code-calibration",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Checking whether a model's probability means what it says: Jev and open-weights alternatives",
       "metrics": null,
       "verification": {
         "tier": "B",
