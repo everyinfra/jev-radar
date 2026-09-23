@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 346,
+    "total_curated": 347,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6482,6 +6482,27 @@
       "stars": 4,
       "one_liner": "Rerank, filter, and compress JSON search results with Jev; one request per 30 candidates by default",
       "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
+      }
+    },
+    {
+      "name": "jevsearch",
+      "author": "kylemclaren",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/kylemclaren/jevsearch",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "shadcn/ui registry block for ⌘K site search: keyword hits on the first keystroke, then the top 20 re-ranked by Jev in one request (noul per candidate + choice for best page); keyword order stands if TypeSafe is down",
+      "metrics": "self-reported (bench/results.json): Hit@1 83% vs 41% keyword pass alone and 41% Lunr, 41 labelled queries over the TypeSafe docs (109 pages); median 278 ms uncached; ~$0.26 per 1k searches",
       "verification": {
         "tier": "B",
         "method": "primary-source-exists",
