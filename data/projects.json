@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 346,
+    "total_curated": 347,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -1031,6 +1031,28 @@
         "method": "artifact-inspected",
         "confidence": 0.9,
         "verified_at": "2026-09-19"
+      }
+    },
+    {
+      "name": "jevql",
+      "author": "kylemclaren",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/kylemclaren/jevql",
+      "tweet": null,
+      "stars": 12,
+      "one_liner": "psql-style client for vanilla Postgres (no extension): plain SQL runs on the server, Jev judges the returned rows for jev()/jev_prob/jev_choice/jev_score; also an MCP server and Go/TS/Python SDKs",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-23"
       }
     },
     {
