@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 388,
+    "total_curated": 395,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -7754,6 +7754,137 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "nightwatch",
+      "author": "devleo10",
+      "category": "data-infra",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/devleo10/nightwatch",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "BullMQ failed-job decision maker: rules handle known errors, Jev handles the long tail (retry now / retry later / dead-letter / hand to person); confidence-gated; sample: 7 failures, rules got 3, rules+Jev got 5, Jev declined a card-decline at 58% instead of guessing; zero-code trial via npx",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "claude-router",
+      "author": "alexei-led",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/alexei-led/claude-router",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev-router for Claude Code: Jev reads each prompt and picks the model tier; measured over a day: 86.5% on Sonnet/Haiku, Opus for the hard 13.5%; total 141 vs 166 all-Opus (-15%); cheaper than best-manual-choice 147; npm @alexeiled/claude-router",
+      "metrics": "-15% vs all-Opus; cheaper than best manual choice",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "Jev-Research-Index",
+      "author": "AgenticAPP-Web",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/AgenticAPP-Web/Jev-Research-Index",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Bilingual (EN/中文) catalogue of Jev papers, software projects, interviews, and public materials; 12 papers, 337 projects, 108 public materials, 31 sources; GitHub Pages static site with JSON data layer",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-linter-action",
+      "author": "sable-inc",
+      "category": "code-quality",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sable-inc/jev-linter-action",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Configurable semantic CI checks for repository files using Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "auto-mode-for-paseo",
+      "author": "obetomuniz",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/obetomuniz/auto-mode-for-paseo",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Paseo plugin that routes each message to a persona on Codex, Claude, OpenCode, or any other agent",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "dsh-fact-check",
+      "author": "7starsseeker",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/7starsseeker/dsh-fact-check",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Fact-checking skill for DeepSeek Harness: multi-source verification against the open web",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jav-gmail-classifier",
+      "author": "kellystuard",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kellystuard/jav-gmail-classifier",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Google Apps Script that classifies Gmail messages with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
       }
     }
   ]
