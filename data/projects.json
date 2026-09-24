@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 395,
+    "total_curated": 402,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -7879,6 +7879,139 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Google Apps Script that classifies Gmail messages with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-judge-mcp",
+      "author": "PyModel",
+      "category": "platform",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/PyModel/jev-judge-mcp",
+      "tweet": null,
+      "stars": 28,
+      "one_liner": "MCP server with 11 typed judgment tools: agent hands evidence + an enumerable question (is this claim supported / is this page safe / which file answers / did this patch finish); Jev returns probabilities in <1s, policy turns them into auto/review/escalate; on PyPI",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-send-check",
+      "author": "WeiS49",
+      "category": "vertical",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/WeiS49/jev-send-check",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Bilingual pre-send message checker: politeness/intent/expected-reply/urgency/formality/emotion/sarcasm; pin original as A, edit B yourself, compare; does not generate replacement text",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "wellposed",
+      "author": "suraj-phanindra",
+      "category": "code-quality",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/suraj-phanindra/wellposed",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Offline linter for Jev requests: 45 structural checks with no model call (missing none-of-the-above / broken state paths / wrong criteria shapes) + jev-on-jev checks; 'if an input fits none of the options, Jev must still pick one — measured at confidence 1.00 on a wrong answer, so confidence gating will not catch it'",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "tabwerk",
+      "author": "DigitalIQ",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/DigitalIQ/tabwerk",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "German: Chrome extension for many open tabs: quick search, groups, sorting, duplicates, watchdog",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-fighting-games",
+      "author": "KenWuqianghao",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/KenWuqianghao/jev-fighting-games",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev plays FOOTSIES and Street Fighter III: 3rd Strike in real time from limited game state",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "candidate-experience-benchmark",
+      "author": "adambkovacs",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/adambkovacs/candidate-experience-benchmark",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Compare Jev and LLMs on 60 synthetic candidate-experience reviews: four classification targets",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "inbox-autopilot",
+      "author": "Nik-1019",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Nik-1019/nextwork-jev-inbox-autopilot",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Build an inbox autopilot in n8n that sorts Gmail with Jev and only acts when confident",
       "metrics": null,
       "verification": {
         "tier": "B",
