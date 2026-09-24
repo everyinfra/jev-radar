@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 360,
+    "total_curated": 367,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -7218,6 +7218,137 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "An experimental Astra + Jev Fallout: New Vegas project: read-only game observation",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "shapeshift",
+      "author": "anishfn",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/anishfn/shapeshift",
+      "tweet": null,
+      "stars": 404,
+      "one_liner": "One text box that morphs into the right UI as you type (event card, checklist, timer, poll, etc.); one Jev call answers 14 typed questions in parallel, code computes everything else; works fully offline by default",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "OpenJevPro",
+      "author": "zhangcy122",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/zhangcy122/OpenJev",
+      "tweet": null,
+      "stars": 25,
+      "one_liner": "Production-grade open alternative to Jev: open-weight LLMs (Qwen3/DeepSeek-V4.1/Gemma4/gpt-oss) -> Schema enforcement (vLLM Guided Decoding) -> candidate log-likelihood -> statistical calibration (Platt Scaling) -> selective prediction and abstention — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "slopmop",
+      "author": "tomfrazier",
+      "category": "browser-extension",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/tomfrazier/slopmop",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Mop the slop out of your LinkedIn feed: not an AI detector, a bad-writing detector; folds or outlines suspected slop with reasons; overrule with No/Maybe/Probably; free, no signup",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jev-router-lab",
+      "author": "Suryals",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Suryals/jev-router-lab",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Shadow-mode eval of Jev as an AIOps triage router vs Qwen3.8-27B and Claude Sonnet",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jarvis-ai-os",
+      "author": "brunogpj",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/brunogpj/jarvis-ai-os",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jarvis: Portuguese personal AI assistant in Google Apps Script (ReAct agent + RAG)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jev-role-game",
+      "author": "SrPio",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/SrPio/jev-role-game",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "RPG pixel art 8-bit where NPCs make decisions via Jev through Vercel AI Gateway (Spanish)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "tink-route",
+      "author": "jon-devlapaz",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jon-devlapaz/tink-route",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Dynamic, confidence-aware Agent Skill routing with Jev and Tink",
       "metrics": null,
       "verification": {
         "tier": "B",
