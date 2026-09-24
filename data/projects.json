@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 367,
+    "total_curated": 374,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -7349,6 +7349,135 @@
       "tweet": null,
       "stars": 4,
       "one_liner": "Dynamic, confidence-aware Agent Skill routing with Jev and Tink",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jevk5",
+      "author": "allebee",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/allebee/jevk5",
+      "tweet": null,
+      "stars": 52,
+      "one_liner": "Open-weight Jev alternative: JevBench v1.4 ranks it 2nd of 76 systems and 1st among open entrants (62.04 vs Jev 63.29); 33.1% vs Jev 36.7% on 308 sealed decisions; H100 ~13ms; Apache-2.0; /v1/systemone compatible — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "tweet-radar",
+      "author": "kelaocai",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/kelaocai/tweet-radar",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Chinese: find tweets worth reading by YOUR standards on X; community-contributed judgment rules and prompt library; free Chrome extension; README honestly notes cover image is AI-generated not a screenshot",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jev-dojo",
+      "author": "kenmori",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kenmori/jev-dojo",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Japanese: belt-system (10-kyu to 10-dan to mastership) Jev hands-on course: 23 chapters, 21 with runnable code, 19 with tests; runs without key on recorded results; total live cost ~0.0051 USD; final chapter on limits and misuse",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jevforge-suite",
+      "author": "JevForge",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/JevForge/jev-security-sentinel",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Three-tool suite: security sentinel (gate SAST/SCA/IaC/secrets findings, PASS/WARN/BLOCK), CI pathfinder (select allowlisted CI jobs), model navigator (route Issues/PRs to best AI model)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "JevSharp",
+      "author": "bariskisir",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/bariskisir/JevSharp",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": ".NET 10 SDK for Jev decisions through TypeSafe, OpenRouter, Vercel AI Gateway, and compatible endpoints",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "flick-computer-use",
+      "author": "bgivenb",
+      "category": "browser-agent",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/bgivenb/flick-computer-use",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Fast browser and macOS computer use for MCP agents: local execution, Jev decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "omarchy-beam",
+      "author": "RohitKaushal7",
+      "category": "browser-agent",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/RohitKaushal7/omarchy-beam",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "One box for Omarchy: apps, menu actions, inline maths and conversions, search shortcuts",
       "metrics": null,
       "verification": {
         "tier": "B",
