@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 381,
+    "total_curated": 388,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -7616,6 +7616,138 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Experimental Dice Chess webhook bot powered by Jev with adaptive legal-turn selection",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "zombie-survivor",
+      "author": "tomerab1",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/tomerab1/zombie-survivor",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Vampire Survivors-style horde game (Rust+Bevy): Jev as the Horde Director — every 2s it batch-decides tactics for 6 squads (rush/flank/surround/intercept/regroup) + spawn pressure + enrage + reinforcement type (counter-picking your build); local heuristic fallback; playable in browser",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "steer_or_queue",
+      "author": "Larkspur-Wang",
+      "category": "agent-safety",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Larkspur-Wang/Jev_steer_or_queue",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Your coding agent is busy. You send another message. Should it change course, wait its turn, or stop? Jev decides in ~0.5s; Claude Code plugin + Codex CLI support; zero dependencies",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jev-sap-commerce",
+      "author": "Emenowicz",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Emenowicz/jev-sap-commerce",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "SAP Commerce extension: Jev moderates product reviews, dry-run mode",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "sf-autopilot",
+      "author": "flxbl-io",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/flxbl-io/sf-autopilot",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Experimental: hand it a Salesforce org and a manual step; LLM plans, Jev checks",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "Mechanical-Jev",
+      "author": "Lasimeri",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Lasimeri/Mechanical-Jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev from Rust: client library, mjev CLI, and eval",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jev-kmp",
+      "author": "snevadalabs",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/snevadalabs/jev-kmp",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Kotlin Multiplatform SDK for the Jev System One API",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jev-triage-benchmark",
+      "author": "SENZO-NCEKANA",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/SENZO-NCEKANA/jev-triage-benchmark",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Independent benchmark of Jev vs GPT-4.1-mini on 200 labelled enquiries",
       "metrics": null,
       "verification": {
         "tier": "B",
