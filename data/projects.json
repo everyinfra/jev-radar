@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 374,
+    "total_curated": 381,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -7478,6 +7478,144 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "One box for Omarchy: apps, menu actions, inline maths and conversions, search shortcuts",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jev-girlfriend-analysis",
+      "author": "ycs77",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ycs77/jev-girlfriend-analysis",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chinese (Traditional) girlfriend translator: two scripts (girlfriend / ex-girlfriend); input message + context, get mood index 0-100 + Jev reading (surface-ok / safety-test / direct-dissatisfaction) + suggested action + landmines; never sends messages for you",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jev-approach-control",
+      "author": "Zeb88",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Zeb88/jev-approach-control",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Single-runway (27) air traffic control sim: you give radio calls in plain English (Jev parses them) or hand the frequency to Jev (every 4s it decides approach/hold/avoid/clear-to-land for each aircraft); code flies the geometry",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "Jev-Game-Theory-Arena",
+      "author": "OuchengLiu",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/OuchengLiu/Jev-Game-Theory-Arena",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Game theory lab (bilingual ZH/EN): play heads-up NLHE, liar's dice, Colonel Blotto, prisoner's dilemma, RPS and more against Jev; see full probability distribution each round; free to play online; best game-theory teaching tool",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "ad-sentinel",
+      "author": "HiroakiIchimaru",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/HiroakiIchimaru/ad-sentinel",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Japanese: Chrome extension that judges ad copy with Jev and blurs those suspected of fraud / fake warnings / personal info demands / exaggerated claims",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "jev-rag-benchmark",
+      "author": "emretheus",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/emretheus/jev-rag-benchmark",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Free English RAG benchmark for Jev 1.13: frozen candidate pools, calibration",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "zooma-onchain-bot",
+      "author": "maxchichar",
+      "category": "trading",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/maxchichar/zooma-onchain-bot",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Zero-dollar on-chain intelligence and trading platform using Jev as a classifier",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-24"
+      }
+    },
+    {
+      "name": "dicechess-bot-jev",
+      "author": "fortemate",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fortemate/dicechess-bot-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Experimental Dice Chess webhook bot powered by Jev with adaptive legal-turn selection",
       "metrics": null,
       "verification": {
         "tier": "B",
