@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 402,
+    "total_curated": 409,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8012,6 +8012,135 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Build an inbox autopilot in n8n that sorts Gmail with Jev and only acts when confident",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "ai-dj",
+      "author": "yask123",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/yask123/ai-dj",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "AI DJ performing real songs with real DJ moves (scratch/loop roll/spinback/crossfader chop), every move a tool call; Jev answers 4 questions every 2 bars in ~150ms; audio lags decisions by 2 bars (~4s) — Jev never misses, LLMs sometimes do; real DSP (stem separation, beat-locked time-stretch, scratch synth); live at yask.dev/dj",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "flash-agent-stack",
+      "author": "furuCRM-Inc",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/furuCRM-Inc/flash-agent-stack",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Local open-source drop-in for Jev: fully Jev-compatible API running on a 40MB NLI model, zero per-token cost; deployable on Cloudflare Workers / Vercel / Railway / Salesforce Sites — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-site-auditor",
+      "author": "tjkimcloud",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tjkimcloud/jev-site-auditor",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Score every page on your site against your own brand/AEO rules, combining free regex checks with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "Jev-Research",
+      "author": "JevResearch",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/JevResearch/Jev-Research",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Performance and architectural analysis of the Jev model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "typesafe-ai-php-client",
+      "author": "basi",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/basi/typesafe-ai-php-client",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "PHP client for the TypeSafe AI System One API",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jermes",
+      "author": "MersivMedia",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/MersivMedia/jermes",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev decision layer for Hermes Agent",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-bun1",
+      "author": "heiwa4126",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/heiwa4126/jev-bun1",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Japanese: first steps using Jev with the TypeScript SDK and Bun",
       "metrics": null,
       "verification": {
         "tier": "B",
