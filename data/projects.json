@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 430,
+    "total_curated": 437,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8531,6 +8531,132 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Typed System One decisions for any coding agent: one call, many typed questions, calibrated answers",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "ollaya",
+      "author": "ollaya-dev",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ollaya-dev/ollaya",
+      "tweet": null,
+      "stars": 24,
+      "one_liner": "Run open decision models locally the way Ollama runs LLMs: pull by name, serve from local daemon, speak /v1/systemone — Jev clients work by changing one environment variable",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-compiler",
+      "author": "triggeredcode",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/triggeredcode/jev-compiler",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Turn written decision rules into small programs you can test, inspect, and run anywhere",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "Jevlet",
+      "author": "NAME0x0",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/NAME0x0/Jevlet",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "From-scratch research reconstruction of a Jev-like System-One model; branch sees only state and itself, never a sibling; research/decisions.md traces every design choice to public facts",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jevii",
+      "author": "shalevamin",
+      "category": "browser-agent",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/shalevamin/jevii",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jevi the Super Intelligence: local Mac AI agent with vision-first desktop control",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "Intel-Phi-Jev",
+      "author": "Lasimeri",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Lasimeri/Intel-Phi-Jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "XKEYSCORE for Jev: System One judgments served locally",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-8ball",
+      "author": "oiupoyt",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/oiupoyt/jev-8ball",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Minimalist Magic 8-Ball oracle powered by Jev on OpenRouter",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-qa-demos",
+      "author": "gauravkhuraana",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gauravkhuraana/jev-qa-demos",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev demos for QA / SDET engineers via Vercel AI Gateway",
       "metrics": null,
       "verification": {
         "tier": "B",
