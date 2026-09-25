@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 423,
+    "total_curated": 430,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8401,6 +8401,136 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "C++ trading system leveraging TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "SNAP",
+      "author": "emnlmn",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/emnlmn/snap",
+      "tweet": null,
+      "stars": 20,
+      "one_liner": "SNAP: Single-pass Neural Answer Probabilities — typed decisions from unstructured state, one forward pass, zero generated text; local, deterministic, drop-in Jev compatible — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-fabric",
+      "author": "monotykamary",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/monotykamary/jev-fabric",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Native process orchestration in Bend language: one small executable owns processes (groups, deadlines, bounded logs); agent receives a bounded receipt instead of 40MB logs; asks Jev only when told to; no Node/Python/daemon at runtime",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "awesome-jev-essentials",
+      "author": "charetterat",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/charetterat/awesome-jev-essentials",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "The Jev projects actually worth your time — picked, compared, kept current; 84 projects across 11 categories; bilingual EN/Chinese; explicitly filters empty/renamed/doc-copy repos",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "laya-browser-agent",
+      "author": "ChenneyZhuang",
+      "category": "browser-agent",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ChenneyZhuang/laya-browser-agent",
+      "tweet": null,
+      "stars": 9,
+      "one_liner": "Local open-source Jev alternative: browser agent decisions with Laya",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-ios-bridge",
+      "author": "hugues-vnsgn",
+      "category": "browser-agent",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/hugues-vnsgn/jev-ios-bridge",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Bridge that lets Claude Code verify an iOS app on a simulator, with Jev choosing what to do",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "ralph-jev",
+      "author": "flaviomartil",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/flaviomartil/ralph-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Autonomous agent loop with a Jev completion judge; inspired by the Ralph loop",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "adecider",
+      "author": "Agents365-ai",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Agents365-ai/adecider",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Typed System One decisions for any coding agent: one call, many typed questions, calibrated answers",
       "metrics": null,
       "verification": {
         "tier": "B",
