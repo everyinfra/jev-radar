@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 437,
+    "total_curated": 444,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8657,6 +8657,134 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Jev demos for QA / SDET engineers via Vercel AI Gateway",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "tinyjev",
+      "author": "ankit-aglawe",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ankit-aglawe/tinyjev",
+      "tweet": null,
+      "stars": 21,
+      "one_liner": "0.6B local decision model: typed decisions on your laptop that know when to ask a human; PyPI + HuggingFace weights; bilingual EN/Chinese",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "Jevstiller",
+      "author": "tomerglick57",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tomerglick57/Jevstiller",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Distill a repeated Jev classification into a local model on the fly — same answers, your hardware; Banking77: 70.7% of held-out messages answered at 99.45% agreement; CPU 130 msg/s (6.5x Jev rate limit), GPU ~2000/s",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "sooth",
+      "author": "naufalhilmiaji",
+      "category": "code-quality",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/naufalhilmiaji/sooth",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Claim-by-claim fact-checking for AI output in CI: checks every sentence against your source material, returns PASS/FAIL/REVIEW with calibrated probabilities and the exact source line; pip install sooth; no-key demo",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "design-os-generative-ui",
+      "author": "jangtrinh",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jangtrinh/design-os-generative-ui",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Sub-50ms real-time generative UI engine powered by Laya-MLX and Jev cascade routing",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "live-love-jev",
+      "author": "Jimuelle07",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Jimuelle07/live-love-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Claude Code plugin that cuts token usage: routes coding subagents to cheap OpenCode Go models",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "cursor-clijev-compaction",
+      "author": "kleosr",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kleosr/cursor-clijev-compaction",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "TypeSafe Jev-scored context recovery for Cursor CLI: capture tool I/O, score keep/drop",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "masroufi",
+      "author": "wafaa-alhayek",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/wafaa-alhayek/masroufi",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Expense tracking for Gaza households built around bank statement exports and their notes",
       "metrics": null,
       "verification": {
         "tier": "B",
