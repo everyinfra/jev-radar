@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 409,
+    "total_curated": 416,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8141,6 +8141,136 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Japanese: first steps using Jev with the TypeScript SDK and Bun",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "hermes-nerve",
+      "author": "keeltrace",
+      "category": "agent-safety",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/keeltrace/hermes-nerve",
+      "tweet": null,
+      "stars": 23,
+      "one_liner": "Async supervisory layer for Hermes Agent (nervous system): watchdog + forecaster; Dev17 validates Jev / self-hosted Laya / OpenJev three-backend matrix; reflex_backend=shadow keeps Jev authoritative while logging paired Laya decisions; dependency-free core + model runtimes in sidecars",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jevper",
+      "author": "zhulinchng",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/zhulinchng/jevper",
+      "tweet": null,
+      "stars": 12,
+      "one_liner": "Jev interface on top of any OpenAI-compatible model: same typesafe-sdk call, different backend (llama.cpp / LM Studio / vLLM / SGLang); duck-typed client, no dependency on typesafe-sdk or openai — NOT official",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "r2r-jev",
+      "author": "Thneoly",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Thneoly/r2r-jev",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "A probabilistic judgment should be evidence, not authority: Jev judges -> Evidence Admission (Reject/Hold/Accept) -> R2R persistent replayable relation state; Trust -> Delegation chain",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "FYIsoft.Extensions.AI.Providers",
+      "author": "FYIsoft",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/FYIsoft/FYIsoft.Extensions.AI.Providers",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Microsoft.Extensions.AI provider SDKs: Anthropic Claude and TypeSafe AI Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev_enhance_harness",
+      "author": "LHLLHL-hailong",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/LHLLHL-hailong/jev_enhance_harness",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chinese: Pi agent harness + Jev structured decision model integration",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "seems-laya",
+      "author": "ericmzl",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ericmzl/seems-laya",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Seems: Python, plus judgment, answered locally by Laya",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "trading_bot",
+      "author": "adarshvermaa",
+      "category": "trading",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/adarshvermaa/trading_bot",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Confluence-driven architecture combining ICT / Smart Money Concepts and Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
