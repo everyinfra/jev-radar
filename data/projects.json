@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 444,
+    "total_curated": 451,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8791,6 +8791,138 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "system-one-connector",
+      "author": "itsmostafa",
+      "category": "platform",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/itsmostafa/system-one-connector",
+      "tweet": null,
+      "stars": 303,
+      "one_liner": "MCP connector giving Claude Code/Desktop, Codex, Hermes, and pi direct access to Jev's evaluate tool: agent asks a judgment question, gets back a number or option it can use in an if statement",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "lisa",
+      "author": "turenlabs",
+      "category": "code-quality",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/turenlabs/lisa",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Leak, Injection & Simplicity Auditor: GitHub Action that reviews every PR with 4 yes/no questions (secret / security vulnerability / unneeded complexity / prompt-injection text); comments on exact line; pure Python stdlib, zero install at runtime",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-lifecycle",
+      "author": "gbesse",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gbesse/jev-lifecycle",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "6 production tools for Jev and compatible decision models: shadow (production comparison), contractlab (lint+repeatability+option-order sensitivity), router (hierarchical routing+failover), pulse (calibration quantification), triageops (confidence-gated triage), set (multilabel threshold fitting)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "semcull",
+      "author": "ElsonNg",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ElsonNg/semcull",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Token-efficient workflows for inspecting noisy tool output with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "instruct-jev",
+      "author": "ctaxnagomi",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ctaxnagomi/instruct-jev",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "TypeSafe AI Jev / System One instruction corpus (choice/noul/score)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-driver",
+      "author": "Shearerbeard",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Shearerbeard/jev-driver",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Typed Rust driver for TypeSafe AI's Jev decision model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "clawd-jev-trading-machine",
+      "author": "Solizardking",
+      "category": "trading",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Solizardking/clawd-jev-trading-machine",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "JEV-on-Solana paper trader with dynamic strategy switching",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
       }
     }
   ]
