@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 451,
+    "total_curated": 458,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8917,6 +8917,137 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "JEV-on-Solana paper trader with dynamic strategy switching",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "aphasia-word-finder",
+      "author": "nautahakk",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/nautahakk/aphasia-word-finder",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "For people with aphasia: describe the word you can't find, tap the right guess, hear it said; 900 everyday words in 6 slices asked in one request + a second round for top ~24; never makes up words, says 'Not sure' when uncertain, nothing spoken until user taps; ARASAAC speech-therapy symbols",
+      "metrics": "~0.5-1s per guess; live at aphasia-word-finder.vercel.app",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "stingray",
+      "author": "Nanako0129",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Nanako0129/stingray",
+      "tweet": null,
+      "stars": 5,
+      "one_liner": "Claude Code Stop hook for turns that stop half-done: catches three premature exit patterns (nothing done / declared action without tool calls / claiming to monitor background work with nothing running); Jev judges, background process count is local code",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "unwedge",
+      "author": "umithavare",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/umithavare/unwedge",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A circuit breaker for AI coding agents: notices when Claude Code/Codex CLI is stuck (same failing command again, same error ignored, no progress) and says so before the budget burns; watches behaviour, not token counts",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jselect",
+      "author": "keltokhy",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/keltokhy/jselect",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Useful evidence for your AI, within a token budget: a fast source-linked context selector",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jcol",
+      "author": "keltokhy",
+      "category": "data-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/keltokhy/jcol",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Apply natural-language codebooks to tables: a CLI and Python API with resumable annotation",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev4k",
+      "author": "pambrose",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pambrose/jev4k",
+      "tweet": null,
+      "stars": 6,
+      "one_liner": "A Kotlin DSL and client for TypeSafe's Jev model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-ragcheck",
+      "author": "gabazureus",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gabazureus/jev-ragcheck",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "RAG evaluation with typed decisions: sentence-level hallucination verdicts with offsets",
       "metrics": null,
       "verification": {
         "tier": "B",
