@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 416,
+    "total_curated": 423,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8271,6 +8271,136 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "Confluence-driven architecture combining ICT / Smart Money Concepts and Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-riffs",
+      "author": "hazlema",
+      "category": "game",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/hazlema/jev-riffs",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Music pattern ripper: MIDI -> interval tokens -> code mines repeating units -> Jev grades each candidate's musical significance; web UI draws piano roll + highlights motifs + plays passage; proven on Tchaikovsky: Swan Lake theme extracted from 17-track orchestral MIDI as top motif in one batched call ~600ms",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-test-impact",
+      "author": "holasoymalva",
+      "category": "code-quality",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/holasoymalva/jev-test-impact",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Ultra-fast test impact analysis: find the smallest useful set of Vitest/Jest files for a Git diff; Jev only scores locally-discovered candidates, unknown IDs discarded, API failure defaults to all tests (not zero); --static zero-config mode without key",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "krino",
+      "author": "Oaklight",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Oaklight/krino",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Krino (Greek for judge): probing, analysis, and replication toolkit for JEV-class decision models",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "dsh-jev-router",
+      "author": "CSlawyer1985",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/CSlawyer1985/dsh-jev-router",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chinese: DSH plugin using Jev to decide reasoning intensity; default only switches thinking depth (zero cache cost), auto model routing off by default + hard gates + cost ceiling",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "Blind-Spot",
+      "author": "BrunoMS0",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/BrunoMS0/Blind-Spot",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Turn-based tactical pixel art game: nighttime museum heist where Jev controls guards",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-2048",
+      "author": "pranay-tecnomi",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pranay-tecnomi/jev-2048",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Watch Jev play 2048 live in your terminal",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-25"
+      }
+    },
+    {
+      "name": "jev-quant",
+      "author": "itsadrianxv",
+      "category": "trading",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/itsadrianxv/jev-quant",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "C++ trading system leveraging TypeSafe Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
