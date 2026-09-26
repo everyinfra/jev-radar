@@ -3238,14 +3238,14 @@
       "status": "live",
       "url": "https://github.com/adamnroman/slop-filter",
       "tweet": null,
-      "stars": 0,
-      "one_liner": "Chrome extension hiding AI-generated posts on X and LinkedIn, scored by Jev",
-      "metrics": null,
+      "stars": 22,
+      "one_liner": "Chrome/Firefox extension that hides AI-written posts on X/LinkedIn/Reddit and AI comments/scripted videos on YouTube (videos judged by script, never title or thumbnail); asks Jev 30 narrow questions about HOW text is written — human tells first (invented word, joke, typo); tunable weights from your own labels, 3-strike account blocking, animated scan-line mode",
+      "metrics": "22 stars in ~11 days",
       "verification": {
-        "tier": "B",
-        "method": "primary-source-exists",
-        "confidence": 0.75,
-        "verified_at": "2026-09-20"
+        "tier": "A",
+        "method": "artifact-inspected (README + method details)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
       }
     },
     {
