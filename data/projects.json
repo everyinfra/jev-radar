@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 478,
+    "total_curated": 486,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9449,6 +9449,161 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Thunderbird add-on that flags phishing mail impersonating Japanese organizations, with optional Jev-based checking",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-cookbook (datawhale)",
+      "author": "datawhalechina",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/datawhalechina/jev-cookbook",
+      "tweet": "—",
+      "stars": 13,
+      "one_liner": "Datawhale's official Chinese tutorial book 'Jev 中文教程:从类型化决策到智能体应用': 11 chapters of runnable tutorials + Chinese translation of the official 18 cookbook recipes + full docs translation + 500+ file knowledge base, going all the way to RLCD fine-tuning an open Jev-like model (Laya); CC BY-NC-SA, read online at datawhalechina.github.io/jev-cookbook",
+      "metrics": "13 stars in first hours",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh, TOC)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "pvz-jev",
+      "author": "hzqwe",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/hzqwe/pvz-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev plays Plants vs Zombies Hybrid Edition (杂交版): perception/candidate generation/verification are code, trade-offs are Jev; reads game memory, enumerates legal actions with threat/cooldown/sun math, Jev picks; actively iterated (front/back-row constraints, per-lane distance/HP/armor assessment, lawnmower budget, near-house rescue priority); one-click .bat launch",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + division-of-labor table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "schema-truth",
+      "author": "hamzaahmadaslam",
+      "category": "seo",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/hamzaahmadaslam/schema-truth",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Checks whether JSON-LD values (prices, ratings, reviews, dates, FAQs) match what visitors actually see on the page — one yes/no question per value, probability back, unclear values go to a review list; validators check well-formedness, not truth, and string match cannot equate '2 March 2026' with '2026-03-02'; serves Google's structured-data policy that markup must truly represent page content",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + claim table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "terrajev",
+      "author": "midhunkrishna-ops",
+      "category": "devops",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/midhunkrishna-ops/terrajev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "AI-assisted Terraform plan risk and security analyzer: flags network exposure, IAM drift, destructive changes, secret-handling risks, availability impact and encryption changes BEFORE apply; CLI, Apache-2.0",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + detection list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "pi-jev-router",
+      "author": "philippdubach",
+      "category": "routing",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/philippdubach/pi-jev-router",
+      "tweet": "—",
+      "stars": 13,
+      "one_liner": "A minimal Pareto-optimal OpenRouter model router for the Pi coding agent, based on Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-java",
+      "author": "Olti1947",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Olti1947/jev-java",
+      "tweet": "—",
+      "stars": 5,
+      "one_liner": "Idiomatic Java SDK for TypeSafe AI's Jev System One decision engine",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "paperless-jev",
+      "author": "PenDraga",
+      "category": "document-mgmt",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/PenDraga/paperless-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Classifies the Paperless-NGX inbox with Jev: Docker service with web UI (German)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "rolldown-triager",
+      "author": "IWANABETHATGUY-reproduction",
+      "category": "devops",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/IWANABETHATGUY-reproduction/rolldown-triager",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "GitHub Action that auto-triages new rolldown issues with Jev: priority and area labels (rolldown = the Rust bundler behind Vite)",
       "metrics": null,
       "verification": {
         "tier": "B",
