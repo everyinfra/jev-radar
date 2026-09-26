@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 493,
+    "total_curated": 501,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9739,6 +9739,167 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Hungarian Chrome extension that hides hateful YouTube comments and live-chat messages (TypeSafe-powered)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-for-splunk",
+      "author": "sispehar",
+      "category": "enterprise",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/sispehar/jev-for-splunk",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Splunk app adding a | jev search command: typed questions about your events, answers become fields — noul probabilities sum (a sentence becomes a metric), choices group/join, scores sort; KV-store cache keyed by model+question+state without storing event text, so re-asking from a dashboard only pays for never-judged events; Splunk Enterprise 9.3+",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + SPL examples)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "Jev-Persian-Benchmark",
+      "author": "ArmanJR",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ArmanJR/Jev-Persian-Benchmark",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Persian benchmark: 480 authored questions plus a 24-excerpt classical Persian poetry pilot (24/24 meaning recognition, 24/24 situation matching); Jev 99.6% choice accuracy vs open Laya multilingual 58.75%, Brier 0.0112 vs 0.5995, Score MAE 0.07 vs 0.72 rubric levels; scored locally, no runtime model judge",
+      "metrics": "624/624 valid answers, 0 failures; jev-1.13.0 vs laya-multilingual on M4 CPU",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results tables)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jevemu",
+      "author": "sinkarusa",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/sinkarusa/jevemu",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Open emulator of the Jev API (POST /v1/systemone) on open models: renders the question as a prompt, reads label probabilities from the next-token distribution, debias and calibrate; vLLM locally or hosted logprob models; ships a paired benchmark of 9 public benchmarks with frozen questions and select/holdout split (7,534 holdout questions) reporting macro accuracy, ECE raw->calibrated and questions/s vs real Jev; UNOFFICIAL; honest disclosure that the codebase was written by AI coding agents under human direction",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + methodology)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jeva",
+      "author": "chemany",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/chemany/jeva",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "A 2B browser-agent decision model with open weights (Apache-2.0, merged into base, GGUF): page observation + goal -> exactly one action as compact JSON, no prose; fine-tune of MiniCPM5-2B on trajectories from a deterministic solver driving a real Chrome, zero human labels; ~230ms per decision, 1.6GB Q4_K_M under llama.cpp; speaks the System One protocol so jev-ultra clients can point at it; bilingual EN/zh",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README EN + badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-seo",
+      "author": "AkashPriyadarshii",
+      "category": "seo",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/AkashPriyadarshii/jev-seo",
+      "tweet": "https://x.com/Akash__ydv001 (author profile)",
+      "stars": 76,
+      "one_liner": "Free Rust SEO and GEO toolkit powered by Jev: 58-rule audits, site crawls, AI-content checks",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "system-one (iamaamir)",
+      "author": "iamaamir",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/iamaamir/system-one",
+      "tweet": "—",
+      "stars": 59,
+      "one_liner": "Provider-neutral System One runtime for TypeScript and Pi",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "typo3-webcon-jev",
+      "author": "dirnbauer",
+      "category": "cms",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/dirnbauer/typo3-webcon-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Typed decisions from Jev inside TYPO3: a decision editor and playground for the enterprise CMS",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "rust-bevy-jev-ants",
+      "author": "gkvoelkl",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/gkvoelkl/rust-bevy-jev-ants",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "An ant colony where every ant asks Jev what to do next — you are the queen (Rust + Bevy)",
       "metrics": null,
       "verification": {
         "tier": "B",
