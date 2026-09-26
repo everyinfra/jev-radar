@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 470,
+    "total_curated": 478,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9290,6 +9290,165 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Plan vs. implementation drift report powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "decis",
+      "author": "chaitin",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/chaitin/Decis",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Self-hostable inference server for open decision models from Chaitin (the SafeLine WAF company): implements the official TypeSafe /v1/systemone contract so the official typesafe-sdk needs only base_url changed; Laya and kev engines one image each with weights bundled (no startup download); playground ships Snake/dino/tetris where every step is a real systemone call; UNOFFICIAL-compatible, v0.3.2 with stable v1 wire contract",
+      "metrics": "Docker: chaitin/decis; bilingual EN/zh-CN",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README EN+zh, quickstart)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-fanout-bench",
+      "author": "blowxian",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/blowxian/jev-fanout-bench",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Reproducible measurement of the 'state billed once, questions parallel' claim: 2,976 real requests to jev-1.13-20260917 via OpenRouter (total 0.156 USD) testing billing linearity (fixed overhead F derived independently at every N), savings by state size (25/680/3,000 tokens at N=2/4/8) and whether batched answers differ from single (vs a repeat-request noise floor); extends the official cookbook's one-document 12.2x result",
+      "metrics": "2,976 requests; full report dated 2026-09-23",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + methodology)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-native-agent-with-extended-options",
+      "author": "6Mikao9",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/6Mikao9/jev-native-agent-with-extended-options",
+      "tweet": "—",
+      "stars": 23,
+      "one_liner": "Open research runtime for bounded non-generative decision models: a model with a finite decision interface operates over a much larger logical space of tools, memories and context blocks; :plan prepares a candidate and :approve is the only command that permits a side effect; Jev is the first backend, runtime API stays backend-independent; core profile runs with no weights and no key",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + CLI protocol)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jevskillz",
+      "author": "calelamb",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/calelamb/jevskillz",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Stop coding agents claiming 'all tests pass' when they don't: Claude Code plugin + Agent Skills (Codex/Cursor/Gemini/Copilot); asks several independently-phrased yes/no questions over pasted evidence (command output, diffs, test source) and reports mean [95% interval] so you see both the answer and its stability; 9 skills, ~550 tokens always-on context, zero-dependency Node",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + sample output)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "umby-jev-stack",
+      "author": "Umbylicus",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Umbylicus/umby-jev-stack",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Portable agent skill: Jev as a cheap code-review classifier (HTTP plus optional local engine)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jevfilter",
+      "author": "damiensmith1",
+      "category": "cli",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/damiensmith1/jevfilter",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Filter anything with plain-English rules, powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "ego-jev",
+      "author": "jiangkoumo",
+      "category": "browser",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/jiangkoumo/ego-jev",
+      "tweet": "—",
+      "stars": 4,
+      "one_liner": "Drive the ego lite browser with Jev: one indexed element table in, one decision out",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "tb-spam-guard",
+      "author": "Helicon1968",
+      "category": "email",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Helicon1968/tb-spam-guard",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Thunderbird add-on that flags phishing mail impersonating Japanese organizations, with optional Jev-based checking",
       "metrics": null,
       "verification": {
         "tier": "B",
