@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 458,
+    "total_curated": 464,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9048,6 +9048,130 @@
       "tweet": null,
       "stars": 0,
       "one_liner": "RAG evaluation with typed decisions: sentence-level hallucination verdicts with offsets",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-mcp (jkudish)",
+      "author": "jkudish",
+      "category": "mcp",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/jkudish/jev-mcp",
+      "tweet": "—",
+      "stars": 353,
+      "one_liner": "Eleven typed-judgment MCP tools for agents: verify claims vs evidence, screen pages for injection before context, noul probability, find/rerank/classify/decide/compare/extract, review diffs, gate merges on completion claims; 150-500ms each for a fraction of a cent",
+      "metrics": "353 stars in ~11 days",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + tool semantics)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-browser",
+      "author": "jkudish",
+      "category": "browser",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/jkudish/jev-browser",
+      "tweet": "—",
+      "stars": 268,
+      "one_liner": "Fast, very cheap browser use: Jev picks one action per step from the page's clickable/typeable/selectable elements and scores goal-met/stuck probabilities; code owns the loop (budgets, recovery, stop gates); MCP server, CLI or library, per-step confidence trace",
+      "metrics": "Wikipedia Coffee->Espresso in ~4s for $0.0016",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + demo)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "askjev",
+      "author": "brian-w-zhang",
+      "category": "research",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/brian-w-zhang/askjev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A tree with a place for every closed question (yes/no, pick one, rate): 1,319 nodes, ~99.5k real questions answered by Jev, 3D nebula explorer where every question is a star; explicitly not a benchmark — a map of Jev's defaults and jagged edges",
+      "metrics": "~99.5k questions answered; Python pipeline + Next.js 3D explorer",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + docs tree)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "skillranker",
+      "author": "Dicklesworthstone",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Dicklesworthstone/skillranker",
+      "tweet": "—",
+      "stars": 121,
+      "one_liner": "Rust CLI powered by Jev that ranks agent skills for the next step using logprobs",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "awesome-jev-live",
+      "author": "wh000wh000",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/wh000wh000/awesome-jev-live",
+      "tweet": "—",
+      "stars": 36,
+      "one_liner": "Awesome Jev — an evidence-graded index of TypeSafe System One projects: SDKs, MCP tools, agents, apps (a peer of jev-radar's approach)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-childspeak",
+      "author": "liora-iyzebhel",
+      "category": "creative",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/liora-iyzebhel/jev-childspeak",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A tiny terminal chat that gives Jev a closed vocabulary and asks it, one token at a time",
       "metrics": null,
       "verification": {
         "tier": "B",
