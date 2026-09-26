@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 486,
+    "total_curated": 493,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9604,6 +9604,141 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "GitHub Action that auto-triages new rolldown issues with Jev: priority and area labels (rolldown = the Rust bundler behind Vite)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-cyrillic-audit",
+      "author": "AHTOOOXA",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/AHTOOOXA/jev-cyrillic-audit",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Independent, reproducible, pre-registered audit of Jev's accuracy and calibration on Russian vs English (n=600 paired items per dataset): XNLI accuracy 88.3->77.3 (delta -11.0pp, 95% CI [-14.2,-7.8]) and ECE 0.032->0.096, but no detectable difference on MASSIVE intents; follow-ups show the loss in all 14 non-English languages (-4 to -16pp), unrelated to tokenization or script, absent on selection tasks, concentrated in missed entailment — matching Artetxe et al. 2020's separately-translated-benchmark artifact; whether the loss is the language or the benchmark is left open",
+      "metrics": "jev-1.13.0; pre-registered; paired reliability diagrams included",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + verdict block)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "ouijev",
+      "author": "MrHydeDev",
+      "category": "creative",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/MrHydeDev/ouijev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A pixel-art Ouija board possessed by Jev, an AI model that can't write: you type a question, the planchette trembles, the fog turns green and Jev decides where it lands; all pixel art (board, planchette, fog, buttons) is generated in code — the only images in the repo are the README's and the avatar",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + banner)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "reflex (ursuciprian)",
+      "author": "ursuciprian",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/ursuciprian/reflex",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Pre-execution risk gate for AI coding agents (Claude Code, Codex CLI, pi, oh-my-pi, opencode, Hermes): every shell command gets run/approve/block; scans everything the agent reads (pages, MCP results, curl output) for prompt injection before it acts; local deterministic rules first, Jev covers the rest in under a second with an editable policy file; autonomous profile adds a System 2 model and an async human approval queue",
+      "metrics": "on npm: @ursuciprian/reflex",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + decision flow)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "trialscout",
+      "author": "01x-in",
+      "category": "healthcare",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/01x-in/trialscout",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Reads a patient's plain-language profile and checks it against eligibility criteria of open clinical trials (trialscout.cc)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists (repo + description; site unreachable from this network)",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-pii-checker",
+      "author": "coo-quack",
+      "category": "privacy",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/coo-quack/jev-pii-checker",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "CLI that finds PII in text with Jev: presence, sensitivity, and located spans",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-guard",
+      "author": "HiveScaleSystems",
+      "category": "gaming-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/HiveScaleSystems/jev-guard",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "AI chat moderation for Minecraft (Paper/Folia) and Hytale servers, powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "epeszuro",
+      "author": "naturalmoods",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/naturalmoods/epeszuro",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Hungarian Chrome extension that hides hateful YouTube comments and live-chat messages (TypeSafe-powered)",
       "metrics": null,
       "verification": {
         "tier": "B",
