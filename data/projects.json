@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 464,
+    "total_curated": 470,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9172,6 +9172,124 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "A tiny terminal chat that gives Jev a closed vocabulary and asks it, one token at a time",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "verdict4s",
+      "author": "softinio",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/softinio/verdict4s",
+      "tweet": "—",
+      "stars": 14,
+      "one_liner": "Scala 3 client for Jev, cross-built for JVM and Scala.js from one source tree; the service's real limits (Choice 1-255 options, Score 2-10 levels, probabilities in unit interval) are carried by the types — Probability(1.5) does not compile; on Maven Central",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + code sample)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "system-one (RodrigoAlbe)",
+      "author": "RodrigoAlbe",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/RodrigoAlbe/system-one",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "UNOFFICIAL drop-in open-source alternative to Jev powered by Google Gemini (Free Tier), Groq and Ollama with strict JSON Schema; ships a consumption benchmark vs chat LLMs and Jev (~58 output tokens per 3-decision batch vs 400-800 for chat)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + benchmark table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jev-hub",
+      "author": "keepwonder",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/keepwonder/jev-hub",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese-language Jev/TypeSafe tracker and docs aggregator at jev.kiang.website: official feed + founder tweets, X discussion wall, docs mirror, 20-case cookbook with difficulty/question-type filters, SDK release monitoring, 9-part tutorial series, interactive confidence-threshold calculator",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README, feature list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jevzf",
+      "author": "zachlandes",
+      "category": "cli",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/zachlandes/jevzf",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Meaning search for fzf: rank any piped text by what it means, using Jev (unofficial, per repo description)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "jevcode",
+      "author": "miounet11",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/miounet11/jevcode",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Chinese site for Jev technical solutions and best practices (jevcode.ai)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "plan-drift",
+      "author": "kaitoy",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kaitoy/plan-drift",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Plan vs. implementation drift report powered by Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
