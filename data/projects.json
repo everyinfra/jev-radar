@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 541,
+    "total_curated": 549,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -10678,6 +10678,166 @@
       "tweet": "—",
       "stars": 1,
       "one_liner": "Claude Opus 5.5 with the effort level re-decided every step by the Jev reflex",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-recipes",
+      "author": "agencyenterprise",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/agencyenterprise/jev-recipes",
+      "tweet": "—",
+      "stars": 12,
+      "one_liner": "246 focused plug-and-play recipes for JavaScript/TypeScript (on npm): each accepts your data, calls Jev and returns a structured decision — route messages, check evidence, label responses with one function call; ships an evaluator to score your own cases, retain model responses and replay confidence policies; from Agency Enterprise (a real agency)",
+      "metrics": "246 recipes, generated catalog",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + catalog refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "x-jev-gate",
+      "author": "hrtaym1114-github",
+      "category": "privacy",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/hrtaym1114-github/x-jev-gate",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A public gate for X drafts (Japanese README): Layer A hard-blocks secret-looking strings locally, Layer B asks Jev defined Noul questions and exits non-zero when scores miss thresholds; 'Jev writes nothing, posts nothing, publishes nothing — judgment only'; cloud or local via ollaya; 54-second video tutorial",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README ja + 4-step flow)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "gliner2-api-jev-schema",
+      "author": "zushicat",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/zushicat/gliner2-api-jev-schema",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Local classification API serving GLiNER2.5-Decide (fastino, DeBERTa-v3-large encoder + count_lstm) behind a Jev-compatible POST /v1/systemone endpoint — official clients point at localhost with zero changes; UNOFFICIAL-compatible: the open-model ecosystem aligning to the Jev wire protocol",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + install log)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "sortroom",
+      "author": "mhoenes",
+      "category": "email",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/mhoenes/sortroom",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Self-hosted IMAP sorter in one Docker container with a web admin UI, works with any IMAP server; the classification model picks from YOUR categories — 'it doesn't generate text, so it can never invent a folder'; uncertain mail stays in inbox under To-review; stars action-needed mail, moves expired promotions, known senders go by free rules; multiple mailboxes; honest beta notice",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + feature list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "tdd-gate",
+      "author": "bensheridan",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/bensheridan/tdd-gate",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Keeps a test-writing agent and a code-writing agent on the same plan, using Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "obsidian-jev-inbox-router",
+      "author": "liyifan2004",
+      "category": "productivity",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/liyifan2004/obsidian-jev-inbox-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Obsidian plugin: route incoming notes to the right folder using Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-demos (DataGobes)",
+      "author": "DataGobes",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/DataGobes/jev-demos",
+      "tweet": "—",
+      "stars": 4,
+      "one_liner": "Small, honest demos of Jev inside tools data engineers already use",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "openfront-agent",
+      "author": "mogottsch",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/mogottsch/openfront-agent",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A local OpenFront agent using Jev for bounded gameplay decisions",
       "metrics": null,
       "verification": {
         "tier": "B",
