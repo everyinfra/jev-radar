@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 565,
+    "total_curated": 573,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -11162,6 +11162,160 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "awesome-jev-prompts",
+      "author": "vicfei",
+      "category": "docs",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/vicfei/awesome-jev-prompts",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A curated library of question patterns, ANTI-patterns and calibration notes for Jev — 'question design is the prompt engineering of typed decisions'; 'none of your prompt-engineering habits transfer: what transfers is how you split a decision into atomic judgments, word option descriptions, set thresholds, and when to refuse to trust the number'; collects patterns that work and anti-patterns that quietly break production; CC0 with link-check CI; bilingual EN/zh",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README EN)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-rerank-bench",
+      "author": "laguagu",
+      "category": "research",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/laguagu/jev-rerank-bench",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Finnish-text benchmarks with published MIXED verdicts: reranking YES (96.5% top-1 on MuPLeR-fi vs 73.0% unreranked, level with Voyage); Finnish code search NO (42% vs 74% for index + Jev rerank); classification 'not from label names alone — with 10 nearest labelled examples it ties a trained classifier at 0.24s vs 1.5s+ for chat models'; citation checking YES (88.1% balanced accuracy on hard claims); charts redraw from committed results with no keys or API calls",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + verdict table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "taifoon-jev",
+      "author": "taifoon-io",
+      "category": "agent-economy",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/taifoon-io/jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A grader for AI agent jobs paid on chain: 'agents are paid on chain for work nobody reads' — code checks the facts, Jev answers four closed questions, code turns them into complete/reject/needs-review with a receipt anyone can recompute; published rubric and an appeal path that buyer, seller and contract can all rely on; npx demo replays a real Base job offline with no key; on-chain recording optional",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + quickstart)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "ZeroAlloc.Jev",
+      "author": "ZeroAlloc-Net",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ZeroAlloc-Net/ZeroAlloc.Jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Unofficial .NET client for Jev: [JevQuestions] source generator emits question JSON at COMPILE time and parses answers into Noul / Choice<TEnum> / Score<T>; Native AOT; every outcome is Result<T, JevError> (HTTP errors, network failures, timeouts, unreadable responses); honest status: not yet on NuGet, requires .NET 10 and Roslyn 5.0",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + generator docs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "typed-decision-bench",
+      "author": "4nt0ineB",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/4nt0ineB/typed-decision-bench",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Bench of typed decision models: Jev vs OpenJev vs Laya, small local LLMs and cheap hosted models",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-x-highlighter",
+      "author": "mhmhquiz",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/mhmhquiz/jev-x-highlighter",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Japanese Chrome extension: Jev judges which tweets interest you and highlights them",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jevk5-typesafe-server",
+      "author": "Code2qing",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Code2qing/jevk5-typesafe-server",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "TypeSafe-compatible System One API server backed by JevK5 on llama-server (UNOFFICIAL)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "system-one-reviewer",
+      "author": "equationalapplications",
+      "category": "devops",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/equationalapplications/system-one-reviewer",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Local PR reviewer: deterministic code plus Jev judgments, with a built-in evidence trail",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
       }
     }
   ]
