@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 525,
+    "total_curated": 533,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -3458,7 +3458,7 @@
       "status": "live",
       "url": "https://github.com/yzfly/awesome-jev-zh",
       "tweet": null,
-      "stars": 26,
+      "stars": 75,
       "one_liner": "Chinese curated hub for Jev: guides, illustrated explainer, daily auto-collected trending repos, and a 'sober look' section with critical independent data",
       "metrics": null,
       "verification": {
@@ -10369,6 +10369,159 @@
       "tweet": "—",
       "stars": 1,
       "one_liner": "Portuguese-language Claude Cowork plugin using Jev via Vercel AI Gateway for Brazilian football league tasks",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "wechat-jev-android",
+      "author": "E1Byte",
+      "category": "mobile",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/E1Byte/wechat-jev-android",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "WeChat 1-on-1 chat real-time analyzer as an LSPosed/Xposed module (Chinese): hooks the WeChat process, reads ONLY the other party's plain-text messages, Jev analyzes emotion/intent/real need/subtext/should-I-reply/relationship risk, injects a local quote-style card under their bubble (stackable emotions with probabilities); sends nothing, invisible to them; direction by avatar position, auto-filters red packets/transfers/system prompts, disabled in group chats; upfront compliance warning (violates WeChat ToS, ban risk, use at own risk); each user's own API key stored locally",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh, full feature/limits list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-probe",
+      "author": "Shoaib-Asghar",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Shoaib-Asghar/jev-probe",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Empirical consistency & robustness harness: Jev vs baseline LLMs under case variations, typo noise, input/criteria order swaps, semantic paraphrasing, adversarial boundary perturbations, plus token/financial cost and latency; completes the jaggedness research trilogy with the Cyrillic audit and Persian benchmark",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + scope)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "bouncer (clownware)",
+      "author": "clownware",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/clownware/bouncer",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "A judgment layer for Claude Code tool calls: a PreToolUse hook asks plain-English questions per call on Jev for about four cents a day, questions and thresholds in a YAML file you own; 'If you run --dangerously-skip-permissions, this never prompts you. That is the point, not a caveat'; seatbelt mode stays silent until one of 19 deterministic never-okay rules matches (private keys, live credentials, git stash clear); coined 'the judgment tax: every agent pipeline pays reasoning prices for if-statements'",
+      "metrics": "v0.2, live calibration numbers in README",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + modes + PRD refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "pokemon_red_benchmark",
+      "author": "hughwalker08",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/hughwalker08/pokemon_red_benchmark",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Benchmarking Jev against Jev + a GPT-6 Sol planner at playing Pokemon Red",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists (repo + description; no README yet)",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-lab",
+      "author": "danielhirt",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/danielhirt/jev-lab",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Experiments on Jev via OpenRouter: repeatability, precision and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "JevGPT",
+      "author": "idlivada",
+      "category": "creative",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/idlivada/JevGPT",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A ChatGPT-style chat that generates replies one word at a time with Jev (the JevChat pattern, independently rebuilt)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-mail-filter",
+      "author": "ziyacivan",
+      "category": "email",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ziyacivan/jev-mail-filter",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Gmail filters written in plain English, judged by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "hexis",
+      "author": "early-effect",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/early-effect/hexis",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "ZIO / Scala 3 SDK for TypeSafe System One (Jev) — the second Scala SDK after verdict4s",
       "metrics": null,
       "verification": {
         "tier": "B",
