@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 557,
+    "total_curated": 565,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -1001,7 +1001,7 @@
       "status": "live",
       "url": "https://github.com/AboveColin/HA-Jev",
       "tweet": null,
-      "stars": 6,
+      "stars": 65,
       "one_liner": "Home Assistant integration: typed questions over entity state as sensors/automations, with token-budget fuse",
       "metrics": null,
       "verification": {
@@ -10999,6 +10999,163 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Japanese app where Jev judges lateral-thinking quiz questions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-code",
+      "author": "FrancoisChastel",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/FrancoisChastel/jev-code",
+      "tweet": "—",
+      "stars": 27,
+      "one_liner": "Jev as a first-class tool inside Claude Code, Codex, Pi and OpenCode: typed labels, yes/no checks, scores and rankings in a few hundred milliseconds, plus a skill that teaches the agent when to reach for it; 'coding agents make small classification decisions all day — by eyeballing, regex, or burning a frontier-model call per item'; on npm",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + tool diagram)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "umigame-jev",
+      "author": "tatsuya-tech77",
+      "category": "creative",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/tatsuya-tech77/umigame-jev",
+      "tweet": "https://x.com/weed_tatsuya (author profile)",
+      "stars": 0,
+      "one_liner": "Sea Turtle Soup (lateral-thinking yes/no riddles) where the game master is Jev and 'Jev never writes a single word': all player-facing text hand-written, every probability-to-answer rule is plain Python in judge.py; one request asks five things at once (~190ms for 1 or 4 questions); players try to solve in fewer moves than frontier AIs did; live playable (Japanese) with Qiita write-up",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + question table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "kass",
+      "author": "victorarias",
+      "category": "linting",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/victorarias/kass",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Lint rules in plain English for the code your agents write: 'a test that waits by sleeping, a test that only checks its own mocks, a test that can't fail' — rules as markdown yes/no questions, Jev answers in ~300ms; Rust single binary via cargo install; run by hand, in CI, or as a Claude Code hook so the agent hears about a smell the moment it writes one; every judgment lands in SQLite 'so you can tell later which rules earn their keep'",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + starter rules)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "pi-verdict",
+      "author": "jesset",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/jesset/pi-verdict",
+      "tweet": "—",
+      "stars": 10,
+      "one_liner": "Minimal permission gate for pi (which has NO built-in permission prompts): three states allow/deny/ask — 'verdict is an adjudication, not a switch; not sure never silently becomes go-ahead; both approval fatigue and silent unsafe execution lose'; built-in danger rules and your own rules settle clear cases at zero latency, the rest goes to a Jev-backed classifier with full conversation context; fail closed; the gate guards itself against snooping and tampering; ~2k-line single-file core; bilingual EN/zh",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + design principles)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-enforce",
+      "author": "erkamyaman",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/erkamyaman/jev-enforce",
+      "tweet": "—",
+      "stars": 9,
+      "one_liner": "Claude Code plugin that makes Claude follow your AGENTS.md: every reply and edit checked",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "hev",
+      "author": "tozetsu",
+      "category": "mobile",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tozetsu/hev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Android client for Jev System One — structured choice with probabilities and confidences",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-vs-laya",
+      "author": "soummyaanon",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/soummyaanon/jev-vs-laya",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Open-source battleground for AI classifiers: TypeSafe Jev vs Laya on byte-identical inputs",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-vs-spacy",
+      "author": "oluies",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/oluies/jev-vs-spacy",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "spaCy vs TypeSafe Jev on English spam, support routing and Swedish routing — the classic NLP stack as baseline",
       "metrics": null,
       "verification": {
         "tier": "B",
