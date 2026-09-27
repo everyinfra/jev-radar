@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 573,
+    "total_curated": 581,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -11310,6 +11310,160 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Local PR reviewer: deterministic code plus Jev judgments, with a built-in evidence trail",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "foreman (thruwire)",
+      "author": "thruwire",
+      "category": "agent-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/thruwire/foreman",
+      "tweet": "—",
+      "stars": 589,
+      "one_liner": "An agent supervisor and software factory foreman: Jev placed ABOVE slower coding agents — you hand it a ticket, Codex/OpenCode workers do the engineering, and Foreman independently assesses completion (implementation_complete, requirements_satisfied), verification (tests_sufficient, needs_verification) and worker health (worker_stuck, meaningful_progress) as live probabilities; whether tests are sufficient and whether to finish is the foreman call, not the worker own",
+      "metrics": "589 stars overnight — biggest newcomer in the ecosystem",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + factory diagram)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "mule4-typesafe-connector",
+      "author": "MuleSoft-Forge",
+      "category": "enterprise",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/MuleSoft-Forge/mule4-typesafe-connector",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Official MuleSoft Forge connector (Salesforce ecosystem) wrapping the System One API, default model Jev: answers become first-class Mule values driving Choice routers, Batch filters, error handlers and follow-up calls; v1.0.0 with five routes plus failover, full decide/policy/utility operation set with DataSense, and governance (cache, budget guard, stats, three monitoring sources)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + concept table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "baton",
+      "author": "VaidikV",
+      "category": "compaction",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/VaidikV/baton",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Know when to pass a Claude Code session to a fresh one before context gets expensive: a Stop hook asks a decision model whether this looks like a natural stopping point and nudges (Context 260k/200k 130 percent, Jev p=0.81 — good point to save progress and start fresh); backend-pluggable (hosted Jev default, or Laya/Kev/Von via any Jev-compatible server); single Python file, zero dependencies",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + nudge sample)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "tarnlight",
+      "author": "TheChyeahhh",
+      "category": "observability",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/TheChyeahhh/tarnlight",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A flight recorder for Jev decisions (free Windows app, unofficial): records every answer your apps get, shows them live, and lets you grade them — a confidence says how sure Jev sounds, not how often it is right on your data; on your questions 80 might be right 95 times in 100, or 55; keeps the call-vs-decision distinction (one call, many decisions); fills the ecosystem missing observability layer",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + user-guide refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "x-scanner (oso95)",
+      "author": "oso95",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/oso95/x-scanner",
+      "tweet": "—",
+      "stars": 21,
+      "one_liner": "Chrome extension that labels every post you scroll past on X with typed Jev judgments",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "toolgate",
+      "author": "RiskAverseTech",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/RiskAverseTech/toolgate",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Open auto mode for AI agents — a calibrated tool-call firewall powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-radar (korean)",
+      "author": "PineappleBingo",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/PineappleBingo/jev-radar",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Korean-language radar collecting and summarizing Jev open-source implementations daily — a namesake sibling of this project (radar-index/1)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "kev-onnx",
+      "author": "aleskxyz",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/aleskxyz/kev-onnx",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Self-hosted, TypeSafe-compatible /v1/systemone API server for the KEV decision model (UNOFFICIAL)",
       "metrics": null,
       "verification": {
         "tier": "B",
