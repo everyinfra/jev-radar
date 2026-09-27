@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 533,
+    "total_curated": 541,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -10522,6 +10522,162 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "ZIO / Scala 3 SDK for TypeSafe System One (Jev) — the second Scala SDK after verdict4s",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jgrep",
+      "author": "kyu1204",
+      "category": "cli",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/kyu1204/jgrep",
+      "tweet": "—",
+      "stars": 37,
+      "one_liner": "grep for what code does, not what it's called: 'catches an error and silently ignores it' yields file:line hits; no index, no embeddings, no LLM round-trips — a whole src/ tree in ~2s for about a cent; packs 16 code chunks x 16 questions into one request; on npm (jevgrep), zero runtime deps",
+      "metrics": "37 stars in first days",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + comparison table + demo)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "zearch",
+      "author": "brandononchain",
+      "category": "search",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/brandononchain/verdict",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Open-source Perplexity-style search UI for Jev (Zearch): web search -> interleave and dedupe up to 8 sources -> pack evidence into structured state -> a playbook of finite typed questions -> a policy gate returning act/review/abstain based on confidence, source count and evidence sufficiency; offline mock without a key, clearly-labeled fallback; Python stdlib server",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + search flow)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-screen",
+      "author": "YuanTong-Wu",
+      "category": "quant",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/YuanTong-Wu/jev-screen",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Turn an investment idea in any language into a ranked worldwide list of listed companies whose annual report or public profile says they do it, with the quote that says so; runs locally for ~0.31 USD per idea via TypeSafe/OpenRouter/Vercel; publishes its own measured accuracy honestly (pre-calibration: ~1 in 4 of top 40 clearly right, 1 in 3 clearly wrong; supply-chain/SEA ideas worse); annual-report rows far more reliable than profile-only rows; not investment advice",
+      "metrics": "~12 min first run, ~4 min later ideas",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README EN + accuracy section)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "JEV-Drive",
+      "author": "CATS-Lab",
+      "category": "research",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/CATS-Lab/JEV-Drive",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev drives an ego vehicle in NVIDIA AlpaSim from structured scene state: reads ego state/lanes/nearby actors/navigation/traffic controls, selects speed and steering changes, MPC and vehicle dynamics execute the reference trajectory; 65 decision frames over 12.8s recorded with GT L3->L2->L3 vs JEV holding L3; honest that it does not use the Alpamayo driving model; bilingual EN/zh",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + rollout comparisons)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jevkit",
+      "author": "ariel-frischer",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ariel-frischer/jevkit",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Fast Rust CLI for Jev: typed decisions with offline linting of your questions before you pay",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "HA-Crop-Steering-Jev",
+      "author": "JakeTheRabbit",
+      "category": "iot",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/JakeTheRabbit/HA-Crop-Steering-Jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Crop steering, Jev edition: the Home Assistant crop-steering engine with Jev judging every irrigation decision (greenhouse agriculture)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "awesome-jev (kraayenjon)",
+      "author": "kraayenjon",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kraayenjon/awesome-jev",
+      "tweet": "https://x.com/kraayenjon (author profile)",
+      "stars": 144,
+      "one_liner": "A curated list of Jev use cases, projects, SDKs and resources",
+      "metrics": "144 stars in ~12 days",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-opus",
+      "author": "WXK-AI",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/WXK-AI/jev-opus",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Claude Opus 5.5 with the effort level re-decided every step by the Jev reflex",
       "metrics": null,
       "verification": {
         "tier": "B",
