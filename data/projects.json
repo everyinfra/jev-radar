@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 549,
+    "total_curated": 557,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -10838,6 +10838,167 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "A local OpenFront agent using Jev for bounded gameplay decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "AnyDecisionModel",
+      "author": "mattt",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/mattt/AnyDecisionModel",
+      "tweet": "—",
+      "stars": 10,
+      "one_liner": "Swift package for typed decisions (by mattt, NSHipster founder): two backends — MLXDecisionModel runs a small LM on Apple silicon reading each decision from next-token probabilities in one forward pass with no generation, ships calibration (temperature + binaryBias, 'raw probabilities are often overconfident'); JevDecisionModel calls TypeSafe's System One API or any compatible server; API follows Apple's Foundation Models model-and-session pattern",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + Swift sample)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "dsh-jev-advisor",
+      "author": "gordan-code",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/gordan-code/dsh-jev-advisor",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "INVERTED pattern: Jev gives YOU a second opinion, not the agent — when a DeepSeek Harness model asks you a multiple-choice question, a card floats the recommendation beside the options with the full probability spread, Jev's confidence, the exact wire JSON and one-click adopt; no prompt edits, no model changes; honest scope: 'this is not an agent-loop gate — use @buberlo/dsh-jev for that; different table, different side of it'; bilingual EN/zh",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README EN + scope table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "vellum (sanity-labs)",
+      "author": "sanity-labs",
+      "category": "cms",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/sanity-labs/vellum",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Sanity Labs (the CMS company) official: Markdown -> Sanity documents with a classifier instead of an LLM; blocks with ids go into state, choice questions carry a __none__ escape ('which block supplies the title?' B000 at 0.94); about 20 requests per document and 'not one word of it was generated — it can't write a slug that was never there'; live playground at vellum.sanity.dev",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + request/response examples)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "firstlight",
+      "author": "Kandarp-Joshi-007",
+      "category": "security",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Kandarp-Joshi-007/firstlight",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Early warning for Irish brand impersonation from Certificate Transparency logs: 208 domains/s -> brand filter (0.04% survive, free) -> Jev ($0.0000125 per call) -> SQLite verdicts; the most honest calibration section in the ecosystem: 2,000-domain test with a genuinely hard control (Tranco 20k-300k, 'google.com would have proved nothing'), openly reports 'the baseline wins on AUC (0.772 vs 0.734) but Jev catches 4x more at a usable operating point (22.3% vs 5.1% recall at 97% precision)'",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + calibration tables)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "awesome-jev-typesafe (valentynkit)",
+      "author": "valentynkit",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/valentynkit/awesome-jev-typesafe",
+      "tweet": "—",
+      "stars": 169,
+      "one_liner": "Typed decisions with TypeSafe's Jev — a major curated list",
+      "metrics": "169 stars in ~12 days",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "agid",
+      "author": "colisys",
+      "category": "infra",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/colisys/agid",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: decision gateway + authoritative match server in one Go binary; Jev as the decision maker (routing/approval/scoring/validation, typed judgments with probabilities)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "stil-lint",
+      "author": "fredrsat",
+      "category": "writing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fredrsat/stil-lint",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Style and quality linter for Norwegian and English text — an MCP server for agents, with TypeSafe judging",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "soup-of-jev",
+      "author": "kanterbury",
+      "category": "creative",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kanterbury/soup-of-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Japanese app where Jev judges lateral-thinking quiz questions",
       "metrics": null,
       "verification": {
         "tier": "B",
