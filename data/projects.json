@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 581,
+    "total_curated": 589,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -192,7 +192,7 @@
       "status": "live",
       "url": "https://github.com/tamaratran/jev-pruner",
       "tweet": "https://madewithjev.com/builds/instant-compaction",
-      "stars": 12,
+      "stars": 152,
       "one_liner": "Claude Code plugin: prunes Bash stdout after execution, before the model sees it",
       "metrics": null,
       "verification": {
@@ -11464,6 +11464,160 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Self-hosted, TypeSafe-compatible /v1/systemone API server for the KEV decision model (UNOFFICIAL)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-tradingview-signal",
+      "author": "j7708git",
+      "category": "quant",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/j7708git/jev-tradingview-signal",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Traditional Chinese TradingView extension: one click sends 300 OHLCV bars + local derived features + your active indicator values (Bollinger/ALMA/CMF auto-detected) to Jev; side panel returns direction (long/short/wait), 10-bar rise probability and trend strengths; exemplary discipline in the README first screen: no auto-trading, no broker API, no trade records, no backtesting, not investment advice; zero npm deps, listens to TradingView own WebSocket read-only, key stays in chrome.storage",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh-TW full feature list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "intent-guard",
+      "author": "dgr8akki",
+      "category": "productivity",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/dgr8akki/intent-guard",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Say what you are working on, get a gentle nudge when you drift: every page is judged against your TASK, not a blocklist — the tutorial you need stays open and the rabbit hole gets a tap on the shoulder (YouTube tutorial is on-task, Shorts is not); drift grace of 1/2/5/10 minutes; honest about doubt: a page counts as on/off task only when one side holds 60 percent of the probability — unclear pages neither start nor stop the clock; one-click Back to task",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + nudge screenshots)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "system-one-playground",
+      "author": "goodboybeau",
+      "category": "research",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/goodboybeau/system-one-playground",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Run the new wave of decision models side by side on your Mac — Laya, Decider, Kev and TypeSafe Jev — with honest numbers for accuracy, calibration, latency, CPU and memory; 11 engines; make quickstart installs isolated per-engine environments, downloads three small models (~6GB) and opens a local UI",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + quickstart)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-mark",
+      "author": "Holovkat",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Holovkat/jev-mark",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Local parallel-decision evaluation: builds the thecodacus/llama.cpp parallel-decision branch against an Ollama gemma4:12b blob; measures the two claimed properties (lower latency when one request needs several bounded decisions; stronger reliability because arbitrary JSON generation is removed from the answer path); honest that it is not a general replacement for chat generation",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + setup)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "daf-jev",
+      "author": "docxology",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/docxology/daf-jev",
+      "tweet": "—",
+      "stars": 7,
+      "one_liner": "Composable Python toolkit for the Jev decision API: question packs and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-claude-code (weiping)",
+      "author": "weiping",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/weiping/jev-claude-code",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Claude Code plugin putting Jev in the agent loop: permission gate, output ladder and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-risk-check-provider",
+      "author": "caiovicentino",
+      "category": "payments",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/caiovicentino/jev-risk-check-provider",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "x402 risk-check provider: Jev typed decisions plus ES256-signed attestations",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "decision-kit",
+      "author": "BrettReifs",
+      "category": "ui",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/BrettReifs/decision-kit",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Agentic UI demonstrations for rapid, context-aware decisions with Jev, LLMs and more",
       "metrics": null,
       "verification": {
         "tier": "B",
