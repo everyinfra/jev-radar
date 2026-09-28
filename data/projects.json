@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 589,
+    "total_curated": 597,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4623,7 +4623,7 @@
       "status": "live",
       "url": "https://github.com/kitfunso/hippo-memory",
       "tweet": null,
-      "stars": 750,
+      "stars": 764,
       "one_liner": "Biologically-inspired memory for AI agents: decay, retrieval strengthening, consolidation",
       "metrics": null,
       "verification": {
@@ -8547,7 +8547,7 @@
       "status": "live",
       "url": "https://github.com/ollaya-dev/ollaya",
       "tweet": null,
-      "stars": 24,
+      "stars": 728,
       "one_liner": "Run open decision models locally the way Ollama runs LLMs: pull by name, serve from local daemon, speak /v1/systemone — Jev clients work by changing one environment variable",
       "metrics": null,
       "verification": {
@@ -11618,6 +11618,160 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Agentic UI demonstrations for rapid, context-aware decisions with Jev, LLMs and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "peira",
+      "author": "david-engelmann",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/david-engelmann/peira",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Benchmarking decision models UNDER ATTACK: Jev vs Mistral Shieldstral, Meta Prompt Guard 2, open SemIf and structured-output frontier baselines through 2,000 paired benign/attacked cases across 10 attack families (prompt injection, jailbreak framing, confidence spoofing, state poisoning); every attack runs against a clean control so a flipped decision is evidence, not noise; Wilson 95% CIs; 'decisions fail silently — a model that approves what it should deny tells you nothing, and an accuracy benchmark will not catch attack-driven flips'",
+      "metrics": "2,000 paired cases; MIT/CC-BY-4.0",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + docs/leaderboard refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-eval (Clementtang)",
+      "author": "Clementtang",
+      "category": "research",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Clementtang/jev-eval",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Audit of Jev (jev-1.13.0) vs five generative models (Claude Haiku 4.5/Sonnet 5, Grok 4.7, GPT-6 Luna/Sol) on Taiwan sovereignty questions: yes/no claims, forced choice and practical labeling; 957 items (139 base x Traditional/Simplified Chinese and English, plus 540 option-order and questioner variants); preprint not peer-reviewed with FOUR adversarial review rounds published in the repo",
+      "metrics": "957 items, 3 languages",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh-TW + dataset table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "Hinge-Jev",
+      "author": "satiricalguru",
+      "category": "ui",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/satiricalguru/Hinge-Jev",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "A Jev-powered decision engine and visual studio that prices uncertainty and asks the clarification worth the interruption: pairs Jev typed probability distributions with downstream operational tradeoffs (archive vs delete, staging vs production) instead of stopping at argmax classification; 13/13 tests passing, with receipts and auditability",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + overview)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-adventure-game",
+      "author": "Sayangenri",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Sayangenri/jev-adventure-game",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A visual AI text adventure where every outcome is decided by Jev — no dice, no pre-written paths; 7 real decisions per turn (outcome, consequence type, danger, significance, per-card risk); a separate narrator describes what happened but CANNOT overrule Jev ('if Jev says you failed, the story describes a failure'); same action carries different risk at different HP and chaos levels; Jev Read toggle exposes raw probabilities",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + decision list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev.zig (jakeknowlton)",
+      "author": "jakeknowlton",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jakeknowlton/jev.zig",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "An unofficial Zig client for the TypeSafe System One API (the second Zig client after jevlin)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "dsh-agent-dispatch",
+      "author": "fan56",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fan56/dsh-agent-dispatch",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev-guided dispatch advice for DeepSeek Harness: before each turn, Jev judges whether to dispatch",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "JEVals",
+      "author": "duberblock",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/duberblock/JEVals",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Open-source playground for evaluating System One and JEV-compatible models with deterministic scoring",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "jev-dotnet (kkdev92)",
+      "author": "kkdev92",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kkdev92/jev-dotnet",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "An unofficial .NET 10 client for Jev with typed decision plans",
       "metrics": null,
       "verification": {
         "tier": "B",
