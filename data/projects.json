@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 613,
+    "total_curated": 621,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -2450,16 +2450,16 @@
       }
     },
     {
-      "name": "jev-semgrep",
+      "name": "sys1grep (jev-semgrep)",
       "author": "uehaj",
       "category": "data-infra",
       "primitives": [
         "noul"
       ],
       "status": "live",
-      "url": "https://github.com/uehaj/jev-semgrep",
+      "url": "https://github.com/uehaj/sys1grep",
       "tweet": null,
-      "stars": 42,
+      "stars": 145,
       "one_liner": "grep by meaning, across languages: an English meaning finds Japanese/French/Russian lines; AND/OR/NOT combinable",
       "metrics": "30 lines per request, 8 concurrent; 210-line file <1s; zero deps",
       "verification": {
@@ -9068,7 +9068,7 @@
       "status": "live",
       "url": "https://github.com/jkudish/jev-mcp",
       "tweet": "—",
-      "stars": 353,
+      "stars": 450,
       "one_liner": "Eleven typed-judgment MCP tools for agents: verify claims vs evidence, screen pages for injection before context, noul probability, find/rerank/classify/decide/compare/extract, review diffs, gate merges on completion claims; 150-500ms each for a fraction of a cent",
       "metrics": "353 stars in ~11 days",
       "verification": {
@@ -12092,6 +12092,161 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Korean-language study notes on Jev: typed decisions, RLCD and confidence-gated routing",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "awesome-jev-tools (v-modal)",
+      "author": "v-modal",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/v-modal/awesome-jev-tools",
+      "tweet": "https://x.com/GoSailGlobal/status/2100877682972258619",
+      "stars": 729,
+      "one_liner": "A curated list built around two practical questions: where is Jev actively making real decisions in live production workflows, and which decision architectures can be cleanly copied across industries; README is the homepage aggregate so the latest accepted entries are visible without drilling into subpages",
+      "metrics": "729 stars overnight — second-biggest directory after yibie/awesome-jev",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + goals)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "board-games (tripodxu)",
+      "author": "tripodxu",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/tripodxu/board-games",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: Jev chess parlor — six board games (gomoku, 9-line Go, xiangqi, chess, checkers, Chinese checkers) with Jev moving the pieces; human-vs-Jev, Jev-vs-Jev, human-vs-human; zero framework, zero build, zero dependencies, double-click index.html to play; offline demo mode with heuristic AI and synthetic probabilities when no key; documented technical finding: the official API CORS allowlist in practice only accepts typesafe.ai origins, browser direct calls are blocked; AGENTS.md ships a minimal reading path for AI agents",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + CORS note)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev_fsd",
+      "author": "BrendanH18",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/BrendanH18/jev_fsd",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Driving simulator on real OpenStreetMap streets (Kitsilano, Vancouver by default; any neighbourhood works): click a destination and the car drives there through traffic, stop signs, lights, cyclists and pedestrians in any weather and time of day; Jev answers typed multiple-choice questions in ~0.1s while a panel shows exactly what was asked, answered, how sure, and what it cost; a living street with 40 drivers with temperaments, 3,200 parked cars, 12 cyclists, 60 pedestrians; disclaimer first: a research/demo project that must NEVER control a real vehicle",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + feature list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jevaro",
+      "author": "columnar-tech",
+      "category": "data-infra",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/columnar-tech/jevaro",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev x Apache Arrow: evaluate batches of states in one request and read answers as Arrow streams; sends the schema first, calls the API per state in parallel, streams answers in input order; Choice labels and Score legends are stored once in schema metadata — columnar thinking for batch judgment; server plus Python and JavaScript readers on PyPI",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + package table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "cloudflare-web-qa-jev-agent",
+      "author": "Clawbuilders",
+      "category": "testing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Clawbuilders/cloudflare-web-qa-jev-agent",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Crawls a site with Cloudflare Browser Rendering, triages with typesafe/jev, confirms with a second pass",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-cua",
+      "author": "edgeteamio",
+      "category": "voice",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/edgeteamio/jev-cua",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Voice-controlled Mac computer use on Jev: speech to typed decisions to verified actions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "pi-jev-navigator",
+      "author": "sususu98",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sususu98/pi-jev-navigator",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Ultra-low-token System One context navigation and precision SOP dispatch engine for Pi coding agent",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "typesafeai-jev-case-manual",
+      "author": "pathcosmos",
+      "category": "docs",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pathcosmos/typesafeai-jev-case-manual",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Reference, patterns and adoption manual for applying Jev across projects",
       "metrics": null,
       "verification": {
         "tier": "B",
