@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 597,
+    "total_curated": 605,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -11778,6 +11778,171 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-28"
+      }
+    },
+    {
+      "name": "von (wfzyx)",
+      "author": "wfzyx",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/wfzyx/von",
+      "tweet": "—",
+      "stars": 757,
+      "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
+      "metrics": "757 stars; Apache-2.0; on Hugging Face",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "laya-server (1Panel)",
+      "author": "1Panel-dev",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/1Panel-dev/laya-server",
+      "tweet": "—",
+      "stars": 77,
+      "one_liner": "Official 1Panel (FIT2CLOUD/飞致云, the Chinese server-management panel company) self-hosted API and web interface for Laya structured decision models, compatible with the TypeSafe Jev API format: Docker one-liner, admin UI, API keys page; packages upstream Laya System One inference as a standalone service; bilingual EN/zh",
+      "metrics": "Docker: 1panel/laya-server",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README EN + quickstart)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "expense-assistant",
+      "author": "bonc-ai",
+      "category": "fintech",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/bonc-ai/expense-assistant",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese employee-side expense reimbursement agent as a Claude plugin: turns 数电票 XML/OFD (GB/T 33190 semantic tags cross-checked with OFD.xml), PDFs, receipt photos, hotel folios and spoken notes into versioned schema-conformant expense packages; ontology-first (T-box/R-box/A-box in SQLite) with layered rules — core (GB/T 42965-aligned credential rules, trust ranking XML>OFD>PDF>photo), org (company pack: 发票抬头, caps, VP/GM rule sets), personal (learned preferences); Jev answers only the judgment calls code cannot make (category, buyer entity, personal spend, folio-invoice matching); bilingual EN/zh",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README EN + 中文说明 refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-opportunity-atlas",
+      "author": "hanselhansel",
+      "category": "research",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/hanselhansel/jev-opportunity-atlas",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Reads one year of HN comments, Jev flags firsthand problem reports, recurring ones become startup hypotheses inspectable down to the original comment; simultaneously a public test of Jev (accuracy vs blind human labels, cost, speed) where every number replays from saved runs; methodological discipline: probability sample (for proportions) and targeted search (for depth, never proportions) kept separate; does not redistribute comment text; honest WIP status and self-funded disclosure",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + data/rights section)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-ra",
+      "author": "brnyxx",
+      "category": "browser",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/brnyxx/jev-ra",
+      "tweet": "—",
+      "stars": 5,
+      "one_liner": "Browser use for coding agents, 3-5x faster than browser-use; MCP server + CLI with TypeSafe Jev deciding each step",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "gut",
+      "author": "Kungie",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Kungie/gut",
+      "tweet": "—",
+      "stars": 4,
+      "one_liner": "Judgment calls as one line of Python, built for Jev and running on any smart backend",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-cli (shaharia-lab)",
+      "author": "shaharia-lab",
+      "category": "cli",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/shaharia-lab/jev-cli",
+      "tweet": "—",
+      "stars": 30,
+      "one_liner": "Command-line tool for Jev: ask yes/no, multiple-choice and rubric questions from the terminal",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-game-lab",
+      "author": "greenlittleapple",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/greenlittleapple/jev-game-lab",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Slay the Spire 2 agent: Jev picks each move, a Claude Code session plans the run",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
       }
     }
   ]
