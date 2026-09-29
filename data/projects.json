@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 644,
+    "total_curated": 652,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -12690,6 +12690,164 @@
       "tweet": "https://x.com/Davidariasfin (author profile)",
       "stars": 0,
       "one_liner": "Jev applied to financial research: Jev RAG vs a Vals-style agentic RAG baseline on 10-K filings",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "sys1 (alvarobartt)",
+      "author": "alvarobartt",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/alvarobartt/sys1",
+      "tweet": "—",
+      "stars": 49,
+      "one_liner": "System One compatible API for open decision models, written in Rust: tokio/axum/serde/candle stack; dynamic token-based batching; SDPA on CPU/Metal/CUDA and Flash Attention 2/3 on Ampere/Ada/Hopper; blazing fast serving of Laya in three variants (English, 100+ languages ~2.2x faster, typed-decisions); cargo install sys1",
+      "metrics": "49 stars in days",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + feature list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "anofox-decide",
+      "author": "DataZooDE",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/DataZooDE/anofox-decide",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "DuckDB extension evaluating natural-language predicates in SQL: decide_probability()/decide_choice() in SELECT, decide_table with LATERAL joins over ticket bodies, and BUILT-IN decide_brier_score / decide_ece / decide_accuracy eval functions; remote TypeSafe usage is explicit opt-in (default off) with write-only secret management redacted in duckdb_secrets(); red/green TDD with sqllogictest + Catch2",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + SQL examples)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "cve-triage-agent (youdotcom)",
+      "author": "youdotcom-oss",
+      "category": "security",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/youdotcom-oss/cve-triage-agent",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Official You.com OSS sample: read every security advisory the day it drops and decide whether it touches YOUR stack — You.com real-time search (NVD, vendor bulletins, CISA KEV) for freshness x Jev for typed calibrated decisions; '0.042 USD per 1M input tokens, output free — classifying thousands of advisories is a batch job, not a budget line'; auto-act on the sure things, route the uncertain to a human ('no 2 a.m. false page'); Python standard library only",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + why-this-combo)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-discovery",
+      "author": "nautahakk",
+      "category": "research",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/nautahakk/jev-discovery",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Can an AI model rediscover a known medical finding using only papers published before it was made? Replays Swanson 1986 literature-based discovery (fish oil for Raynaud — two non-citing literatures bridged by blood viscosity/platelets, confirmed by a 1989 trial): rules committed BEFORE Jev read a single paper, result reported as it came out INCLUDING THE MISS; substance ranking done by plain code with no model; disclaimer first ('a test of a search method, not medical advice'); from the aphasia-word-finder author",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + method steps)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-launch-week-dossier",
+      "author": "PanikParty",
+      "category": "docs",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/PanikParty/jev-launch-week-dossier",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A memorial record of the 10 wildest community builds from Jev launch week — an ecosystem history document",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "JevScout",
+      "author": "yctimlin",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/yctimlin/JevScout",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Jev decides what reaches your coding agent: verbatim, recoverable context for Claude Code",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "dsh-jev-tools (HorusJiang)",
+      "author": "HorusJiang",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/HorusJiang/dsh-jev-tools",
+      "tweet": "—",
+      "stars": 10,
+      "one_liner": "Jev judgment, not generation: prune long tool output and screen fetched pages for injected instructions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "btc-jev-signal",
+      "author": "WebGrga",
+      "category": "quant",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/WebGrga/btc-jev-signal",
+      "tweet": "—",
+      "stars": 4,
+      "one_liner": "Experimental multi-horizon BTC signal generator using Jev probabilities and Binance data",
       "metrics": null,
       "verification": {
         "tier": "B",
