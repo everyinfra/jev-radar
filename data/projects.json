@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 621,
+    "total_curated": 629,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -12247,6 +12247,164 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Reference, patterns and adoption manual for applying Jev across projects",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "JEV-Paper-Radar",
+      "author": "Eliot5566",
+      "category": "research",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Eliot5566/JEV-Paper-Radar",
+      "tweet": "—",
+      "stars": 24,
+      "one_liner": "Jev reads every new paper on arXiv each morning; you read the few that matter: one yes/no question per plain-English interest with a probability back ('introduces an agent benchmark, 0.97'); writes nothing — no summaries; 50 papers judged in 5 seconds for 0.002 USD, about 6 cents a day for ALL of arXiv; benchmarked against real reviewer decisions; fork-and-go with no server, offline demo without a key; Traditional Chinese README included",
+      "metrics": "24 stars",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + benchmark section)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-rover",
+      "author": "freakymustard67",
+      "category": "hardware",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/freakymustard67/jev-rover",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "The first physical-hardware Jev project: a rover navigating from a fixed overhead camera with Jev as ADVISORY tactical layer — code owns perception/planning/execution/safety, Jev owns judgments hard to write as if-statements (is the path still good, genuinely stuck, is that gap worth taking, is this observation trustworthy at speed); layered rates: 15Hz perception, 5Hz Jev with 6 atomic questions, 20Hz planner (A* + pure pursuit), 100Hz code-owned reflex with VETO power; UDP at 20Hz to an ESP32 with a 400ms watchdog; README references a sibling jev-drone project",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + architecture diagram)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "Vienna-Housing-Finder",
+      "author": "f4r6d",
+      "category": "realestate",
+      "primitives": [
+        "noul",
+        "score",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/f4r6d/Vienna-Housing-Finder",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Automated real-time housing scraper and evaluator for Vienna Willhaben listings on Cloudflare Workers: Workers AI (Qwen/Llama 3.3/Gemma) extracts structured JSON from listing HTML (rent, size, location, Gemeindewohnung/Genossenschaft detection), Jev rates listings on budget, location, property type and LEGAL SUITABILITY FOR NON-EU STUDENTS; instant Telegram alerts for high matches; D1-backed web dashboard with admin panel and manual triggers",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + feature/stack list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "sys1bench",
+      "author": "rssr25",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/rssr25/sys1bench",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A benchmark for the typed System One decision model CLASS — Jev, Laya, Kev and whatever comes next (on PyPI): measures calibration against a noise floor, how much answers depend on question wording, how confidence behaves out of scope, how accuracy scales with option count and state length, whether batched questions interfere, and cost per decision",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + measurement list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "ComfyUI-ScriptFlow",
+      "author": "kantan-kanto",
+      "category": "creative",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/kantan-kanto/ComfyUI-ScriptFlow",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Safe Python-like script node for ComfyUI with a System One decision model: ask yes/no, choice and score questions inside the graph",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-baseball",
+      "author": "yasumorishima",
+      "category": "sports",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/yasumorishima/jev-baseball",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Testing Jev on MLB ABS pitch challenges: does it predict umpire decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "novel-persona-radar",
+      "author": "nagoya0",
+      "category": "creative",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nagoya0/novel-persona-radar",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Japanese: watch Jev read a novel — the impression each character leaves, judged paragraph by paragraph",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "filtro-notizie-jev",
+      "author": "Lucas-Grilli",
+      "category": "news",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Lucas-Grilli/filtro-notizie-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Italian RSS news filter: regex for the surely off-topic, Jev for judging the rest",
       "metrics": null,
       "verification": {
         "tier": "B",
