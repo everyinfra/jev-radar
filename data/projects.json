@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 605,
+    "total_curated": 613,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -11937,6 +11937,161 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Slay the Spire 2 agent: Jev picks each move, a Claude Code session plans the run",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-vs-cosine",
+      "author": "Madheshvivekanandan",
+      "category": "research",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Madheshvivekanandan/jev-vs-cosine",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Do you need Jev, or is cosine similarity enough? A 0-USD reproducible benchmark on Banking77 intent routing: cold-start Jev wins (83.1% vs 72.3% for cosine-vs-descriptions, +11 points); but with ~10 labelled examples per category free local cosine catches up (86.6%, 92.9% at 35); one example per category (64%) is WORSE than a one-line description (72%); a cross-encoder reranker does not close the gap (70.7%, 12 points below Jev at the same latency); runs on free routes with daily resume",
+      "metrics": "249 of 1,001 messages scored so far",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results section)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-vs-laya-inbox-test",
+      "author": "joshpocock",
+      "category": "research",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/joshpocock/jev-vs-laya-inbox-test",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Test Jev (paid) vs Laya (free open-source) on YOUR OWN inbox, then train Laya on your labels to see if it catches up: 300 real emails into four buckets; scoreboard reports accuracy with a range, the LAZY GUESS baseline (what always picking your most common bucket scores — a model has to beat this), confidently-wrong errors at 90%+ confidence (the ones that bury a real email), caught-what-needs-me, and speed/cost per 1,000; email data lives outside the repo and the tools refuse to write inside",
+      "metrics": "From the author video; runnable via Claude Code/Codex following AGENTS.md",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + scoreboard design)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "taste-lint",
+      "author": "mblode",
+      "category": "linting",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/mblode/taste-lint",
+      "tweet": "—",
+      "stars": 5,
+      "one_liner": "Catch AI slop before you ship: design review on every commit from Taste Training and Agent Skills rules; mechanical checks run free with no key (transition-all, linear easing, >300ms transitions, entrances from scale zero, framer-motion imports; copy tells: participle tails, not-X-but-Y, Here is the thing); Jev review notes via Vercel AI Gateway with caching and --dry-run cost preview; on npm",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + checks list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-realtime-observability",
+      "author": "silex-ai-lab",
+      "category": "observability",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/silex-ai-lab/jev-realtime-observability",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Real-time agent observability with a Jev-protocol judge: boundary events (input, generation, tool call, tool result) captured live as frozen decision-time snapshots, checked by authoritative code rules then typed semantic questions over /v1/systemone; default judge is the open-source Kev-4B served locally (MLX), honestly NOT hosted Jev (no key was available); the judge advises only and thresholds fitted in evaluation are deliberately not activated; ships a what-is-real-and-what-is-not table",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + honesty table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-any-llm",
+      "author": "fooSynaptic",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fooSynaptic/jev-any-llm",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Wrap any instruct LLM into Jev-mode prediction — and make those decisions super fast",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-mod",
+      "author": "undeemed",
+      "category": "moderation",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/undeemed/jev-mod",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Configurable Discord moderation with Jev, a server dashboard and moderation caching",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-rag-bench",
+      "author": "DDnim",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/DDnim/jev-rag-bench",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev as the judging layer of a RAG pipeline: rerank plus answerability gate, benchmarked on the TypeSafe docs",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-study",
+      "author": "wjdjdakf17",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/wjdjdakf17/jev-study",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Korean-language study notes on Jev: typed decisions, RLCD and confidence-gated routing",
       "metrics": null,
       "verification": {
         "tier": "B",
