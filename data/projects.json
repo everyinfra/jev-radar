@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 629,
+    "total_curated": 636,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -12405,6 +12405,138 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Italian RSS news filter: regex for the surely off-topic, Jev for judging the rest",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "camunda-jev-ai-decision-connector",
+      "author": "rajeshponna",
+      "category": "enterprise",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/rajeshponna/camunda-jev-ai-decision-connector",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Camunda 8 connector for Jev: fast typed AI decisions inside BPMN processes — route requests, pick the best option, find matches, score and classify in milliseconds; structured results feed gateways and ad-hoc sub-processes with no prompt parsing and no JSON repair; ships a full slide deck; honestly labelled a community connector, not an official Camunda/TypeSafe product",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + slide deck refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jevsome-projects",
+      "author": "ozers",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ozers/jevsome-projects",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Open-source projects that PROVABLY call Jev — every entry links to the line of code that proves it: a /v1/systemone call, an SDK import, a pinned jev-latest route or a declared dependency counts; a README sentence, comment, changelog entry or a package name that happens to contain jev does NOT; subject-not-support rule keeps frameworks that predate Jev as candidates only; 71 verified + 778 candidates from 1,194 search hits, refreshed daily at jevsome.ozersubasi.com",
+      "metrics": "line-level evidence verification, stricter than most directories",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + inclusion rules)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "semantic-find-userscript",
+      "author": "dingdinglz",
+      "category": "browser-extension",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/dingdinglz/semantic-find-userscript",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Chinese Tampermonkey userscript: search the current page original text, titles and navigation entries by meaning — no generated answers or summaries; Jev direct connection with no backend, no runtime CDN, no shared secrets; BYO key stored locally, the connection test only requests the model list; honest trial disclosure: automated tests use mocks, real install/outbound headers/model quality NOT yet validated — do not claim Chinese retrieval quality is proven (validation log included)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + validation notes)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "what-the-jev",
+      "author": "keta1930",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/keta1930/what-the-jev",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "What can Jev actually do? Reproducible experiments and research reports exploring its capabilities",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "claude-jev-plugin (dr-dimitru)",
+      "author": "dr-dimitru",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/dr-dimitru/claude-jev-plugin",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "TypeSafe Jev semantic guardrails for Claude Code",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "reflex (kaustav1996)",
+      "author": "kaustav1996",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kaustav1996/reflex",
+      "tweet": "—",
+      "stars": 4,
+      "one_liner": "A coding agent and personal assistant with System One reflexes (TypeSafe Jev) on top",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "personal_job_scrapper",
+      "author": "rohithgoud30",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/rohithgoud30/personal_job_scrapper",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Playwright job-board scraper that filters listings with Jev, using your preferences",
       "metrics": null,
       "verification": {
         "tier": "B",
