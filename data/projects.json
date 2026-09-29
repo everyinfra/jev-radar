@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 652,
+    "total_curated": 660,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6069,7 +6069,7 @@
       "status": "live",
       "url": "https://github.com/spring-ai-community/spring-ai-typesafe",
       "tweet": null,
-      "stars": 28,
+      "stars": 40,
       "one_liner": "Official Spring AI community Java SDK for Jev: Spring RestClient + Jackson 3, plus Spring AI integrations as Model-as-a-judge, guardrail, RAG post-processor, and tool index; on Maven Central — 5th major platform adoption",
       "metrics": null,
       "verification": {
@@ -12764,7 +12764,7 @@
       }
     },
     {
-      "name": "jev-discovery",
+      "name": "jev-pubmed-discovery",
       "author": "nautahakk",
       "category": "research",
       "primitives": [
@@ -12772,7 +12772,7 @@
         "noul"
       ],
       "status": "live",
-      "url": "https://github.com/nautahakk/jev-discovery",
+      "url": "https://github.com/nautahakk/jev-pubmed-discovery",
       "tweet": "—",
       "stars": 0,
       "one_liner": "Can an AI model rediscover a known medical finding using only papers published before it was made? Replays Swanson 1986 literature-based discovery (fish oil for Raynaud — two non-citing literatures bridged by blood viscosity/platelets, confirmed by a 1989 trial): rules committed BEFORE Jev read a single paper, result reported as it came out INCLUDING THE MISS; substance ranking done by plain code with no model; disclaimer first ('a test of a search method, not medical advice'); from the aphasia-word-finder author",
@@ -12848,6 +12848,159 @@
       "tweet": "—",
       "stars": 4,
       "one_liner": "Experimental multi-horizon BTC signal generator using Jev probabilities and Binance data",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "BiliBili-Filter",
+      "author": "RzMY",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/RzMY/BiliBili-Filter",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: filter Bilibili recommendations with Jev via a Quantumult X rewrite — judges title/description/category/tags metadata; covers app home feed, vertical feed, web home and related recommendations (four JSON APIs); honest scope (no gRPC/Protobuf, dynamics, hot or search); BYO API key with BoxJS config, one-tap subscription install",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + scope table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "fileroute (fr)",
+      "author": "Arindam200",
+      "category": "cli",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Arindam200/fr",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Ask a question about a codebase and get back the files that matter: Jev labels each file relevant/maybe/irrelevant with a confidence score; all files checked in parallel and results appear on screen as they arrive, often while you are still typing; on npm",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + TUI screenshot)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "tamev",
+      "author": "tamkimd",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/tamkimd/tamev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Tiny fast decision models for CPU and edge — open Jev/Kev alternative: permutation-invariant System One models with CPU p50 5.3ms (Micro), 27.5 MiB edge footprint, and permutation drift 0.0 (exact) BY CONSTRUCTION; choice/noul/score answered together in one forward pass; weights on Hugging Face, Apache-2.0, no GPU required",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + metric badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "typesafe_jev (jerryshao2012)",
+      "author": "jerryshao2012",
+      "category": "docs",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jerryshao2012/typesafe_jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Production integration methodology: from API key to typed decisions, testable policy, confidence fallbacks and shadow-mode validation; core principle — Jev supplies evidence for a route (semantic judgment) while YOUR APPLICATION owns the route (eligibility rules, thresholds, fallbacks, side effects, audit history); deterministic checks first with immediate bypass",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + architecture flow)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "yapp",
+      "author": "manali-co",
+      "category": "voice",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/manali-co/yapp",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Hold a key, talk, and your Mac acts while you are still talking: local Whisper plus TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "smart-labeler",
+      "author": "hkurma",
+      "category": "devops",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/hkurma/smart-labeler",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "GitHub Action that labels new issues and PRs with your repo existing labels, using Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "slopmark",
+      "author": "phareim",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/phareim/slopmark",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chrome extension that subtly marks obviously AI-written text on web pages, scored by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-vs-llm (venkateswarisudalai)",
+      "author": "venkateswarisudalai",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/venkateswarisudalai/jev-vs-llm",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Same input, same typed questions: Jev vs a general LLM on latency, cost, scheduling and more",
       "metrics": null,
       "verification": {
         "tier": "B",
