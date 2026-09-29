@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 636,
+    "total_curated": 644,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -12543,6 +12543,159 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-29"
+      }
+    },
+    {
+      "name": "jev-spec",
+      "author": "nozomi-koborinai",
+      "category": "linting",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/nozomi-koborinai/jev-spec",
+      "tweet": "—",
+      "stars": 11,
+      "one_liner": "Catch spec drift on every commit: checks your code against the requirements in your Markdown specification — one focused question per requirement, a probability back, compared against your threshold; small enough for a pre-commit hook, strict enough for a CI gate; four-language README (ja/zh/ko/en); on npm",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + sample report)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jevc",
+      "author": "doronp",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/doronp/jevc",
+      "tweet": "—",
+      "stars": 7,
+      "one_liner": "Turn the rules your agent keeps ignoring into gates you can test: compiles a prose rule (e.g. NEVER commit unless the user explicitly asks) into a Jev program — narrow typed questions plus a reducer in ordinary code; 'the rule stops being prose the model weighs and becomes an invariant you can read, diff and unit-test'; 58 fixtures all passing OFFLINE with no API key and no network; npm jev-compiler",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + quickstart)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-cases",
+      "author": "ZhenningLang",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ZhenningLang/jev-cases",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: Jev production-case field guide — real deployment cases classified by WHAT YOU LET IT JUDGE, each with numbers, source and evidence strength; cases.json is the single source of truth, static page readable without JS, weekly agent-driven updates via a prompt file; a Chinese kindred directory sharing our taxonomy instinct; online at zhenninglang.github.io/jev-cases",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + structure table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-boe-demo",
+      "author": "Tatuck",
+      "category": "civic",
+      "primitives": [
+        "score",
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Tatuck/jev-boe-demo",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "BOE para ciudadanos (Spanish): every morning downloads Spain's Official State Gazette and asks Jev per disposition — how much it changes for ordinary people (Score 0-3), 13 category Nouls (housing/jobs/taxes...), which paragraph best explains the change (Choice) so the summary is an ORIGINAL paragraph selected, never written, by the model; a full gazette (50-80 texts, ~300k tokens) in 5-15s with 6 parallel calls for ~0.01 USD; static Astro site on GitHub Pages; honestly labelled as written with Claude Code Opus 5",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README es + question table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jevci",
+      "author": "Ice-Hazymoon",
+      "category": "devops",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Ice-Hazymoon/jevci",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Decides which CI jobs a commit or pull request actually needs: deterministic rules first, Jev for the rest",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-mart-demo",
+      "author": "tuneyuki",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tuneyuki/jev-mart-demo",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Japanese: an e-commerce demo driven by Jev plus an 11-chapter lecture set — no LLM used",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-mcp-elicitation-autopilot",
+      "author": "victorperr",
+      "category": "testing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/victorperr/jev-mcp-elicitation-autopilot",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Test MCP servers human-in-the-loop flows in CI, using Jev as a simulated user",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-for-finance",
+      "author": "davidalmeida90",
+      "category": "quant",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/davidalmeida90/jev-for-finance",
+      "tweet": "https://x.com/Davidariasfin (author profile)",
+      "stars": 0,
+      "one_liner": "Jev applied to financial research: Jev RAG vs a Vals-style agentic RAG baseline on 10-K filings",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
       }
     }
   ]
