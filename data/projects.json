@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 667,
+    "total_curated": 674,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -10698,7 +10698,7 @@
       "status": "live",
       "url": "https://github.com/agencyenterprise/jev-recipes",
       "tweet": "—",
-      "stars": 12,
+      "stars": 13,
       "one_liner": "246 focused plug-and-play recipes for JavaScript/TypeScript (on npm): each accepts your data, calls Jev and returns a structured decision — route messages, check evidence, label responses with one function call; ships an evaluator to score your own cases, retain model responses and replay confidence policies; from Agency Enterprise (a real agency)",
       "metrics": "246 recipes, generated catalog",
       "verification": {
@@ -11814,7 +11814,7 @@
       "status": "live",
       "url": "https://github.com/1Panel-dev/laya-server",
       "tweet": "—",
-      "stars": 77,
+      "stars": 83,
       "one_liner": "Official 1Panel (FIT2CLOUD/飞致云, the Chinese server-management panel company) self-hosted API and web interface for Laya structured decision models, compatible with the TypeSafe Jev API format: Docker one-liner, admin UI, API keys page; packages upstream Laya System One inference as a standalone service; bilingual EN/zh",
       "metrics": "Docker: 1panel/laya-server",
       "verification": {
@@ -13138,6 +13138,137 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Automated PR review pipeline using Jev as a millisecond decision layer",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "awesome-jev (heyjunpenn)",
+      "author": "heyjunpenn",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/heyjunpenn/awesome-jev",
+      "tweet": "—",
+      "stars": 901,
+      "one_liner": "An independent, community-maintained catalog of 962 verified open-source Jev projects across 11 categories and 27 languages: six-language README (en/zh/ja/ko/es/pt-BR), jevbest.com website, changelog, submission flow, and a Jev-like-models section — now one of the two dominant directories alongside yibie/awesome-jev",
+      "metrics": "901 stars in days",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + badges + site link)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-ui-test",
+      "author": "buer2233",
+      "category": "testing",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/buer2233/jev-ui-test",
+      "tweet": "—",
+      "stars": 22,
+      "one_liner": "Chinese-language UI automation testing driven by Jev: write test cases in natural language (Chinese works), run under pytest, report via Allure; Jev does NOT generate next-step text — it scores candidate elements directly and returns action + target with calibrated probability; no selectors, no site scripts, no preset field values; forked from browser-use/jev-ultrafast (MIT) with only an outer layer added; measured median 458ms per decision (30 of 32 under 1s, p90 919ms) vs 4-5s typical with an LLM driving",
+      "metrics": "bilingual zh/EN; online report hosted",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + performance docs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "titan-sr-jev-replication",
+      "author": "youkiti",
+      "category": "research",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/youkiti/titan-sr-jev-replication",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Replicates the temporal external validation of TITAN-SR (J Clin Epidemiol 2026) with jev-1.13.0 for systematic-review screening: 142,504 records with 768 included; Jev primary analysis median AUC 0.9827 vs the paper TITAN-SR 0.9760, S@95R 0.9339 vs 0.8970; honest framing: a single replication, not head-to-head — comparator models were not rerun, only the paper Table 2 medians were used",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results tables)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "laya-skill (StevenLi-phoenix)",
+      "author": "StevenLi-phoenix",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/StevenLi-phoenix/laya-skill",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Claude Code skill/plugin for System One typed decisions via Laya: local, WebGPU, fine-tunable",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "dlm-jev",
+      "author": "seongyeon1",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/seongyeon1/dlm-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev-style typed decision engine on a DIFFUSION language model (DiffusionGemma + MLX): one-pass slot decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "bytedesk-jev",
+      "author": "ByteDeskAI",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ByteDeskAI/bytedesk-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Reusable Choice, Score and Noul decisions via a host-held Typesafe key (Jev)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-demo (PenglongHuang)",
+      "author": "PenglongHuang",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/PenglongHuang/jev-demo",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Chinese zero-dependency web playground: browser operation, intent recognition and agent-context trimming presets with calibrated probabilities",
       "metrics": null,
       "verification": {
         "tier": "B",
