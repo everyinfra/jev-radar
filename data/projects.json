@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 690,
+    "total_curated": 698,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -13579,6 +13579,159 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Choice, score and noul decisions via TypeSafe Jev or a local model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jevrons",
+      "author": "iamrajjoshi",
+      "category": "creative",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/iamrajjoshi/jevrons",
+      "tweet": "https://x.com/mustafaakin/status/2103574428475154635",
+      "stars": 0,
+      "one_liner": "A handwritten-digit classifier where every neuron is a live Jev API call, trained with backprop anyway: each neuron is one question (code multiplies pixels by weights, sends the products to Jev, asks whether they sum above zero; Jev probability is the neuron output); 64 hidden Jev neurons with a live demo showing receptive fields and the 74-call timeline; straight-through estimator (forward uses Jev real answers, backward pretends Jev was smooth); honestly cites the official jaggedness doc that Jev is not great at arithmetic",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + demo screenshot)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-nethack",
+      "author": "statico",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/statico/jev-nethack",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev plays NetHack 5.0 with NO LLM in the loop: code reads the terminal screen, enumerates this turn legal options (attack, explore, eat, pray, descend, kick, dig), Jev picks one via a choice question, and a motor does the keystrokes; inspired by An LLM ascends in NetHack — this tries the same without an LLM; honest note that the repo code was written with Claude Code Opus 5.5",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + how-it-works)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-bench-it",
+      "author": "lyKaede",
+      "category": "research",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/lyKaede/jev-bench-it",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Italian benchmark on MASSIVE 1.1: 2,974 parallel utterances, 83.4% IT vs 86.7% EN intent classification; key finding: about a third of the 3.3pp gap comes from MISSING PUNCTUATION in the dataset — an Italian yes/no question without a question mark is just a statement, and adding it back closes the gap on questions; confidence too high in both languages (more in Italian), so English-tuned thresholds should not be reused as-is; continues the RU->FA->FI->IT multilingual research line",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results table)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "dsh-auto-review-jev (xlennart)",
+      "author": "xlennart",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/xlennart/dsh-auto-review-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese/English: the approval guardian for DeepSeek Harness — permission requests are first adjudicated by a reviewer model before deciding whether to bother you; System One decision API backend supports TypeSafe Jev OR SiliconFlow (硅基流动) systemone — the first SiliconFlow backend sighting, a Chinese GPU cloud serving the protocol; Apache-2.0 with dsh-plugin-verify passing",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + badge set)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "Bud-Decision-Engine",
+      "author": "BudEcosystem",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/BudEcosystem/Bud-Decision-Engine",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Bud Decision Studio: an easy-to-use cross-platform desktop application and serving system for decision models",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "IntentSQL",
+      "author": "Amine-LG",
+      "category": "data-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Amine-LG/IntentSQL",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Natural-language SQLite interface and experiment with Jev / System One decision models",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "Focus (bramtechs)",
+      "author": "bramtechs",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/bramtechs/Focus",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Browser extension that blocks distracting websites using Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "sales-pipeline-revival-jev",
+      "author": "developer943",
+      "category": "sales",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/developer943/sales-pipeline-revival-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev vs Gemini on 203 dead sales deals: an open test of AI pipeline triage by Salesgear",
       "metrics": null,
       "verification": {
         "tier": "B",
