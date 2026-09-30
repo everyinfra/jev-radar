@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 674,
+    "total_curated": 682,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4933,7 +4933,7 @@
       "status": "live",
       "url": "https://github.com/AkashPriyadarshii/jev-superpowers",
       "tweet": null,
-      "stars": 13,
+      "stars": 32,
       "one_liner": "Systematic software development framework for AI coding agents upgraded with TypeSafe Jev",
       "metrics": null,
       "verification": {
@@ -4954,7 +4954,7 @@
       "status": "live",
       "url": "https://github.com/AkashPriyadarshii/jev-curate",
       "tweet": null,
-      "stars": 13,
+      "stars": 92,
       "one_liner": "High-throughput synthetic and pretraining dataset sifter powered by Jev",
       "metrics": null,
       "verification": {
@@ -9837,7 +9837,7 @@
       "status": "live",
       "url": "https://github.com/AkashPriyadarshii/jev-seo",
       "tweet": "https://x.com/Akash__ydv001 (author profile)",
-      "stars": 76,
+      "stars": 87,
       "one_liner": "Free Rust SEO and GEO toolkit powered by Jev: 58-rule audits, site crawls, AI-content checks",
       "metrics": null,
       "verification": {
@@ -10939,7 +10939,7 @@
       "status": "live",
       "url": "https://github.com/valentynkit/awesome-jev-typesafe",
       "tweet": "—",
-      "stars": 169,
+      "stars": 188,
       "one_liner": "Typed decisions with TypeSafe's Jev — a major curated list",
       "metrics": "169 stars in ~12 days",
       "verification": {
@@ -13269,6 +13269,161 @@
       "tweet": "—",
       "stars": 1,
       "one_liner": "Chinese zero-dependency web playground: browser operation, intent recognition and agent-context trimming presets with calibrated probabilities",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "omarchy-pr-jev-triage",
+      "author": "blackopsrepl",
+      "category": "devops",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/blackopsrepl/omarchy-pr-jev-triage",
+      "tweet": "https://x.com/dhh/status/2098755120540393908 (origin: DHH standing up the triage team)",
+      "stars": 0,
+      "one_liner": "Triage tooling for the Omarchy PR backlog, built for the triage team DHH stood up on 2026-09-12 (his tweet quoted in the README: 2,200 PRs deep, nearly a hundred new every day, needs fixes rolled into clusters he can trust and merge as tranches): every PR gets a batched set of typed judgments, duplicate candidates confirmed pair-wise, code clusters results into merge tranches — code owns the workflow, Jev supplies the semantic judgments",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + quoted source tweet)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "openclaw-jev",
+      "author": "Hyper-AI-Lab",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Hyper-AI-Lab/openclaw-jev",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "A production control plane for OpenClaw agents: every Slack message routed to the work it belongs to, executed as a durable Temporal workflow, judged by a SEPARATE evaluator before anything reaches the user, and remembered in a deep searchable memory; Jev handles routing with an LLM analyst for the unsure cases; OpenClaw stays the execution engine — this repo is the surrounding RMP (Reliability and Memory Plane)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + architecture)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-scout",
+      "author": "AkashPriyadarshii",
+      "category": "cli",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/AkashPriyadarshii/jev-scout",
+      "tweet": "—",
+      "stars": 6,
+      "one_liner": "Zero-hallucination open-source repo and crate discovery: Rust CLI + MCP server that finds real, actively maintained repos and crates matching natural-language prompts — GitHub Search and crates.io candidates scored by Jev System One; third project in the jev-seo / jev-curate family",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + architecture sections)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "beam-reader",
+      "author": "bentrd",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/bentrd/Beam",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A native macOS feed reader: search by meaning and find relevant passages with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists (repo + description; README not fetchable)",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "laya-service (FnSGit)",
+      "author": "FnSGit",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/FnSGit/laya-service",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: local HTTP service for the Laya decision model (FastAPI + Apple Silicon MPS) exposing the TypeSafe /v1/systemone wire protocol",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-desktop",
+      "author": "zeno29",
+      "category": "voice",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/zeno29/jev-desktop",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Voice and text desktop assistant for Windows: Jev routes everyday commands",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-tetris-workshop",
+      "author": "arnonrodman",
+      "category": "education",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/arnonrodman/jev-tetris-workshop",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Hands-on workshop: Jev plays Tetris through the Choice primitive",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-dev-harness",
+      "author": "celolopes",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/celolopes/jev-dev-harness",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Open-source developer harness and runtime safety toolkit for AI coding agents powered by Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
