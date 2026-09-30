@@ -51,7 +51,7 @@ Each of the 108 structured registry entries carries a `verification` block assig
 | **B** | 0.75 | Primary source on record (repo or original post), inspected at description level |
 | **C** | 0.60 | Directory-indexed only — promoted on the next scan once opened |
 
-Current distribution: **38 × A · 70 × B · 0 × C**. Numbers inside entries are **as reported by their authors** unless marked reproduced. We also document what *doesn't* work: confidence ≠ correctness, ordering sensitivity, and a circulating wave of sped-up fake demos — with guidance on which repos carry real traces.
+Original 2026-09-19 case-verification cohort: **38 × A · 70 × B · 0 × C** (the live registry distribution is the badge above — 667 entries). Numbers inside entries are **as reported by their authors** unless marked reproduced. We also document what *doesn't* work: confidence ≠ correctness, ordering sensitivity, and a circulating wave of sped-up fake demos — with guidance on which repos carry real traces.
 
 ### What people are building (by density)
 
@@ -132,7 +132,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 | **B** | 0.75 | 一手源(仓库/原帖)在档,做过描述级核查 |
 | **C** | 0.60 | 暂仅目录收录——下次扫描打开后升级 |
 
-当前分布:**38 × A · 70 × B · 0 × C**。条目里的数字均为**作者自报**,复现过的会单独标注。我们同样记录不好用的部分:置信度 ≠ 正确性、对输入顺序敏感、以及市面上流通的加速假 demo——并告诉你哪些仓库带真实 trace。
+2026-09-19 首批案例验证队列:**38 × A · 70 × B · 0 × C**(实时注册表分布见顶部徽章——667 条)。条目里的数字均为**作者自报**,复现过的会单独标注。我们同样记录不好用的部分:置信度 ≠ 正确性、对输入顺序敏感、以及市面上流通的加速假 demo——并告诉你哪些仓库带真实 trace。
 
 ### 大家在做什么(按密度排序)
 
