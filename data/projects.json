@@ -172,14 +172,14 @@
       "status": "live",
       "url": "https://github.com/GhalebDweikat/winnow",
       "tweet": null,
-      "stars": 17,
-      "one_liner": "Calibrated context sieve for Claude Code: judges every ~25-line block, replaces unneeded ones with recoverable stubs",
+      "stars": 100,
+      "one_liner": "A calibrated context sieve for Claude Code: every large Read/Bash/Grep result is judged block-by-block BEFORE entering context; blocks the judge is confident you do not need become a three-line stub (what was hidden + a cheap-model summary + a key that restores the full text on demand) — nothing is lost, it just stops costing tokens until you ask; ~25-line blocks, a hundred yes/no questions in one call in a few hundred ms; the uncalibrated Claude Haiku adapter honestly noted",
       "metrics": null,
       "verification": {
         "tier": "A",
-        "method": "artifact-inspected",
+        "method": "artifact-inspected (README + pipeline diagram)",
         "confidence": 0.9,
-        "verified_at": "2026-09-19"
+        "verified_at": "2026-09-30"
       }
     },
     {
