@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 660,
+    "total_curated": 667,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -13001,6 +13001,143 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Same input, same typed questions: Jev vs a general LLM on latency, cost, scheduling and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "grev",
+      "author": "aurorainfra",
+      "category": "cli",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/aurorainfra/grev",
+      "tweet": "—",
+      "stars": 52,
+      "one_liner": "Thinking coreutils — Unix filters that ask questions instead of matching patterns: grev (filter by meaning), isv (guard where exit 0 means yes: pipe git diff --cached into isv adds-a-secret and refuse to commit), tagv (label/split), rank, sortv, pickv, cutv; iron rule: output is always your input, labels and scores appear only as explicit columns; a few thousand lines cost fractions of a cent and take seconds",
+      "metrics": "52 stars in days",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + example suite)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "system-one-foundation-models",
+      "author": "peterfriese",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/peterfriese/system-one-foundation-models",
+      "tweet": "—",
+      "stars": 55,
+      "one_liner": "Swift 6 native bridge integrating System One decision models into Apple Foundation Models framework (LanguageModel, LanguageModelExecutor, @Generable): strongly typed @Generable structs and enums evaluated against application state in 15-150ms with zero hallucinations and calibrated probabilities; by Peter Friese (well-known developer advocate)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + framework integration)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-scifact-eval",
+      "author": "cjgunase",
+      "category": "research",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/cjgunase/jev-scifact-eval",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Independent pre-registered evaluation of Jev on SciFact: 300 expert-labelled biomedical claims vs 5,183 PubMed abstracts; the held-out dev split was run ONCE after question wording and thresholds were frozen on 100 training claims; BM25 to BM25+Jev rerank 0.656 to 0.756 (95% bootstrap CIs); verdict accuracy 0.880; Label+Rationale F1 0.625 vs keyword baseline 0.303; total cost 0.46 USD for 13,250 calls; caveats stated plainly: per-sentence evidence probabilities are overconfident (ECE 0.38) — use for ranking, not as calibrated probabilities",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results tables)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "tjev",
+      "author": "tychota",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tychota/tjev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Calibrated typed decisions from Qwen3.5 label logits: LoRA fine-tuning in JAX / Flax NNX",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "speed-reading-app",
+      "author": "TomySpagnoletti",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/TomySpagnoletti/speed-reading-app",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Read AI coding agent outputs in seconds: Jev highlights what matters",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-for-flutter",
+      "author": "pkcoulon",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pkcoulon/jev-for-flutter",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Focused Dart reads and semantic Flutter code search for Claude Code, powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "Jevest",
+      "author": "tincke10",
+      "category": "devops",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tincke10/Jevest",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Automated PR review pipeline using Jev as a millisecond decision layer",
       "metrics": null,
       "verification": {
         "tier": "B",
