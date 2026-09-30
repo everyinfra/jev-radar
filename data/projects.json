@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 682,
+    "total_curated": 690,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8547,7 +8547,7 @@
       "status": "live",
       "url": "https://github.com/ollaya-dev/ollaya",
       "tweet": null,
-      "stars": 728,
+      "stars": 1019,
       "one_liner": "Run open decision models locally the way Ollama runs LLMs: pull by name, serve from local daemon, speak /v1/systemone — Jev clients work by changing one environment variable",
       "metrics": null,
       "verification": {
@@ -11792,7 +11792,7 @@
       "status": "live",
       "url": "https://github.com/wfzyx/von",
       "tweet": "—",
-      "stars": 757,
+      "stars": 785,
       "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
       "metrics": "757 stars; Apache-2.0; on Hugging Face",
       "verification": {
@@ -13424,6 +13424,161 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Open-source developer harness and runtime safety toolkit for AI coding agents powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "awesome-jev (cobanov)",
+      "author": "cobanov",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/cobanov/awesome-jev",
+      "tweet": "—",
+      "stars": 469,
+      "one_liner": "A curated, source-backed list by Milan Jovanović (well-known .NET educator): favors public source code, concrete Jev usage, clear limitations and reproducible evidence; community catalog of 155 entries with dated research notes carrying pinned sources; features ollaya prominently",
+      "metrics": "469 stars",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + research notes refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "claude-referee",
+      "author": "ismaildasci",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/ismaildasci/claude-referee",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Evidence over eloquence: an unofficial Claude Code plugin checking done-claims and small judgement calls with Jev, keeping receipts — 'coding agents write well: All tests pass. Done. is one fluent line that costs nothing to write; checking it takes a test run, and if the line is wrong someone finds out later'; manifesto and README in English and Turkish; measurements docs included",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + manifesto refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "sokuto",
+      "author": "MI-1222",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/MI-1222/sokuto",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Japanese-optimized local/on-premises full reproduction of Jev (sokuto = instant answer): ModernBERT-ja encoder, non-autoregressive single forward pass returning typed probabilistic decisions in milliseconds; Rust 2024 + multi-arch Docker; two tiers — 130M-INT8 at 12ms and 310M-INT8 at 23ms; weights on Hugging Face, v0.3.6",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README ja + tier badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-nim-client",
+      "author": "aboisvert",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/aboisvert/jev-nim-client",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Nim client library for the System One API (by Alex Boisvert): sync JevClient and async AsyncJevClient, Result[T, JevFailure] by default with OrRaise helpers; noul/choice/score, retries, timeouts and per-request options; TypeSafe or Ollama providers with defaults aligned to the official SDKs",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + config tables)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jev-triage (CMaintz)",
+      "author": "CMaintz",
+      "category": "devops",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/CMaintz/jev-triage",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Near-free GitHub issue triage powered by Jev: typed, confidence-gated labels",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "openjev (lookski)",
+      "author": "lookski",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/lookski/openjev",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Open decision engine: type-safe answers with raw softmax probabilities from a local LLM",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "pi-jev (0x7067)",
+      "author": "0x7067",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/0x7067/pi-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "pi package: Jev-powered verbatim compaction, first feature of a TypeSafe-first control plane",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "decide (sparktype)",
+      "author": "sparktype",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sparktype/decide",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Choice, score and noul decisions via TypeSafe Jev or a local model",
       "metrics": null,
       "verification": {
         "tier": "B",
