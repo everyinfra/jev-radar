@@ -7160,14 +7160,14 @@
       "status": "live",
       "url": "https://github.com/Mushroom-Systems/lichen",
       "tweet": null,
-      "stars": 0,
-      "one_liner": "A local, API-compatible replacement for Jev — NOT official",
+      "stars": 55,
+      "one_liner": "A drop-in, API-compatible replacement for Jev running open-weight models locally: same /v1/systemone endpoint, same typed answers, existing clients work unchanged; on JevBench 231 public decisions gemma-4-26B-A4B with Lichen prompt techniques answers 207 vs 200 for Jev 1.13 — honestly reported as likely a real edge but NOT statistically significant (p = 0.09); 93ms median on one laptop GPU; credits the Jev-in-25-lines-of-Python idea",
       "metrics": null,
       "verification": {
-        "tier": "B",
-        "method": "primary-source-exists",
-        "confidence": 0.75,
-        "verified_at": "2026-09-24"
+        "tier": "A",
+        "method": "artifact-inspected (README + benchmark stats)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-30"
       }
     },
     {
