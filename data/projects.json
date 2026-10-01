@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 738,
+    "total_curated": 746,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -7899,7 +7899,7 @@
       "status": "live",
       "url": "https://github.com/PyModel/jev-judge-mcp",
       "tweet": null,
-      "stars": 82,
+      "stars": 84,
       "one_liner": "MCP server with 11 typed judgment tools: agent hands evidence + an enumerable question (is this claim supported / is this page safe / which file answers / did this patch finish); Jev returns probabilities in <1s, policy turns them into auto/review/escalate; on PyPI",
       "metrics": null,
       "verification": {
@@ -13451,7 +13451,7 @@
       }
     },
     {
-      "name": "claude-referee",
+      "name": "evidence-referee",
       "author": "ismaildasci",
       "category": "agent-safety",
       "primitives": [
@@ -13459,9 +13459,9 @@
         "choice"
       ],
       "status": "live",
-      "url": "https://github.com/ismaildasci/claude-referee",
+      "url": "https://github.com/ismaildasci/evidence-referee",
       "tweet": "—",
-      "stars": 0,
+      "stars": 3,
       "one_liner": "Evidence over eloquence: an unofficial Claude Code plugin checking done-claims and small judgement calls with Jev, keeping receipts — 'coding agents write well: All tests pass. Done. is one fluent line that costs nothing to write; checking it takes a test run, and if the line is wrong someone finds out later'; manifesto and README in English and Turkish; measurements docs included",
       "metrics": null,
       "verification": {
@@ -14511,6 +14511,159 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "A Rust trade decision engine on TypeSafe Jev (README not yet written at scan time)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "ha-gutcheck",
+      "author": "funkadelic",
+      "category": "iot",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/funkadelic/ha-gutcheck",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Home Assistant weekly checkup by Andreas Gohr (DokuWiki author): finds entities that stopped reporting, updates that might break something, and integrations that quietly failed to start; suggests fixes for loose ends; full badge suite (CI, codecov, HACS)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + HACS setup)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "l4-jev-workflows",
+      "author": "jfelipeff",
+      "category": "automation",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/jfelipeff/l4-jev-workflows",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Loopfour Studio workflow steps rebuilt with Jev instead of an LLM: code finds candidate values, Jev picks with calibrated confidence, code normalizes; each folder is one step deployed as its own HTTP endpoint on Vercel; includes contract-to-invoice extraction (DocuSign billing terms) and a no-LLM natural-language workflow builder",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + step table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-atlas (nicolas-found42)",
+      "author": "nicolas-found42",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nicolas-found42/awesome-typesafe-jev",
+      "tweet": "https://x.com/typesafeai/status/2099929926921290071 (official TypeSafe tweet linked in README)",
+      "stars": 0,
+      "one_liner": "Jev Atlas — the largest directory in the ecosystem: 11,066 resources across 29 categories and 220 subcategories; searchable, sortable by stars, table/card views, personal reading list, shareable filtered URLs, static category pages without JS; honest notes (stars are imported snapshots not live counts; inclusion is not an endorsement)",
+      "metrics": "11,066 resources, updated daily",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + category tree)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "Jev-GTM-playbook",
+      "author": "bowtiefunnel",
+      "category": "sales",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/bowtiefunnel/Jev-GTM-playbook",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "14 go-to-market playbooks across the customer lifecycle: LinkedIn invitation intent (buyer/peer/pitch), hiring signals, social-signal triage, job-change interpretation, personalization fact-check (whether an AI-written line is TRUE and whether it is too personal); architecture: code owns the facts and the final decision, Jev supplies the judgment, an LLM writes only from what code approved, every playbook runs locally on data you already own",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + playbook table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "claude-jev-mod",
+      "author": "chrishan17",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/chrishan17/claude-jev-mod",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Typed decisions in Claude Code: adds $.jev over Jev through OpenRouter, Vercel and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jevkit (MaxIvanyshen)",
+      "author": "MaxIvanyshen",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/MaxIvanyshen/jevkit",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Self-hosted Jev tools for coding agents: /ask classification and /review diff commands",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "gosys1",
+      "author": "robertjndw",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/robertjndw/gosys1",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Unofficial Go client for the SystemOne API: typed questions in, typed answers out",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-exploration",
+      "author": "SamuelSacco",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/SamuelSacco/jev-exploration",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Jev exploratory thread: claim audit, live demos and runnable code",
       "metrics": null,
       "verification": {
         "tier": "B",
