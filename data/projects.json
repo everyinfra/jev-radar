@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 714,
+    "total_curated": 722,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -2724,8 +2724,8 @@
       "status": "live",
       "url": "https://github.com/jonathanavis96/jev-kit",
       "tweet": null,
-      "stars": 0,
-      "one_liner": "Everything to run Jev with Claude Code: tool-call guard, tier guards and more",
+      "stars": 54,
+      "one_liner": "Everything you need to run Jev with Claude Code: guard the agent tool calls, right-size sub-agents, wire Jev into search/browsing/review; PreToolUse hook; 1,310 tests passing; measured results and safety model documented",
       "metrics": null,
       "verification": {
         "tier": "B",
@@ -8547,7 +8547,7 @@
       "status": "live",
       "url": "https://github.com/ollaya-dev/ollaya",
       "tweet": null,
-      "stars": 1019,
+      "stars": 1056,
       "one_liner": "Run open decision models locally the way Ollama runs LLMs: pull by name, serve from local daemon, speak /v1/systemone — Jev clients work by changing one environment variable",
       "metrics": null,
       "verification": {
@@ -14042,6 +14042,158 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Three.js 3D game engine where NPCs make decisions with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "calfram-bench",
+      "author": "lorenzofamiglini",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/lorenzofamiglini/calfram-bench",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "An external calibration audit of Jev measured with CalFram on 25 public benchmarks at natural prevalence, asking whether local recalibration repairs what it finds; pointed framing: the vendor publishes latency, cost and its own workflow evals and advises putting no weight on public benchmarks, but does not publish the calibration of the probabilities — this measures exactly that; keeps both vendor qualifiers (groups not single answers; scoped to System One tasks)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + DESIGN refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jevelry",
+      "author": "backant-io",
+      "category": "cli",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/backant-io/jevelry",
+      "tweet": "—",
+      "stars": 7,
+      "one_liner": "Use Jev everywhere to make and track decisions: a TUI with live ask, dashboard and Review; the jevel format plus answer documents make decisions traceable; tests run offline with live-on-demand; honest early-development warning to pin your version before 1.0",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + TUI tour)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jarvis-merces",
+      "author": "ctben",
+      "category": "voice",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ctben/jarvis-merces",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Thai-language Windows voice assistant deciding with Jev — the first Thai-language project in the registry (README not fetchable at scan time)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists (repo + Thai description)",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-handson",
+      "author": "jkf87",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jkf87/jev-handson",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Korean lecture hands-on code (lessons 1-3): skills, hooks, routers and usage examples wiring TypeSafe Jev into Claude Code, Codex and OpenClaw",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "resurface",
+      "author": "dolevhayut",
+      "category": "hr",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/dolevhayut/resurface",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Resume screening with division of labor: an LLM writes the questions, JEV classifies the answers",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-book-tags",
+      "author": "iamjonatha",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/iamjonatha/jev-book-tags",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "AI-assisted book tagging for calibre using Jev: single-book and batch classification",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "promptrejectormcp",
+      "author": "revsmoke",
+      "category": "security",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/revsmoke/promptrejectormcp",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Open-source MCP and HTTPS screening for prompts, skills and tool descriptions using TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "olla-jev (nvkudva)",
+      "author": "nvkudva",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nvkudva/olla-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Run System One decision models from Hugging Face locally behind the Jev / System One API",
       "metrics": null,
       "verification": {
         "tier": "B",
