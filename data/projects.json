@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 722,
+    "total_curated": 730,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8547,7 +8547,7 @@
       "status": "live",
       "url": "https://github.com/ollaya-dev/ollaya",
       "tweet": null,
-      "stars": 1056,
+      "stars": 1070,
       "one_liner": "Run open decision models locally the way Ollama runs LLMs: pull by name, serve from local daemon, speak /v1/systemone — Jev clients work by changing one environment variable",
       "metrics": null,
       "verification": {
@@ -14194,6 +14194,163 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Run System One decision models from Hugging Face locally behind the Jev / System One API",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-credit-proxy-audit",
+      "author": "aryamurthi",
+      "category": "research",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/aryamurthi/jev-credit-proxy-audit",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A preregistered counterfactual fairness audit of Jev in synthetic credit decisions: with financials held fixed, does adding a ZIP code (or any should-not-matter field) move the model between APPROVE/MANUAL_REVIEW/DENY? One-line result: ZIP moved P(APPROVE) by ~1pp, slightly LESS than a meaningless field (1.2pp) and about 1/14 of a real debt-to-income change (13.3pp); no measurable difference between the three same-region ZIPs; exemplary limitations (general model not loan-trained; measures distribution movement not credit accuracy; all applicants synthetic); 74-second walkthrough video",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results summary)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-aplausometro",
+      "author": "rf-camillo",
+      "category": "creative",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/rf-camillo/jev-aplausometro",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Portuguese: paste your LinkedIn post and watch an audience of 120 readers react in real time while you write — each person in the audience is a calibrated Jev probability; live at aplausometro.rafaelcamillo.com.br; Next.js 16, strict TypeScript, CI",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README pt + live site)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "dsh-jev-loop",
+      "author": "JWE24-code",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/JWE24-code/dsh-jev-loop",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev judgments at the DeepSeek Harness agent-loop gates, no UI dependency — mountable in any composition, headless or otherwise; gates FAIL OPEN (no key, timeout, 429 or bad JSON never blocks the loop); pre-step gate asks whether the request is underspecified and injects an ask-before-guessing instruction; the /JevLoop control panel ships separately as moqi-jev-loop depending only on the jevLoop service; npm published",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + gate table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "Archer.ai",
+      "author": "dancoyne236",
+      "category": "quant",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/dancoyne236/Archer.ai",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A quiver of five quantitative arrows (HMM regime, GARCH(1,1), trend, mean reversion, real yields) each returning the same typed Signal, with Jev as the archer weighing them into a typed increase/hold/reduce call with confidence; every arrow scored walk-forward against a simple baseline so you can see which ones have earned trust; built around gold but works with any Yahoo Finance ticker; disclaimed as educational, not financial advice",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + arrow table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-supervisor (ryyyzer)",
+      "author": "ryyyzer",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ryyyzer/jev-supervisor",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: Jev execution-supervision plugin for the DeepSeek Harness macOS client — BYO TypeSafe key, decision checks and a configurable budget",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "scamcheck",
+      "author": "AkashNaickar",
+      "category": "security",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/AkashNaickar/scamcheck",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Paste a suspicious message and get a scam verdict plus risk score, powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "typo3-work-finder",
+      "author": "dkd-dobberkau",
+      "category": "devtools",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/dkd-dobberkau/typo3-work-finder",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Claude Code plugin suggesting newcomer-friendly TYPO3 Core contributions from Forge",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-learn",
+      "author": "benreeve1984",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/benreeve1984/jev-learn",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev training session: slides and a code-along guide",
       "metrics": null,
       "verification": {
         "tier": "B",
