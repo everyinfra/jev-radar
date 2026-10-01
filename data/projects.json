@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 706,
+    "total_curated": 714,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -13892,6 +13892,156 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "A DeepSeek Harness plugin where one decision per step drives a real browser: Jev picks the action",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "discoprint",
+      "author": "lirantal",
+      "category": "creative",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/lirantal/discoprint",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Classify an artist discography by theme, mood and lyrical complexity with Jev, rendered as a colorful terminal dashboard; by lirantal (well-known Node.js security figure); npm package with the full badge suite (CI, codecov, responsible disclosure)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + screenshot)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "all-jev-play",
+      "author": "shuenrui",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/shuenrui/all-jev-play",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: every public build using Jev — 326 entries with a TEST-STATUS axis; methodology fully disclosed: classes assigned by keyword rules without opening the code, a 36-entry spot check found about 5 wrong (treat counts as rough); sources dated (Jev-100 24 Sep, madewithjev 1 Oct, 20 overlap); what-can-test breakdown (repo 219, claim-only 95, live tool 9); test_status defaults to untested unless tests are listed — a kindred honest directory",
+      "metrics": "326 entries",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + methodology)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jevplays-games",
+      "author": "jevplays-games",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/jevplays-games",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "An eight-game server-authoritative Jev arcade released at once: tic-tac-toe, sudoku duel, minesweeper race, mastermind, dots-and-boxes, connect-four (Discord identity, community leaderboards), checkers, and the Factorio agent — all with authoritative server adjudication, verified leaderboards and deterministic replays; exemplary honesty: without credentials games run against an EXPLICITLY LABELED local solver and those matches are unofficial; zero npm runtime dependencies, local npm start plays immediately",
+      "metrics": "8 repos in the org",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (connect-four + minesweeper READMEs + verification docs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "mood-pixels",
+      "author": "mahshid",
+      "category": "wellness",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/mahshid/mood-pixels",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A small mood tracker that uses Jev to turn a few words about your day into something visual",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "pacman-jev",
+      "author": "fsans",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fsans/pacman-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Pac-Man driven by Jev: an experimental demo of decision-based AI movement",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "get-fable",
+      "author": "imMamdouhaboammar",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/imMamdouhaboammar/get-fable",
+      "tweet": "—",
+      "stars": 7,
+      "one_liner": "Make the model you already use work more like a frontier model with better planning, persistence and perspective — Jev-powered",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "rsdecider-inference",
+      "author": "House-of-Imaginations",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/House-of-Imaginations/rsdecider-inference",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "rsdecider: an inference layer for Laya — TypeSafe Jev-like decisions without paying API bills",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-3d-game-engine",
+      "author": "thanhauco",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/thanhauco/jev-3d-game-engine",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Three.js 3D game engine where NPCs make decisions with Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
