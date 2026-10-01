@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 730,
+    "total_curated": 738,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -5986,7 +5986,7 @@
       "status": "live",
       "url": "https://github.com/Avinash-jetwani/jevmem",
       "tweet": null,
-      "stars": 0,
+      "stars": 104,
       "one_liner": "Jev decides, the LLM writes one line, your project never forgets: Jev-powered memory layer",
       "metrics": null,
       "verification": {
@@ -7899,7 +7899,7 @@
       "status": "live",
       "url": "https://github.com/PyModel/jev-judge-mcp",
       "tweet": null,
-      "stars": 28,
+      "stars": 82,
       "one_liner": "MCP server with 11 typed judgment tools: agent hands evidence + an enumerable question (is this claim supported / is this page safe / which file answers / did this patch finish); Jev returns probabilities in <1s, policy turns them into auto/review/escalate; on PyPI",
       "metrics": null,
       "verification": {
@@ -8673,7 +8673,7 @@
       "status": "live",
       "url": "https://github.com/ankit-aglawe/tinyjev",
       "tweet": null,
-      "stars": 21,
+      "stars": 26,
       "one_liner": "0.6B local decision model: typed decisions on your laptop that know when to ask a human; PyPI + HuggingFace weights; bilingual EN/Chinese",
       "metrics": null,
       "verification": {
@@ -11792,7 +11792,7 @@
       "status": "live",
       "url": "https://github.com/wfzyx/von",
       "tweet": "—",
-      "stars": 785,
+      "stars": 803,
       "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
       "metrics": "757 stars; Apache-2.0; on Hugging Face",
       "verification": {
@@ -14351,6 +14351,166 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Jev training session: slides and a code-along guide",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jevals (openlayer)",
+      "author": "openlayer-ai",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/openlayer-ai/jevals",
+      "tweet": "—",
+      "stars": 101,
+      "one_liner": "Evals and guardrails for agents using Jev-style decision models INSTEAD of an LLM judge, from Openlayer (a real eval company): all the evals for a trace go out as one request costing a few thousandths of a cent in a few hundred ms — runnable on every trace and inside the agent loop; backends: Jev (TypeSafe/Vercel), Kev or Laya locally, Eikos on your own GPU, or a chat-LLM fallback; ready checks include ToolChoice, UsedToolResult, Grounded, StayedInScope, AnswerRelevancy, Completeness, IndirectInjection and PHI",
+      "metrics": "101 stars; pip install jevals",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + code sample)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "laravel-jev-exam-marking",
+      "author": "phoenix1331",
+      "category": "education",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/phoenix1331/laravel-jev-exam-marking",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A working Laravel 13 example of marking exams: Jev answers typed questions about each pupil answer, plain PHP turns them into marks and pass/fail, and anything Jev is unsure about goes to a human marker; interactive showcase lets you drag thresholds; division-of-labor line: a generative model is added at the end ONLY to write text around decisions that are already final",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + showcase link)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-prism",
+      "author": "abdulsalam-create",
+      "category": "education",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/abdulsalam-create/jev-prism",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Drop in any text and watch Jev split it into typed decisions: all three primitives in a single API call — choice as routing bars, score as a needle landing BETWEEN rubric ticks, noul as a yes/no gauge; every lens also surfaces confidence, latency, input tokens and cost (the uncertainty most LLM demos hide); five lenses including sarcasm detection; live demo",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + lens table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "ai_provider_typesafeai (backdrop)",
+      "author": "backdrop-contrib",
+      "category": "cms",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/backdrop-contrib/ai_provider_typesafeai",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Official Backdrop CMS contrib provider adding Jev decision models to the ai module via the decisions endpoint: an honest operations table (Decisions and Moderation supported; Chat, Vision, Embeddings and everything else marked No); models jev-1 and jev-1-mini — the lighter tier recommended for high-throughput checks such as entity save or form validation; another CMS ecosystem landing after TYPO3, Strapi and Sanity",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + operations table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "overseer-judge",
+      "author": "photuris",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/photuris/overseer-judge",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Typed verdicts for overseer judgments (pane state, task-file lint, review typing) via TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "pi-jfiles",
+      "author": "fr0ziii",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fr0ziii/pi-jfiles",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Caller-defined whole-file classification through Pi codemode and TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "n8n-nodes-typesafe (nativeship)",
+      "author": "nativeship",
+      "category": "integration",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nativeship/n8n-nodes-typesafe",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "n8n nodes: fast probabilistic checks, classifications and custom scoring rubrics via TypeSafe",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "rust-jev-typesafe-trade-decision-engine",
+      "author": "Aimlessss",
+      "category": "quant",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Aimlessss/rust-jev-typesafe-trade-decision-engine",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Rust trade decision engine on TypeSafe Jev (README not yet written at scan time)",
       "metrics": null,
       "verification": {
         "tier": "B",
