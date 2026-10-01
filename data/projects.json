@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 698,
+    "total_curated": 706,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -13738,6 +13738,166 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-30"
+      }
+    },
+    {
+      "name": "jevoss",
+      "author": "mertkayacs",
+      "category": "research",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/mertkayacs/jevoss",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Open toolkit to test and improve Jev-type decision models: probes, calibration, conformal sets and recipes for ANY /v1/systemone endpoint — tells you how often the model is right, how honest its probabilities are, and which of Jev known weak spots it shares; works with Jev itself, JevAlt, Kev, Laya, Intern-Decision or your own server; eval/probe/calibrate/compare commands",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + quickstart)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "relay (Kevin-Liu-01)",
+      "author": "Kevin-Liu-01",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Kevin-Liu-01/Relay",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Slack-like playground for computer-use agents: real interactions, isolated workspaces, comparable runs and an inspectable audit trail — a model claiming done does not make a task pass, the FINAL WORKSPACE STATE does; separates workspace, policy and evaluator; BYOK (TypeSafe key for Jev or Ramp Router); React 19 + Playwright; live at relay.kevinliu.studio",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + architecture)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "architectos-pulse",
+      "author": "riswanmsm",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/riswanmsm/architectos-pulse",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Autonomous dual-brain spec-to-code drift guardrail and blueprint engine for the Kiro University Challenge: System-1 (Jev, <180ms) plus System-2 (ArchitectOS); ships EARS spec-driven development, steering documents and PostFileSave Jev guardrail hooks covering all 7 required lessons",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + structure mapping)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jevalt",
+      "author": "mertkayacs",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/mertkayacs/jevalt",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A family of open 4B decision models speaking POST /v1/systemone: calibrated Choice/Score/Noul, can REASON before answering and can say UNKNOWN; native Turkish and German; Q4_K_M runs in 4GB RAM (measured peak 3.0GB at 4k context); triplets Deem-4B (EN), Karar-4B (TR), Waeler-4B (DE); pairs with Japanese sokuto — open decision models localizing by language",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + model table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "tolerable-x-feed",
+      "author": "nikkoxgonzales",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nikkoxgonzales/tolerable-x-feed",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Tampermonkey script hiding pretentious engagement-bait posts on X",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-security-posture",
+      "author": "entscheidung-bot",
+      "category": "security",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/entscheidung-bot/jev-security-posture",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Executive Security Posture Architecture and Report Engine powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "jev-netlify-mcp",
+      "author": "demircigoksu",
+      "category": "mcp",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/demircigoksu/jev-netlify-mcp",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Free, key-locked Jev via Netlify AI Gateway, plus an MCP server for Claude Code",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "dsh-jev-ultrafast",
+      "author": "xingzhen199186",
+      "category": "browser",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/xingzhen199186/dsh-jev-ultrafast",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A DeepSeek Harness plugin where one decision per step drives a real browser: Jev picks the action",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-01"
       }
     }
   ]
