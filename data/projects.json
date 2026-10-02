@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 760,
+    "total_curated": 766,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -557,7 +557,7 @@
       "status": "live",
       "url": "https://github.com/supercorp-ai/supercov",
       "tweet": null,
-      "stars": 25,
+      "stars": 143,
       "one_liner": "Per-file code quality scores so coding agents know what to fix first",
       "metrics": "matches CodeRabbit-class scores at ~100x lower cost (author-reported)",
       "verification": {
@@ -13043,7 +13043,7 @@
       "status": "live",
       "url": "https://github.com/peterfriese/system-one-foundation-models",
       "tweet": "—",
-      "stars": 55,
+      "stars": 60,
       "one_liner": "Swift 6 native bridge integrating System One decision models into Apple Foundation Models framework (LanguageModel, LanguageModelExecutor, @Generable): strongly typed @Generable structs and enums evaluated against application state in 15-150ms with zero hallucinations and calibrated probabilities; by Peter Friese (well-known developer advocate)",
       "metrics": null,
       "verification": {
@@ -14935,6 +14935,121 @@
       "tweet": "—",
       "stars": 3,
       "one_liner": "Chess against Jev through OpenRouter, built with the pi framework",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "jmc-jev-mcp",
+      "author": "thegreystone",
+      "category": "observability",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/thegreystone/jmc-jev-mcp",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "By Marcus Hirt (creator of JDK Mission Control): an MCP server giving AI assistants JMC automated analysis of JDK Flight Recorder recordings — going one step further by using Jev to JUDGE the findings instead of just listing them; Java 21+, Quarkus 3.38, GraalVM native image",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + build badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "system-one-code-review",
+      "author": "luc-pimentel",
+      "category": "research",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/luc-pimentel/system-one-code-review",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "How well do System One models review pull requests: Jev measured on SWR-Bench 1,000 REAL GitHub PRs with frozen v1 questions in one call; integrity detail: records base and head commits and verifies the PR did not change while its files were fetched; the same reviewer assesses any live GitHub PR from the command line",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + report refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "PokeJev",
+      "author": "PavDev3",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/PavDev3/PokeJev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Spanish: a bot playing Pokemon Anil with Jev as the decision engine, with vision (README not fetchable at scan time)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "typesafe-jev (gtaras7)",
+      "author": "gtaras7",
+      "category": "hr",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gtaras7/typesafe-jev",
+      "tweet": "—",
+      "stars": 9,
+      "one_liner": "Screen a folder of CVs with the Jev decision model: typed judgments with an editable rubric",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "jevmate",
+      "author": "GastonGelhorn",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/GastonGelhorn/jevmate",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev for coding agents: triage, test selection and review-by-risk from the shell",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "arena-buscaminas",
+      "author": "0rgan1co",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/0rgan1co/arena-buscaminas",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Spanish: the same Minesweeper board, different intelligences — Jev vs other AI models in an arena",
       "metrics": null,
       "verification": {
         "tier": "B",
