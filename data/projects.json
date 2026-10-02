@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 754,
+    "total_curated": 760,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -14416,7 +14416,7 @@
       "url": "https://github.com/abdulsalam-create/jev-prism",
       "tweet": "—",
       "stars": 0,
-      "one_liner": "Drop in any text and watch Jev split it into typed decisions: all three primitives in a single API call — choice as routing bars, score as a needle landing BETWEEN rubric ticks, noul as a yes/no gauge; every lens also surfaces confidence, latency, input tokens and cost (the uncertainty most LLM demos hide); five lenses including sarcasm detection; live demo",
+      "one_liner": "Jev Pipeline: a locally-run, multi-stage decision pipeline on TypeSafe Jev with live API calls; originally the three-primitives showcase (choice routing bars, score needle between ticks, noul gauge) exposing confidence, latency, tokens and cost per lens",
       "metrics": null,
       "verification": {
         "tier": "A",
@@ -14817,6 +14817,124 @@
       "tweet": "—",
       "stars": 1,
       "one_liner": "Chinese: registers the TypeSafe/Jev building skills into the DeepSeek Harness global skill layer, available automatically in every session; contains no keys",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "lintent",
+      "author": "pietervp",
+      "category": "linting",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/pietervp/lintent",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Plain-language rules, judged: tree-sitter scopes every file into classes/methods/functions and each scope is put to Jev (via OpenRouter System One API) once per applicable rule; pass/fail/skip with confidence — a confident fail is a finding printed with the rule why and fix; lintent eval proves every rule against fixtures; ships an agent skill for writing and reviewing rules",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + commands)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "blind-earth-clef-jev",
+      "author": "dylanler",
+      "category": "research",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/dylanler/blind-earth-clef-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Reproduction of the blind-Earth recipe adapted for System One decision models: instead of open-ended generation each lat/lon cell asks a binary choice Land vs Water, threshold P(Land)>0.5 producing hard black-and-white posters; 2-degree grid = 16,200 points at 64 questions per request; compares Clef and Clef-flash (Cloudflare Workers AI) against Jev; blog write-up included",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + grid table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "chatwoot-workers",
+      "author": "Phala-Network",
+      "category": "enterprise",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Phala-Network/chatwoot-workers",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Two Cloudflare Workers for Chatwoot support teams from Phala Network (blockchain infra company): a Discord forum relay and a Jev ticket router (classify, assign owners, topic/kind labels, optional reply); architecture discipline: the Workers coordinate ONLY through Chatwoot conversation state — neither calls the other nor shares storage, and only the routing_seen attribute signals completion",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + package split)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "claude-risk-router",
+      "author": "riskybiz7",
+      "category": "routing",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/riskybiz7/claude-risk-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Risk-aware model routing for Claude Code: built for work where the failure that matters is a PLAUSIBLE WRONG NUMBER, not a crash (financial modeling, valuation, data analysis); seven quick yes/no questions answered by Jev plus unit-tested Python rules produce the routing decision; safety rule: when unsure route UP — a figure never comes from Haiku; DESIGN/DECISIONS/EVALUATION docs published",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + docs refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "jev-questions-skill",
+      "author": "VBS2004",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/VBS2004/jev-questions-skill",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Claude Code skill for designing typed Noul/Choice/Score questions for Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "ai-chess-lab",
+      "author": "dperezcabrera",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/dperezcabrera/ai-chess-lab",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Chess against Jev through OpenRouter, built with the pi framework",
       "metrics": null,
       "verification": {
         "tier": "B",
