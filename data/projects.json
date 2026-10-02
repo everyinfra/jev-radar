@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 766,
+    "total_curated": 774,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -15050,6 +15050,160 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Spanish: the same Minesweeper board, different intelligences — Jev vs other AI models in an arena",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "riff (scale-venture-partners)",
+      "author": "scale-venture-partners",
+      "category": "writing",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/scale-venture-partners/riff",
+      "tweet": "—",
+      "stars": 6,
+      "one_liner": "A small fast prose linter from Scale Venture Partners (a major VC firm official org): static rules run in pure-Python milliseconds, semantic rules are one Jev call each returning a calibrated probability; ruff-style rule codes — JEV001 announces-what-it-is-about-to-say-instead-of-saying-it (p=0.92), JEV301 overused AI filler vocabulary, JEV103 a standalone quotable line that carries no real information",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + sample output)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "JevGate (MQL5)",
+      "author": "RichieLoco",
+      "category": "quant",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/RichieLoco/JevGate",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A drop-in judgment gate for MetaTrader 5 Expert Advisors in PURE MQL5: WebRequest straight to the System One API, no proxy, no DLL, no Python — backtesting and calibration run inside MetaTrader 5; safety stance exemplary: JevGate NEVER trades; recommended use is as a VETO that can only remove trades your strategy already wanted to take; a judgment model cannot turn a losing strategy into a winning one",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + contents map)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "jev-guardbench",
+      "author": "dfranco-projects",
+      "category": "research",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/dfranco-projects/jev-guardbench",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Can hosted Jev stand in for the LLM-as-judge in agent guardrail callbacks (before_model/after_model)? Hypotheses and decision rules fixed BEFORE any counted run (pre-registered, amendment-dated); freeze command checks data rows against manifests; smoke mode tests the pipeline against a local Kev without spending Jev credit",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + HYPOTHESES refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "jev-labs (cloudbrdesign)",
+      "author": "cloudbrdesign",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/cloudbrdesign/jev-labs",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Hands-on labs for the course Typed AI Decisions with Jev (Cloud Brewery Academy, free videos): builds one project across the course — support-inbox triage for a fictional outdoor-gear shop; three run modes all honestly labelled: replay (real recorded Jev responses tagged [RECORDED date]), live (your key), offline (scripted fake answers tagged [OFFLINE FAKE] — not Jev, for tests and CI only)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + mode table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "nu_plugin_jev",
+      "author": "gleb-chipiga",
+      "category": "cli",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gleb-chipiga/nu_plugin_jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Nushell plugin for TypeSafe Jev structured decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "jev_antispam_bot",
+      "author": "backmeupplz",
+      "category": "moderation",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/backmeupplz/jev_antispam_bot",
+      "tweet": "—",
+      "stars": 14,
+      "one_liner": "Minimal grammY Telegram anti-spam bot powered by TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "review-radar",
+      "author": "SuguruOoki",
+      "category": "devops",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/SuguruOoki/review-radar",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Japanese CLI sorting a git diff into must-check, priority-review, insufficient-evidence and normal candidates; heuristic detection with Jev integration and design-readability signals",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "jevable (parall-hq)",
+      "author": "parall-hq",
+      "category": "cli",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/parall-hq/jevable",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "grep that reads meaning: Jev judges each line so your agent monitor only sees what matters",
       "metrics": null,
       "verification": {
         "tier": "B",
