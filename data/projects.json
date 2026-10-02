@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 746,
+    "total_curated": 754,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8547,7 +8547,7 @@
       "status": "live",
       "url": "https://github.com/ollaya-dev/ollaya",
       "tweet": null,
-      "stars": 1070,
+      "stars": 1096,
       "one_liner": "Run open decision models locally the way Ollama runs LLMs: pull by name, serve from local daemon, speak /v1/systemone — Jev clients work by changing one environment variable",
       "metrics": null,
       "verification": {
@@ -9068,7 +9068,7 @@
       "status": "live",
       "url": "https://github.com/jkudish/jev-mcp",
       "tweet": "—",
-      "stars": 450,
+      "stars": 478,
       "one_liner": "Eleven typed-judgment MCP tools for agents: verify claims vs evidence, screen pages for injection before context, noul probability, find/rerank/classify/decide/compare/extract, review diffs, gate merges on completion claims; 150-500ms each for a fraction of a cent",
       "metrics": "353 stars in ~11 days",
       "verification": {
@@ -11792,7 +11792,7 @@
       "status": "live",
       "url": "https://github.com/wfzyx/von",
       "tweet": "—",
-      "stars": 803,
+      "stars": 811,
       "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
       "metrics": "757 stars; Apache-2.0; on Hugging Face",
       "verification": {
@@ -14670,6 +14670,159 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-10-01"
+      }
+    },
+    {
+      "name": "roamjev",
+      "author": "jwil007",
+      "category": "infra",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/jwil007/roamjev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Linux utility handing every Wi-Fi roaming and scanning decision to Jev via the wpa_supplicant control interface: code measures, describes, executes and journals each decision while Jev decides when to scan, how widely, whether to roam and where; honest warning: every decision is a cloud call — if the link is too broken to reach the API, roamjev does nothing until it can; one-line install with systemd",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + warning + install)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "tinystruct",
+      "author": "tinystruct",
+      "category": "framework",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tinystruct/tinystruct",
+      "tweet": "—",
+      "stars": 359,
+      "one_liner": "An established lightweight modular Java web/CLI framework (12-language README incl. Simplified/Traditional Chinese, on Maven Central, CodeQL-checked) whose latest release integrates Jev decision-model support — the Java enterprise ecosystem gains an official-grade adoption",
+      "metrics": "359 stars",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + repo metadata)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "bio-topic-discovery",
+      "author": "hpend2373",
+      "category": "bioinformatics",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/hpend2373/bio-topic-discovery",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A research skill inspecting every declared unit in DEG/omics result tables or meta-analysis ledgers with local Laya or the Jev API: preserves evidence links, records model decisions, verifies coverage before reporting; measured on an NVIDIA GB10 (Laya 45.07s vs Qwen3.6-35B 251.84s, 5.59x faster) with brutal honesty: paired choice agreement was only 26.25 percent — passing the response contract does not establish equivalent judgments; candidates need scientific review before adoption; bilingual EN/ko",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + latency table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "sentence-thermometer",
+      "author": "kwn00",
+      "category": "wellness",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/kwn00/sentence-thermometer",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Korean sentence thermometer: a small web app reading a message emotional tone, intent and urgency probability with three questions in one request to jev-latest; privacy-first (messages never stored or logged, key only in server env, localhost-only bind by default with a deployment warning); tests mock external calls",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README ko)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "jev-lens",
+      "author": "sahajamit",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sahajamit/jev-lens",
+      "tweet": "—",
+      "stars": 4,
+      "one_liner": "Personal Chrome extension: Jev badges X and LinkedIn posts READ / MAYBE / SKIP",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "JevOnly",
+      "author": "buluoray",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/buluoray/JevOnly",
+      "tweet": "—",
+      "stars": 5,
+      "one_liner": "Pure Jev that can type and drive towards task completion",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "antigravity-approval",
+      "author": "zjply4000",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/zjply4000/antigravity-approval",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Fail-closed Antigravity PreToolUse guardrail using deterministic rules and TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "dsh-typesafe-ai-skill",
+      "author": "chen112233usa",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/chen112233usa/dsh-typesafe-ai-skill",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Chinese: registers the TypeSafe/Jev building skills into the DeepSeek Harness global skill layer, available automatically in every session; contains no keys",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-02"
       }
     }
   ]
