@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 774,
+    "total_curated": 781,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9068,7 +9068,7 @@
       "status": "live",
       "url": "https://github.com/jkudish/jev-mcp",
       "tweet": "—",
-      "stars": 478,
+      "stars": 482,
       "one_liner": "Eleven typed-judgment MCP tools for agents: verify claims vs evidence, screen pages for injection before context, noul probability, find/rerank/classify/decide/compare/extract, review diffs, gate merges on completion claims; 150-500ms each for a fraction of a cent",
       "metrics": "353 stars in ~11 days",
       "verification": {
@@ -9089,7 +9089,7 @@
       "status": "live",
       "url": "https://github.com/jkudish/jev-browser",
       "tweet": "—",
-      "stars": 268,
+      "stars": 303,
       "one_liner": "Fast, very cheap browser use: Jev picks one action per step from the page's clickable/typeable/selectable elements and scores goal-met/stuck probabilities; code owns the loop (budgets, recovery, stop gates); MCP server, CLI or library, per-step confidence trace",
       "metrics": "Wikipedia Coffee->Espresso in ~4s for $0.0016",
       "verification": {
@@ -11792,7 +11792,7 @@
       "status": "live",
       "url": "https://github.com/wfzyx/von",
       "tweet": "—",
-      "stars": 811,
+      "stars": 814,
       "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
       "metrics": "757 stars; Apache-2.0; on Hugging Face",
       "verification": {
@@ -15210,6 +15210,138 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-10-02"
+      }
+    },
+    {
+      "name": "awesome-jev (fatwang2)",
+      "author": "fatwang2",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fatwang2/awesome-jev",
+      "tweet": "—",
+      "stars": 219,
+      "one_liner": "A source-backed Jev project directory (175 projects) by Eugene Wang (well-known ML educator) with submissions REVIEWED BY JEV — ships a reusable Jev Review Action GitHub workflow: directory curation done by the very model being catalogued",
+      "metrics": "219 stars",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + project list)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "cda-abm-ai-agents",
+      "author": "JiriNohejl",
+      "category": "research",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/JiriNohejl/cda-abm-ai-agents",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Does cognitive trader intelligence matter in market microstructure, or does the market institution do all the heavy lifting? An agent-based computational economics testbed comparing canonical Zero-Intelligence-with-Constraint traders (Gode and Sunder 1993) against cognitive agents powered by Jev; Mesa ABM framework, 28 tests passing",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-in-education",
+      "author": "yamnor",
+      "category": "education",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/yamnor/jev-in-education",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Japanese: supplementary records testing Jev for education — reading student short-answers (6 questions, 30 answers on salt dissolution); integrity complete: all answers AI-drafted then author-verified with NO real student answers included; explicitly small-scale records that cannot be used for accuracy estimation or grading decisions; expected verdicts FIXED BEFORE SENDING (protocol.txt holds the pre-send spec and change history); model version pinned per folder",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README ja + cautions)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "omp-typesafe",
+      "author": "siddicky",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/siddicky/omp-typesafe",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "TypeSafe AI (Jev) adversarial reviewer and typesafe_ask tool for the omp coding agent",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "switchyard (kevinebaugh)",
+      "author": "kevinebaugh",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kevinebaugh/switchyard",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Every link on the right track in Dia: a menu-bar router that opens links in the right Dia browser profile",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-watch (deadczarvc)",
+      "author": "deadczarvc-labs",
+      "category": "observability",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/deadczarvc-labs/jev-watch",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Logs what fast-jev-compaction does: outcomes, TypeSafe requests, compactions and hook failures",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-npc-interaction-prototype",
+      "author": "dazreil",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/dazreil/jev-npc-interaction-prototype",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Browser-based NPC interaction prototype using authored dialogue with Jev action decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
       }
     }
   ]
