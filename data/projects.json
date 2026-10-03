@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 788,
+    "total_curated": 796,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -15470,6 +15470,166 @@
       "tweet": "—",
       "stars": 1,
       "one_liner": "Node client for decision models such as Typesafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "Jev (dfinke)",
+      "author": "dfinke",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/dfinke/Jev",
+      "tweet": "—",
+      "stars": 8,
+      "one_liner": "PowerShell decisions with Jev by Doug Finke (PowerShell MVP legend, ImportExcel author): turns messy input into decisions PowerShell scripts can act on; New-JevYesNoQuestion carries TrueCriteria and FalseCriteria; worked example — should the on-call engineer be paged now",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + cmdlet examples)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-foundry-judge",
+      "author": "nguyennhianhtri",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/nguyennhianhtri/jev-foundry-judge",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Jev as the judge for Azure AI Foundry agent evaluation (Microsoft ecosystem): four drop-in evaluators matching the Foundry built-ins (Intent Resolution, Task Adherence, Tool Call Accuracy, Groundedness), one Jev call per conversation, plain code combining into 1-5 scores; every run goes through azure.ai.evaluation.evaluate so results appear in the Foundry project with an Open-in-Foundry-portal button; measures latency, cost and agreement with human labels; demo web app included",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + architecture)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "ComfyUI-SystemOne",
+      "author": "dante01yoon",
+      "category": "creative",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/dante01yoon/ComfyUI-SystemOne",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Branch a ComfyUI workflow on a natural-language judgment (which style does this prompt want / is this too graphic for kids / does this name a real person): label, probability or score with confidence your graph can route on; two interchangeable backends — Laya running locally INSIDE ComfyUI (free) or hosted Jev — flipped with one dropdown on the Backend node",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + backend table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-cfd-copilot",
+      "author": "cfdgasman",
+      "category": "science",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/cfdgasman/jev-cfd-copilot",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A rarefied-gas CFD copilot: type a gas flow in plain English, the tool works out the physics, picks the right model for the Knudsen number, runs a validated solver and returns a number with units; sample self-reports 1 Jev request, 11 questions, 1,568 input tokens, 0.000066 USD — and warns Navier-Stokes + slip would be off by 9.7 percent; a tutorial for CFD developers on using Jev with Claude",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + sample run)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-permission-gate",
+      "author": "madisonrickert",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/madisonrickert/jev-permission-gate",
+      "tweet": "—",
+      "stars": 4,
+      "one_liner": "A Claude Code mod using Jev to decide auto-mode tool calls, claimed 2x faster",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-observer",
+      "author": "LimePencil",
+      "category": "observability",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/LimePencil/jev-observer",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A local proxy and dashboard for Jev decisions with an embedded web UI",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "dertek",
+      "author": "CodesInTheShell",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/CodesInTheShell/dertek",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Dertek AI: a fast, cost-efficient agent for coding and knowledge work — agentic CLI",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jevvy",
+      "author": "zliv83",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/zliv83/jevvy",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Rust wrapper for TypeSafe.ai's Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
