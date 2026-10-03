@@ -9,7 +9,7 @@
 
 **全网最全,没有之一 · The Most Complete — if it was built with Jev, it's in this radar.**
 
-[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-812_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
+[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-820_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
 
 **[English](#english) · [中文](#中文)**
 
@@ -51,7 +51,7 @@ Each of the 108 structured registry entries carries a `verification` block assig
 | **B** | 0.75 | Primary source on record (repo or original post), inspected at description level |
 | **C** | 0.60 | Directory-indexed only — promoted on the next scan once opened |
 
-Original 2026-09-19 case-verification cohort: **38 × A · 70 × B · 0 × C** (the live registry distribution is the badge above — 812 entries). Numbers inside entries are **as reported by their authors** unless marked reproduced. We also document what *doesn't* work: confidence ≠ correctness, ordering sensitivity, and a circulating wave of sped-up fake demos — with guidance on which repos carry real traces.
+Original 2026-09-19 case-verification cohort: **38 × A · 70 × B · 0 × C** (the live registry distribution is the badge above — 820 entries). Numbers inside entries are **as reported by their authors** unless marked reproduced. We also document what *doesn't* work: confidence ≠ correctness, ordering sensitivity, and a circulating wave of sped-up fake demos — with guidance on which repos carry real traces.
 
 ### What people are building (by density)
 
@@ -132,7 +132,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 | **B** | 0.75 | 一手源(仓库/原帖)在档,做过描述级核查 |
 | **C** | 0.60 | 暂仅目录收录——下次扫描打开后升级 |
 
-2026-09-19 首批案例验证队列:**38 × A · 70 × B · 0 × C**(实时注册表分布见顶部徽章——812 条)。条目里的数字均为**作者自报**,复现过的会单独标注。我们同样记录不好用的部分:置信度 ≠ 正确性、对输入顺序敏感、以及市面上流通的加速假 demo——并告诉你哪些仓库带真实 trace。
+2026-09-19 首批案例验证队列:**38 × A · 70 × B · 0 × C**(实时注册表分布见顶部徽章——820 条)。条目里的数字均为**作者自报**,复现过的会单独标注。我们同样记录不好用的部分:置信度 ≠ 正确性、对输入顺序敏感、以及市面上流通的加速假 demo——并告诉你哪些仓库带真实 trace。
 
 ### 大家在做什么(按密度排序)
 

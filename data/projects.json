@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 812,
+    "total_curated": 820,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -6069,7 +6069,7 @@
       "status": "live",
       "url": "https://github.com/spring-ai-community/spring-ai-typesafe",
       "tweet": null,
-      "stars": 40,
+      "stars": 47,
       "one_liner": "Official Spring AI community Java SDK for Jev: Spring RestClient + Jackson 3, plus Spring AI integrations as Model-as-a-judge, guardrail, RAG post-processor, and tool index; on Maven Central — 5th major platform adoption",
       "metrics": null,
       "verification": {
@@ -8547,7 +8547,7 @@
       "status": "live",
       "url": "https://github.com/ollaya-dev/ollaya",
       "tweet": null,
-      "stars": 1096,
+      "stars": 1144,
       "one_liner": "Run open decision models locally the way Ollama runs LLMs: pull by name, serve from local daemon, speak /v1/systemone — Jev clients work by changing one environment variable",
       "metrics": null,
       "verification": {
@@ -9150,7 +9150,7 @@
       "status": "live",
       "url": "https://github.com/wh000wh000/awesome-jev-live",
       "tweet": "—",
-      "stars": 36,
+      "stars": 128,
       "one_liner": "Awesome Jev — an evidence-graded index of TypeSafe System One projects: SDKs, MCP tools, agents, apps (a peer of jev-radar's approach)",
       "metrics": null,
       "verification": {
@@ -13440,7 +13440,7 @@
       "status": "live",
       "url": "https://github.com/cobanov/awesome-jev",
       "tweet": "—",
-      "stars": 469,
+      "stars": 496,
       "one_liner": "A curated, source-backed list by Milan Jovanović (well-known .NET educator): favors public source code, concrete Jev usage, clear limitations and reproducible evidence; community catalog of 155 entries with dated research notes carrying pinned sources; features ollaya prominently",
       "metrics": "469 stars",
       "verification": {
@@ -15942,6 +15942,160 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Institutional SMC structure detection (order blocks, FVGs, sweeps) with vectorized options analytics",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "zero-shot-ie-bench",
+      "author": "umstek",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/umstek/zero-shot-ie-bench",
+      "tweet": "—",
+      "stars": 4,
+      "one_liner": "Sixty zero-shot systems (57 benchmarked) across 32 information-extraction and classification families: extractor encoders, a purpose-built classifier, cross-encoder rerankers and typed-decision engines (local and cloud, hosted ones behind OpenRouter decision and rerank endpoints, plus five models served by the local Ollaya daemon) — demoed, benchmarked and cross-compared in one repo with a web UI",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + system table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "atoma",
+      "author": "mgtf",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/mgtf/atoma",
+      "tweet": "—",
+      "stars": 16,
+      "one_liner": "Watch a request turn into finished work: ask for a drawing, sound, report, data study, proof or software — atoma coordinates AI agents to produce it, checks the result against what you asked for and lets you inspect every step; the bounded decisions along the way (which agent takes a task, whether a plan is approved) are taken by Jev; live at atoma.run; AGPL with an honest active-development warning",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + how-it-works)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-brand-check",
+      "author": "chapter42",
+      "category": "seo",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/chapter42/jev-brand-check",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Dutch Streamlit app (merkcheck): load a CSV of prompt results (ChatGPT/Gemini/Perplexity answers) and check whether a brand is MENTIONED and whether it is RECOMMENDED — Jev returns a probability per question instead of text; BYO key lives only in the session and is never stored, with an env-var mode that never sends the key to the browser; the GEO/AI-search brand question every marketing team now asks",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README nl + key handling)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jeviathan",
+      "author": "lowlevelcodehustler",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/lowlevelcodehustler/jeviathan",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A System One compatibility and retrofit layer for open-weight LLMs: Qwen3.8-27B via vLLM on an RTX 5090 or Llama-3.1-8B via Ollama/llama.cpp on a laptop; honest positioning: compatibility is at the CONTRACT level — same request/response shape, same confidence formula — NOT a claim of behavioural parity with Jev; when real Jev access lands, flip one config line and A/B the two behind an identical API",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + positioning note)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev (stefafafan)",
+      "author": "stefafafan",
+      "category": "cli",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/stefafafan/jev",
+      "tweet": "—",
+      "stars": 13,
+      "one_liner": "An unofficial provider-neutral Unix client for Jev written in Go (by Stefan Judis, well-known web developer)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "pi-jev-model-router (da-vinci-noob)",
+      "author": "da-vinci-noob",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/da-vinci-noob/pi-jev-model-router",
+      "tweet": "—",
+      "stars": 11,
+      "one_liner": "Route pi prompts to task-appropriate model tiers with Jev typed judgments; budget-aware",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-skill (danekkalivoda)",
+      "author": "danekkalivoda",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/danekkalivoda/jev-skill",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Agent skill: route subagent tasks to the cheapest capable model via Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "awesome-typesafe-jev (zhuyansen)",
+      "author": "zhuyansen",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/zhuyansen/awesome-typesafe-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Open-source projects built on Jev: open replicas, agents, dev tools and more",
       "metrics": null,
       "verification": {
         "tier": "B",
