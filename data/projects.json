@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 820,
+    "total_curated": 828,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9150,7 +9150,7 @@
       "status": "live",
       "url": "https://github.com/wh000wh000/awesome-jev-live",
       "tweet": "—",
-      "stars": 128,
+      "stars": 131,
       "one_liner": "Awesome Jev — an evidence-graded index of TypeSafe System One projects: SDKs, MCP tools, agents, apps (a peer of jev-radar's approach)",
       "metrics": null,
       "verification": {
@@ -9859,7 +9859,7 @@
       "status": "live",
       "url": "https://github.com/iamaamir/system-one",
       "tweet": "—",
-      "stars": 59,
+      "stars": 67,
       "one_liner": "Provider-neutral System One runtime for TypeScript and Pi",
       "metrics": null,
       "verification": {
@@ -11019,7 +11019,7 @@
       "status": "live",
       "url": "https://github.com/FrancoisChastel/jev-code",
       "tweet": "—",
-      "stars": 27,
+      "stars": 38,
       "one_liner": "Jev as a first-class tool inside Claude Code, Codex, Pi and OpenCode: typed labels, yes/no checks, scores and rankings in a few hundred milliseconds, plus a skill that teaches the agent when to reach for it; 'coding agents make small classification decisions all day — by eyeballing, regex, or burning a frontier-model call per item'; on npm",
       "metrics": null,
       "verification": {
@@ -11792,7 +11792,7 @@
       "status": "live",
       "url": "https://github.com/wfzyx/von",
       "tweet": "—",
-      "stars": 820,
+      "stars": 825,
       "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
       "metrics": "757 stars; Apache-2.0; on Hugging Face",
       "verification": {
@@ -16096,6 +16096,158 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Open-source projects built on Jev: open replicas, agents, dev tools and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "fineprint",
+      "author": "Sahilll15",
+      "category": "legal",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Sahilll15/fineprint",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Paste a contract, see it redlined by risk, and know which three clauses to read first: up to 25 clauses each with 9 typed questions — seven risk booleans (auto-renewal, data sharing, arbitration and class-action waivers, one-sided changes, fees and penalties, liability caps, content and IP rights) plus an aggression score and a needs-noticing flag; Jev only returns numbers, FinePrint turns them into risk tints, margin flags, a document risk gauge and a read-these-3-first list; every explanation on the page is a template written in the repo; live demo",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + question list)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "copilot-studio-jev",
+      "author": "Zakariakhchiche",
+      "category": "enterprise",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Zakariakhchiche/copilot-studio-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "French: Copilot Studio x Jev — an MCP server that searches Azure AI Search then asks Jev four yes/no questions per passage (relevant, contains the answer, contradicts, attempts injection); the CODE decides: evidence, contradiction or rejection — the agent answers with sources, flags the contradiction, or ABSTAINS when no document justifies an answer; ships a Power Platform connector; PR submitted to microsoft/CopilotStudioSamples",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README fr + brick table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-vs-clef",
+      "author": "rmax-ai",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/rmax-ai/jev-vs-clef",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Head-to-head stress comparison of Jev vs Cloudflare Clef (27B) and Clef-flash (9B) — shipped Oct 1 as fully Jev-API compatible — on production-shaped bounded-decision workloads (ticket routing, session-tail triage, tool guardrails, upload triage, candidate classification); asks the operational question: where is a swap safe and what does it cost; headline: Jev p50 0.3s vs 18.7s/18.6s, per-call cost 0.000021 USD vs 0.000111/0.000038",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "coffee-under-fire",
+      "author": "joaoh82",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/joaoh82/coffee-under-fire",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A free React + Three.js coffee-delivery arena shooter where every enemy plans its own tactics from what it can see, hear and remember — a local utility scorer over legal actions with deterministic TypeScript executing; playable online with no API keys; full game design document included; Jev powers NPC tactics per the repository description",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + GDD ref)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "headline-arena",
+      "author": "Sahilll15",
+      "category": "writing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Sahilll15/headline-arena",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Rank your headlines like a sports leaderboard: five stats and a clickbait penalty, scored by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "toneradar",
+      "author": "Sahilll15",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Sahilll15/toneradar",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Check how a message will land before you send it: tone radar and sentence heatmap scored by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "sieve (gdamiani1)",
+      "author": "gdamiani1",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gdamiani1/sieve",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chrome extension scoring which LinkedIn and Reddit posts are worth your time",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "pi-auto-router",
+      "author": "lucasamonrc",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/lucasamonrc/pi-auto-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "An Auto model for pi: classifies each prompt with Cloudflare Clef (or TypeSafe Jev) and routes accordingly",
       "metrics": null,
       "verification": {
         "tier": "B",
