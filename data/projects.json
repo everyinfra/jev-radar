@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 804,
+    "total_curated": 812,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -557,7 +557,7 @@
       "status": "live",
       "url": "https://github.com/supercorp-ai/supercov",
       "tweet": null,
-      "stars": 143,
+      "stars": 144,
       "one_liner": "Per-file code quality scores so coding agents know what to fix first",
       "metrics": "matches CodeRabbit-class scores at ~100x lower cost (author-reported)",
       "verification": {
@@ -8691,7 +8691,7 @@
       "status": "live",
       "url": "https://github.com/tomerglick57/Jevstiller",
       "tweet": null,
-      "stars": 0,
+      "stars": 59,
       "one_liner": "Distill a repeated Jev classification into a local model on the fly — same answers, your hardware; Banking77: 70.7% of held-out messages answered at 99.45% agreement; CPU 130 msg/s (6.5x Jev rate limit), GPU ~2000/s",
       "metrics": null,
       "verification": {
@@ -15786,6 +15786,162 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Hands-on lab for Jev: API client examples, calibration experiments and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "stuntd",
+      "author": "bladedevoff",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/bladedevoff/stuntd",
+      "tweet": "—",
+      "stars": 61,
+      "one_liner": "A local self-hosted proxy that learns your typed LLM decisions and answers them itself: 90 percent of decisions answered locally in about 20ms learned from your own traffic; speaks the Jev System One protocol, OpenAI Chat Completions AND Anthropic Messages APIs; distils each decision site into a small head on a frozen Laya; PyPI + Hugging Face Space",
+      "metrics": "61 stars",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + cover claims + badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "hivemind-chat",
+      "author": "HermannPR",
+      "category": "productivity",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/HermannPR/hivemind-chat-releases",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Spanish: HIVEMIND Chat — team chat where people and AI agents work in the same channel: people converse and decide while agents respond, split tasks and report progress; a dispatcher with Jev decides which agent handles each message so they do not step on each other; Windows 1.4.7 released, Android beta; honest: this repo is the public page and installers, source is proprietary",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README es + status table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "astrbot_plugin_jev_active_reply",
+      "author": "muyouzhi6",
+      "category": "chat-bot",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/muyouzhi6/astrbot_plugin_jev_active_reply",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese AstrBot plugin (author 木有知): speak up when appropriate, stay quiet when not — Jev quickly judges whether joining a group chat is worth it while the actual reply comes from the bot main model; persona/context/memory unchanged; safety defaults: with no group configured or no key it never speaks on its own; warns to disable other wake plugins to avoid answer conflicts; MindsHub gateway sighting (new provider)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + setup steps)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "decision-dungeons",
+      "author": "tildaslashalef",
+      "category": "eval",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/tildaslashalef/decision-dungeons",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A local playground for decision models: seeded dungeon worlds asking typed questions — 3D autopilot driving (town/city/interstate, merge gaps, off-road recovery), 3D night airport tower (clear arrivals, go-arounds, release departures), inbox (phishing and fraud in four languages), ticket triage; debug sidebar shows what the decider read and answered; same runs play headless from CLI producing comparison tables",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + dungeon table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "c9r-plugins",
+      "author": "c9r-dev",
+      "category": "testing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/c9r-dev/plugins",
+      "tweet": "—",
+      "stars": 6,
+      "one_liner": "Plain-English browser QA for Claude Code, judged by Jev on Cloudflare Workers",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "pi-prime",
+      "author": "Saml1211",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Saml1211/pi-prime",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Dynamic context bundle priming and Jev state analysis for the Pi coding agent",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "typesafe-showcase",
+      "author": "Ashadeepa",
+      "category": "ui",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Ashadeepa/typesafe-showcase",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Next.js UI showing off Jev: parallel Noul judgments and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "Sweep (SMC)",
+      "author": "Shashank200345",
+      "category": "quant",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Shashank200345/Sweep",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Institutional SMC structure detection (order blocks, FVGs, sweeps) with vectorized options analytics",
       "metrics": null,
       "verification": {
         "tier": "B",
