@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 781,
+    "total_curated": 788,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -11792,7 +11792,7 @@
       "status": "live",
       "url": "https://github.com/wfzyx/von",
       "tweet": "—",
-      "stars": 814,
+      "stars": 816,
       "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
       "metrics": "757 stars; Apache-2.0; on Hugging Face",
       "verification": {
@@ -11936,7 +11936,7 @@
       "url": "https://github.com/greenlittleapple/jev-game-lab",
       "tweet": "—",
       "stars": 0,
-      "one_liner": "Slay the Spire 2 agent: Jev picks each move, a Claude Code session plans the run",
+      "one_liner": "A multi-game lab where Jev (jev-1.13.0) plays with Claude as a slower strategist and deterministic rules between: Slay the Spire 2 strategist plus Bloons TD 6 via a MelonLoader bridge — Hard Standard zero-leak mode: 20 of 20 won, 19 with no lives lost, by Jev ALONE (no Claude calls), confirmed over 10+10 matches at 11-13 minutes each",
       "metrics": null,
       "verification": {
         "tier": "B",
@@ -15336,6 +15336,140 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Browser-based NPC interaction prototype using authored dialogue with Jev action decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "fallacy-finder",
+      "author": "Sahilll15",
+      "category": "education",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Sahilll15/fallacy-finder",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Paste an argument, reply thread, op-ed or debate transcript and it marks the lines leaning on a common fallacy: up to 20 sentences each get 8 yes/no fallacy questions (ad hominem, strawman, false dilemma, slippery slope, appeal to authority, whataboutism, hasty generalization, circular reasoning), 2 evidence questions and a 0-3 argument-strength score; division of labor: Jev only returns probabilities and scores — every word of explanation comes from a hand-written field guide",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + question set)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jevify (tpellet)",
+      "author": "tpellet",
+      "category": "cli",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/tpellet/jevify",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Point at the line that explains a failed build, test or CI run (Rust CLI on crates.io): gh run view --log-failed | jevify why; benchmarked honestly — root cause first in 30 of 34 failed GitHub Actions runs where grep|tail finds it in 11; in the other four it points at a wrong line and NEVER abstains, so a pointer is something to check; keyless backend window differences documented; 1,812-line demo with one error under 300 warnings",
+      "metrics": "30/34 vs 11/34 against grep|tail",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + benchmark refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jevscope",
+      "author": "Gonzih",
+      "category": "desktop",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Gonzih/jevscope",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev-driven macOS desktop control in Swift: serializes the Accessibility tree to text (README not fetchable at scan time)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "Super_Gpt",
+      "author": "jubarthi",
+      "category": "desktop",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jubarthi/Super_Gpt",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "SUPER GPT: a desktop control center with Jev intelligence powered by TypeSafe",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "pitchpanel",
+      "author": "Sahilll15",
+      "category": "sales",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Sahilll15/pitchpanel",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A panel of five investor archetypes scores your startup pitch: verdicts, heatmap and verdict history",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-rerank (CMaintz)",
+      "author": "CMaintz",
+      "category": "search",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/CMaintz/jev-rerank",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev-powered relevance filtering and reranking for RAG: score, sort and filter retrieved chunks",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "node-decision-model",
+      "author": "fraserxu",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fraserxu/node-decision-model",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Node client for decision models such as Typesafe Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
