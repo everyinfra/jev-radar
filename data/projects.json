@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 796,
+    "total_curated": 804,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9132,7 +9132,7 @@
       "status": "live",
       "url": "https://github.com/Dicklesworthstone/skillranker",
       "tweet": "—",
-      "stars": 121,
+      "stars": 127,
       "one_liner": "Rust CLI powered by Jev that ranks agent skills for the next step using logprobs",
       "metrics": null,
       "verification": {
@@ -11792,7 +11792,7 @@
       "status": "live",
       "url": "https://github.com/wfzyx/von",
       "tweet": "—",
-      "stars": 816,
+      "stars": 820,
       "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
       "metrics": "757 stars; Apache-2.0; on Hugging Face",
       "verification": {
@@ -15630,6 +15630,162 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Rust wrapper for TypeSafe.ai's Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "pi-jev (TheoOliveira)",
+      "author": "TheoOliveira",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/TheoOliveira/pi-jev",
+      "tweet": "—",
+      "stars": 61,
+      "one_liner": "Semantic tool routing and typed decisions for the Pi coding agent — the Pi ecosystem flagship: jev_find_tools additively activates only the tools a prompt actually needs; jev_find_skill does scope-aware skill matching that avoids false positives from coincidental topic overlap; custom Jev endpoint can point at local Jev-compatible servers like Laya; /jev test lets the active model design a question schema that Jev then evaluates",
+      "metrics": "61 stars",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + feature list)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "canmou-clipper",
+      "author": "baocanmou",
+      "category": "browser-extension",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/baocanmou/canmou-clipper",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese/English Canmou Clipper: a Chrome MV3 extension for Obsidian collectors — one click saves the page body as a note while Jev decides which folder it belongs to, which tags to apply and its reference value; unsure items go to the inbox, never misfiled; your directory rules are written in settings; Gitee mirror for mainland China; includes a reading mode",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + audience section)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "tiny-agent",
+      "author": "irivelez",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/irivelez/tiny-agent",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A tiny agent for one factory-order inbox showing the cleanest four-role split in the ecosystem: Jev decides what each email is (probability, under a second), Code does the exact tasks (read price, compare, compute days late, archive), Claude writes only when writing is needed (summary + draft reply), and a human approves anything that would leave the building — nothing is sent automatically; example table lists p-values and timings",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + flow diagram)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "decision-model-audit",
+      "author": "oborchers",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/oborchers/decision-model-audit",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Reproducible field test of decision models (TypeSafe Jev, Fastino GLiNER2.5-Decide, Laya, plus post-hoc Cloudflare Clef/Clef-flash) against small LLMs with structured outputs; six questions including behaviour when NO label fits and the cost of a human-readable rationale versus none; pre-registered protocol with every deviation logged; findings chronological INCLUDING negative and inconclusive results; German and English write-ups",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + protocol refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-imdb-benchmark",
+      "author": "rahulbansalc6414",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/rahulbansalc6414/jev-imdb-benchmark",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Benchmarking Jev on real IMDB reviews: sentiment, spoiler detection and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-bot (bl888m)",
+      "author": "bl888m",
+      "category": "quant",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/bl888m/jev-bot",
+      "tweet": "—",
+      "stars": 11,
+      "one_liner": "JEV-powered market decision bot for stocks, crypto and memes: state in, BUY/SELL/HOLD/AVOID out",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "linkscout",
+      "author": "ianTPE",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ianTPE/linkscout",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Scores search-result links before you click: browser extension + Cloudflare Worker + Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-system-one-lab",
+      "author": "tejachavali",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tejachavali/jev-system-one-lab",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Hands-on lab for Jev: API client examples, calibration experiments and more",
       "metrics": null,
       "verification": {
         "tier": "B",
