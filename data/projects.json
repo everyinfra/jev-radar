@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 828,
+    "total_curated": 836,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -1023,7 +1023,7 @@
       "status": "live",
       "url": "https://github.com/realZachi/pg-jev",
       "tweet": "https://madewithjev.com/builds/postgres-jev-function",
-      "stars": 175,
+      "stars": 589,
       "one_liner": "PostgreSQL extension: WHERE jev(people, 'could work from home')",
       "metrics": "129 rows judged ~1s for $0.0009; 6ms cached",
       "verification": {
@@ -16248,6 +16248,156 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "An Auto model for pi: classifies each prompt with Cloudflare Clef (or TypeSafe Jev) and routes accordingly",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "sysone-bench",
+      "author": "instax-dutta",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/instax-dutta/sysone-bench",
+      "tweet": "—",
+      "stars": 6,
+      "one_liner": "First independent head-to-head benchmark of System One decision models: Laya (open weights) vs Jev (closed API) vs Qwen with parallel constrained decoding answering the same 1,190 cases and 1,550 typed questions from one sealed manifest at one seed; inputs verified BYTE IDENTICAL before any comparison (two numbers from different prompts are not a comparison); expanded to 43 of 51 Decision Index panel measurements; counts derived by script from run directories — never a hand-kept tally — with checksums verified",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + methodology)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-form-fill",
+      "author": "takasek",
+      "category": "browser-extension",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/takasek/jev-form-fill",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Copy notes, review proposals, fill the right fields: a Chrome extension matching clipboard text to form fields with Jev — review the proposed values, choose which fields to change, fill in page order; unsupported fields stay unchanged; explicit blanks, checkboxes, radios and selects supported; undo included; YOU submit the form yourself; honest privacy notes (creating proposals sends text and field metadata to TypeSafe, charges may apply); bilingual EN/ja",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + workflow)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "Jeffort",
+      "author": "andrewstephenson-v1",
+      "category": "agent-infra",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/andrewstephenson-v1/Jeffort",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "A Claude Code mod setting Claude effort level per turn: Jev scores the prompt on four narrow questions (reasoning depth, scope, stakes, ambiguity) and Jeffort maps the result onto an effort level — the model is never touched; a band above the prompt shows the chosen level, an on/off toggle and estimated output tokens saved this session",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + install/key handling)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "jev-plays-chess",
+      "author": "dmallory42",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/dmallory42/jev-plays-chess",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev plays chess nonstop against Maia-3 human-like neural opponents set to its current rating, climbing (or falling down) an Elo ladder that anyone can watch: each turn lists every legal move with facts (captures, checks, material, exposure, threats) — nothing looks ahead to the reply; one Choice question returns the move plus a probability for every option; Maia-3 runs in plain TypeScript in a worker; the Stockfish evaluation bar is display-only and never reaches Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + how-it-works)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "HackU",
+      "author": "Mohit-pjcts",
+      "category": "desktop",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Mohit-pjcts/HackU",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Backstage: tell your computer what to do and coloured AI agents do it in your real apps",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "smartvitae",
+      "author": "rafaelleaomed",
+      "category": "hr",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/rafaelleaomed/smartvitae",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Portuguese: factual curriculum-adequacy and career-alignment platform with zero hallucination",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "betterfeed",
+      "author": "nadiaenh",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nadiaenh/betterfeed",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Clean up your LinkedIn feed using Jev and Cloudflare Workers",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "kd-jev-mcp",
+      "author": "ctaxnagomi",
+      "category": "mcp",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ctaxnagomi/kd-jev-mcp",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Authenticated MCP gateway to the Jev System One reasoning API, with D1-backed persistence",
       "metrics": null,
       "verification": {
         "tier": "B",
