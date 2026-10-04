@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 836,
+    "total_curated": 844,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9150,7 +9150,7 @@
       "status": "live",
       "url": "https://github.com/wh000wh000/awesome-jev-live",
       "tweet": "—",
-      "stars": 131,
+      "stars": 184,
       "one_liner": "Awesome Jev — an evidence-graded index of TypeSafe System One projects: SDKs, MCP tools, agents, apps (a peer of jev-radar's approach)",
       "metrics": null,
       "verification": {
@@ -12108,7 +12108,7 @@
       "status": "live",
       "url": "https://github.com/v-modal/awesome-jev-tools",
       "tweet": "https://x.com/GoSailGlobal/status/2100877682972258619",
-      "stars": 729,
+      "stars": 744,
       "one_liner": "A curated list built around two practical questions: where is Jev actively making real decisions in live production workflows, and which decision architectures can be cleanly copied across industries; README is the homepage aggregate so the latest accepted entries are visible without drilling into subpages",
       "metrics": "729 stars overnight — second-biggest directory after yibie/awesome-jev",
       "verification": {
@@ -13154,7 +13154,7 @@
       "status": "live",
       "url": "https://github.com/heyjunpenn/awesome-jev",
       "tweet": "—",
-      "stars": 901,
+      "stars": 924,
       "one_liner": "An independent, community-maintained catalog of 962 verified open-source Jev projects across 11 categories and 27 languages: six-language README (en/zh/ja/ko/es/pt-BR), jevbest.com website, changelog, submission flow, and a Jev-like-models section — now one of the two dominant directories alongside yibie/awesome-jev",
       "metrics": "901 stars in days",
       "verification": {
@@ -16404,6 +16404,157 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-10-03"
+      }
+    },
+    {
+      "name": "judge_rails",
+      "author": "just-the-v",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/just-the-v/judge_rails",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Semantic judgments as ordinary ActiveRecord attributes: indexable, sortable, paginable and kept up to date for you; minimal DSL (judge_attribute :urgency, Judge.noul(...)) with chainable queries like Ticket.urgency_above(0.8).intent_is(billing).order(frustration: :desc); three judgments cost one API call per record, that query costs none; plain-Ruby client with zero dependencies works without Rails; Jev out of the box with one small seam for alternatives",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + DSL examples)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "latin-mqm-judges",
+      "author": "paulboys",
+      "category": "research",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/paulboys/latin-mqm-judges",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Can automatic judges catch fluent mistranslations of Latin: Claude Opus 4.8 and Gemini 3.1 Pro prompted as MQM annotators vs JEV with its original 3-question set and a 24-question set decomposed along the MQM error taxonomy; the target is the hardest class — a FLUENT MISGLOSS (smooth English that misreads the Latin: wrong referent, case role, clause relation or mood); corpus is Ussher 1639 Britannicarum Ecclesiarum Antiquitates plus a LITERA classical contrast set; honestly provisional: answer keys written by Claude and NOT YET verified",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + status note)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-fit-check",
+      "author": "toritori0318",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/toritori0318/jev-fit-check",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Japanese agent skill asking: should THIS judgment use Jev at all? Eight questions decide among code / Jev alone / a Jev-then-LLM-or-human cascade / an LLM; when Jev wins it emits a full design template (question decomposition, options, state, thresholds, ground-truth labels, fallback, data protection, audit); warning: use it in the wrong place and it will be confidently wrong; all numbers taken from public third-party verifications with sources at the end of SKILL.md",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README ja)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "hydro-jev",
+      "author": "Denbergvanthijs",
+      "category": "hardware",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Denbergvanthijs/hydro-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Dutch: controlling a hydrophore (water-pressure pump) with TypeSafe's Jev — the second physical-hardware project after jev-rover; README is a single line, honestly graded B",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists (repo + one-line README)",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jevmdb",
+      "author": "ClaudioEden",
+      "category": "creative",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ClaudioEden/jevmdb",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Portuguese: similar-movie recommender using Jev with IMDb, TMDB, Wikidata and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "tdm (Cle2ment)",
+      "author": "Cle2ment",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Cle2ment/tdm",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Typed Decision Model: a Rust core engine plus tdmm CLI, napi-rs bindings and harness adapters",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "ereshkigal",
+      "author": "inatos",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/inatos/ereshkigal",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Semantic ifs in Rust: typed option logits from open GGUF models via llama.cpp",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "typesafe-band",
+      "author": "21e8-miner",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/21e8-miner/typesafe-band",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Abstain on probability magnitude, band sweep calibration, and Jev variance studies",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
       }
     }
   ]
