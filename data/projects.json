@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 852,
+    "total_curated": 859,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -8547,7 +8547,7 @@
       "status": "live",
       "url": "https://github.com/ollaya-dev/ollaya",
       "tweet": null,
-      "stars": 1144,
+      "stars": 1198,
       "one_liner": "Run open decision models locally the way Ollama runs LLMs: pull by name, serve from local daemon, speak /v1/systemone — Jev clients work by changing one environment variable",
       "metrics": null,
       "verification": {
@@ -13440,7 +13440,7 @@
       "status": "live",
       "url": "https://github.com/cobanov/awesome-jev",
       "tweet": "—",
-      "stars": 496,
+      "stars": 506,
       "one_liner": "A curated, source-backed list by Milan Jovanović (well-known .NET educator): favors public source code, concrete Jev usage, clear limitations and reproducible evidence; community catalog of 155 entries with dated research notes carrying pinned sources; features ollaya prominently",
       "metrics": "469 stars",
       "verification": {
@@ -16704,6 +16704,139 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "A retail multi-agent system where Jev acts as the System One decision layer",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-judge",
+      "author": "00200200",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/00200200/jev-judge",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Vitest for LLM outputs: sub-100ms deterministic CI/CD evaluations powered by Jev; problem framing: LLM-as-judge in CI is broken (500 cases take 12-18 minutes and 20-50 USD per PR) while jev-judge runs evaluations in 3 seconds for 0.001 USD; on PyPI",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + problem framing)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "mailroom",
+      "author": "Kevin-Liu-01",
+      "category": "email",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Kevin-Liu-01/mailroom",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Your Gmail, sorted — rules you can read, typed AI judgments for pennies: deterministic rules do the bulk FREE (label on arrival, archive stragglers, trash expired codes, mark old promotions read) and only what rules cannot place goes to Jev with five narrow questions; every run previews first, writes a receipt and can be undone — nothing is ever sent, unsubscribed or deleted for good; live at mailroom.kevinliu.studio with honest unverified-app warning and a 100-user cap",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + guarantees)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "strands-decider-vs-jev",
+      "author": "jagadeeswara-reddy-p",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jagadeeswara-reddy-p/strands-decider-vs-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Six-benchmark internal evaluation of Strands Decider 2B v19 (self-hosted on EC2) vs TypeSafe Jev 1.13.0 on routing, tool-call gating, guardrails and judging: Jev wins five of six (JevBench 0.857 vs 0.727, When2Call 0.821 vs 0.651, injection guardrail 0.750 vs 0.509, HaluEval 0.871 vs 0.637); Decider wins Banking77 intent routing (0.841 vs 0.805); all differences significant (exact McNemar p<1e-5) with an honest contamination footnote; balanced conclusions",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "antispam (apple-mail)",
+      "author": "pravbeseda",
+      "category": "email",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pravbeseda/antispam",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Apple Mail extension that filters spam in every account with TypeSafe Jev (README not fetchable at scan time)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jevlint-le",
+      "author": "nolindnaidoo",
+      "category": "linting",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nolindnaidoo/jevlint-le",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Lint the questions you send to Jev: a VS Code extension and a command line tool",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-project-atlas",
+      "author": "PeriodBLUE",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/PeriodBLUE/jev-project-atlas",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: a source-verified atlas of GitHub projects built with JEV / TypeSafe System One — a full-landscape view",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "wechat-style-card",
+      "author": "Ricketts-Guo",
+      "category": "creative",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Ricketts-Guo/wechat-style-card",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: Chatprint — local WeChat expression-style cards with user-owned TypeSafe Jev credentials",
       "metrics": null,
       "verification": {
         "tier": "B",
