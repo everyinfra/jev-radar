@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 844,
+    "total_curated": 852,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9150,7 +9150,7 @@
       "status": "live",
       "url": "https://github.com/wh000wh000/awesome-jev-live",
       "tweet": "—",
-      "stars": 184,
+      "stars": 202,
       "one_liner": "Awesome Jev — an evidence-graded index of TypeSafe System One projects: SDKs, MCP tools, agents, apps (a peer of jev-radar's approach)",
       "metrics": null,
       "verification": {
@@ -16549,6 +16549,161 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Abstain on probability magnitude, band sweep calibration, and Jev variance studies",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jevspeak",
+      "author": "MM-sheng",
+      "category": "creative",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/MM-sheng/jevspeak",
+      "tweet": "https://x.com/LuigiProof/status/2101310173767987561",
+      "stars": 2,
+      "one_liner": "Jev can not generate text, so I made it talk anyway: message -> Jev decisions -> structured meaning -> a DETERMINISTIC language compiler -> English or Chinese reply; the Jev Brain view shows decision distributions and debug traces how they become a sentence; EN/zh toggle renders the same decisions in both languages; honest mode labels (JEV MOCK uses a deterministic dev scorer; the finite claim vocabulary limits what it can answer); live at jevspeak.org",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + launch post)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "session-sorter",
+      "author": "kraayenjon",
+      "category": "productivity",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/kraayenjon/session-sorter",
+      "tweet": "https://x.com/kraayenjon (author profile)",
+      "stars": 0,
+      "one_liner": "Sort the Ungrouped pile in the Claude Code Session Manager with Jev: settle categories, one Jev call per session, review the plan, apply with undo — NOTHING moves until you have seen the plan and confirmed it; measured on a real project: 101 ungrouped sessions sorted in 7.9s for 0.003 USD total (72 moved, 23 flagged, 6 left alone), and honestly reports run-to-run variance (a second run gave 72/21/8)",
+      "metrics": "101 sessions / 7.9s / $0.003",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + measured run)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "auto-review-siyuan",
+      "author": "wmy2981",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/wmy2981/auto-review-siyuan",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese/English: adds a third Auto review entry to the SiYuan (思源笔记) agent permission menu — every tool call that would ask for confirmation is first reviewed by the configured decision model; session-level (two panels can run different modes); reviewed ONE call at a time with no verdict cached or reused and nothing keyed by tool name; three outcomes: native approve / annotate partial matches and leave the card to you / reject",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + verdict table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "play-with-jev",
+      "author": "technomad641",
+      "category": "education",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/technomad641/play-with-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A beginner guide to Jev plus a Snake project to learn it with; the one-sentence version: a normal AI model writes you an answer word by word, Jev picks one of the answers you gave it all at once and tells you how sure it is — that is the whole idea, everything below is just detail; clear autoregressive-vs-one-pass diagrams",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + diagrams)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "rosslabs-model-router",
+      "author": "tyroneross",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tyroneross/rosslabs-model-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Standalone Rust model and reasoning-effort routing with optional direct TypeSafe Jev integration",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "criteria-adapter-decision",
+      "author": "brokenbots",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/brokenbots/criteria-adapter-decision",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Decision adapter (System One decision models: TypeSafe Jev, Ollama /v1/systemone) for the criteria library",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "codex-gemini-jev-bridge",
+      "author": "helikirmi2",
+      "category": "mcp",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/helikirmi2/codex-gemini-jev-bridge",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Local MCP bridge for Codex: Gemini using the included Google AI Pro quota via Antigravity CLI, plus Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-multiagent-retail",
+      "author": "anjijava16",
+      "category": "retail",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/anjijava16/jev-multiagent-retail",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A retail multi-agent system where Jev acts as the System One decision layer",
       "metrics": null,
       "verification": {
         "tier": "B",
