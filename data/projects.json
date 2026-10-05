@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 875,
+    "total_curated": 882,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9859,7 +9859,7 @@
       "status": "live",
       "url": "https://github.com/iamaamir/system-one",
       "tweet": "—",
-      "stars": 67,
+      "stars": 69,
       "one_liner": "Provider-neutral System One runtime for TypeScript and Pi",
       "metrics": null,
       "verification": {
@@ -17146,6 +17146,140 @@
       "stars": 0,
       "one_liner": "Research archive of Jev: official docs, community guides and debug tooling",
       "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-scannotate",
+      "author": "amnahsiddiqa",
+      "category": "bioinformatics",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/amnahsiddiqa/jev-scannotate",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Experiments using Jev to annotate cell types in single-cell RNA-seq clusters vs Claude Opus 5.5 and Sonnet 5.5: input is ranked marker genes plus tissue, answering broad type, cell type and coherence; test cases include the T-cell marker set (CD3D/CD3E/TRAC/IL7R/LTB) with and without the monocyte gene LST1 appended; wall-clock recorded per call; follows the JevCellType payload format",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + notebook layout)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-multilingual-benchmark",
+      "author": "webmaster-ramos",
+      "category": "research",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/webmaster-ramos/jev-multilingual-benchmark",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Reproducible benchmark of typed decision models vs chat and guard models on the job a multilingual storefront actually has — moderating short UGC (display names, personalisation fields) and long UGC (comments, reviews) across the 30 store views / 25 languages of a real storefront; directly tests the vendor caveat (other languages handled but not equally well; test on your data); content warning and licences up front; article with a routing recipe",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + warning + article link)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "GraphPaper",
+      "author": "AronAxe",
+      "category": "writing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/AronAxe/GraphPaper",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "A local-first Windows graphical writing studio for nonfiction and fiction: source material -> knowledge graph -> a distinctive angle -> an editable outline -> writing worth reading; author voice learned from your own uploads; REVERSIBLE humanizer/deslopping passes; Codex/ChatGPT browser sign-in instead of a writing API key",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + version notes)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "Janus (firassx914)",
+      "author": "FirasSX914",
+      "category": "routing",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/FirasSX914/Janus",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Route each decision to a small model or a larger one according to small-model confidence — but it measures where that line sits on your data before routing anything: Janus ships NO default threshold, it measures one; two inputs: a labelled dataset (accuracy report) or a log of decisions with confidence but no gold label (agreement-with-reference report); on PyPI",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + input modes)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "wiring-jev-into-a-local-agent",
+      "author": "ghosthat-studio",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ghosthat-studio/wiring-jev-into-a-local-agent",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Companion code for Old Nain episode 001: wiring Jev into a local agent",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-client (darup67)",
+      "author": "darup67",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/darup67/jev-client",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Shared TypeSafe judgement client used by zillow-agent and coin-launch-agent",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "awesome-jev (hellogumbo)",
+      "author": "hellogumbo",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/hellogumbo/awesome-jev",
+      "tweet": "https://x.com/typesafeai (official account linked in README)",
+      "stars": 215,
+      "one_liner": "A community directory of projects built on Jev, TypeSafe System One model — a new major list at 215 stars with the official TypeSafe account linked in its README",
+      "metrics": "215 stars",
       "verification": {
         "tier": "B",
         "method": "primary-source-exists",
