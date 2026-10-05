@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 867,
+    "total_curated": 875,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9132,7 +9132,7 @@
       "status": "live",
       "url": "https://github.com/Dicklesworthstone/skillranker",
       "tweet": "—",
-      "stars": 127,
+      "stars": 126,
       "one_liner": "Rust CLI powered by Jev that ranks agent skills for the next step using logprobs",
       "metrics": null,
       "verification": {
@@ -16990,6 +16990,161 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Typed, local-first decisions for pm items with Jev-style System One models (local Ollama)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "mu (qybaihe)",
+      "author": "qybaihe",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/qybaihe/mu",
+      "tweet": "—",
+      "stars": 372,
+      "one_liner": "mu — Only what is needed: a coding agent with a judgment kernel built on pi, where a small fast judge handles the routine decisions and the big model is reserved for real thinking; desktop app plus npm mu-agent, CI and desktop builds",
+      "metrics": "372 stars overnight — one of the biggest agent newcomers",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + build badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-swap",
+      "author": "0xjba",
+      "category": "devtools",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/0xjba/jev-swap",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Find the LLM calls in a TypeScript/JavaScript or Python codebase that are REALLY decisions, convert them to Jev, and shadow-test on recorded traffic; the Explorer page shows which open-source repos could save on Jev; npx jev-swap scan with zero install",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + site refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "JevSDK.jl",
+      "author": "JuliaServices",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/JuliaServices/JevSDK.jl",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Julia SDK for Jev and the TypeSafe AI API maintained by the JuliaServices org (the official Julia community organization): Choice/Score/Noul questions, typed answers and model discovery; idiomatic Julia — everything in the JevSDK namespace with nothing exported; v1.0.0 pending General registration; does not load .env files",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + code samples)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "ghost-route",
+      "author": "DevvGwardo",
+      "category": "privacy",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/DevvGwardo/ghost-route",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Flock-camera-aware routing: Flock Safety ALPR cameras log every passing plate — Ghost Route makes that exposure visible and avoidable by overlaying known cameras on a map and ranking real driving routes by camera exposure (take the path with the fewest cameras, ideally zero); 367 of 367 tests passing",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + why-it-exists)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-chess (hemanth)",
+      "author": "hemanth",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/hemanth/jev-chess",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Chess moves, evaluations, persona opponents and game classification with Jev (by hemanth, well-known JS developer)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-plumbline",
+      "author": "dustindodson",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/dustindodson/jev-plumbline",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Claude Code plugin using Jev to keep Claude on task: blocks stub implementations and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "laya-eval (imaddde867)",
+      "author": "imaddde867",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/imaddde867/laya-eval",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Laya vs jevmlx vs hosted Jev agreement evaluation on TypeSafe public cases (jevmlx: a new implementation sighting)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-library",
+      "author": "mit-bach",
+      "category": "docs",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/mit-bach/jev-library",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Research archive of Jev: official docs, community guides and debug tooling",
       "metrics": null,
       "verification": {
         "tier": "B",
