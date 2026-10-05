@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 859,
+    "total_curated": 867,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -5986,7 +5986,7 @@
       "status": "live",
       "url": "https://github.com/Avinash-jetwani/jevmem",
       "tweet": null,
-      "stars": 104,
+      "stars": 121,
       "one_liner": "Jev decides, the LLM writes one line, your project never forgets: Jev-powered memory layer",
       "metrics": null,
       "verification": {
@@ -9150,7 +9150,7 @@
       "status": "live",
       "url": "https://github.com/wh000wh000/awesome-jev-live",
       "tweet": "—",
-      "stars": 202,
+      "stars": 215,
       "one_liner": "Awesome Jev — an evidence-graded index of TypeSafe System One projects: SDKs, MCP tools, agents, apps (a peer of jev-radar's approach)",
       "metrics": null,
       "verification": {
@@ -11330,7 +11330,7 @@
       "status": "live",
       "url": "https://github.com/thruwire/foreman",
       "tweet": "—",
-      "stars": 589,
+      "stars": 673,
       "one_liner": "An agent supervisor and software factory foreman: Jev placed ABOVE slower coding agents — you hand it a ticket, Codex/OpenCode workers do the engineering, and Foreman independently assesses completion (implementation_complete, requirements_satisfied), verification (tests_sufficient, needs_verification) and worker health (worker_stuck, meaningful_progress) as live probabilities; whether tests are sufficient and whether to finish is the foreman call, not the worker own",
       "metrics": "589 stars overnight — biggest newcomer in the ecosystem",
       "verification": {
@@ -16837,6 +16837,159 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Chinese: Chatprint — local WeChat expression-style cards with user-owned TypeSafe Jev credentials",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-ood-calibration",
+      "author": "scienthoon",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/scienthoon/jev-ood-calibration",
+      "tweet": "—",
+      "stars": 6,
+      "one_liner": "Does Jev know when it does not know? An independent calibration test on a task it CANNOT have seen (~900 rule-generated items) against three public benchmarks it probably has; tests the core pitch directly — epistemically honest probabilities only matter if they stay honest on unseen inputs — for about 0.06 USD with every raw response published; findings: near-perfect calibration on public benchmarks, but on the never-seen rule-based task Jev is confidently wrong where the rule is unknowable with the same overconfidence magnitude a fine-tuned classifier shows OOD, and the error sign flips by question type",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "larp-detector",
+      "author": "sxeptical",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/sxeptical/larp-detector",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "A Chrome extension detecting LinkedIn LARP (identity performance: playing visionary executive, elite expert or thought leader instead of showing real work) as you scroll: LARP badge for persona-over-substance (vague wisdom, unverifiable claims, engineered bait, AI slop, grind mythology), REAL badge for receipts (off by default — restraint), SPONSORED detected from the page with no API call; pills like LARP 73 percent",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + badge table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "warranty-returns",
+      "author": "warike",
+      "category": "enterprise",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/warike/warranty-returns",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A warranty desk that pays itself, within limits: the decision model reads the return form and technician note, answers three fixed questions with probabilities, and plain Go code decides pay-or-human — code NEVER refuses a customer on its own; built to compare Jev vs Cloudflare Clef 27B/9B on the same input, questions and policy, with a public write-up on answers, latency and cost",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + question table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-arena (pokemon)",
+      "author": "neurogabo",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/neurogabo/jev-arena",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Pokemon Champions battle arena where you play against Jev: a pinned Pokemon Showdown engine handles the rules; Jev sees only its side of the information plus a short battle memory and a reference library of rules; TWO-STAGE look-ahead — Jev picks a shortlist, the simulator tries opponent replies and summarizes, then Jev chooses with those summaries; live demo plus a Medium write-up",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + how-it-works)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "jev-browser-agent (amyivychoi)",
+      "author": "amyivychoi",
+      "category": "browser",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/amyivychoi/jev-browser-agent",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Local browser agent with a three-way split: Browser Use reads, Jev decides, Browser Harness validates and executes",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "claude-jev-model-router (andrei10k)",
+      "author": "andrei10k",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/andrei10k/claude-jev-model-router",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "A local proxy sitting between Claude Code and the Anthropic API, using Jev to route models",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "pi-jev (kurowashi)",
+      "author": "kurowashi",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kurowashi/pi-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Semantic checks for Pi file edits and new-file placement, powered by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "pm-jev",
+      "author": "unbraind",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/unbraind/pm-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Typed, local-first decisions for pm items with Jev-style System One models (local Ollama)",
       "metrics": null,
       "verification": {
         "tier": "B",
