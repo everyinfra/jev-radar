@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 913,
+    "total_curated": 919,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -17872,6 +17872,126 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Voice-controlled first-person survival game: say it and Jev turns it into game actions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jevcore (PerryLink)",
+      "author": "PerryLink",
+      "category": "mcp",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/PerryLink/jevcore",
+      "tweet": "—",
+      "stars": 103,
+      "one_liner": "TypeSafe Jev for DeepSeek Harness and any other MCP host: asking Jev to write prose is a category error — this project gives an agent exactly that surface, and nothing more; DSH Market listed with OpenSSF Scorecard and Glama MCP score badges",
+      "metrics": "103 stars overnight",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + badge set)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "awesome-jev-security",
+      "author": "Sarim-MBZUAI",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Sarim-MBZUAI/awesome-jev-security",
+      "tweet": "—",
+      "stars": 6,
+      "one_liner": "A curated list of research on the security, robustness and safety of Jev and RLCD models broadly: schema constraints rule out malformed outputs but attackers can still push the decision distribution or the confidence scores; sections for attacks and adversarial robustness, Jev as a security detector, and Jev in security applications; tracks the first wave of papers since 2026-09-15",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + contents)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "llmvsjev",
+      "author": "codergarten",
+      "category": "education",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/codergarten/llmvsjev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A classroom race: Gemini vs Jev categorising the same 1,000 Sydney bank transactions side by side, scored on speed and accuracy; takeaway: LLMs win on open-ended generation and breadth, System One models win on a thousand small fast repeatable judgments — same data, different tools, different strengths; zero-build static demo with a tiny key proxy, made for teaching",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + takeaway)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "judgment (chussenot)",
+      "author": "chussenot",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/chussenot/judgment",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Rust crate turning System One answers into verified, testable types: the options! macro gives every option a description; a Fake backend serves scripted answers CHECKED AGAINST THE QUESTIONS like a server's would be — tests never hit the real API yet stay structurally identical; Client::from_env switches to the real model",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + code sample)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "typesafe-jev (hoanganh)",
+      "author": "hoanganh25991",
+      "category": "agent-infra",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/hoanganh25991/typesafe-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Code keeps the rules; Jev answers one Choice question per step",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "Typesafe-Demo (ayush)",
+      "author": "ayushkhandelwal123",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ayushkhandelwal123/Typesafe-Demo",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A basic review aggregator built with Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
