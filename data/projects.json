@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 919,
+    "total_curated": 927,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -1023,7 +1023,7 @@
       "status": "live",
       "url": "https://github.com/realZachi/pg-jev",
       "tweet": "https://madewithjev.com/builds/postgres-jev-function",
-      "stars": 589,
+      "stars": 988,
       "one_liner": "PostgreSQL extension: WHERE jev(people, 'could work from home')",
       "metrics": "129 rows judged ~1s for $0.0009; 6ms cached",
       "verification": {
@@ -8547,7 +8547,7 @@
       "status": "live",
       "url": "https://github.com/ollaya-dev/ollaya",
       "tweet": null,
-      "stars": 1198,
+      "stars": 1216,
       "one_liner": "Run open decision models locally the way Ollama runs LLMs: pull by name, serve from local daemon, speak /v1/systemone — Jev clients work by changing one environment variable",
       "metrics": null,
       "verification": {
@@ -17992,6 +17992,161 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "A basic review aggregator built with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-auto-regressive",
+      "author": "ho4040",
+      "category": "creative",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/ho4040/jev-auto-regressive",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Korean: force Jev to chat autoregressively one character at a time — options are single characters (a-z, 0-9, punctuation, space, newline, end; 45 in all) and repeatedly asking what the next letter is produces text; a hand-rebuilt next-token loop of an expensive slow LLM on top of a cheap fast decision model; one choice request per step; joins the bizarre-boundary lineage of jev-computer, ouijev and jevrons",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README ko + mechanism)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "dohnuts",
+      "author": "PsiACE",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/PsiACE/dohnuts",
+      "tweet": "—",
+      "stars": 36,
+      "one_liner": "D'oh! But dohnuts: small MULTIMODAL models for direct decisions — give a message, document or image and ask it to choose, judge or score; probabilities in a single forward pass with multiple questions sharing the same input; full Python toolkit for training, inference, evaluation and agent integration; the 0.8B model runs locally on a consumer GPU; weights, model card and benchmarks on Hugging Face (by PsiACE, well-known Chinese developer)",
+      "metrics": "36 stars",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + code sample)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "polis-jev-impute-simulation",
+      "author": "patcon",
+      "category": "civic",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/patcon/polis-jev-impute-simulation",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Impute missing Polis votes (AGREE/DISAGREE/PASS) with Jev, then explore whether the results feel consistent with each participant; every run prints the plan (profile, unvoted statements, token and cost estimate) and ASKS BEFORE SPENDING, with a dry-run mode; holdout checks included; from patcon (known civic-tech open-source developer)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + commands)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jevmory",
+      "author": "romiluz13",
+      "category": "compaction",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/romiluz13/jevmory",
+      "tweet": "—",
+      "stars": 11,
+      "one_liner": "Your coding agent memory, with receipts: a local zero-dependency memory layer where every remembered fact is a VERBATIM QUOTE graded by Jev calibrated confidence — every number has a receipt; the audit output shows STALE/WRONG/UNSUPPORTED/KEEP verdicts with confidence, support and contradiction columns",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + audit sample)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "terraform-plan-verdict",
+      "author": "nandotorres",
+      "category": "devops",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nandotorres/terraform-plan-verdict",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Score a Terraform plan and surface a LOW/MEDIUM/HIGH/CRITICAL risk verdict in your PRs",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-tokensaver",
+      "author": "Dinesh-Sunny",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Dinesh-Sunny/jev-tokensaver",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Cut Claude Code and Cowork token use with Jev: prune long output and find the relevant parts",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "JEV-27B-Desktop",
+      "author": "Mohamed-Wahby2003",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Mohamed-Wahby2003/JEV-27B-Desktop",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "A local desktop packaging of the JEV 27B GGUF for Ollama",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-decision-lab (ito)",
+      "author": "ito-system",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ito-system/jev-decision-lab",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Japanese: an in-company study-group demo for experiencing Jev — asking the AI that does not write text to make judgments",
       "metrics": null,
       "verification": {
         "tier": "B",
