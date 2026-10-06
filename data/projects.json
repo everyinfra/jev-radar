@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 889,
+    "total_curated": 897,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -172,7 +172,7 @@
       "status": "live",
       "url": "https://github.com/GhalebDweikat/winnow",
       "tweet": null,
-      "stars": 100,
+      "stars": 102,
       "one_liner": "A calibrated context sieve for Claude Code: every large Read/Bash/Grep result is judged block-by-block BEFORE entering context; blocks the judge is confident you do not need become a three-line stub (what was hidden + a cheap-model summary + a key that restores the full text on demand) — nothing is lost, it just stops costing tokens until you ask; ~25-line blocks, a hundred yes/no questions in one call in a few hundred ms; the uncalibrated Claude Haiku adapter honestly noted",
       "metrics": null,
       "verification": {
@@ -12108,7 +12108,7 @@
       "status": "live",
       "url": "https://github.com/v-modal/awesome-jev-tools",
       "tweet": "https://x.com/GoSailGlobal/status/2100877682972258619",
-      "stars": 744,
+      "stars": 748,
       "one_liner": "A curated list built around two practical questions: where is Jev actively making real decisions in live production workflows, and which decision architectures can be cleanly copied across industries; README is the homepage aggregate so the latest accepted entries are visible without drilling into subpages",
       "metrics": "729 stars overnight — second-biggest directory after yibie/awesome-jev",
       "verification": {
@@ -17010,7 +17010,7 @@
       "status": "live",
       "url": "https://github.com/qybaihe/mu",
       "tweet": "—",
-      "stars": 374,
+      "stars": 377,
       "one_liner": "mu — Only what is needed: a coding agent with a judgment kernel built on pi, where a small fast judge handles the routine decisions and the big model is reserved for real thinking; desktop app plus npm mu-agent, CI and desktop builds",
       "metrics": "372 stars overnight — one of the biggest agent newcomers",
       "verification": {
@@ -17309,14 +17309,14 @@
       }
     },
     {
-      "name": "jev-incident-timeline",
+      "name": "jevline",
       "author": "tsale",
       "category": "security",
       "primitives": [
         "noul"
       ],
       "status": "live",
-      "url": "https://github.com/tsale/jev-incident-timeline",
+      "url": "https://github.com/tsale/jevline",
       "tweet": "—",
       "stars": 0,
       "one_liner": "Jevline — one confirmed process in, the whole incident out: once an analyst confirms one malicious process, Jev asks of every other process whether it belongs to the same incident and the answers become a reviewable timeline of only the linked activity; web portal (usable in browser) plus a CLI built on the Python standard library alone; honestly labelled an experimental proof of concept",
@@ -17412,6 +17412,157 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Autonomous BloxSmith block for TypeSafe Jev: typed judgments and probabilities from text",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "awesome-decision-models",
+      "author": "AnotiaWang",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/AnotiaWang/awesome-decision-models",
+      "tweet": "—",
+      "stars": 613,
+      "one_liner": "The category-level canonical list: decision models (System One / typed decision models) plus the APIs, runtimes, tools, applications, benchmarks and research around them — opening framing notes that TypeSafe AI introduced the category in September 2026 with Jev and its /v1/systemone API, and many models below accept the same request shape; bilingual EN/zh with a website; community-maintained, not affiliated with any provider",
+      "metrics": "613 stars overnight",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + contents tree)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-connector (WordPress)",
+      "author": "juanlentino",
+      "category": "cms",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/juanlentino/jev-connector",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "A WordPress connector for the TypeSafe System One API: gives themes and plugins a typed way to ask questions about content and get back values to branch on — a probability, a named choice or a score, each with confidence; no prose parsing, no prompt wrangling in template files; WordPress 7.0+, GPL, pending review for the WordPress plugin directory; honest 0.x status",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + badge set)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-inbox-triage",
+      "author": "pentasir",
+      "category": "email",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/pentasir/jev-inbox-triage",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A quiet clerk for a small online store inbox: a decision model reads every customer email and decides which a person needs now, which can wait, which a template could answer and which are sales pitches; measured: 19 of 20 to the right lane, 0 urgent-or-risky emails sent to automation, median 338ms, about 2.5 US cents per month at 600 emails; raw output published; honest that the inbox is a test written for the experiment, not a live store",
+      "metrics": "19/20; 0 critical misses; $0.025/month",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-calibration-audit (MohitSV)",
+      "author": "MohitSV",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/MohitSV/jev-calibration-audit",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "An exact-target audit of System One probabilities centred on Jev: targets whose correct probability is known exactly (a hidden fair coin with witnesses of stated reliability, stated reference-class base rates), checked against human vote distributions (ChaosNLI, DICES-350); published as a Zenodo paper with DOI (Velu 2026, Calibrated Decisions Are Not Calibrated Probabilities); main finding: with no evidence Jev Choice gives a fair coin 0.83-0.93 on heads — the pull follows the word heads, not the option key or position, and mostly vanishes after one weak witness",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + paper DOI)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "pi-subagents",
+      "author": "whosydd",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/whosydd/pi-subagents",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Sub-agents for pi: delegate tasks to autonomous child agents with Jev-calibrated decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "process-porn",
+      "author": "randlee",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/randlee/process-porn",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Skills and scripts for a Jev agent to cut unnecessary process and ceremony",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-devops-agent-template",
+      "author": "kimanhdev1999",
+      "category": "devops",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kimanhdev1999/jev-devops-agent-template",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A DevOps agent template built on Jev instead of a conventional LLM",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "pacman-jev (ordepas)",
+      "author": "ordepas",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ordepas/pacman-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Classic Pac-Man with TypeSafe JEV AI integration",
       "metrics": null,
       "verification": {
         "tier": "B",
