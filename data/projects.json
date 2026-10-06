@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 897,
+    "total_curated": 905,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -14713,14 +14713,14 @@
       }
     },
     {
-      "name": "bio-topic-discovery",
+      "name": "bio-discovery-with-jev",
       "author": "hpend2373",
       "category": "bioinformatics",
       "primitives": [
         "choice"
       ],
       "status": "live",
-      "url": "https://github.com/hpend2373/bio-topic-discovery",
+      "url": "https://github.com/hpend2373/bio-discovery-with-jev",
       "tweet": "—",
       "stars": 0,
       "one_liner": "A research skill inspecting every declared unit in DEG/omics result tables or meta-analysis ledgers with local Laya or the Jev API: preserves evidence links, records model decisions, verifies coverage before reporting; measured on an NVIDIA GB10 (Laya 45.07s vs Qwen3.6-35B 251.84s, 5.59x faster) with brutal honesty: paired choice agreement was only 26.25 percent — passing the response contract does not establish equivalent judgments; candidates need scientific review before adoption; bilingual EN/ko",
@@ -17010,7 +17010,7 @@
       "status": "live",
       "url": "https://github.com/qybaihe/mu",
       "tweet": "—",
-      "stars": 377,
+      "stars": 382,
       "one_liner": "mu — Only what is needed: a coding agent with a judgment kernel built on pi, where a small fast judge handles the routine decisions and the big model is reserved for real thinking; desktop app plus npm mu-agent, CI and desktop builds",
       "metrics": "372 stars overnight — one of the biggest agent newcomers",
       "verification": {
@@ -17563,6 +17563,160 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Classic Pac-Man with TypeSafe JEV AI integration",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "JevIntent",
+      "author": "Nisaka520",
+      "category": "mobile",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Nisaka520/JevIntent",
+      "tweet": "—",
+      "stars": 63,
+      "one_liner": "Chinese WeChat plugin (FkWeChat): long-press any message, Jev judges intent/emotion/reply-posture, conclusion pops up seconds later — sends nothing, alters nothing, the other party never knows; explicitly a judgment tool, NOT an auto-reply bot; v1.9 pre-judges on long-press start with measured cold-start 1144ms to 9ms (measured, not estimated); sister project JevBystander is the Android accessibility version (no root, read-only screen plus three fixed Toasts)",
+      "metrics": "63 stars; bilingual zh README with measured latency",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + speed section)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-cookbook (zhaoyanan)",
+      "author": "zhaoyanan-pixe",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/zhaoyanan-pixe/jev-cookbook",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese/English: give your AI assistant a little brain — a month-plus real-use production playbook (from 2026-09): which decisions to delegate, how to integrate, how to validate in a shadow period, and where it fails; not a concept intro and not an ad — follow it and you will run your first judgment point; every answer goes into a ledger: traceable, reviewable, appealable",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "ai-mosaic",
+      "author": "misakaikato",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/misakaikato/ai-mosaic",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: AI censoring — a Chrome/Edge extension hiding web content matching plain-language DESCRIPTIONS (not keywords), judged block by block by Jev; built for Chinese sites (Bilibili, Zhihu, Xiaohongshu); seven display modes per rule (label, scratch-card, blur, mosaic, sticker, collapse, remove) with whitelist precedence; a SELF-CONTROL LOCK makes the rules hard to switch off on impulse",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + feature list)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jevalyzer",
+      "author": "killerz3",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/killerz3/jevalyzer",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Grade the agent sessions already sitting on your disk: reads local chat logs from Claude Code, Codex CLI, opencode, Gemini CLI and Google Antigravity, scores every exchange, finds where the agent went wrong, works out which model you actually prefer, and renders interactive HTML reports or a terminal dashboard; scoring runs on Jev; AGENTS.md lets an agent install it",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + product page)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "attention-vaccine",
+      "author": "nevrs",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nevrs/attention-vaccine",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chrome extension flagging manipulation techniques (emotional bait, flame bait, unsupported claims) as you scroll",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-mobile (xinwang)",
+      "author": "xinwang-nwpu",
+      "category": "mobile",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/xinwang-nwpu/jev-mobile",
+      "tweet": "—",
+      "stars": 4,
+      "one_liner": "One TypeSafe Jev decision per step over the Android A11Y tree, executed via ADB — no screenshots",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "human-labeler",
+      "author": "deckemr-rgb",
+      "category": "cv",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/deckemr-rgb/human-labeler",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Full-stack human data labeling from live CCTV: YOLOv8 pre-labels plus Jev decisions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "INployed",
+      "author": "yib7",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/yib7/INployed",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Find, rank, tailor and apply to jobs from one desktop app: a scheduled cloud scrape feeds Jev-judged matches",
       "metrics": null,
       "verification": {
         "tier": "B",
