@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 933,
+    "total_curated": 939,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4954,7 +4954,7 @@
       "status": "live",
       "url": "https://github.com/AkashPriyadarshii/jev-curate",
       "tweet": null,
-      "stars": 92,
+      "stars": 104,
       "one_liner": "High-throughput synthetic and pretraining dataset sifter powered by Jev",
       "metrics": null,
       "verification": {
@@ -9068,7 +9068,7 @@
       "status": "live",
       "url": "https://github.com/jkudish/jev-mcp",
       "tweet": "—",
-      "stars": 482,
+      "stars": 502,
       "one_liner": "Eleven typed-judgment MCP tools for agents: verify claims vs evidence, screen pages for injection before context, noul probability, find/rerank/classify/decide/compare/extract, review diffs, gate merges on completion claims; 150-500ms each for a fraction of a cent",
       "metrics": "353 stars in ~11 days",
       "verification": {
@@ -9089,7 +9089,7 @@
       "status": "live",
       "url": "https://github.com/jkudish/jev-browser",
       "tweet": "—",
-      "stars": 303,
+      "stars": 311,
       "one_liner": "Fast, very cheap browser use: Jev picks one action per step from the page's clickable/typeable/selectable elements and scores goal-met/stuck probabilities; code owns the loop (budgets, recovery, stop gates); MCP server, CLI or library, per-step confidence trace",
       "metrics": "Wikipedia Coffee->Espresso in ~4s for $0.0016",
       "verification": {
@@ -11330,7 +11330,7 @@
       "status": "live",
       "url": "https://github.com/thruwire/foreman",
       "tweet": "—",
-      "stars": 681,
+      "stars": 683,
       "one_liner": "An agent supervisor and software factory foreman: Jev placed ABOVE slower coding agents — you hand it a ticket, Codex/OpenCode workers do the engineering, and Foreman independently assesses completion (implementation_complete, requirements_satisfied), verification (tests_sufficient, needs_verification) and worker health (worker_stuck, meaningful_progress) as live probabilities; whether tests are sufficient and whether to finish is the foreman call, not the worker own",
       "metrics": "589 stars overnight — biggest newcomer in the ecosystem",
       "verification": {
@@ -18266,6 +18266,123 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Experimental leadership coaching skill for Codex: curated methods, practice and manual coaching",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "zsh-jev-suggest",
+      "author": "404priyanshu",
+      "category": "cli",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/404priyanshu/zsh-jev-suggest",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Shell history autosuggestions ranked by Jev: not the most recent command with your prefix, but the command you are most likely about to run here, on this branch, given what you just did; dangerous commands stay flagged even at low probability; documented engineering choice — RANK BEFORE THE KEYSTROKE: a daemon ranks on prompt-context change into a warmed cache so the typing path has zero network and zero forks, with the freshness trade-off stated",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + demo + engineering note)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "huqan-jev-analysis",
+      "author": "ali-ulu",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ali-ulu/huqan-jev-analysis",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Turkish reverse-engineering analysis: reads the HUQAN codebase (3,503 files, 741 modules) and derives where, under what conditions and with what gain Jev could fit — with real file:line evidence; frames the tension precisely: HUQAN promises no model, no cloud, no API key while Jev is a cloud model, so the right question is not whether to attach it but AT WHICH LAYER attaching it does not break the claim; the claim is mechanically enforced by a CI script (measured: currently passing)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README tr + analysis refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jevclient (AboveColin)",
+      "author": "AboveColin",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/AboveColin/jevclient",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Async Python client for Jev from the HA-Jev author: Noul, Choice and Score in one ask() with a clean typed API (sample: the front door has been unlocked for 40 minutes and nobody is home)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + code sample)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "demo-shop (Jev Review)",
+      "author": "juanlacu",
+      "category": "devtools",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/juanlacu/demo-shop",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A minimal Next.js shop demonstrating Jev Review, a GitHub Action that reviews every PR and posts findings as comments on the EXACT line of code; the demo branches carry changes that look reasonable but hide the kind of bugs a busy reviewer approves; thresholds, what gets posted and what blocks a merge stay in code",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + pipeline)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "chess-jev (tekikaito)",
+      "author": "tekikaito",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tekikaito/chess-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Play chess against Jev via the Vercel AI Gateway",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "grokbot-jev-skills",
+      "author": "fal3",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fal3/grokbot-jev-skills",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Grok Bot skills handing an agent small decisions (search, mail, triage, routing) to Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
