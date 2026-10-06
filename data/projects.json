@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 882,
+    "total_curated": 889,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -16229,7 +16229,7 @@
       "url": "https://github.com/gdamiani1/sieve",
       "tweet": "—",
       "stars": 0,
-      "one_liner": "Chrome extension scoring which LinkedIn and Reddit posts are worth your time",
+      "one_liner": "A Chrome extension telling you which LinkedIn/X/Reddit/YouTube posts are worth your attention, and turning techniques worth trying into BRIEFS your coding agent (Claude Code, Codex, Cursor) can try in your repo; never clicks, comments or posts for you and never installs or runs anything — a brief is text you copy; Jev reached via OpenRouter or directly, with a same-shape general-model fallback; paid account coming, extension stays free",
       "metrics": null,
       "verification": {
         "tier": "B",
@@ -17010,7 +17010,7 @@
       "status": "live",
       "url": "https://github.com/qybaihe/mu",
       "tweet": "—",
-      "stars": 372,
+      "stars": 374,
       "one_liner": "mu — Only what is needed: a coding agent with a judgment kernel built on pi, where a small fast judge handles the routine decisions and the big model is reserved for real thinking; desktop app plus npm mu-agent, CI and desktop builds",
       "metrics": "372 stars overnight — one of the biggest agent newcomers",
       "verification": {
@@ -17285,6 +17285,139 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-10-05"
+      }
+    },
+    {
+      "name": "clean-code-review (frostney)",
+      "author": "frostney",
+      "category": "devtools",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/frostney/clean-code-review",
+      "tweet": "—",
+      "stars": 11,
+      "one_liner": "Point it at a public GitHub pull request, diff or file: Jev answers a question set drawn from Robert C. Martin Clean Code for every code file in the change, and Luna writes the review FROM those answers; runs on eve, deploys as one Next.js project; live at clean-code-review.vercel.app; by frostney (well-known JS developer)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + live site)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-incident-timeline",
+      "author": "tsale",
+      "category": "security",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/tsale/jev-incident-timeline",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jevline — one confirmed process in, the whole incident out: once an analyst confirms one malicious process, Jev asks of every other process whether it belongs to the same incident and the answers become a reviewable timeline of only the linked activity; web portal (usable in browser) plus a CLI built on the Python standard library alone; honestly labelled an experimental proof of concept",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + how-it-works diagram)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "jev-agent-router (PlainJane20)",
+      "category": "research",
+      "author": "PlainJane20",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/PlainJane20/jev-agent-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Keyword vs LLM vs Jev routing, measured: routes customer messages to billing/bug/account/sales three ways — a keyword baseline, Claude Haiku, and Jev — compared on the same labeled set; all three return the same typed Route, so the comparison is about accuracy and latency, not output format",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + design note)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "n8n-nodes-system-one (diegohh0411)",
+      "author": "diegohh0411",
+      "category": "integration",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/diegohh0411/n8n-nodes-system-one",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "n8n community node for System One decision models (Jev, Clef) via OpenRouter, TypeSafe and more",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "tg-x-copilot",
+      "author": "stackoracode",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/stackoracode/tg-x-copilot",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Telegram-to-X publishing copilot: Jev triage, original LLM rewrites and compliance checks",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "silly-searcher",
+      "author": "smsheik1",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/smsheik1/silly-searcher",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Semantic find-in-page Chrome extension calling TypeSafe Jev directly with your own API key",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "bloxmith-jev",
+      "author": "HackInvent",
+      "category": "integration",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/HackInvent/bloxmith-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Autonomous BloxSmith block for TypeSafe Jev: typed judgments and probabilities from text",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
       }
     }
   ]
