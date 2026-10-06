@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 927,
+    "total_curated": 933,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -11330,7 +11330,7 @@
       "status": "live",
       "url": "https://github.com/thruwire/foreman",
       "tweet": "—",
-      "stars": 673,
+      "stars": 681,
       "one_liner": "An agent supervisor and software factory foreman: Jev placed ABOVE slower coding agents — you hand it a ticket, Codex/OpenCode workers do the engineering, and Foreman independently assesses completion (implementation_complete, requirements_satisfied), verification (tests_sufficient, needs_verification) and worker health (worker_stuck, meaningful_progress) as live probabilities; whether tests are sufficient and whether to finish is the foreman call, not the worker own",
       "metrics": "589 stars overnight — biggest newcomer in the ecosystem",
       "verification": {
@@ -18001,14 +18001,14 @@
       }
     },
     {
-      "name": "jev-auto-regressive",
+      "name": "jev-said-sad",
       "author": "ho4040",
       "category": "creative",
       "primitives": [
         "choice"
       ],
       "status": "live",
-      "url": "https://github.com/ho4040/jev-auto-regressive",
+      "url": "https://github.com/ho4040/jev-said-sad",
       "tweet": "—",
       "stars": 0,
       "one_liner": "Korean: force Jev to chat autoregressively one character at a time — options are single characters (a-z, 0-9, punctuation, space, newline, end; 45 in all) and repeatedly asking what the next letter is produces text; a hand-rebuilt next-token loop of an expensive slow LLM on top of a cheap fast decision model; one choice request per step; joins the bizarre-boundary lineage of jev-computer, ouijev and jevrons",
@@ -18153,6 +18153,125 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "open-jev-typed-decision-engine",
+      "author": "intikhab49",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/intikhab49/open-jev-typed-decision-engine",
+      "tweet": "—",
+      "stars": 46,
+      "one_liner": "Open Jev — a 150M encoder answering arbitrary typed questions about a state in one forward pass with calibrated confidence: 0.03 behind TypeSafe Jev on its own benchmark, 2.5x better calibrated, 4x faster and zero cost; trainable on a free Colab T4; Apache-2.0; the free tier of the open-reproduction line from the tinyjev author",
+      "metrics": "46 stars; free Colab training",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + header claims)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "battleship-vs-jev",
+      "author": "ickas",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/ickas/battleship-vs-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Battleship benchmark for Jev reached through Vercel AI Gateway: five strategies (random, huntTarget and more) play the same seeded fleet layouts so the model performance can be read against code-only baselines — the goal is an honest benchmark FIRST and a strong player second; renders Jev per-cell probabilities as a live heatmap; the write-up includes what it does NOT establish",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + strategy table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "SearchRAGJev",
+      "author": "rahulparimal",
+      "category": "search",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/rahulparimal/SearchRAGJev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A two-edition A/B of local-first document search: SearchRAGJev (routing, reranking and claim-checking on Jev) vs SearchRAGNoJev (on-box models only, no external key) sharing the same ideas — hybrid BM25+vectors+Postgres FTS, per-document access control, citation-checked answers, Quick and Deep modes; same corpus, 58 queries: nDCG@5 0.920 vs 0.854 (0.772 with no reranker); transparent latency table",
+      "metrics": "nDCG@5 0.920 vs 0.854",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + edition table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-gemini",
+      "author": "JoaquinMen",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/JoaquinMen/jev-gemini",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Turning Gemini Flash on Vertex AI (google-genai SDK) into a fast calibrated System One-style decision surface (README not fetchable at scan time)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "could-jev",
+      "author": "rlfordon",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/rlfordon/could-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Claude skill: a quick gut-check on whether Jev could help with a task",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "compound-intelligence",
+      "author": "gofarrrr",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gofarrrr/compound-intelligence",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Experimental leadership coaching skill for Codex: curated methods, practice and manual coaching",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
       }
     }
   ]
