@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 905,
+    "total_curated": 913,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -17717,6 +17717,161 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Find, rank, tailor and apply to jobs from one desktop app: a scheduled cloud scrape feeds Jev-judged matches",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "awesome-jev (kydlikebtc)",
+      "author": "kydlikebtc",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kydlikebtc/awesome-jev",
+      "tweet": "—",
+      "stars": 594,
+      "one_liner": "The Jev Decision Atlas: 1,214 public resources with 1,211 dated HTTP 2xx link records and 1,078 call-site citation records; README generated from catalog.json with a multilingual website; exemplary honesty footnote: counts describe saved records, NOT current link availability or passed runtime and performance tests",
+      "metrics": "594 stars; 1,214 resources",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + cover alt text)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "pulse (poojaverma)",
+      "author": "poojaverma-me",
+      "category": "sales",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/poojaverma-me/pulse",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Live sales-call intelligence: Jev reads the transcript after every sentence and answers 12 questions BEFORE the next one starts; conversion probability, signals and coaching updated each turn; post-call review with key moments and a rep scorecard",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + screenshots)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "tadka",
+      "author": "poojaverma-me",
+      "category": "food",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/poojaverma-me/tadka",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "What to cook today: an installable PWA for Indian home cooking — describe a craving and Jev scores all 68 dishes in one request; desktop view adds a 3D deck of the top picks",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + how-Jev-picks)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "omarchy-mail",
+      "author": "petrzpav",
+      "category": "email",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/petrzpav/omarchy-mail",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "A light terminal Gmail client for Omarchy (DHH Arch distro): categories are Gmail labels that sync to your phone; Jev files mail acting only when confident — anything personal or unclear stays in the Inbox; Ctrl+J shows how Jev weighed every category; grades your reply WHILE you write it (clarity, tone, length, next step, language as green/yellow/red bars) and checks every question and request of the original message, listing the ones you have not answered yet",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + what-Jev-does)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "tidal (poojaverma)",
+      "author": "poojaverma-me",
+      "category": "support",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/poojaverma-me/tidal",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "IT and support ticket routing with Jev: team, priority, mood and risk in one call",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "shortlist (poojaverma)",
+      "author": "poojaverma-me",
+      "category": "hr",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/poojaverma-me/shortlist",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Resume screening where every criterion is a typed Jev question: 40 resumes re-scored in one batch",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "reelmind",
+      "author": "poojaverma-me",
+      "category": "creative",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/poojaverma-me/reelmind",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Netflix-style movie recommender powered by Jev: hierarchical typed questions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-06"
+      }
+    },
+    {
+      "name": "wildwood",
+      "author": "poojaverma-me",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/poojaverma-me/wildwood",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Voice-controlled first-person survival game: say it and Jev turns it into game actions",
       "metrics": null,
       "verification": {
         "tier": "B",
