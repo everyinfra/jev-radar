@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 955,
+    "total_curated": 961,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -18694,6 +18694,125 @@
       "tweet": "—",
       "stars": 2,
       "one_liner": "Unofficial .NET client for the TypeSafe AI System One API",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "ruby_decision_model",
+      "author": "obie",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/obie/ruby_decision_model",
+      "tweet": "—",
+      "stars": 55,
+      "one_liner": "The decision-model interface for Ruby by Obie Fernandez (Rails legend): one Client with a provider behind it — native providers for TypeSafe (Jev), OpenAI (gpt-6-luna), Cloudflare (Clef), Perplexity (pplx-decider) and Databricks (ai_decide), plus any System One server (Ollama, strands-decider, autojev) via :system_one; questions and answers keep one shape whichever provider serves them; zero runtime dependencies beyond the stdlib",
+      "metrics": "55 stars; six-provider convergence (Perplexity and Databricks decision APIs first sighting)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + quick start)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "keyed_james_bible",
+      "author": "mccartykim",
+      "category": "cultural",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/mccartykim/keyed_james_bible",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Turn a question into a span of King James Version verses: nothing here generates scripture — the question is keyed into the Bible structure (book, chapter, verse) and the passage clipped verbatim from a local KJV copy, with a chain-confidence bar; self-referential honesty: the author fed the project source to Jev and asked whether it is blasphemous (P=0.07, leans no at 0.86)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + self-audit table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-flow-harness",
+      "author": "aviletek",
+      "category": "devtools",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/aviletek/jev-flow-harness",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A standalone local drag-and-drop node editor to prototype Jev: wire an LLM to Jev evaluators, gate on a threshold, loop until the answer passes — touches no firmware; explains why it is a local Node app (the big three APIs all refuse browser CORS) with keys going only from the localhost process to each provider over TLS",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + CORS rationale)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-slop-detector (SylphAI)",
+      "author": "SylphAI-Inc",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/SylphAI-Inc/jev-slop-detector",
+      "tweet": "https://x.com/RBilgil/status/2100976648552169805 (inspiration source)",
+      "stars": 0,
+      "one_liner": "An unofficial Chrome extension labelling posts on your X feed with a Jev classification: compact labels like Slop 83 percent and a tilted red SLOP stamp on high-probability posts; honest disclaimer: the percentage is a classification probability from one model question — not verified truth and not an AI-writing detector; the repo doubles as class material teaching Jev with this project; from SylphAI (a company org)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + disclaimer + folder table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-status-marketplace",
+      "author": "PeterFujiyu",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/PeterFujiyu/jev-status-marketplace",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Claude Code plugin: Jev judges each turn done / needs action / failed",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "laya-client (ikabeee)",
+      "author": "ikabeee",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ikabeee/laya-client",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Self-hosted Jev-compatible REST API for Laya System-1 decisions: FastAPI + OpenAPI",
       "metrics": null,
       "verification": {
         "tier": "B",
