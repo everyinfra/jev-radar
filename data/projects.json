@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 983,
+    "total_curated": 990,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -15806,7 +15806,7 @@
       "status": "live",
       "url": "https://github.com/bladedevoff/stuntd",
       "tweet": "—",
-      "stars": 61,
+      "stars": 68,
       "one_liner": "A local self-hosted proxy that learns your typed LLM decisions and answers them itself: 90 percent of decisions answered locally in about 20ms learned from your own traffic; speaks the Jev System One protocol, OpenAI Chat Completions AND Anthropic Messages APIs; distils each decision site into a small head on a frozen Laya; PyPI + Hugging Face Space",
       "metrics": "61 stars",
       "verification": {
@@ -17010,7 +17010,7 @@
       "status": "live",
       "url": "https://github.com/qybaihe/mu",
       "tweet": "—",
-      "stars": 382,
+      "stars": 434,
       "one_liner": "mu — Only what is needed: a coding agent with a judgment kernel built on pi, where a small fast judge handles the routine decisions and the big model is reserved for real thinking; desktop app plus npm mu-agent, CI and desktop builds",
       "metrics": "372 stars overnight — one of the biggest agent newcomers",
       "verification": {
@@ -17318,7 +17318,7 @@
       "status": "live",
       "url": "https://github.com/tsale/jevline",
       "tweet": "—",
-      "stars": 0,
+      "stars": 33,
       "one_liner": "Jevline — one confirmed process in, the whole incident out: once an analyst confirms one malicious process, Jev asks of every other process whether it belongs to the same incident and the answers become a reviewable timeline of only the linked activity; web portal (usable in browser) plus a CLI built on the Python standard library alone; honestly labelled an experimental proof of concept",
       "metrics": null,
       "verification": {
@@ -19241,6 +19241,142 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "n8n-ai-brief-workflow",
+      "author": "youdotcom-oss",
+      "category": "news",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/youdotcom-oss/n8n-ai-brief-workflow",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "You.com official: every weekday at 8am get the real AI developments since yesterday in Slack — one short cited brief per topic with roundups, explainers and noise filtered out; You.com Research API finds and writes cited briefs while Jev judges every article for what is worth posting; NO LLM agent and no code nodes — just retrieval, typed decisions and n8n; one-click template on n8n.io",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + template link)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev4jobhunter",
+      "author": "ShiqinGuo",
+      "category": "productivity",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ShiqinGuo/jev4jobhunter",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: use Jev to screen job postings and let an agent complete applications and follow-ups — covers BOSS Zhipin and other Chinese platforms; the first Chinese job-hunting automation in the Jev ecosystem; bilingual zh/EN with tests",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "desicio-ai",
+      "author": "saagnik23",
+      "category": "product",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/saagnik23/desicio-ai",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Desicio.ai — an ultra-fast System 1 decision engine as a service: TypeSafe Jev inference with Neon serverless Postgres and FastAPI on Railway; live demo; sub-200ms decisions are the product",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + live site badge)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-ai.live",
+      "author": "netcode001",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/netcode001/jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Unofficial Jev information hub at jev-ai.live: an access guide (sign-up is open with no waitlist and $5 free credit at console.typesafe.ai, or via Vercel AI Gateway / Cloudflare Workers AI), a free BYOK playground (5 sponsored plays per day even without a key), and a pricing comparison that marks self-reported figures",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + site sections)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-crawlers (Thingscorp)",
+      "author": "Thingscorp",
+      "category": "devtools",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Thingscorp/jev-crawlers",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Jev learns your repo's decision norms, then adversarially judges past decisions against them (org-migrated continuation)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-mcp (drmedia)",
+      "author": "drmedia",
+      "category": "mcp",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/drmedia/jev-mcp",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "MCP server for decision models with TypeSafe Jev, Cloudflare Clef, OpenRouter and local engines",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-triage (CodeCave0000)",
+      "author": "CodeCave0000",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/CodeCave0000/jev-triage",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev triages every message before your OpenClaw agent's main model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
       }
     }
   ]
