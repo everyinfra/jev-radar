@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 976,
+    "total_curated": 983,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -557,7 +557,7 @@
       "status": "live",
       "url": "https://github.com/supercorp-ai/supercov",
       "tweet": null,
-      "stars": 144,
+      "stars": 149,
       "one_liner": "Per-file code quality scores so coding agents know what to fix first",
       "metrics": "matches CodeRabbit-class scores at ~100x lower cost (author-reported)",
       "verification": {
@@ -19100,6 +19100,141 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Chinese: cloud-phone Bing Microsoft Rewards daily automation — plain adb+Python, rules engine first with Jev for single-step discrimination",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "nf-jev",
+      "author": "nextflow-io",
+      "category": "bioinformatics",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/nextflow-io/nf-jev",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "From the official nextflow-io org (Nextflow is the standard bioinformatics pipeline framework): exposes TypeSafe System One judgments as ORDINARY NEXTFLOW FUNCTIONS — a pipeline builds typed questions as values, asks them, and gates on the returned probabilities with plain Nextflow operators; honest Beta warning: names, answer shapes and the config scope may change with no deprecation cycle — pin a version and expect to revisit",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + beta note)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "sap-s4-antifraude-jev",
+      "author": "seccoit",
+      "category": "enterprise",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/seccoit/sap-s4-antifraude-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Portuguese: a purchase-order fraud POC on SAP S/4HANA with Jev via OpenRouter — ABAP computes risk indicators (supplier age, registered by the buyer themselves, shared bank account...); a Fiori Elements app sends ANONYMIZED indicators with seven typed questions; ABAP applies thresholds to classify orders into release/approval/block; everything runs in SHADOW MODE: evaluations are logged but NO order is actually blocked",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README pt + fraud table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-card-games",
+      "author": "artvandelay",
+      "category": "research",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/artvandelay/jev-card-games",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev already knows blackjack; it does not know Kuhn poker: blackjack with NO rules in the prompt matched the textbook on 84 percent of decisions; Kuhn poker with the rules written out still loses 0.22 chips a hand to a perfect opponent (coin-flip play loses 0.46, perfect play loses nothing) — Jev sits between coin-flip and perfect; full write-ups and charts",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + results)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "pi-jev-skill-suggestion",
+      "author": "iamdin",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/iamdin/pi-jev-skill-suggestion",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Pi extension that removes the inlined skill list and asks Jev which skill to load",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "linkedin-ai-slop",
+      "author": "pawelmamcarz",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pawelmamcarz/linkedin-ai-slop",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "LinkedIn feed AI-slop detector using the Jev API",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-judge-rank",
+      "author": "tsetse012",
+      "category": "cli",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/tsetse012/jev-judge-rank",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Rank a list on several criteria, merge near-duplicates, and recall relevant entries",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "learning-jev",
+      "author": "ayushkhandelwal123",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ayushkhandelwal123/learning-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Hands-on, level-by-level projects for learning Jev in Python",
       "metrics": null,
       "verification": {
         "tier": "B",
