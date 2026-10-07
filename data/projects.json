@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 947,
+    "total_curated": 955,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -11330,7 +11330,7 @@
       "status": "live",
       "url": "https://github.com/thruwire/foreman",
       "tweet": "—",
-      "stars": 683,
+      "stars": 691,
       "one_liner": "An agent supervisor and software factory foreman: Jev placed ABOVE slower coding agents — you hand it a ticket, Codex/OpenCode workers do the engineering, and Foreman independently assesses completion (implementation_complete, requirements_satisfied), verification (tests_sufficient, needs_verification) and worker health (worker_stuck, meaningful_progress) as live probabilities; whether tests are sufficient and whether to finish is the foreman call, not the worker own",
       "metrics": "589 stars overnight — biggest newcomer in the ecosystem",
       "verification": {
@@ -18541,6 +18541,159 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Incident evaluation: AI-powered software on TypeSafe Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-search",
+      "author": "superagents-lab",
+      "category": "search",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/superagents-lab/jev-search",
+      "tweet": "—",
+      "stars": 514,
+      "one_liner": "Search the web in plain language (Search1API official, live at jev.s1.dev): a decision model — TypeSafe Jev, Cloudflare Clef OR OpenAI GPT-6 Luna, interchangeable — chooses sources, time ranges and search terms, then ranks results through Search1API; you get links and snippets with visible relevance scores and editable filters; NO generated answers; installable as a PWA; OpenAI entering the decisions API space is a provider-convergence signal",
+      "metrics": "514 stars overnight",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + live site)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "albanian-sentiment-analysis-jev",
+      "author": "uran-lajci",
+      "category": "research",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/uran-lajci/albanian-sentiment-analysis-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev for Albanian sentiment analysis: COVID-19 Facebook comments under the Kosovo NIPHK 2020 daily updates — informal Gheg dialect often written without the letters e and c, full of slang, abbreviations and emojis; three independent annotators with majority-vote labels and honestly reported moderate agreement",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + dataset description)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-demo (sawzhang)",
+      "author": "sawzhang",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sawzhang/jev-demo",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Chinese: a complete onboarding record — concept, API, measurements and 5 runnable demos; strict evidence discipline: early measurements dated 2026-09-20, later experiments labelled with date, model and evidence scope, and product comparisons not personally measured are explicitly not treated as performance conclusions; the comparison graphic: LLM means text in and text out and you write regexes praying it does not hallucinate, Jev means typed answers out and you branch with if/else directly",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + evidence notes)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "dsh-jev-grep",
+      "author": "jipika",
+      "category": "agent-infra",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/jipika/dsh-jev-grep",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: the adjudication layer for search floods (DeepSeek Harness, host side, zero npm deps): does not replace grep — it replaces the step after search where 3,000 hit lines must either be read into context or grep-v guessed; every hit line gets a calibrated probability plus a cut line and the model reads only about 30 lines above the cut; response length is INDEPENDENT of pool size (40 or 4,000 hits both return ~30 lines)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + component table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "pi-safely",
+      "author": "dcowsill",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/dcowsill/pi-safely",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Claude Code-style auto mode for pi, gated by System One decision models (Cloudflare Clef and more)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "focuslog",
+      "author": "piyush97",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/piyush97/focuslog",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Mindful study-time tracking for Hyprland and Omarchy Quattro with Jev classification, locally",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-triage (RanyAlbegWein)",
+      "author": "RanyAlbegWein",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/RanyAlbegWein/jev-triage",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev triages every message before your OpenClaw agent's main model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "typesafe-dotnet (sanamhub)",
+      "author": "sanamhub",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sanamhub/typesafe-dotnet",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Unofficial .NET client for the TypeSafe AI System One API",
       "metrics": null,
       "verification": {
         "tier": "B",
