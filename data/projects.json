@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 990,
+    "total_curated": 997,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -11792,7 +11792,7 @@
       "status": "live",
       "url": "https://github.com/wfzyx/von",
       "tweet": "—",
-      "stars": 825,
+      "stars": 871,
       "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
       "metrics": "757 stars; Apache-2.0; on Hugging Face",
       "verification": {
@@ -17318,7 +17318,7 @@
       "status": "live",
       "url": "https://github.com/tsale/jevline",
       "tweet": "—",
-      "stars": 33,
+      "stars": 34,
       "one_liner": "Jevline — one confirmed process in, the whole incident out: once an analyst confirms one malicious process, Jev asks of every other process whether it belongs to the same incident and the answers become a reviewable timeline of only the linked activity; web portal (usable in browser) plus a CLI built on the Python standard library alone; honestly labelled an experimental proof of concept",
       "metrics": null,
       "verification": {
@@ -19371,6 +19371,147 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Jev triages every message before your OpenClaw agent's main model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "dsh-jev-interceptor",
+      "author": "AskTheWay",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/AskTheWay/dsh-jev-interceptor",
+      "tweet": "—",
+      "stars": 24,
+      "one_liner": "Millisecond System-1 judgement for every tool call and every recalled message in DeepSeek Harness — for about two millionths of a dollar each; 'your agent's most expensive habits' reframed as questions a small model should answer; CI + npm",
+      "metrics": "24 stars",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-reflection",
+      "author": "pasaranax",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/pasaranax/jev-reflection",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A local Codex plugin sending working context to Jev every five minutes to catch costly detours WHILE the agent is working — before they turn into wasted time or rework after review; background checks, brief reflection only when Jev raises a concern, quiet checks never interrupt; three checks: focus (overengineering/unrequested work), cause (fixing symptoms), probe (betting on untested assumptions)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + feature table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "betterx",
+      "author": "kalowery",
+      "category": "browser-extension",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/kalowery/betterx",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Chrome/Brave extension reading posts as you browse x.com: one request per post answers seven questions (tone, post type, argument quality 0-4, and likelihoods for racism, contempt for nationality/immigrants, antisemitism, sexual explicitness) in 150-250ms; label, dim, blur or hide by your own rules so you can see what a post is before reading it; the author's own text is judged — quoted posts passed as context only",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + question table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "ask-jev-skill",
+      "author": "DiegoSalazar",
+      "category": "agent-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/DiegoSalazar/ask-jev-skill",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Claude Code skill plus a dependency-free Bun CLI letting Claude offload cheap repetitive judgments to Jev — which files to read, whether a command's output means pass or fail, which skill fits, filtering and ranking many items — with the raw content staying OUT of Claude's context; CLI commands yes/pick/rate/rank/triage with 429/529 retries and secret redaction",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + CLI layout)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "hunch (bastiankoetsier)",
+      "author": "bastiankoetsier",
+      "category": "cli",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/bastiankoetsier/hunch",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "CLI for asking Jev yes/no, multiple-choice and scoring questions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "agentic-portfolio",
+      "author": "Sad1mus",
+      "category": "mcp",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Sad1mus/agentic-portfolio",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Spanish: an MCP server with TypeSafe Jev decision primitives, Claude Code skills and Hermes orchestration",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "betterx-companion",
+      "author": "kalowery",
+      "category": "browser-extension",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/kalowery/jev-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Local proxy routing coding-agent requests (Claude Code, Codex) across Anthropic, OpenAI and more with Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
