@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 939,
+    "total_curated": 947,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -18383,6 +18383,164 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Grok Bot skills handing an agent small decisions (search, mail, triage, routing) to Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-pr-judge",
+      "author": "juanegido",
+      "category": "devtools",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/juanegido/jev-pr-judge",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "A demo of System One judging whether a GitHub PR actually does what it claims: one call not a chain (every question in parallel against one bounded state), typed answers not parsed text, and policy lives in code not in the prompt (weights, thresholds, hard rules)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + why-it-fits)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "gojev",
+      "author": "taigrr",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/taigrr/gojev",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Go harness for System One decision models with three interchangeable backends: TypeSafe hosted Jev, the open self-hostable Kev, and Cloudflare Clef on Workers AI; 0BSD licence with pkg.go.dev docs, tests and lint",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-autopilot",
+      "author": "hmcdaniel03",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/hmcdaniel03/jev-autopilot",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Claude Code mod keeping unattended sessions moving: when Claude asks a question Jev answers the routine ones and the rest go to your phone over Telegram; every non-read-only tool call is screened by Jev with dangerous ones held until you tap Proceed or Block; sessions stopped on an open question while other work could proceed are nudged on; every decision logged; warning up front: this mod acts without you",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + warning block)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "gmail-auto-cleanup",
+      "author": "nani-stack",
+      "category": "email",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/nani-stack/gmail-auto-cleanup",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Sort a Gmail inbox down to what you care about: built to clear an 18,000-email inbox and keep it clear — first pass archived about 13,000 messages for roughly 1 USD of inference, weekly upkeep about a third of a cent per run; dual backend (Jev hosted at ~0.00006 USD/email, or Laya locally free) answering the same questions — start hosted, move local without rewriting anything",
+      "metrics": "18k inbox; $1 first pass; $0.003/week upkeep",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + cost table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "drift-guard",
+      "author": "benpchandler",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/benpchandler/drift-guard",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Use Jev with Claude Code and Codex: hooks that warn when you or your agent drift off task",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "pi-jev-classifier",
+      "author": "moisaporto",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/moisaporto/pi-jev-classifier",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Pi extension routing the Jev classifier through OpenRouter: blocks destructive actions",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-arcade-hub",
+      "author": "jevplays-games",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jevplays-games/jev-arcade-hub",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Launcher for the nine JEV Arcade games, linking each to its own subdomain at jevplay.games",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "incident-jev",
+      "author": "ngpayyappilly",
+      "category": "security",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ngpayyappilly/incident-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Incident evaluation: AI-powered software on TypeSafe Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
