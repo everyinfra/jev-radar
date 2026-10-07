@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 961,
+    "total_curated": 968,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -18813,6 +18813,140 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Self-hosted Jev-compatible REST API for Laya System-1 decisions: FastAPI + OpenAPI",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-skill-router",
+      "author": "shimo4228",
+      "category": "research",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/shimo4228/jev-skill-router",
+      "tweet": "—",
+      "stars": 12,
+      "one_liner": "A rare NEGATIVE-RESULT publication: what happens when you add Jev to Claude Code as a skill router — the code, the log, and the week that ended with removing it; status badge says experiment concluded; shadow mode only logged the guess, inject mode added a one-line hint, and underneath Claude still saw every skill and made the final pick; a negative conclusion is still a conclusion",
+      "metrics": "12 stars; bilingual EN/ja",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + status badge)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "Codex-Decision",
+      "author": "PhilippElhaus",
+      "category": "compaction",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/PhilippElhaus/Codex-Decision",
+      "tweet": "—",
+      "stars": 2,
+      "one_liner": "Removes repetitive lines from local tool output before Codex reads them: errors and useful evidence stay visible and every shortened result links to the complete original; OpenAI Decisions by default with optional TypeSafe — another cross-provider swap point",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + install flow)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "libsemop",
+      "author": "jasonduncan",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/jasonduncan/libsemop",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "C++17 semantic operators (C++ enters the language map): write a semantic judgment once, run it on any System One model, and get a DON'T KNOW instead of a guess when the model is not sure; a port of the Python semantic-operators on libtypesafe; honest status — 0.1.0 not yet released, offline tests clean under ASan/UBSan/TSan, live suite passes against jev-1.13.0, requests byte-identical to the Python library's",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + status note)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "corrective_rag",
+      "author": "gauravgulia26",
+      "category": "search",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gauravgulia26/corrective_rag",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A LangGraph-based Corrective RAG combining System 1 Jev models for fast judgments (README not fetchable at scan time)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "bybit-sentiment",
+      "author": "samoweb3",
+      "category": "quant",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/samoweb3/bybit-sentiment",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Top X posts about Bybit and Ben Zhou, classified with Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "claude-jev (yinjs)",
+      "author": "yinjs",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/yinjs/claude-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Claude Code plugin asking Jev narrow questions at the agent level",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "loop-engineering-on-product",
+      "author": "InjayTseng",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/InjayTseng/loop-engineering-on-product",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "An autonomous product loop for Claude Code that improves a real product overnight",
       "metrics": null,
       "verification": {
         "tier": "B",
