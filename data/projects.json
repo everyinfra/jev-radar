@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 968,
+    "total_curated": 976,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9859,7 +9859,7 @@
       "status": "live",
       "url": "https://github.com/iamaamir/system-one",
       "tweet": "—",
-      "stars": 69,
+      "stars": 70,
       "one_liner": "Provider-neutral System One runtime for TypeScript and Pi",
       "metrics": null,
       "verification": {
@@ -18947,6 +18947,159 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "An autonomous product loop for Claude Code that improves a real product overnight",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "mappity",
+      "author": "kortexa-ai",
+      "category": "geo",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/kortexa-ai/mappity",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "Ask the map anything: every place answers with a probability and the map glows where the answer is yes — type my kid is melting down and needs sugar immediately and a second later nearby chocolate shops light up; no categories, no filters, no search index and NO chat model anywhere; OpenStreetMap + Mapillary; recorded demo plus a two-minute film",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + demo refs)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "social-risk-qwen-jev",
+      "author": "TianJinWeiBoss520",
+      "category": "moderation",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/TianJinWeiBoss520/social-risk-qwen-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese multimodal content-risk recognition, end to end: data governance, traditional baselines, a Qwen3-VL vertical LoRA, and structured evidence plus Jev decisions as an auditable experiment; architecture, validation, reproducibility, model-card and latency-cost docs; honest data boundary — code, configs and aggregate results public, dataset images and per-item text NOT public; bilingual zh/EN",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + doc tree)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "decidealot",
+      "author": "psyb0t",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/psyb0t/decidealot",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Your hardware or TypeSafe's hosted Jev: run local Laya, Von, a CLM projection head or hosted Jev behind ONE TypeSafe-compatible HTTP and MCP endpoint; at startup Decidealot downloads and VERIFIES every enabled model; on Docker Hub",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-eval (CMaintz)",
+      "author": "CMaintz",
+      "category": "eval",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/CMaintz/jev-eval",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Stop guessing your confidence threshold — measure it and get the cut-point the SDKs can load: measures and calibrates Jev on YOUR OWN labeled data, reporting per-question accuracy, ECE with a reliability table and a risk-coverage table, then recommends cut-points for the core pattern (run Jev on everything, auto-decide the confident, escalate the rest); framing number: Jev is about 68 percent accurate raw, so that number decides whether gating works at all",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + framing)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "job-scan-public",
+      "author": "ido-barnoam",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ido-barnoam/job-scan-public",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A daily job alert using Jev to judge which jobs fit you, with a build process",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "support-ticket-router",
+      "author": "khaledjamal",
+      "category": "support",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/khaledjamal/support-ticket-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Sorts customer support tickets automatically and sends the uncertain ones to a person",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "jev-java (gudcks0305)",
+      "author": "gudcks0305",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/gudcks0305/jev-java",
+      "tweet": "—",
+      "stars": 5,
+      "one_liner": "Unofficial Java SDK for TypeSafe Jev and Vercel AI Gateway, with Spring Boot and WebClient",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-07"
+      }
+    },
+    {
+      "name": "bing-rewards-automation",
+      "author": "ljcyt",
+      "category": "automation",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ljcyt/bing-rewards-automation",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: cloud-phone Bing Microsoft Rewards daily automation — plain adb+Python, rules engine first with Jev for single-step discrimination",
       "metrics": null,
       "verification": {
         "tier": "B",
