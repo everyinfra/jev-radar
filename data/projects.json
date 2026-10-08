@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 1016,
+    "total_curated": 1023,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -4933,7 +4933,7 @@
       "status": "live",
       "url": "https://github.com/AkashPriyadarshii/jev-superpowers",
       "tweet": null,
-      "stars": 32,
+      "stars": 39,
       "one_liner": "Systematic software development framework for AI coding agents upgraded with TypeSafe Jev",
       "metrics": null,
       "verification": {
@@ -10939,7 +10939,7 @@
       "status": "live",
       "url": "https://github.com/valentynkit/awesome-jev-typesafe",
       "tweet": "—",
-      "stars": 188,
+      "stars": 192,
       "one_liner": "Typed decisions with TypeSafe's Jev — a major curated list",
       "metrics": "169 stars in ~12 days",
       "verification": {
@@ -12710,7 +12710,7 @@
       "status": "live",
       "url": "https://github.com/alvarobartt/sys1",
       "tweet": "—",
-      "stars": 49,
+      "stars": 51,
       "one_liner": "System One compatible API for open decision models, written in Rust: tokio/axum/serde/candle stack; dynamic token-based batching; SDPA on CPU/Metal/CUDA and Flash Attention 2/3 on Ampere/Ada/Hopper; blazing fast serving of Laya in three variants (English, 100+ languages ~2.2x faster, typed-decisions); cargo install sys1",
       "metrics": "49 stars in days",
       "verification": {
@@ -19889,6 +19889,143 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "Org-migrated continuation of jev-fabric (Bend native process orchestration with typed Jev decisions)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "doc (turinglabs)",
+      "author": "turinglabsorg",
+      "category": "agent-infra",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/turinglabsorg/doc",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Scott's sidekick: small fast typed judgments from Jev wired into Claude Code, Codex, Grok and Hermes where ordinary code needs a bit of common sense — publish_guard (exact rules in code for local paths and attribution, Jev for local-only state, effort estimates, process narration, billing; deny with reasons or ask when borderline) and reply_check (blocks a final reply that gives an effort/time estimate or asks the user to paste a secret — once; the second stop always passes)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + hook table)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "Jev-Engineering cookbook",
+      "author": "Jev-Engineering",
+      "category": "education",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Jev-Engineering/cookbook",
+      "tweet": "—",
+      "stars": 3,
+      "one_liner": "Sixty notebook recipes for typed decisions with Jev, ordered from a first Choice question to closed-loop factory control; progress badge is honest — 1 of 60 published, in progress",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + progress badge)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-docs-CN",
+      "author": "ningg",
+      "category": "docs",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ningg/jev-docs-CN",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese annotated translation of the official Jev docs: close reading of every page with Chinese-English parallel text, key background annotations, and a unified bilingual terminology table to avoid divergent translations; transparent progress markers (DONE / DOING 80 percent)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + progress)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "modernbert-jev",
+      "author": "KSonny4",
+      "category": "alternative-runtime",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/KSonny4/modernbert-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Jev-class decisions on 1 CPU and 2 GB of RAM: the core insight is that a small NLI cross-encoder is ALREADY a decision model (state = premise, option = hypothesis, entailment probability = answer); full stack of Python library + HTTP server + CLI + training loop speaking the /v1/systemone shapes; honest: numbers are unofficial local measurements, sealed-set placement needs the official JevBench harness",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + insight)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "snap-judge",
+      "author": "Arnav1771",
+      "category": "cli",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/Arnav1771/snap-judge",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Ask typed questions in Jev format (noul, choice, score) and run them on Jev or local models",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "omp-jev-router",
+      "author": "danieljohnmorris",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/danieljohnmorris/omp-jev-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "OMP extension routing each turn to a model and each delegated task to an agent using Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "model-router (GambetaClub)",
+      "author": "GambetaClub",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/GambetaClub/model-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Claude Code mod routing model and effort per task with Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
