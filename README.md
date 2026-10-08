@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="docs/assets/banner.png" width="880" alt="Jev Radar — the world's most comprehensive tracker of the Jev ecosystem" />
+<img src="docs/assets/banner.png" width="880" alt="Jev Radar — the most rigorously verified tracker of the Jev ecosystem" />
 
 # Jev Radar 📡
 
-### 全网最全的 Jev 生态独立白皮书与实时监控
-### The world's most comprehensive independent field report & live monitor of the Jev ecosystem
+### 验证最严谨的 Jev 生态独立白皮书与实时监控
+### The most rigorously verified independent field report & live monitor of the Jev ecosystem
 
-**全网最全,没有之一 · The Most Complete — if it was built with Jev, it's in this radar.**
+**验证最严,没有之一 · Every entry graded A/B by evidence depth — the only registry in the ecosystem that does.**
 
 [![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-1023_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
 
@@ -40,6 +40,18 @@ Every case here was verified against a primary source — a repository we opened
 ### 🎁 Free Jev API keys for stargazers
 
 **Star this repo ⭐, then email [hello@everyinfra.com](mailto:hello@everyinfra.com) with your GitHub username → we verify the star and reply with a free Jev API key.** 5,000 keys this round, one per person, while supplies last; keys are issued manually after verification (not automatic). Nothing is made public — the only address we publish is hello@everyinfra.com. Keys come from the maintainer's own quota and are not affiliated with TypeSafe AI. Details: [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1).
+
+### 📅 20 天推送日历 / 20-Day Scan Calendar
+
+每天至少一次真实提交,无一日中断。每格为当日扫描提交数(图例:`·` 0 `▁` 1-2 `▄` 3-5 `▆` 6-9 `█` 10+)。
+At least one real commit every single day since 2026-09-19 — no gaps.
+
+```
+█ █                                        09-19:14  09-20:12
+▆ ▆ ▆ ▄ ▆ █ ▆                             09-21:9   09-22:8   09-23:8   09-24:5   09-25:8   09-26:10  09-27:8
+▄ ▆ ▆ ▄ ▆ ▆ ▁                             09-28:3   09-29:8   09-30:9   10-01:5   10-02:6   10-03:7   10-04:2
+▄ ▆ █ █                                    10-05:4   10-06:8   10-07:10  10-08:11+
+```
 
 ### Why you can trust it
 
