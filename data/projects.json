@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 1000,
+    "total_curated": 1006,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -15977,7 +15977,7 @@
         "noul"
       ],
       "status": "live",
-      "url": "https://github.com/mgtf/atoma",
+      "url": "https://github.com/atoma-run/atoma",
       "tweet": "—",
       "stars": 16,
       "one_liner": "Watch a request turn into finished work: ask for a drawing, sound, report, data study, proof or software — atoma coordinates AI agents to produce it, checks the result against what you asked for and lets you inspect every step; the bounded decisions along the way (which agent takes a task, whether a plan is approved) are taken by Jev; live at atoma.run; AGPL with an honest active-development warning",
@@ -19574,6 +19574,128 @@
         "tier": "A",
         "method": "artifact-inspected (README pt + analogy)",
         "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-xray",
+      "author": "viva-lee",
+      "category": "code-intelligence",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/viva-lee/jev-xray",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Ask every file in your repo a question at once and watch the answer light up: one typed Jev call per file (what role does this file play, how bad would a bug here be, does it touch secrets, should a newcomer read it first); demo scans a 556-file repo with tiles lighting up and a question pinpointing a line",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + hero demo)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "JEV-Studio",
+      "author": "CarlosGuedea",
+      "category": "ui",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/CarlosGuedea/JEV-Studio",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Spanish: a visual editor (inspired by Node-RED / n8n / Langflow) for creating, connecting and executing AI flows where Jev works as the decision engine combined with LLMs, REST APIs, Python and other tools; React Flow drag-and-drop with zoom, minimap and light/dark modes plus a real execution engine (FastAPI + SQLite)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README es + stack)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jeva (justinoboyle)",
+      "author": "justinoboyle",
+      "category": "cli",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/justinoboyle/jeva",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A pipeline-safe CLI for Jev through Vercel AI Gateway: returns declared structured decisions — never generated prose — so shell scripts and TypeScript own control flow; inputs from an argument, a file or stdin; outputs plain values or JSON with model probabilities; honest note that it is not yet published to npm",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + examples)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "snake-jev (michaelmld)",
+      "author": "michaelmld",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/michaelmld/snake-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Snake played by Jev with ZERO hints: code tells Jev only what the snake observes (three empty squares then the wall / the snake's own body / food four up and two right) with no hint of which move is safe or good; one choice question per turn and the chosen move is applied as-is — code never overrides; a live panel shows every call's state, question and answer probabilities",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + observation format)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "peach-zhang typesafe-go",
+      "author": "peach-zhang",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/peach-zhang/typesafe-go",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese-authored Go SDK for TypeSafe System One (Jev)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "openkind",
+      "author": "whit3rabbit",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/whit3rabbit/openkind",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A Jev-compatible Rust client and custom local model with server (name clash with earlier sighting noted)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
         "verified_at": "2026-10-08"
       }
     }
