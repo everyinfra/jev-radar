@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 997,
+    "total_curated": 1000,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -19517,6 +19517,63 @@
         "tier": "B",
         "method": "primary-source-exists",
         "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "openai-decisions-vs-jev-vs-laya",
+      "author": "mateusfonsek",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/mateusfonsek/openai-decisions-vs-jev-vs-laya",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Portuguese: an independent PT-BR benchmark of decision models — OpenAI Decisions API (gpt-6-luna, public beta 2026-10-06) vs Jev (jev-1.13.0) vs Laya (laya-multilingual 0.3.28, also tested with option rotation for position-bias mitigation): 450 cases per provider, zero failures; headline: Jev and OpenAI technically tie on quality, with Jev cheaper and faster",
+      "metrics": "450 cases/provider, 0 failures",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README pt + results)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-fit-scorer",
+      "author": "akhil-neelam-ai",
+      "category": "productivity",
+      "primitives": [
+        "score",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/akhil-neelam-ai/jev-fit-scorer",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Lenny's Jobs has an Am-I-a-fit button you must click one job at a time (scoring every job for every user with an LLM costs too many tokens — Lenny said so); this Chrome extension scores ANY open job posting with Jev — a fit score out of 10 with confidence, the single strongest factor, and the exact time and cost shown in the popup (a fraction of a cent per score)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + popup details)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-learning-lab",
+      "author": "KleilsonSantos",
+      "category": "education",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/KleilsonSantos/jev-learning-lab",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Portuguese progressive hands-on lab for learning Jev — explicitly NOT a production project but a workbench: wire it up, understand the components, run an experiment, observe, record, change one variable, observe again",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README pt + analogy)",
+        "confidence": 0.9,
         "verified_at": "2026-10-08"
       }
     }
