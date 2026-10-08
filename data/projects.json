@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 1008,
+    "total_curated": 1016,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -557,7 +557,7 @@
       "status": "live",
       "url": "https://github.com/supercorp-ai/supercov",
       "tweet": null,
-      "stars": 149,
+      "stars": 151,
       "one_liner": "Per-file code quality scores so coding agents know what to fix first",
       "metrics": "matches CodeRabbit-class scores at ~100x lower cost (author-reported)",
       "verification": {
@@ -4954,7 +4954,7 @@
       "status": "live",
       "url": "https://github.com/AkashPriyadarshii/jev-curate",
       "tweet": null,
-      "stars": 104,
+      "stars": 107,
       "one_liner": "High-throughput synthetic and pretraining dataset sifter powered by Jev",
       "metrics": null,
       "verification": {
@@ -8691,7 +8691,7 @@
       "status": "live",
       "url": "https://github.com/tomerglick57/Jevstiller",
       "tweet": null,
-      "stars": 59,
+      "stars": 64,
       "one_liner": "Distill a repeated Jev classification into a local model on the fly — same answers, your hardware; Banking77: 70.7% of held-out messages answered at 99.45% agreement; CPU 130 msg/s (6.5x Jev rate limit), GPU ~2000/s",
       "metrics": null,
       "verification": {
@@ -19738,6 +19738,162 @@
         "tier": "A",
         "method": "artifact-inspected (README + stack badges)",
         "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-danmaku-filter",
+      "author": "meetchen",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/meetchen/jev-danmaku-filter",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: the danmaku stays, the spoilers go — Jev judges each Bilibili bullet comment for spoilers and filters hits; measured run posted up front: 51 spoiler variants recognized, 132 comments hidden, 6,672 total in one video; zero-dependency pure ESM, architected to adapt to every service with danmaku; bilingual zh/EN",
+      "metrics": "6,672 danmaku; 132 hidden",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + quick start)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "Cheshi",
+      "author": "CheshiAI",
+      "category": "ide",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/CheshiAI/Cheshi",
+      "tweet": "—",
+      "stars": 18,
+      "one_liner": "A desktop workspace for AI-assisted development with Jev-powered conversation memory: work with Codex, explore the codebase with CodeGraph, manage code, terminals and Git in one place; find past sessions and revisit decisions with their original context; signed and notarized macOS app via a Homebrew tap, bilingual EN/ko docs",
+      "metrics": "18 stars",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + install paths)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "omarchy-laser",
+      "author": "iYassr",
+      "category": "productivity",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/iYassr/omarchy-laser",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Laser — AI focus mode for Omarchy and Hyprland: tell it what you are working on and it notices when you drift and pulls you back; judges each screen against YOUR task, not a blocklist; private by design (screenshots never leave the machine) at about a cent a day; Omarchy plugin marketplace listing, Python stdlib only",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + privacy badges)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-feishu-overlay",
+      "author": "Haojiabin2002",
+      "category": "productivity",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Haojiabin2002/jev-feishu-overlay",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese: a native Mac overlay for Feishu/Lark replies — reads only sessions you explicitly select via an existing Feishu CLI; Jev runs an 8-item Choice/Score/Noul judgment, Codex SDK drafts three replies, then Jev re-ranks and fact-checks them; edited drafts are re-checked (original scores never carried over) and never auto-filled or sent; release screenshots regenerated with synthetic data",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README zh + disclosure)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "agrouter",
+      "author": "SvetlovA",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/SvetlovA/agrouter",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Automatically selects the coding-agent CLI, model, and reasoning effort for each prompt",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-model-router (mrhsiung2015)",
+      "author": "mrhsiung2015",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/mrhsiung2015/jev-model-router",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A lightweight Codex skill using Jev to route execution subagents by model",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-systemone-lab (monkey1sai)",
+      "author": "monkey1sai",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/monkey1sai/jev-systemone-lab",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A System One dispatcher skeleton: typed signatures to batched questions, with caching",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "jev-fabric (fabric-runtime)",
+      "author": "fabric-runtime",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/fabric-runtime/jev-fabric",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Org-migrated continuation of jev-fabric (Bend native process orchestration with typed Jev decisions)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
         "verified_at": "2026-10-08"
       }
     }
