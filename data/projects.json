@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 1006,
+    "total_curated": 1008,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -11792,7 +11792,7 @@
       "status": "live",
       "url": "https://github.com/wfzyx/von",
       "tweet": "—",
-      "stars": 871,
+      "stars": 872,
       "one_liner": "The open-source non-autoregressive System One decision model: calibrated Choice/Noul/Score from a 395M ModernBERT encoder, one forward pass, CPU-served (OpenVINO/CUDA/ROCm/MPS); wire-compatible with the TypeSafe /v1/systemone spec, ships von-sdk for Python and TypeScript; the SAME shipped weights that answer routing questions also play Doom — every action is one forward pass scoring six option descriptions against a text rendering of the depth buffer, no policy network, no RL; publishes JevBench v1.4 results (Intelligence/Calibration/Speed/Cost)",
       "metrics": "757 stars; Apache-2.0; on Hugging Face",
       "verification": {
@@ -19696,6 +19696,48 @@
         "tier": "B",
         "method": "primary-source-exists",
         "confidence": 0.75,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "swaraga",
+      "author": "hemanth",
+      "category": "creative",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/hemanth/swaraga",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Classify Hindustani and Carnatic ragas from human vocal audio: 12-swarasthana pitch telemetry (locking the tonic Sa and tracking each note) feeds Jev (jev-latest) or a local OpenJev WASM build; sample run returns Raga Yaman at probability 1.0 with an AUTO_VERIFIED routing gate; from hemanth (well-known JS developer)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + quick start code)",
+        "confidence": 0.9,
+        "verified_at": "2026-10-08"
+      }
+    },
+    {
+      "name": "gcp-typesafe-jev-hybrid-gateway",
+      "author": "rominirani",
+      "category": "cloud",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/rominirani/gcp-typesafe-jev-hybrid-gateway",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "By Romin Irani: a production-ready reference architecture and step-by-step tutorial series combining Jev (fast typed calibrated System 1 reflexes via /v1/systemone) with Google Cloud's Gemini Enterprise Agent Platform (gemini-3.8-flash / gemini-2.5-pro) on Cloud Run — the second major-cloud official-style tutorial after Azure Foundry",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + stack badges)",
+        "confidence": 0.9,
         "verified_at": "2026-10-08"
       }
     }
