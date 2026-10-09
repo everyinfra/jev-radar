@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1038,
+  "total_curated": 1050,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -20309,6 +20309,234 @@
    "tweet": "—",
    "stars": 2,
    "one_liner": "Another curated Jev resource list (2★)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "ai-provider-for-jev",
+   "author": "soderlind",
+   "category": "integration",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/soderlind/ai-provider-for-jev",
+   "tweet": "—",
+   "stars": 5,
+   "one_liner": "WordPress plugin connecting WP 6.8+/PHP 8.3+ to Jev with full primitives table and connection test; by veteran WP dev soderlind",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "classifier-skill",
+   "author": "clark-mackey",
+   "category": "skill",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/clark-mackey/classifier-skill",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Any-agent classifier skill (~$0.00002/answer): Jev via OpenRouter/TypeSafe, OpenAI Decisions in Codex, Ollama local; refuses cloud on local-only requests; card-sort/intent/link-target/brief-check example set",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "pi-jev-compaction",
+   "author": "MaxIvanyshen",
+   "category": "context",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/MaxIvanyshen/pi-jev-compaction",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Pi extension scoring each turn before compaction (keep prob <0.25 dropped, goal turn always kept); no LLM call itself; announced on LinkedIn by Nour Helmi",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "awesome-jev (Omrigotlieb)",
+   "author": "Omrigotlieb",
+   "category": "directory",
+   "primitives": [],
+   "status": "live",
+   "url": "https://github.com/Omrigotlieb/awesome-jev",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "Verified, screenshot-rich awesome list of Jev projects",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "jev-pilot-reflex",
+   "author": "manhua-man",
+   "category": "simulation",
+   "primitives": [],
+   "status": "live",
+   "url": "https://github.com/manhua-man/jev-pilot-reflex",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Three.js autonomous-driving reflex & AI safety-brake simulator powered by Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "jev-hooks",
+   "author": "7hemas7er",
+   "category": "devtools",
+   "primitives": [],
+   "status": "live",
+   "url": "https://github.com/7hemas7er/jev-hooks",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Claude Code commit reviewer driven by Jev-style typed decisions",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "typesafe-ai-benchmark (Donnaclarkk981)",
+   "author": "Donnaclarkk981",
+   "category": "comparison",
+   "primitives": [],
+   "status": "live",
+   "url": "https://github.com/Donnaclarkk981/typesafe-ai-benchmark",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Benchmark LLM-native structured output vs TypeSafe Jev across latency",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "jev-typesafe-spike",
+   "author": "frquintero",
+   "category": "experiment",
+   "primitives": [],
+   "status": "live",
+   "url": "https://github.com/frquintero/jev-typesafe-spike",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Spike repo (empty description, as-is)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "jev-mode",
+   "author": "tiffygk",
+   "category": "skill",
+   "primitives": [],
+   "status": "live",
+   "url": "https://github.com/tiffygk/jev-mode",
+   "tweet": "—",
+   "stars": 6,
+   "one_liner": "Claude Code/Codex skills and learning resources for building with Jev (6★)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "typesafe-eval",
+   "author": "s-0-a-r",
+   "category": "devtools",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/s-0-a-r/typesafe-eval",
+   "tweet": "—",
+   "stars": 2,
+   "one_liner": "Fast typed multi-dimensional document evaluation CLI powered by TypeSafe (2★)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "decisions-demo (vecten)",
+   "author": "vecten",
+   "category": "demo",
+   "primitives": [],
+   "status": "live",
+   "url": "https://github.com/vecten/decisions-demo",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Decision models (Jev) vs Claude on the same typed questions",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "Customer-Support-Triage-with-Jev",
+   "author": "webmakaka",
+   "category": "tutorial",
+   "primitives": [],
+   "status": "live",
+   "url": "https://github.com/webmakaka/Customer-Support-Triage-with-Jev",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "YouTube tutorial code (Bappy Ahmed): AI support triage with Jev",
    "metrics": null,
    "verification": {
     "tier": "B",
