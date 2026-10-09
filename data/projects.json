@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1050,
+  "total_curated": 1058,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -20537,6 +20537,175 @@
    "tweet": "—",
    "stars": 0,
    "one_liner": "YouTube tutorial code (Bappy Ahmed): AI support triage with Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "sanity-plugin-jev-fields",
+   "author": "frederikvonsperling",
+   "category": "integration",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/frederikvonsperling/sanity-plugin-jev-fields",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "Sanity CMS 插件:编辑器实时显示 Jev 反馈(可读性/语气/可信度),支持低于阈值警告或阻止发布,三原语全支持;经 Vercel AI Gateway 中转(TypeSafe API 不接受浏览器直连)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "aii-codequality-plugin",
+   "author": "aiii-dot-id",
+   "category": "devtools",
+   "primitives": [
+    "noul",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/aiii-dot-id/aii-codequality-plugin",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "AII OS 插件:Jev 当代码质量法官,对每文件代码与注释分别问固定故障陈述目录,产出 findings/维度分/指数/带;WebAssembly 客户端(TinyGo),密钥仅授权 api.typesafe.ai:443",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "local-decider",
+   "author": "pusucip25",
+   "category": "devtools",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/pusucip25/local-decider",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "工具型 agent 的前置动作门:确定性规则在前,Jev 决策在后的两层防误",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "jev-gate (timjonez)",
+   "author": "timjonez",
+   "category": "devtools",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/timjonez/jev-gate",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "允许 Herdr 命令提示经 TypeSafe Jev 判定",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "jev-cli (badry-dev)",
+   "author": "badry-dev",
+   "category": "cli",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/badry-dev/jev-cli",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "TypeSafe System One 轻量 CLI:models+evaluate 命令",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "Second-Look",
+   "author": "rkinkhabwala",
+   "category": "app",
+   "primitives": [
+    "noul",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/rkinkhabwala/Second-Look--a-scam-message-checker-built-on-a-decision-model",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "骗局信息检测器:粘贴可疑文本/邮件/DM 截图,Jev 决策模型判定(2026-10-09 新建)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "typesafe-mcp (MarkChu-git)",
+   "author": "MarkChu-git",
+   "category": "mcp",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/MarkChu-git/typesafe-mcp",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "TypeSafe Jev 的 MCP server:类型化 yes/no/choice/score 答案",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "ontoken-auto",
+   "author": "priaculun",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/priaculun/ontoken-auto",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Pi 虚拟模型 ontoken/auto:Jev 分类 prompt 并路由",
    "metrics": null,
    "verification": {
     "tier": "B",

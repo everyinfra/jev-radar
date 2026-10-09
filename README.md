@@ -9,7 +9,7 @@
 
 **验证最严,没有之一 · Every entry graded A/B by evidence depth — the only registry in the ecosystem that does.**
 
-[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-1050_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
+[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-1058_graded_entries-9cf)]() [![cadence](https://img.shields.io/badge/scan_cadence-every_3_hours-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
 
 **[English](#english) · [中文](#中文)**
 
@@ -63,7 +63,7 @@ Each of the 108 structured registry entries carries a `verification` block assig
 | **B** | 0.75 | Primary source on record (repo or original post), inspected at description level |
 | **C** | 0.60 | Directory-indexed only — promoted on the next scan once opened |
 
-Original 2026-09-19 case-verification cohort: **38 × A · 70 × B · 0 × C** (the live registry distribution is the badge above — 1050 entries: A 457 · B 593). Numbers inside entries are **as reported by their authors** unless marked reproduced. We also document what *doesn't* work: confidence ≠ correctness, ordering sensitivity, and a circulating wave of sped-up fake demos — with guidance on which repos carry real traces.
+Original 2026-09-19 case-verification cohort: **38 × A · 70 × B · 0 × C** (the live registry distribution is the badge above — 1058 entries: A 459 · B 599). Numbers inside entries are **as reported by their authors** unless marked reproduced. We also document what *doesn't* work: confidence ≠ correctness, ordering sensitivity, and a circulating wave of sped-up fake demos — with guidance on which repos carry real traces.
 
 ### What people are building (by density)
 
