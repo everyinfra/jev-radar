@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1058,
+  "total_curated": 1063,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -20706,6 +20706,108 @@
    "tweet": "—",
    "stars": 0,
    "one_liner": "Pi 虚拟模型 ontoken/auto:Jev 分类 prompt 并路由",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "modelrudder",
+   "author": "cybrking",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/cybrking/modelrudder",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "实验性本地模型路由器(Claude Code+Codex 双适配):Jev 判每个新用户 turn 选 Haiku/Sonnet/Opus 或 Luna/Sol/Astra,决策在 tool loop 内保持;BYOK 无订阅;savings are not guaranteed 明示",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "Minos.NET",
+   "author": "MarcelRoozekrans",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/MarcelRoozekrans/Minos.NET",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "非官方 .NET 客户端:C# 类型声明问题集,Source Generator 编译期生成请求/解析,零反射支持 Native AOT;直连 /v1/systemone 或经 OpenRouter;未上 NuGet(早期)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "ripwire-broker",
+   "author": "aquental",
+   "category": "mcp",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/aquental/ripwire-broker",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "面向任务的预算化 MCP 代码上下文代理(Ripwire 之上):三工具+托管预算",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "snifftest (Spirounkempt95)",
+   "author": "Spirounkempt95",
+   "category": "devtools",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Spirounkempt95/snifftest",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "本地正则嗅探 Markdown 草稿是否违反 house rules(Jev 打分)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "jevlike (yorshstudent-a11y)",
+   "author": "yorshstudent-a11y",
+   "category": "local-alternative",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/yorshstudent-a11y/jevlike",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "训练紧凑模型在单次前向中从变化列表选一选项(兼容克隆,非官方;4 月创建近期活跃)",
    "metrics": null,
    "verification": {
     "tier": "B",
