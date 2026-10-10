@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1063,
+  "total_curated": 1067,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -20814,6 +20814,90 @@
     "method": "primary-source-exists",
     "confidence": 0.75,
     "verified_at": "2026-10-09"
+   }
+  },
+  {
+   "name": "finance-decision-evals",
+   "author": "vicwlau",
+   "category": "evaluation",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/vicwlau/finance-decision-evals",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "注册会计师亲自做的 Jev 金融评测(ASC 606 收入确认判断):20 条冻结合成条款×3 轮——规则写进问题+代码算事实=100% 正确;不确定答案(0.5-0.7 概率)仅 48% 正确;6 组最小对训练数据开源——领域专家级评测标杆",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-10"
+   }
+  },
+  {
+   "name": "ElBruno.AI.Decisions",
+   "author": "elbruno",
+   "category": "sdk",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/elbruno/ElBruno.AI.Decisions",
+   "tweet": "—",
+   "stars": 3,
+   "one_liner": ".NET 10 统一决策 SDK(已上 NuGet 0.6.1 四包):一套 IDecisionClient 接 Microsoft Foundry(Microsoft-Decision-1)/Ollama 本地/TypeSafe Jev 三后端——微软 MVP 出品,非官方但生态级",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-10"
+   }
+  },
+  {
+   "name": "pi-gear-router",
+   "author": "joslynSmall",
+   "category": "routing",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/joslynSmall/pi-gear-router",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Pi 三档模型路由,每 turn 由 Jev 判定(当日新建)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-10"
+   }
+  },
+  {
+   "name": "jev-py-sdk (ogarciarevett)",
+   "author": "ogarciarevett",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/ogarciarevett/jev-py-sdk",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "类型化 Jev 判断的轻量 Python SDK(当日新建)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-10"
    }
   }
  ]
