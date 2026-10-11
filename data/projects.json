@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1067,
+  "total_curated": 1085,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -20898,6 +20898,399 @@
     "method": "primary-source-exists",
     "confidence": 0.75,
     "verified_at": "2026-10-10"
+   }
+  },
+  {
+   "name": "OneJev (OmniJev)",
+   "author": "OmniJev",
+   "category": "model-weights",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/OmniJev/OneJev",
+   "tweet": "—",
+   "stars": 156,
+   "one_liner": "开源多模态 System One 决策模型族(0.8B/4B/9B/27B,Apache-2.0):截图/照片/视频/文本单次前向出校准概率;HF 权重+数据+Demo+三语 README;基准对 Jev 1.13/Jev-Omni 12B/Qwen3.8-27B thinking",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme+live-hf-page",
+    "confidence": 0.9,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "rx-interaction-jev (harsaas)",
+   "author": "harsaas",
+   "category": "healthcare-demo",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/harsaas/rx-interaction-jev",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "处方安全演示(首个医药 YMYL 应用):Jev 管 preflight/HARD_BLOCK/风险路由/相关性/过期/最终 grounding 审计,GPT 经 OpenRouter 生成建议,Pinecone+openFDA;带'非临床系统'免责——架构含人工复核分支",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "dsh-jev (iptton-ai)",
+   "author": "iptton-ai",
+   "category": "eval-tooling",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/iptton-ai/dsh-jev",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "DeepSeek Harness 的 Jev 结构化评估工具(Noul/Choice/Score 三原语),评测框架集成线",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "jev-tools (CMaintz)",
+   "author": "CMaintz",
+   "category": "tooling",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/CMaintz/jev-tools",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "TypeScript 工具集:agent 工具调用护栏+Git 集成(CMaintz 七仓家族之一)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "jev-dotnet (CMaintz)",
+   "author": "CMaintz",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/CMaintz/jev-dotnet",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "非官方 .NET SDK,类型化 Choice/Score/Noul(.NET 线第三例)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "jev-java (CMaintz)",
+   "author": "CMaintz",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/CMaintz/jev-java",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "非官方 Java SDK,类型化三原语(Java 生态首例)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "leash (CMaintz)",
+   "author": "CMaintz",
+   "category": "guardrail",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/CMaintz/leash",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Jev 护栏把编码 agent 输出质量保持在短链上",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "classifier-bench (CMaintz)",
+   "author": "CMaintz",
+   "category": "benchmark",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/CMaintz/classifier-bench",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "快速类型化分类器横评:Jev vs OpenAI Decisions vs Cloudflare Cle",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "orca-jev-advisor (ab2webco)",
+   "author": "ab2webco",
+   "category": "agent-infra",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/ab2webco/orca-jev-advisor",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Orca Lab 决策层:judges agent 将执行的动作",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "jev-measured (WallerChen)",
+   "author": "WallerChen",
+   "category": "benchmark",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/WallerChen/jev-measured",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "实测成本/延迟/准确率/原始输出:Jev vs 其他 12 个决策模型",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "rev (jaswanthsanjay88)",
+   "author": "jaswanthsanjay88",
+   "category": "model-alt",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/jaswanthsanjay88/rev",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "prefill-only 决策模型(替代架构探索):类型化问题进、校准概率出",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "opencode-jev-pre-llm (murilogteixeira)",
+   "author": "murilogteixeira",
+   "category": "plugin",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/murilogteixeira/opencode-jev-pre-llm",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "OpenCode V2 插件:LLM 推理前用 Jev 分类 prompt(新宿主集成线)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "youtube-sponsor-skip (AnatoliyLikarchuk)",
+   "author": "AnatoliyLikarchuk",
+   "category": "browser-ext",
+   "primitives": [
+    "noul",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/AnatoliyLikarchuk/youtube-sponsor-skip",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "俄语 YouTube 广告位识别 Chrome 扩展(Jev 判定)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "laya-browser-agent (miniproaissa)",
+   "author": "miniproaissa",
+   "category": "local-weights",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/miniproaissa/laya-browser-agent",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "浏览器端跑 Jev-like 模型(开源 checkpoint+多后端);README 双击式营销口吻,质量存疑如实记 B",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "Jev_Learning (Pramodnm)",
+   "author": "Pramodnm",
+   "category": "course",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Pramodnm/Jev_Learning",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Jev & Gemini 多 agent 框架 Zero to Hero 课程",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "jev-mem-system (ceasermikes002)",
+   "author": "ceasermikes002",
+   "category": "memory",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/ceasermikes002/jev-mem-system",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "极简记忆系统(基于 Jev)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "jev-cookbook (freezetheflame)",
+   "author": "freezetheflame",
+   "category": "recipes",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/freezetheflame/jev-cookbook",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "实用配方:状态/判据/类型化问题/不确定性处理",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "jev-playground (laxminarayanaboga)",
+   "author": "laxminarayanaboga",
+   "category": "game-bench",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/laxminarayanaboga/jev-playground",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Jev 玩 2048 与 Chrome 恐龙(Playwright,对照测量)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-11"
    }
   }
  ]
