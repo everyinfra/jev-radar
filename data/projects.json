@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1085,
+  "total_curated": 1100,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -21291,6 +21291,336 @@
     "method": "primary-source-exists",
     "confidence": 0.75,
     "verified_at": "2026-10-11"
+   }
+  },
+  {
+   "name": "sael (cipherTing)",
+   "author": "cipherTing",
+   "category": "guardrail-gateway",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/cipherTing/sael",
+   "tweet": "—",
+   "stars": 4,
+   "one_liner": "**AI 请求安全网关**(客户端与 AI 服务之间的文本审查层,Go):安全规则可配置/可验证/可追踪,可视化运维控制台;**Go 生态首例 System One 客户端**(经 OpenRouter)——中文项目",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "claude-referee (ismaildasci)",
+   "author": "ismaildasci",
+   "category": "plugin",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/ismaildasci/claude-referee",
+   "tweet": "—",
+   "stars": 6,
+   "one_liner": "**Claude Code 非官方裁判插件**:'evidence over eloquence'——用 Jev 核查 Claude 的'done'声明与小判断,**保留收据**(done-gate 检查上次编辑后是否有测试通过);带 Manifesto(土/英双语)与实测记录文档",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "cc-jev-teacher (masseater)",
+   "author": "masseater",
+   "category": "plugin",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/masseater/cc-jev-teacher",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "**双插件市场**:teacher(决策模型经 OpenRouter 给每个风险工具调用与最终报告打分,差则 hook 阻断并告知修哪——'Claude 修好你才看到报告')+pruner(无摘要压缩/Bash 输出裁剪/jevgrep MCP 按行为找代码)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "jevey (CarloLepelaars)",
+   "author": "CarloLepelaars",
+   "category": "tooling",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/CarloLepelaars/jevey",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Building with jev should be fun(趣味工具,当日新建)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "jev-thuc-chien (thieung)",
+   "author": "thieung",
+   "category": "course",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/thieung/jev-thuc-chien",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "越南语 Jev 实战系列自动重跑 demo(越南社区线)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "super (mindlace)",
+   "author": "mindlace",
+   "category": "marketplace",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/mindlace/super",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Claude Code 插件市场:supersonic(superconductor+supercompressor,Jev 相关)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "jevskill (Ami-Khokhar)",
+   "author": "Ami-Khokhar",
+   "category": "agent-skill",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Ami-Khokhar/jevskill",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Agent skill:找 TypeSafe Jev 在产品/代码库中的位置(评估顾问型)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "jev-local-alternatives (vnmartinez)",
+   "author": "vnmartinez",
+   "category": "local-weights",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/vnmartinez/jev-local-alternatives",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "本地开源零依赖替代方案笔记(替代生态研究)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "jev-decision-hub (gbonnet65923)",
+   "author": "gbonnet65923",
+   "category": "tooling",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/gbonnet65923/jev-decision-hub",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "零依赖 Python 决策层工具箱",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "opencode-auto-classifier (schemaitat)",
+   "author": "schemaitat",
+   "category": "plugin",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/schemaitat/opencode-auto-classifier",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "OpenCode 插件:shell 命令/读/写自动分类(OpenCode 集成线+1)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "ci-triage (samiulhuda360)",
+   "author": "samiulhuda360",
+   "category": "ci-tooling",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/samiulhuda360/ci-triage",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "读失败的 CI run,flaky/基础设施失败重跑一次(CI 分诊)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "vigil (hguochen)",
+   "author": "hguochen",
+   "category": "showcase",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/hguochen/vigil",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Jev 官方 showcase 项目(Vigil 分类器)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "tf-jev (alexsosn)",
+   "author": "alexsosn",
+   "category": "integration",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/alexsosn/tf-jev",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "自然语言查询 Text Fabric 语料库(学术语料×Jev)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "jev-resume-disqualifier (kerasum2704)",
+   "author": "kerasum2704",
+   "category": "hr-tool",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/kerasum2704/jev-resume-disqualifier",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "简历自动筛除(消 80% 不合格候选;YMYL 风险类,如实记)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "jev-cc-model-router (KevinYu1580)",
+   "author": "KevinYu1580",
+   "category": "router",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/KevinYu1580/jev-cc-model-router",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "Claude Code mod:每会话选一次模型与努力档(会话级路由变体)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-12"
    }
   }
  ]
