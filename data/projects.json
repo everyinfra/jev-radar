@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1100,
+  "total_curated": 1109,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -21621,6 +21621,204 @@
     "method": "primary-source-exists",
     "confidence": 0.75,
     "verified_at": "2026-10-12"
+   }
+  },
+  {
+   "name": "jev-browser (Ying-Kai-Liao)",
+   "author": "Ying-Kai-Liao",
+   "category": "browser-agent",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Ying-Kai-Liao/jev-browser",
+   "tweet": "—",
+   "stars": 112,
+   "one_liner": "**浏览器自动化:LLM 规划+Jev 决策**(112★,非官方):LLM 只说目标一步,Jev 一次 ~300ms 请求并行答'哪个元素/什么动作/什么值/步骤是否完成/是否不可逆',Playwright 执行——**LLM 不读页面快照除非主动接管**;架构分离干净",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-13"
+   }
+  },
+  {
+   "name": "ecom-cs-agent (guow7394)",
+   "author": "guow7394",
+   "category": "customer-service",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/guow7394/ecom-cs-agent",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "**中文电商售后客服 Agent(置信度驱动转人工)**:Jev 一次调用并行答意图+置信度+是否需人工,代码门控(低置信/需人工→直接转人工 LLM 不运行);**附 30 条标注对话与三组对比实验(无判断层/Jev 层/LLM 自报置信度)——带实验对照的开源样板**",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-13"
+   }
+  },
+  {
+   "name": "jev-as-a-guardrail (rahulbansalc6414)",
+   "author": "rahulbansalc6414",
+   "category": "benchmark",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/rahulbansalc6414/jev-as-a-guardrail",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "**输入护栏基准:Jev vs Claude Haiku 4.5**:prompt 注入/越狱/有害意图三数据集,测检出率/误报/延迟/成本——企业输入安全分类器场景的量化对比",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-13"
+   }
+  },
+  {
+   "name": "JEV (marcosdeaza)",
+   "author": "marcosdeaza",
+   "category": "voice",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/marcosdeaza/JEV",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "macOS 语音控制探索(Jev+规划;西语区)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-13"
+   }
+  },
+  {
+   "name": "seo-jev-analyzer (matthelam)",
+   "author": "matthelam",
+   "category": "seo-tool",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/matthelam/seo-jev-analyzer",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "用 Jev 测页面与搜索意图的匹配度(SEO×Jev 交叉)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-13"
+   }
+  },
+  {
+   "name": "jev-orchestrator (sdogantekin)",
+   "author": "sdogantekin",
+   "category": "payment-lab",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/sdogantekin/jev-orchestrator",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "支付决策实验室(仅模拟)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-13"
+   }
+  },
+  {
+   "name": "jev-lab (mberliner)",
+   "author": "mberliner",
+   "category": "course",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/mberliner/jev-lab",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "西语渐进式 Jev 教学实验室(西语区+1)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-13"
+   }
+  },
+  {
+   "name": "reflex (Starttoaster)",
+   "author": "Starttoaster",
+   "category": "alerting",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Starttoaster/reflex",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Alertmanager 告警路由到紧急/普通 Discord 频道",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-13"
+   }
+  },
+  {
+   "name": "000 (Sajjat4)",
+   "author": "Sajjat4",
+   "category": "voice-browser",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Sajjat4/000",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "语音控制真实浏览器(Jev 决定交互意图)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-13"
    }
   }
  ]
