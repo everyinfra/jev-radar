@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1109,
+  "total_curated": 1119,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -21819,6 +21819,226 @@
     "method": "primary-source-exists",
     "confidence": 0.75,
     "verified_at": "2026-10-13"
+   }
+  },
+  {
+   "name": "decision-shadow (jatingargiitk)",
+   "author": "jatingargiitk",
+   "category": "evaluation",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/jatingargiitk/decision-shadow",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "**影子测试框架:不盲信决策模型**:shadow(你的函数照常决策,Jev 并行跑,双答案落 JSONL)/report(一致率+延迟+成本+分歧样例+概率过饱和警告)/tune(扫阈值找最低达标点)/**on**(低于阈值与全部错误回退原函数)——**迁移决策模型的四步安全路径,零依赖**",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "jev-ops (Trevorton27)",
+   "author": "Trevorton27",
+   "category": "control-plane",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Trevorton27/jev-ops",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "**AI 决策可靠性控制面**:Jev 快速类型化语义判断+确定性 Python 策略规则→四态处置(ALLOW/RETRY/HUMAN_REVIEW/BLOCK);完整基础设施(make up/migrations)——企业网关形态",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "jev-project (ElyasEbrahim)",
+   "author": "ElyasEbrahim",
+   "category": "data-pipeline",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/ElyasEbrahim/jev-project",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "**中文批量数据处理**:置信度分流的标注管道+DuckDB 语义 SQL 函数+成本对比($42/10 亿输入 token 口径)——Jev 替代'LLM 逐行打标'的中文样板",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "read-repo-readme",
+    "confidence": 0.9,
+    "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "jev-content-mod (kallurayaankit)",
+   "author": "kallurayaankit",
+   "category": "moderation",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/kallurayaankit/jev-content-mod",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "非对称阈值内容审核(不同违规类不同松紧)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "jevcore (kaya734)",
+   "author": "kaya734",
+   "category": "integration",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/kaya734/jevcore",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "DeepSeek Harness+MCP+Jev 集成核心",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "claude-jev-router (sutan13)",
+   "author": "sutan13",
+   "category": "router",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/sutan13/claude-jev-router",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Claude Code 每提示路由最便宜模型(路由器家族+1)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "jev-model-router (kevinCodeSavvy)",
+   "author": "kevinCodeSavvy",
+   "category": "router",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/kevinCodeSavvy/jev-model-router",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "按任务路由 Claude 模型与推理努力(路由器家族+1)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "openrouter-jev-candidate-classifier (SupunBasnayaka)",
+   "author": "SupunBasnayaka",
+   "category": "evaluation",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/SupunBasnayaka/openrouter-jev-candidate-classifier",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "两阶段 LLM 评估管道用 jev-1.13 做候选分类",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "open-webui-router-jev-boilerplate (foteev)",
+   "author": "foteev",
+   "category": "integration",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/foteev/open-webui-router-jev-boilerplate",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Open WebUI 路由管线通用样板(新宿主线)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "sys1npc (SafiullahRattar)",
+   "author": "SafiullahRattar",
+   "category": "game",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/SafiullahRattar/sys1npc",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "游戏 NPC 决策点热切换为 System One(游戏+1)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-14"
    }
   }
  ]
