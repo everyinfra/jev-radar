@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1119,
+  "total_curated": 1138,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -22039,6 +22039,399 @@
     "method": "primary-source-exists",
     "confidence": 0.75,
     "verified_at": "2026-10-14"
+   }
+  },
+  {
+   "name": "jev_naics",
+   "author": "jmurray10",
+   "category": "vertical",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/jmurray10/jev_naics",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "保险投保 NAICS 2022 行业编码(1,012 类):Postgres 检索+代码门控缩到候选,Jev 只在封闭列表里选,代码掌握 hold 转人工;运行路径无 LLM",
+   "metrics": "hybrid 方法在其评测集上错码 0;replay 模式录制自 jev-1.13.0",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "jev-1.14-eval",
+   "author": "FavioVazquez",
+   "category": "eval",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/FavioVazquez/jev-1.14-eval",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "预注册评测 Jev 1.14.0 vs 1.13.0:规则先写、三轮重复、Wilson 下界;结论文本任务留在 1.13,西语无增益,输入(加 diff)比版本更重要",
+   "metrics": "16,173 次决策共 $3.08;西语 claims 点准确率 0.700 vs 0.800;加 diff 后下界 0.953(119 条,多重校正后 0.857)",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "go-discern",
+   "author": "mrz1836",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/mrz1836/go-discern",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "Go 类型化决策层,同时适配 TypeSafe Jev 与 Cloudflare Workers AI 的 Clef System One API,可双发比对给出推荐",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "jev-box-study",
+   "author": "RINNECODER",
+   "category": "eval",
+   "primitives": [
+    "noul",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/RINNECODER/jev-box-study",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "用 Jev 1.14 Box 类型+图像输入做 AI 图像幻觉检测的田野报告:7 版管线、原始分数 JSON、网站代码与两个 agent skill,带线上 demo",
+   "metrics": "作者自述小样本手选评测,非基准",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "jevreel",
+   "author": "DeepAleph",
+   "category": "data-infra",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/DeepAleph/jevreel",
+   "tweet": "—",
+   "stars": 2,
+   "one_liner": "零 embedding 视频理解:每秒一帧拼 60 帧联系表,Jev 并行判每张表再在原帧复核,以 MCP 工具+skill 交给任意编码 agent",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "Bonsai-JEV (非官方)",
+   "author": "DakePeng",
+   "category": "clone",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/DakePeng/Bonsai-JEV",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "非官方开源克隆:JEV 配方(LoRA+24 槽决策头)训在三值 Bonsai 2 27B 上,含图像,8GB 显存可跑;权重在 HF 与 ModelScope",
+   "metrics": "base 5.95GB(PTQ1_0)+0.23GB adapter;~7.1GiB 峰值(含视觉、4k 上下文)",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "JevChess",
+   "author": "Odinachi",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Odinachi/jevchess",
+   "tweet": "https://x.com/odinachidavid/status/2110280949917257850",
+   "stars": 0,
+   "one_liner": "浏览器 3D 国际象棋对战 Jev,三档难度,服务端路由藏 key,无 key 时本地引擎兜底;线上 jevchess.odinachi.space",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "Doorbell cam on Jev 1.14 (Todd Dailey)",
+   "author": "twid",
+   "category": "robotics",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://x.com/twid/status/2110540947834769746",
+   "tweet": "https://x.com/twid/status/2110540947834769746",
+   "stars": null,
+   "one_liner": "门铃摄像头告警管线换 Jev 1.14 预览:每事件 4 帧问「有没有人」,再用 Box 裁出人像交给 Gemma 描述",
+   "metrics": "作者自述:识别 23/23(旧管线 14/23)、零误报、~200ms、约 $0.00008/事件;描述准确 21/23(原 16)",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "TrueForge + Jev 客户跟进 agent",
+   "author": "akshay_pachaar",
+   "category": "platform",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/truefoundry/trueforge",
+   "tweet": "https://x.com/akshay_pachaar/status/2109909532352917658",
+   "stars": 6236,
+   "one_liner": "在 TrueFoundry 开源 agent harness TrueForge 里用 Jev 做客户请求→GitHub issue 匹配,低置信回退 Opus 复核,Daytona 做沙箱",
+   "metrics": "作者自述:40 条请求准确率与 Opus 全量相当,决策成本低 150 倍;复核拦下 5 个错配",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "Aivancity (jev-city)",
+   "author": "DHRU-KHAKHARIYA",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/DHRU-KHAKHARIYA/jev-city",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "1,000 个 AI 市民的城市模拟,每次行动(工作/吃饭/购物/社交/休息/抗议)由 Jev 决定,早高峰、加税抗议等宏观行为自发涌现",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "polymarket-5min-btc-Jev-trading-bot",
+   "author": "Polytutor-AI-Labs",
+   "category": "trading",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Polytutor-AI-Labs/polymarket-5min-btc-Jev-trading-bot",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Polymarket BTC 5 分钟涨跌市场终端 agent:Jev(1.13.0)判 UP/DOWN,策略可弃权,默认 dry-run,实盘需显式开启 FOK",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "openclaw-jev-router",
+   "author": "andreas-247",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/andreas-247/openclaw-jev-router",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "OpenClaw(Codex)按轮选模型的路由器,由 Jev 判断,不让主助手给自己的工作量分类;早期版本",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "jevgate",
+   "author": "gordonbrander",
+   "category": "data-infra",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/gordonbrander/jevgate",
+   "tweet": "—",
+   "stars": 8,
+   "one_liner": "「更聪明的 cron」:读 stdin 问一个是/否问题,P(yes) 过阈值才放行,像 grep 一样给 shell 命令加语义门",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "jev-demo (SoyJorgePilo)",
+   "author": "SoyJorgePilo",
+   "category": "community",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/SoyJorgePilo/jev-demo",
+   "tweet": "—",
+   "stars": 5,
+   "one_liner": "西语教学三连 demo(Jev+Claude+Jira+GitHub):「Jev 决策,LLM 推理」,状态→类型化问题→概率→代码决定动作",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "sea of fog",
+   "author": "dundysm",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/dundysm/sea-of-fog",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "拿破仑战役沙盘,AI 将军在关键时刻决策;奥斯特里茨:Jev 79% 概率中计,加一句「敌人可能在欺骗你」降到 44%",
+   "metrics": "中计概率 79%/44%/49%(真名)",
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "Dungeon of Jev (doj)",
+   "author": "ericosg",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/ericosg/doj",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "回合制地牢爬行游戏,每个敌人由 Jev 选择并操控,探索 Jev 能做什么",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "JevCheck",
+   "author": "amir9480",
+   "category": "browser-extension",
+   "primitives": [
+    "noul",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/amir9480/JevCheck",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "Chrome 侧边栏扩展:对当前网页套用问题模板(岗位匹配、文章可信度、条款是否安全),返回带概率的回答",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "JEVsnap",
+   "author": "brainstormity",
+   "category": "vertical",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/brainstormity/JEVsnap",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "跨平台截图热键,入剪贴板前自动涂黑密钥、token、邮箱、电话、姓名、内网主机名、二维码等,可选 Jev 辅助判断",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "JevClean",
+   "author": "sufferfml",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/sufferfml/JevClean",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "本地优先 IMAP 邮件整理:自然语言规则由 Jev 分析,每条规则一个动作,手动与规则动作都需显式确认、可撤销;中文项目",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-15"
    }
   }
  ]
