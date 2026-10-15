@@ -9,7 +9,7 @@
 
 **验证最严,没有之一 · Every entry graded A/B by evidence depth — the only registry in the ecosystem that does.**
 
-[![status](https://img.shields.io/badge/monitor-paused_since_2026--10--15-lightgrey)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-1119_graded_entries-9cf)]() [![last scan](https://img.shields.io/badge/last_scan-2026--10--14-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
+[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-1119_graded_entries-9cf)]() [![last scan](https://img.shields.io/badge/last_scan-2026--10--14-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
 
 **[English](#english) · [中文](#中文)**
 
@@ -35,12 +35,12 @@ The pitch that took over developer Twitter: **70–500 ms** end-to-end latency, 
 
 Four days after launch, the Jev ecosystem crossed **1,000 repositories** within five days (21,600+ stars at day 4). Jev Radar is an independent attempt to answer one question with evidence: **what is the world actually building with this thing?**
 
-Every case here was verified against a primary source — a repository we opened, a live demo we hit, or the author's original post. No hearsay, no listicle padding. From 2026-09-19 to 10-14 an automated sweep (GitHub · X/Twitter · five community directories) ran every three hours, then daily from 10-11; anything new was verified, graded, and committed. **Automated sweeps are paused as of 2026-10-15** — see *Cadence* below.
+Every case here was verified against a primary source — a repository we opened, a live demo we hit, or the author's original post. No hearsay, no listicle padding. Since 2026-09-19 an automated sweep (GitHub · X/Twitter · five community directories) has run every three hours, then daily at 19:00 UTC+8 from 10-11; anything new is verified, graded, and committed — see *Cadence* below.
 
 ### 📅 26 天推送日历 / 26-Day Scan Calendar(2026-09-19 → 10-14)
 
-09-19 至 10-14 每天至少一次真实提交,无一日中断;10-15 起自动扫描暂停。每格为当日提交数(图例:`·` 0 `▁` 1-2 `▄` 3-5 `▆` 6-9 `█` 10+)。
-At least one real commit every day from 2026-09-19 to 10-14 — no gaps. Automated sweeps are paused as of 10-15.
+09-19 至 10-14 每天至少一次真实提交,无一日中断;10-15 起由新的定时任务接续每日扫描。每格为当日提交数(图例:`·` 0 `▁` 1-2 `▄` 3-5 `▆` 6-9 `█` 10+)。
+At least one real commit every day from 2026-09-19 to 10-14 — no gaps. Daily scans continue from 10-15 on a new scheduler.
 
 ```
 █ █                                        09-19:14  09-20:12
@@ -90,7 +90,7 @@ Original 2026-09-19 case-verification cohort: **38 × A · 70 × B · 0 × C** (
 | [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API access guide** — waitlist walkthrough, the expedite-email trick, and no-wait alternatives (OpenRouter / Netlify / OpenJev / free playgrounds) |
 | [`skills/jev-radar-briefing/SKILL.md`](./skills/jev-radar-briefing/SKILL.md) | **One-file quickstart + daily-briefing skill** — drop into any SKILL.md-compatible agent for scheduled pulls and auto-generated digests; includes a no-agent shell script |
 
-**Cadence:** automated scan every 3 hours (2026-09-19 → 10-10), then daily at 19:00 UTC+8 (10-11 → 10-14); each scan that found new evidence landed as a commit. **Automated sweeps are paused as of 2026-10-15**; the registry stands at 1,119 entries from the last scan (2026-10-14).
+**Cadence:** automated scan every 3 hours (2026-09-19 → 10-10), then daily at 19:00 UTC+8 from 10-11 (the 2026-10-15 19:00 run was skipped; scanning resumed the same evening). Every daily scan lands as a commit, with or without new entries; the registry stands at 1,119 entries as of the last scan.
 **Sources swept:** awesome-typesafe · awesomejev.com (488 entries) · madewithjev.com (178 builds) · risetive.com/jev (98) · jevable.com · typesafeai.app · GitHub Search · X · Reddit · HN · V2EX/linux.do/Bilibili · YouTube · LinkedIn.
 
 ### Contributing
@@ -125,7 +125,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 
 发布 7 天,Jev 生态已突破 **2000 个仓库**。Jev Radar 想用证据回答一个问题:**大家到底在用它做什么?**
 
-这里收录的每个案例都核对过一手出处——我们打开过的仓库、访问过的线上 demo、或作者原帖。不收传闻,不凑数。2026-09-19 至 10-14,一套自动化巡检(GitHub · X · 五个社区目录站)先是每 3 小时、10-11 起每天跑一次,新东西先检验、再定级、然后提交进仓库。**10-15 起自动巡检暂停**,详见下方「节奏」。
+这里收录的每个案例都核对过一手出处——我们打开过的仓库、访问过的线上 demo、或作者原帖。不收传闻,不凑数。2026-09-19 起,一套自动化巡检(GitHub · X · 五个社区目录站)先是每 3 小时、10-11 起每天 19:00(UTC+8)跑一次,新东西先检验、再定级、然后提交进仓库,详见下方「节奏」。
 
 ### 为什么可信
 
@@ -167,7 +167,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 | [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API 申请攻略**——waitlist 全流程(含官网按钮 bug 与加急邮件技巧)、OpenRouter / Netlify / OpenJev 免排队通道、免费 Playground |
 | [`skills/jev-radar-briefing/SKILL.md`](./skills/jev-radar-briefing/SKILL.md) | **单文件接入 + 每日简报 Skill**——装进任意支持 SKILL.md 的 agent 即可定时拉取、自动生成日报;附不开 agent 的纯脚本版 |
 
-**节奏:**2026-09-19 至 10-10 每 3 小时自动扫描一次,10-11 至 10-14 每天 19:00(UTC+8)一次;扫到新东西的每一轮都对应一个 commit。**10-15 起自动扫描暂停**,注册表停在最后一轮(10-14)的 1,119 条。
+**节奏:**2026-09-19 至 10-10 每 3 小时自动扫描一次,10-11 起每天 19:00(UTC+8)一次(10-15 19:00 那一轮未跑,当晚恢复);每轮扫描无论有无新增都提交一个 commit。注册表以最后一轮扫描为准,目前 1,119 条。
 **覆盖来源:** awesome-typesafe · awesomejev.com(488 条)· madewithjev.com(178 个 build)· risetive.com/jev(98)· jevable.com · typesafeai.app · GitHub 搜索 · X · Reddit · HN · V2EX/linux.do/B站 · YouTube · LinkedIn。
 
 ### 参与贡献

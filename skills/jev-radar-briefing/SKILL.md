@@ -7,7 +7,7 @@ description: 拉取 everyinfra/jev-radar 仓库的最新更新并生成 Jev 生�
 
 > **一个文件 = 人类指南 + 可安装的 agent skill。**
 > 下载这一个文件,你就接入了验证最严谨的 Jev(TypeSafe AI System One)生态监控:
-> 220+ 实证案例、1,119 条置信度分级数据(截至 2026-10-14 最后一轮扫描;10-15 起自动扫描暂停)。
+> 220+ 实证案例、1,100+ 条置信度分级数据,每天 19:00(UTC+8)自动扫描更新(条数以仓库 README 为准)。
 
 **仓库主址**:[github.com/everyinfra/jev-radar](https://github.com/everyinfra/jev-radar)
 
