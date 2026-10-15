@@ -6,8 +6,8 @@ description: 拉取 everyinfra/jev-radar 仓库的最新更新并生成 Jev 生�
 # Jev Radar · 接入指南 + 每日简报 Skill(单文件版)
 
 > **一个文件 = 人类指南 + 可安装的 agent skill。**
-> 下载这一个文件,你就接入了全网最全的 Jev(TypeSafe AI System One)生态监控:
-> 220+ 实证案例、108 条置信度分级数据、每 3 小时自动扫描更新。
+> 下载这一个文件,你就接入了验证最严谨的 Jev(TypeSafe AI System One)生态监控:
+> 220+ 实证案例、1,119 条置信度分级数据(截至 2026-10-14 最后一轮扫描;10-15 起自动扫描暂停)。
 
 **仓库主址**:[github.com/everyinfra/jev-radar](https://github.com/everyinfra/jev-radar)
 
@@ -102,7 +102,7 @@ curl -s "https://api.github.com/repos/everyinfra/jev-radar/commits?since=$(date 
 ## 一句话总结
 (今日生态一句话)
 
-数据源:github.com/everyinfra/jev-radar(每 3 小时自动扫描)
+数据源:github.com/everyinfra/jev-radar(扫描节奏以仓库提交为准)
 ```
 
 ### 第 4 步:调度(若宿主支持)
@@ -152,7 +152,7 @@ AFTER=$(git rev-parse HEAD)
   if [ "$BEFORE" = "$AFTER" ] && [ "$FIRST" = "1" ]; then
     echo "首次接入成功:基线已建立,从明天起开始报告每日增量。"
   elif [ "$BEFORE" = "$AFTER" ]; then
-    echo "过去 24h 无新增(仓库每 3 小时自动扫描,无变化即静默)。"
+    echo "过去 24h 无新增(仓库无新提交即静默)。"
   else
     echo "## 新提交"; git log --oneline "$BEFORE".."$AFTER"
     echo; echo "## 新增项目"
