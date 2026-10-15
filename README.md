@@ -37,10 +37,6 @@ Four days after launch, the Jev ecosystem crossed **1,000 repositories** within 
 
 Every case here was verified against a primary source — a repository we opened, a live demo we hit, or the author's original post. No hearsay, no listicle padding. From 2026-09-19 to 10-14 an automated sweep (GitHub · X/Twitter · five community directories) ran every three hours, then daily from 10-11; anything new was verified, graded, and committed. **Automated sweeps are paused as of 2026-10-15** — see *Cadence* below.
 
-### 🎁 Free Jev API keys for stargazers
-
-**Star this repo ⭐, then email [hello@everyinfra.com](mailto:hello@everyinfra.com) with your GitHub username → we verify the star and reply with a free Jev API key.** 5,000 keys this round, one per person, while supplies last; keys are issued manually after verification (not automatic). Nothing is made public — the only address we publish is hello@everyinfra.com. Keys come from the maintainer's own quota and are not affiliated with TypeSafe AI. Details: [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1).
-
 ### 📅 26 天推送日历 / 26-Day Scan Calendar(2026-09-19 → 10-14)
 
 09-19 至 10-14 每天至少一次真实提交,无一日中断;10-15 起自动扫描暂停。每格为当日提交数(图例:`·` 0 `▁` 1-2 `▄` 3-5 `▆` 6-9 `█` 10+)。
@@ -130,10 +126,6 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 发布 7 天,Jev 生态已突破 **2000 个仓库**。Jev Radar 想用证据回答一个问题:**大家到底在用它做什么?**
 
 这里收录的每个案例都核对过一手出处——我们打开过的仓库、访问过的线上 demo、或作者原帖。不收传闻,不凑数。2026-09-19 至 10-14,一套自动化巡检(GitHub · X · 五个社区目录站)先是每 3 小时、10-11 起每天跑一次,新东西先检验、再定级、然后提交进仓库。**10-15 起自动巡检暂停**,详见下方「节奏」。
-
-### 🎁 给仓库点 Star,免费领 Jev API key
-
-**点 Star ⭐,然后给 [hello@everyinfra.com](mailto:hello@everyinfra.com) 发邮件(正文附 GitHub 用户名)→ 核对后免费 Key 回复到你的邮箱。**本轮共 **5,000 个**,每人限领 1 个,发完即止;Key 为人工核对后逐一发放(非自动即时)。全程不公开任何邮箱,对外只公布 hello@everyinfra.com;Key 来源自维护方自有配额,与 TypeSafe AI 无关联。详见 [Discussion #1](https://github.com/everyinfra/jev-radar/discussions/1)。
 
 ### 为什么可信
 
