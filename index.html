@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jev Radar — verified tracker of the Jev ecosystem</title>
+<meta name="description" content="The most rigorously verified independent tracker of the Jev (TypeSafe AI System One) ecosystem: every project graded A/B by evidence depth, scanned daily. Bilingual EN/中文.">
+<link rel="canonical" href="https://radar.everyinfra.com/">
+<link rel="icon" href="assets/logo.png">
+<meta property="og:title" content="Jev Radar — verified tracker of the Jev ecosystem">
+<meta property="og:description" content="Every Jev project graded A/B by evidence depth, scanned daily.">
+<meta property="og:image" content="https://radar.everyinfra.com/assets/social-preview.png">
+<meta property="og:url" content="https://radar.everyinfra.com/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --bg: #f7f8fa; --panel: #ffffff; --ink: #14171c; --muted: #5b6472; --line: #e3e6eb;
+    --accent: #1f7a5a; --accent-soft: #e4f3ec; --a: #1f7a5a; --b: #2f5fa7; --b-soft: #e6eefa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1215; --panel: #171b20; --ink: #e8ebef; --muted: #9aa3ae; --line: #262c33;
+      --accent: #48c496; --accent-soft: #15302a; --a: #48c496; --b: #7aa7ec; --b-soft: #16233a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+  header { display: flex; align-items: center; justify-content: space-between; padding: 16px 0; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--ink); }
+  .brand img { width: 28px; height: 28px; border-radius: 6px; }
+  .lang button { border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 4px 10px;
+                 border-radius: 6px; cursor: pointer; font-size: 14px; }
+  .lang button[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .hero img { width: 100%; border-radius: 12px; border: 1px solid var(--line); display: block; }
+  h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin: 28px 0 8px; }
+  .sub { color: var(--muted); font-size: 18px; margin: 0 0 20px; }
+  .cta { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+  .btn { display: inline-block; padding: 9px 16px; border-radius: 8px; border: 1px solid var(--line);
+         background: var(--panel); color: var(--ink); font-weight: 600; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 28px 0; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .stat b { display: block; font-size: 28px; line-height: 1.2; }
+  .stat span { color: var(--muted); font-size: 14px; }
+  section { margin: 36px 0; }
+  h2 { font-size: 22px; margin: 0 0 12px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  .card p { margin: 6px 0 0; color: var(--muted); }
+  .tier { display: inline-block; min-width: 22px; text-align: center; font-weight: 700; font-size: 13px;
+          border-radius: 5px; padding: 1px 6px; }
+  .tier.A { background: var(--accent-soft); color: var(--a); }
+  .tier.B { background: var(--b-soft); color: var(--b); }
+  .bars div { display: grid; grid-template-columns: 140px 1fr 44px; align-items: center; gap: 10px; margin: 6px 0; font-size: 14px; }
+  .bars i { display: block; height: 10px; border-radius: 5px; background: var(--accent); }
+  .bars em { font-style: normal; color: var(--muted); text-align: right; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+  .filters input, .filters select { padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
+                                    background: var(--panel); color: var(--ink); font-size: 15px; }
+  .filters input { flex: 1 1 240px; min-width: 0; }
+  .list { display: grid; gap: 8px; }
+  .item { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .item .top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .item .name { font-weight: 700; }
+  .item .meta { color: var(--muted); font-size: 13px; }
+  .item p { margin: 4px 0 0; font-size: 15px; overflow-wrap: anywhere; }
+  .count { color: var(--muted); font-size: 14px; margin: 8px 0; }
+  footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding: 20px 0 40px; margin-top: 40px; }
+  [data-l="zh"] { display: none; }
+  html[lang="zh-CN"] [data-l="zh"] { display: revert; }
+  html[lang="zh-CN"] [data-l="en"] { display: none; }
+  @media (max-width: 720px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .grid2 { grid-template-columns: 1fr; }
+    .bars div { grid-template-columns: 100px 1fr 36px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="https://github.com/everyinfra/jev-radar"><img src="assets/logo.png" alt="">Jev Radar</a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="en">EN</button>
+      <button type="button" data-set="zh-CN">中文</button>
+    </div>
+  </header>
+
+  <div class="hero"><img src="assets/banner.png" alt="Jev Radar"></div>
+
+  <h1>
+    <span data-l="en">The most rigorously verified tracker of the Jev ecosystem</span>
+    <span data-l="zh">验证最严谨的 Jev 生态独立白皮书与实时监控</span>
+  </h1>
+  <p class="sub">
+    <span data-l="en">Every project is checked against a primary source and graded A or B by evidence depth. Scanned daily.</span>
+    <span data-l="zh">每个项目都对照一手来源核实，按证据深度分 A、B 两档，每日扫描更新。</span>
+  </p>
+  <div class="cta">
+    <a class="btn primary" href="https://github.com/everyinfra/jev-radar">GitHub</a>
+    <a class="btn" href="#registry"><span data-l="en">Browse the registry</span><span data-l="zh">查项目</span></a>
+    <a class="btn" href="https://github.com/everyinfra/jev-radar/blob/main/CASEBOOK.md">Casebook</a>
+    <a class="btn" href="https://github.com/everyinfra/jev-radar/blob/main/docs/jev-api-access-guide.zh.md"><span data-l="en">API access guide (zh)</span><span data-l="zh">API 接入指南</span></a>
+  </div>
+
+  <div class="stats" aria-live="polite">
+    <div class="stat"><b id="s-total">1,152</b><span data-l="en">graded entries</span><span data-l="zh">条已分级项目</span></div>
+    <div class="stat"><b id="s-a">490</b><span data-l="en">tier A · artifact inspected</span><span data-l="zh">A 档 · 亲自核验</span></div>
+    <div class="stat"><b id="s-b">662</b><span data-l="en">tier B · primary source on record</span><span data-l="zh">B 档 · 有一手来源</span></div>
+    <div class="stat"><b id="s-cat">—</b><span data-l="en">categories</span><span data-l="zh">个分类</span></div>
+  </div>
+
+  <section>
+    <h2><span data-l="en">What is Jev?</span><span data-l="zh">Jev 是什么</span></h2>
+    <div class="grid2">
+      <div class="card">
+        <span data-l="en">Jev is TypeSafe AI's first <em>System One</em> model (released 2026-09-15). It never writes prose: you send state plus typed questions and get decisions your code can branch on — <b>Noul</b> (is this true?), <b>Choice</b> (which option fits?) and <b>Score</b> (how good, on your rubric?).</span>
+        <span data-l="zh">Jev 是 TypeSafe AI 的第一个 <em>System One</em> 模型（2026-09-15 发布）。它不写句子：你给它状态和带类型的问题，它直接返回代码能分支的判断——<b>Noul</b>（是不是真的）、<b>Choice</b>（选哪个）、<b>Score</b>（按你的标准打几分）。</span>
+      </div>
+      <div class="card">
+        <span data-l="en"><span class="tier A">A</span> We inspected the artifact: read the repo, hit the live demo or called the API ourselves.</span>
+        <span data-l="zh"><span class="tier A">A</span> 我们亲自核验过：读了仓库、打开了在线演示，或自己调过接口。</span>
+        <p><span data-l="en"><span class="tier B">B</span> A primary source is on record (repo or original post), inspected at description level.</span>
+        <span data-l="zh"><span class="tier B">B</span> 有一手来源在案（仓库或原帖），核到描述层面。</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span data-l="en">What people build with it</span><span data-l="zh">大家用它做什么</span></h2>
+    <div class="card bars" id="bars"></div>
+  </section>
+
+  <section id="registry">
+    <h2><span data-l="en">Registry</span><span data-l="zh">项目库</span></h2>
+    <div class="filters">
+      <input id="q" type="search" placeholder="Search name, author, description…" aria-label="Search">
+      <select id="cat" aria-label="Category"><option value="">All categories</option></select>
+      <select id="tier" aria-label="Tier"><option value="">A + B</option><option value="A">A</option><option value="B">B</option></select>
+    </div>
+    <div class="count" id="count"></div>
+    <div class="list" id="list"></div>
+  </section>
+
+  <footer>
+    <span data-l="en">Independent and open source. Data: <a href="https://github.com/everyinfra/jev-radar/blob/main/data/projects.json">data/projects.json</a>, updated by the daily scan. Maintained by <a href="https://everyinfra.com">EveryInfra</a>.</span>
+    <span data-l="zh">独立、开源。数据来自 <a href="https://github.com/everyinfra/jev-radar/blob/main/data/projects.json">data/projects.json</a>，随每日扫描更新。由 <a href="https://everyinfra.com">EveryInfra</a> 维护。</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var DATA = "https://raw.githubusercontent.com/everyinfra/jev-radar/main/data/projects.json";
+  var root = document.documentElement, projects = [];
+  function setLang(l) {
+    root.lang = l;
+    document.querySelectorAll(".lang button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.set === l)); });
+    try { localStorage.setItem("radar-lang", l); } catch (e) {}
+    var zh = l === "zh-CN";
+    document.getElementById("q").placeholder = zh ? "搜索名称、作者、简介…" : "Search name, author, description…";
+    document.querySelector("#cat option[value='']").textContent = zh ? "全部分类" : "All categories";
+    render();
+  }
+  var saved = null;
+  try { saved = localStorage.getItem("radar-lang"); } catch (e) {}
+  var asked = new URLSearchParams(location.search).get("lang");
+  document.querySelectorAll(".lang button").forEach(function (b) { b.onclick = function () { setLang(b.dataset.set); }; });
+
+  function fmt(n) { return n.toLocaleString("en-US"); }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function safeUrl(u) { return /^https?:\/\//.test(u || "") ? u : null; }
+
+  function render() {
+    if (!projects.length) return;
+    var q = document.getElementById("q").value.trim().toLowerCase();
+    var cat = document.getElementById("cat").value, tier = document.getElementById("tier").value;
+    var hits = projects.filter(function (p) {
+      var t = (p.verification || {}).tier;
+      if (cat && p.category !== cat) return false;
+      if (tier && t !== tier) return false;
+      if (!q) return true;
+      return [p.name, p.author, p.one_liner, p.category].join(" ").toLowerCase().indexOf(q) !== -1;
+    });
+    var zh = root.lang === "zh-CN", shown = hits.slice(0, 60);
+    document.getElementById("count").textContent = zh
+      ? "共 " + fmt(hits.length) + " 个" + (hits.length > 60 ? "，显示前 60 个" : "")
+      : fmt(hits.length) + " match" + (hits.length === 1 ? "" : "es") + (hits.length > 60 ? " · showing the first 60" : "");
+    document.getElementById("list").innerHTML = shown.map(function (p) {
+      var t = (p.verification || {}).tier || "", url = safeUrl(p.url);
+      var name = url ? '<a class="name" href="' + esc(url) + '" rel="noopener">' + esc(p.name) + "</a>" : '<span class="name">' + esc(p.name) + "</span>";
+      return '<div class="item"><div class="top">' + (t ? '<span class="tier ' + esc(t) + '">' + esc(t) + "</span>" : "") + name +
+        '<span class="meta">' + esc(p.category) + (p.author ? " · " + esc(p.author) : "") + (p.status ? " · " + esc(p.status) : "") + "</span></div>" +
+        (p.one_liner ? "<p>" + esc(p.one_liner) + "</p>" : "") + "</div>";
+    }).join("");
+  }
+
+  function load(data) {
+    projects = data.projects || [];
+    var a = 0, b = 0, cats = {};
+    projects.forEach(function (p) {
+      var t = (p.verification || {}).tier;
+      if (t === "A") a++; else if (t === "B") b++;
+      cats[p.category] = (cats[p.category] || 0) + 1;
+    });
+    document.getElementById("s-total").textContent = fmt(projects.length);
+    document.getElementById("s-a").textContent = fmt(a);
+    document.getElementById("s-b").textContent = fmt(b);
+    var names = Object.keys(cats).sort(function (x, y) { return cats[y] - cats[x]; });
+    document.getElementById("s-cat").textContent = fmt(names.length);
+    var top = names.slice(0, 10), max = cats[top[0]] || 1;
+    document.getElementById("bars").innerHTML = top.map(function (c) {
+      return "<div><span>" + esc(c) + '</span><i style="width:' + (cats[c] / max * 100).toFixed(1) + '%"></i><em>' + cats[c] + "</em></div>";
+    }).join("");
+    var sel = document.getElementById("cat");
+    names.slice().sort().forEach(function (c) { var o = document.createElement("option"); o.value = c; o.textContent = c + " (" + cats[c] + ")"; sel.appendChild(o); });
+    ["q", "cat", "tier"].forEach(function (id) { document.getElementById(id).addEventListener("input", render); });
+    render();
+  }
+
+  setLang(asked === "zh" ? "zh-CN" : asked === "en" ? "en" : (saved || "en"));
+  fetch(DATA).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(load).catch(function () {
+    document.getElementById("count").textContent = "";
+    document.getElementById("list").innerHTML = '<div class="item"><a href="https://github.com/everyinfra/jev-radar/blob/main/data/projects.json">data/projects.json</a></div>';
+  });
+})();
+</script>
+</body>
+</html>
