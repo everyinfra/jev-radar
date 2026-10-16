@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1138,
+  "total_curated": 1152,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -22432,6 +22432,294 @@
     "method": "primary-source-exists",
     "confidence": 0.75,
     "verified_at": "2026-10-15"
+   }
+  },
+  {
+   "name": "xwjev",
+   "author": "marwinsteiner",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/marwinsteiner/xwjev",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "填字游戏求解器:7.2M 线索库+微调 bi-encoder 召回候选,Jev 每格一个 Choice(含 NONE_OF_THESE)给校准概率作一元势,再跑 loopy BP+模式扩展+局部搜索",
+   "metrics": "README 自述:NYT 2026-10-15 周四谜题全对,检索阶段 3.0s(模型加载另 3.4s),整体 <49s",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "Facet",
+   "author": "CeelNok",
+   "category": "vertical",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/CeelNok/facet-photo",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "摄影师选片/整理桌面应用(macOS/Windows,PySide6):自定义标签即 yes/no 问题,Jev 或 OpenAI 二选一,本地人脸识别+RAW 支持,阈值可实时预览调",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "Awesome-Jev (reacher-z)",
+   "author": "reacher-z",
+   "category": "directory",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/reacher-z/Awesome-Jev",
+   "tweet": "—",
+   "stars": 2,
+   "one_liner": "Jev 与 typed decision model 论文/模型/数据集/基准/SDK 精选清单,双语+BibTeX+筛选等级与计数口径文档,配套站 awesomejev.github.io;独立社区项目,非官方",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "ask-jev",
+   "author": "hrubymar10",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/hrubymar10/ask-jev",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "纯标准库 Go CLI + MCP stdio server:choice/noul/score/batch 问题,JSONC 配置、仅 HTTPS、本地结果日志",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "fast-compaction (flupkede)",
+   "author": "flupkede",
+   "category": "compaction",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/flupkede/fast-compaction",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "tamaratran/fast-jev-compaction 的派生版:加入发往 Jev 前的按形态密钥脱敏(src/redact.ts),本地返回的 transcript 不改;Claude Code 插件+npm 库",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "Dernier Abri / Last Shelter",
+   "author": "Pablositoo",
+   "category": "game",
+   "primitives": [
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Pablositoo/dernier-abri",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "法语 3D 防御游戏(aivancity 课程项目):Jev 只给\"僵尸/幸存者\"概率,确定性代码做贝叶斯证据融合+Wald 序贯检验+漂移检测后决定开火",
+   "metrics": "README 自述:数千局模拟零误杀人类",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "jev-dressroom(班味换装间)",
+   "author": "Finderchangchang",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Finderchangchang/jev-dressroom",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "摄像头换装玩具:说\"明天冷/热\",Jev 1.14 理解场景,Xmax/Decart Lucy/阿里云 Qwen Image 出画;README 如实标注 Xmax/Decart 未做真实生成验证;中文项目",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "JevChat-Windows",
+   "author": "ChenstarMr",
+   "category": "vertical",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/ChenstarMr/jev-chat-windows",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "jev-chat-JARVIS 的 Windows 版:本地离线 OCR 读聊天窗口→Jev 判意图/情绪→LLM 出 3 条候选,一键填入,发送永远手动;中文项目",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "dsh-judgment",
+   "author": "j62268781-alt",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/j62268781-alt/dsh-judgment",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "DeepSeek Harness 结构化判断插件:一份状态+一批命名问题→一批概率答案,只判不循环,含凭据/审计/计量;中文 README",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "Jev Flight Lab",
+   "author": "Ahmad-El-Chaar",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Ahmad-El-Chaar/jev-flight-lab",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "Flappy Bird 式实验:Jev 实时决定扑翼,概率与决策日志可见,另有本地规则控制器对照,零依赖",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "agent-reflex",
+   "author": "psygreg",
+   "category": "agent-safety",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/psygreg/agent-reflex",
+   "tweet": "—",
+   "stars": 1,
+   "one_liner": "OpenCode v2 插件:任意 System One 模型(Jev 或 llama.cpp/Ollama 本地)做危险 shell 守卫、历史压缩、按复杂度动态调 effort、编辑后语法检查",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "codex-agent-kit",
+   "author": "badriawan",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/badriawan/codex-agent-kit",
+   "tweet": "—",
+   "stars": 0,
+   "one_liner": "印尼语 Codex 多角色配置包(Sol/Astra/Luna),可选 Jev MCP 给委派建议与变更评分",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "Text-to-screenshot (Malay)",
+   "author": "MalayVasa",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://x.com/MalayVasa/status/2110515350140047375",
+   "tweet": "https://x.com/MalayVasa/status/2110515350140047375",
+   "stars": null,
+   "one_liner": "用文字描述屏幕上的目标,准星移过去截图;基于 Jev 1.14 Box 答案类型",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "Signature locator on scanned form (kyle_AI)",
+   "author": "kylefu07571",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://x.com/kylefu07571/status/2110626852373233806",
+   "tweet": "https://x.com/kylefu07571/status/2110626852373233806",
+   "stars": null,
+   "one_liner": "jev-1.14.0 + Danger-Zone 图像头在扫描表单上定位签名;作者自注原型,框有效不代表目标存在",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-16"
    }
   }
  ]
