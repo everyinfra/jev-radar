@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1152,
+  "total_curated": 1170,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -22720,6 +22720,373 @@
     "method": "primary-source-exists",
     "confidence": 0.75,
     "verified_at": "2026-10-16"
+   }
+  },
+  {
+   "name": "jev-gibbs",
+   "author": "eumemic",
+   "category": "eval",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/eumemic/jev-gibbs",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "复现 Large Language Gibbs(arXiv 2606.19264)TruthfulQA 实验,以 jev-1.13.0 作逐条件分布;另含 GSM8K、骑士与无赖、MusicBrainz 实体消解、亲属链对照",
+   "metrics": "TruthfulQA:Jev 零样本 0.913($0.005)、Gibbs m=16 0.931±0.003($0.40),论文最佳 0.835;Gibbs 不改善校准",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "jev-decision-layer",
+   "author": "suranjaychandra",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/suranjaychandra/jev-decision-layer",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "营销决策层(下一最佳动作+预算调控),Jev+jev-state,带回放式 dashboard,无需 key",
+   "metrics": "准确率 80.6%→95.6% / 58.3%→100%;自动执行错误 12→3 / 3→0;输入 token 约减半(作者自测)",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "jev-box-tracking",
+   "author": "BenCaunt",
+   "category": "robotics",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/BenCaunt/jev-box-tracking",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "实时目标跟踪:1.14 Box 问题给绝对位置,Lucas-Kanade 光流+卡尔曼滤波补帧,答案到达时回卷历史重算",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "Jevassic Park",
+   "author": "orshemtov",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/orshemtov/jevassic-park",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "活体主题乐园模拟:100 名游客由 Jev 逐个决策,所有观众共享一个园区,有线上站 jevassic-park.vercel.app",
+   "metrics": "5,000 访客中 100 名单独模拟;背景人物不发 AI 调用",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "openfox-jev",
+   "author": "adriy-be",
+   "category": "agent-safety",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/adriy-be/openfox-jev",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "OpenFox 工具审批插件:强制规则+确定性硬规则在前,System One 问题判 APPROVE/ESCALATE/DENY,支持影子模式;后端可选本地 Jev-Style 小模型或 Drex v2.0",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "S1 Studio",
+   "author": "doggy8088",
+   "category": "platform",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/doggy8088/s1-studio",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "厂商中立的 /v1/systemone Web UI 沙盒(繁中):TypeSafe Jev、Ollama clef/clef-flash 与自建端点,含图像输入与内置模拟器,可部署 Cloudflare Pages",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "jev-strict",
+   "author": "Jubii100",
+   "category": "sdk",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Jubii100/jev-strict",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "非官方严格 Python 客户端:钉死模型版本拒用别名、崩溃安全的 JSONL 用量表、月度硬上限,无 key/无预算即拒答;纯标准库",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "LogiPilot",
+   "author": "aigamer-dev",
+   "category": "vertical",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/aigamer-dev/logipilot",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Agent Wars 黑客松物流异常处理多 agent:Google ADK+Gemma 4,Jev 分诊(类别/严重度/危险品)+核验草稿,低置信/高价值硬停转人工",
+   "metrics": "每轮 5-20s(含多次真实模型调用,作者自述)",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "Doge Election for Communities",
+   "author": "106-",
+   "category": "vertical",
+   "primitives": [
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/106-/doge-election-community",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "日语 PoC:用 1268 年威尼斯总督选举协议为低信任网络社区选中立版主,每次赞成票由 Jev 读两人帖子代判;附幻灯片",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "codex-jev-turbo",
+   "author": "borja-cmd",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/borja-cmd/codex-jev-turbo",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "西语 OpenAI Codex 插件+skill:Codex 作 System Two 规划,Jev 在真实 Brave 浏览器里以 speculative fan-out 每步一调执行点击/滚动/填表",
+   "metrics": "作者自述 ~100ms/步",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "JevLab",
+   "author": "omnirogue",
+   "category": "eval",
+   "primitives": [
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/omnirogue/jevlab",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "离线 LLM-as-judge 评测工具箱:位置/冗长偏差诊断、Platt/温度/直方图校准、ECE/Brier 报告与 MCP 接口;纯标准库",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "Awesome Jev Papers",
+   "author": "xiaohuiyan",
+   "category": "directory",
+   "primitives": [],
+   "status": "live",
+   "url": "https://github.com/xiaohuiyan/awesome-jev-papers",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Jev / System One / 类型化决策模型论文精选,中英双语笔记、证据与 BibTeX,非官方",
+   "metrics": "174 篇(直接涉及 Jev 118,附验证代码 53),截至 2026-10-17",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "Teacher Supervision, Fixed Representations and Calibration",
+   "author": "asudjianto-xml",
+   "category": "eval",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/asudjianto-xml/Jev-Analysis",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Sudjianto & Burakov 2026-10 论文+模拟代码:高斯设定下精确计算教师软标签、冻结骨干、温度校准三要素的风险;声明不推断 Jev 内部实现",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "2048 × jevos",
+   "author": "laurencecao",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/laurencecao/2048-jevos",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "中文:可手玩 2048,侧栏由本机模型选每步并摊开概率/置信度/延迟/提示词;引擎为 jevos(C++/OpenVINO int8 纯 CPU)或 Ollama clef-flash:9b——非官方本地替代",
+   "metrics": "jevos 模型 679MB",
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "Mamba-Jev",
+   "author": "AntGalasso",
+   "category": "clone",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AntGalasso/jev-mamba",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "非官方 Jev 式克隆:Mamba 骨干单次前向,三个闭式岭回归头分别出 choice/score/noul,含 GCV 选参与精确 LOO",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "Atra-llmLab",
+   "author": "haya10hikawa-hub",
+   "category": "eval",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/haya10hikawa-hub/Atra-llmLab",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "日语研究仓:为 Atra 的 Formation/Personal 判断找精度高于 Jev、单位判断成本更低的模型;实验不自动进生产",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "MailShield",
+   "author": "rohitgit1",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/rohitgit1/mailshield-ai",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "邮件安全工作室,决策引擎为 TypeSafe Jev 与 Cloudflare Clef-Flash(无 README,仅仓库描述)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "jev-snake-python",
+   "author": "rumple",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/rumple/jev-snake-python",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Jev 决策模型玩贪吃蛇,jev-snake 的 Python 移植(无 README,仅仓库描述)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-10-17"
    }
   }
  ]

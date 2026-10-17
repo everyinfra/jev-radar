@@ -9,7 +9,7 @@
 
 **验证最严,没有之一 · Every entry graded A/B by evidence depth — the only registry in the ecosystem that does.**
 
-[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-1152_graded_entries-9cf)]() [![last scan](https://img.shields.io/badge/last_scan-2026--10--16-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
+[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-1170_graded_entries-9cf)]() [![last scan](https://img.shields.io/badge/last_scan-2026--10--17-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
 
 **[English](#english) · [中文](#中文)**
 
@@ -52,7 +52,7 @@ At least one real commit every day from 2026-09-19 to 10-14 — no gaps. Daily s
 
 ### Why you can trust it
 
-Every structured registry entry (108 in the first 2026-09-19 batch, 1,152 as of the last scan on 2026-10-16) carries a `verification` block assigned during research:
+Every structured registry entry (108 in the first 2026-09-19 batch, 1,170 as of the last scan on 2026-10-17) carries a `verification` block assigned during research:
 
 | Tier | Confidence | How it's earned |
 |---|---|---|
@@ -60,7 +60,7 @@ Every structured registry entry (108 in the first 2026-09-19 batch, 1,152 as of 
 | **B** | 0.75 | Primary source on record (repo or original post), inspected at description level |
 | **C** | 0.60 | Directory-indexed only — promoted on the next scan once opened |
 
-Original 2026-09-19 case-verification cohort: **38 × A · 70 × B · 0 × C** (the registry distribution as of the last scan, 2026-10-16, is the badge above — 1,152 entries: A 490 · B 662). Numbers inside entries are **as reported by their authors** unless marked reproduced. We also document what *doesn't* work: confidence ≠ correctness, ordering sensitivity, and a circulating wave of sped-up fake demos — with guidance on which repos carry real traces.
+Original 2026-09-19 case-verification cohort: **38 × A · 70 × B · 0 × C** (the registry distribution as of the last scan, 2026-10-17, is the badge above — 1,170 entries: A 505 · B 665). Numbers inside entries are **as reported by their authors** unless marked reproduced. We also document what *doesn't* work: confidence ≠ correctness, ordering sensitivity, and a circulating wave of sped-up fake demos — with guidance on which repos carry real traces.
 
 ### What people are building (by density)
 
@@ -90,7 +90,7 @@ Original 2026-09-19 case-verification cohort: **38 × A · 70 × B · 0 × C** (
 | [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API access guide** — waitlist walkthrough, the expedite-email trick, and no-wait alternatives (OpenRouter / Netlify / OpenJev / free playgrounds) |
 | [`skills/jev-radar-briefing/SKILL.md`](./skills/jev-radar-briefing/SKILL.md) | **One-file quickstart + daily-briefing skill** — drop into any SKILL.md-compatible agent for scheduled pulls and auto-generated digests; includes a no-agent shell script |
 
-**Cadence:** automated scan every 3 hours (2026-09-19 → 10-10), then daily at 19:00 UTC+8 from 10-11 (the 2026-10-15 19:00 run was skipped; scanning resumed the same evening). Every daily scan lands as a commit, with or without new entries; the registry stands at 1,152 entries as of the last scan.
+**Cadence:** automated scan every 3 hours (2026-09-19 → 10-10), then daily at 19:00 UTC+8 from 10-11 (the 2026-10-15 19:00 run was skipped; scanning resumed the same evening). Every daily scan lands as a commit, with or without new entries; the registry stands at 1,170 entries as of the last scan.
 **Sources swept:** awesome-typesafe · awesomejev.com (488 entries) · madewithjev.com (178 builds) · risetive.com/jev (98) · jevable.com · typesafeai.app · GitHub Search · X · Reddit · HN · V2EX/linux.do/Bilibili · YouTube · LinkedIn.
 
 ### Contributing
@@ -129,7 +129,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 
 ### 为什么可信
 
-每条结构化注册记录(2026-09-19 首批 108 条,截至 10-16 最后一轮扫描共 1,152 条)都带研究时打上的 `verification` 块:
+每条结构化注册记录(2026-09-19 首批 108 条,截至 10-17 最后一轮扫描共 1,170 条)都带研究时打上的 `verification` 块:
 
 | 层级 | 置信度 | 怎么挣来的 |
 |---|---|---|
@@ -137,7 +137,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 | **B** | 0.75 | 一手源(仓库/原帖)在档,做过描述级核查 |
 | **C** | 0.60 | 暂仅目录收录——下次扫描打开后升级 |
 
-2026-09-19 首批案例验证队列:**38 × A · 70 × B · 0 × C**(截至 2026-10-16 最后一轮扫描的注册表分布见顶部徽章——1,152 条:A 490 · B 662)。条目里的数字均为**作者自报**,复现过的会单独标注。我们同样记录不好用的部分:置信度 ≠ 正确性、对输入顺序敏感、以及市面上流通的加速假 demo——并告诉你哪些仓库带真实 trace。
+2026-09-19 首批案例验证队列:**38 × A · 70 × B · 0 × C**(截至 2026-10-17 最后一轮扫描的注册表分布见顶部徽章——1,170 条:A 505 · B 665)。条目里的数字均为**作者自报**,复现过的会单独标注。我们同样记录不好用的部分:置信度 ≠ 正确性、对输入顺序敏感、以及市面上流通的加速假 demo——并告诉你哪些仓库带真实 trace。
 
 ### 大家在做什么(按密度排序)
 
@@ -167,7 +167,7 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 | [`docs/jev-api-access-guide.zh.md`](./docs/jev-api-access-guide.zh.md) | **Jev API 申请攻略**——waitlist 全流程(含官网按钮 bug 与加急邮件技巧)、OpenRouter / Netlify / OpenJev 免排队通道、免费 Playground |
 | [`skills/jev-radar-briefing/SKILL.md`](./skills/jev-radar-briefing/SKILL.md) | **单文件接入 + 每日简报 Skill**——装进任意支持 SKILL.md 的 agent 即可定时拉取、自动生成日报;附不开 agent 的纯脚本版 |
 
-**节奏:**2026-09-19 至 10-10 每 3 小时自动扫描一次,10-11 起每天 19:00(UTC+8)一次(10-15 19:00 那一轮未跑,当晚恢复);每轮扫描无论有无新增都提交一个 commit。注册表以最后一轮扫描为准,目前 1,152 条。
+**节奏:**2026-09-19 至 10-10 每 3 小时自动扫描一次,10-11 起每天 19:00(UTC+8)一次(10-15 19:00 那一轮未跑,当晚恢复);每轮扫描无论有无新增都提交一个 commit。注册表以最后一轮扫描为准,目前 1,170 条。
 **覆盖来源:** awesome-typesafe · awesomejev.com(488 条)· madewithjev.com(178 个 build)· risetive.com/jev(98)· jevable.com · typesafeai.app · GitHub 搜索 · X · Reddit · HN · V2EX/linux.do/B站 · YouTube · LinkedIn。
 
 ### 参与贡献
