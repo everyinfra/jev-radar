@@ -1,6 +1,12 @@
-<div align="center">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/assets/hero-light.svg">
+    <img alt="A radar sweeps across Jev ecosystem categories; graded entries light up as it passes, and the latest verified projects are listed with their tiers. 1,170 entries: A 505 and B 665." src="docs/assets/hero-light.svg" width="100%">
+  </picture>
+</p>
 
-<img src="docs/assets/banner.png" width="880" alt="Jev Radar — the most rigorously verified tracker of the Jev ecosystem" />
+<div align="center">
 
 # Jev Radar 📡
 
@@ -9,9 +15,9 @@
 
 **验证最严,没有之一 · Every entry graded A/B by evidence depth — the only registry in the ecosystem that does.**
 
-[![status](https://img.shields.io/badge/monitor-active-brightgreen)]() [![cases](https://img.shields.io/badge/casebook-220%2B_cases-blue)]() [![registry](https://img.shields.io/badge/registry-1170_graded_entries-9cf)]() [![last scan](https://img.shields.io/badge/last_scan-2026--10--17-important)]() [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-purple)]() [![guide](https://img.shields.io/badge/API_access_guide-included-success)]()
+[![registry](https://img.shields.io/badge/registry-1170_graded_entries-brightgreen)](data/projects.json) [![cases](https://img.shields.io/badge/casebook-220%2B_cases-brightgreen)](CASEBOOK.md) [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-brightgreen)](#why-you-can-trust-it) [![guide](https://img.shields.io/badge/API_access_guide-included-brightgreen)](docs/jev-api-access-guide.zh.md) [![license](https://img.shields.io/badge/license-CC_BY_4.0_%C2%B7_data_CC0-brightgreen)](LICENSE)
 
-**[English](#english) · [中文](#中文)**
+**[English](#english) · [简体中文](#中文) · [Español](i18n/README.es.md)**
 
 </div>
 
@@ -103,7 +109,7 @@ Content: **CC BY 4.0** · Data: **CC0**. Independent community research — **no
 
 ### About EveryInfra (maintainer disclosure)
 
-Jev Radar is initiated and maintained by [EveryInfra](https://everyinfra.com) — public-data, web-search and CAPTCHA infrastructure for AI products, one API across 90 platforms. An independent report earns trust by disclosing its maintainer: editorial criteria, confidence grading and scan logs are all public in this repo, and this project is not affiliated with TypeSafe AI. If your Jev project needs live data as decision input, start at [everyinfra.com/docs](https://everyinfra.com/docs).
+Jev Radar is initiated and maintained by [EveryInfra](https://everyinfra.com) — public-data, web-search and CAPTCHA infrastructure for AI products, one API across 90 platforms. An independent report earns trust by disclosing its maintainer: editorial criteria, confidence grading and scan logs are all public in this repo, and this project is not affiliated with TypeSafe AI. If your Jev project needs live data as decision input, start at [everyinfra.com/docs](https://everyinfra.com/en/docs?utm_source=github&utm_medium=readme&utm_campaign=jev-radar&utm_content=maintainer_note) or the open-source [agent plugin](https://github.com/everyinfra/everyinfra-agent-plugins).
 
 ---
 
@@ -179,4 +185,4 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 内容 **CC BY 4.0** · 数据 **CC0**。独立社区研究,**与 TypeSafe AI 无关联**。指标均为作者自报;星数为 2026-09-19 时点快照。
 ### 关于 EveryInfra(维护方披露)
 
-Jev Radar 由 [EveryInfra](https://everyinfra.com) 发起并维护——面向 AI 产品的公开数据、网页搜索与验证码基础设施,一个 API 覆盖 90 个平台。独立报告的公信力来自维护方披露:编辑标准、置信度分级与扫描日志全部公开于本仓,本项目与 TypeSafe AI 无关联。若你的 Jev 项目需要实时数据作为决策输入,可从 [everyinfra.com/docs](https://everyinfra.com/docs) 开始。
+Jev Radar 由 [EveryInfra](https://everyinfra.com) 发起并维护——面向 AI 产品的公开数据、网页搜索与验证码基础设施,一个 API 覆盖 90 个平台。独立报告的公信力来自维护方披露:编辑标准、置信度分级与扫描日志全部公开于本仓,本项目与 TypeSafe AI 无关联。若你的 Jev 项目需要实时数据作为决策输入,可从 [everyinfra.com/docs](https://everyinfra.com/docs?utm_source=github&utm_medium=readme&utm_campaign=jev-radar&utm_content=maintainer_note_zh) 或开源的 [Agent 插件](https://github.com/everyinfra/everyinfra-agent-plugins)开始。
