@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1170,
+  "total_curated": 1199,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -23087,6 +23087,609 @@
     "method": "primary-source-exists",
     "confidence": 0.75,
     "verified_at": "2026-10-17"
+   }
+  },
+  {
+   "name": "jevgrep",
+   "author": "dzhng",
+   "category": "code-intelligence",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/dzhng/jevgrep",
+   "tweet": "https://x.com/dzhng/status/2103920741481848861",
+   "stars": 2886,
+   "one_liner": "用 Jev 判断文件/声明相关性的代码检索 CLI,给 coding agent 返回相关文件、阅读线索和原文摘录",
+   "metrics": "SWE-bench 10 任务对比:完成同样 8/10,成本约低 30%(README);作者推文称 v0.5 Jev 成本再降 59%",
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "Jevspresso",
+   "author": "statelyai",
+   "category": "demo",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/statelyai/jevspresso",
+   "tweet": "https://x.com/DavidKPiano/status/2106407550845600200",
+   "stars": 29,
+   "one_liner": "Jev + XState v6 状态机的模拟咖啡吧:Jev 只在状态机允许的动作里选,每步由 Jev 决策(Stately 出品)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "claude-jev",
+   "author": "0x7067",
+   "category": "compaction",
+   "primitives": [
+    "noul",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/0x7067/claude-jev",
+   "tweet": null,
+   "stars": 25,
+   "one_liner": "Claude Code 插件:用 Jev 做规则检查(违反 CLAUDE.md 的编辑带 file:line 拦截)、逐字压缩与提示路由",
+   "metrics": "重打分 247 条已接受编辑:v0.23.0 拦下 23 条(9.3%),v0.21.0 拦下 22 条(8.9%)(README)",
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "JEV Shield",
+   "author": "JamesANZ",
+   "category": "agent-safety",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/JamesANZ/JevPromptShield",
+   "tweet": null,
+   "stars": 202,
+   "one_liner": "提示注入/危险 shell 命令双时点防护:Jev 给文本打分,普通代码把分数变成拦截/询问/放行,agent 无投票权",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "jev-mcp",
+   "author": "burnigtm",
+   "category": "mcp",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/burnigtm/jev-mcp",
+   "tweet": null,
+   "stars": 64,
+   "one_liner": "本地 stdio MCP 服务:给 Cursor/Codex 等提供 jev_step/jev_review/jev_verify/jev_gate 等类型化判断工具",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "optim-jev",
+   "author": "Oqura-ai",
+   "category": "compaction",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Oqura-ai/optim-jev",
+   "tweet": null,
+   "stars": 47,
+   "one_liner": "Claude Code 长会话省 token 的三个优化器(陈旧工具输出、技能目录、模型路由),另含 Codex 模型路由",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "Claude x Jev",
+   "author": "charlesdove977",
+   "category": "agent-skill",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/charlesdove977/claude-x-jev",
+   "tweet": null,
+   "stars": 73,
+   "one_liner": "Claude Code 技能:Jev 做排序/检查/打分/门控,Claude 只读真正需要的内容",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "Hermes Jev Skills",
+   "author": "kerpopule",
+   "category": "agent-infra",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/kerpopule/hermes-jev-skills",
+   "tweet": null,
+   "stars": 1168,
+   "one_liner": "给 Hermes agent(兼容 Claude Code/Codex)的 Jev 技能集:模型路由、记忆、压缩、技能选择、浏览器/电脑操作",
+   "metrics": "README:约 0.4 秒、不足一分钱一次决策",
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "jev-harness(社区仓)",
+   "author": "TypeSafeAI",
+   "category": "agent-safety",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/TypeSafeAI/jev-harness",
+   "tweet": null,
+   "stars": 34,
+   "one_liner": "提案审查契约:LLM 提一个动作,Jev 回答 4 个窄问题,代码产出证据;社区仓,非官方 SDK(README 自述与 TypeSafe 官方团队无关)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "webctl",
+   "author": "dorkitude",
+   "category": "cli",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/dorkitude/webctl",
+   "tweet": null,
+   "stars": 162,
+   "one_liner": "给 agent 的智能网页搜索 CLI,Jev 做目标驱动的结果判断以省 token",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "apple-rag-mcp",
+   "author": "BingoWon",
+   "category": "mcp",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/BingoWon/apple-rag-mcp",
+   "tweet": null,
+   "stars": 121,
+   "one_liner": "Apple 开发文档与 WWDC 转写的 RAG MCP,混合检索后由 Jev 做相关性重排",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "Shapes of Stories",
+   "author": "Ferrum-Citadel",
+   "category": "creative",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Ferrum-Citadel/shapes-of-stories",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "对小说/剧本/转写逐段(约 800 词)用 Jev 打 10 条情绪曲线并标注事件与经典故事形状",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "jev4pg",
+   "author": "Sheltercosmo",
+   "category": "data-infra",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/Sheltercosmo/jev4pg",
+   "tweet": null,
+   "stars": 258,
+   "one_liner": "PostgreSQL 扩展:41 个 JEV 语义算子 + 自然语言转 SQL(中英文)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "JevVoice",
+   "author": "manikv723-jpg",
+   "category": "voice",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/manikv723-jpg/JevVoice",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Mac 语音助手(SayOpen 菜单栏/刘海 App):一口气说多条指令,Jev 在说话途中逐条执行,超出菜单才问 Claude",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "JEV Trading Command Center",
+   "author": "mars-tw",
+   "category": "trading",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/mars-tw/jev-trading-command-center",
+   "tweet": null,
+   "stars": 64,
+   "one_liner": "开源纸面交易研究应用:Jev 决策 + 3D 指挥中心与模型宠物 + 离线 demo,PaperBroker 模拟成交",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "ldraw-nova",
+   "author": "anteloc",
+   "category": "creative",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/anteloc/ldraw-nova",
+   "tweet": null,
+   "stars": 477,
+   "one_liner": "用 AI agent 生成 LEGO 模型(LDraw 零件、JSON 计划、几何检查、渲染对比),由 Jev 驱动",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "Decision Index 复现套件",
+   "author": "apolinario",
+   "category": "benchmark",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/apolinario/decision-index",
+   "tweet": null,
+   "stars": 77,
+   "one_liner": "类型化决策引擎基准的复现工具:可本机或 HF Job 重建冻结测试集并算榜单分数(Decision Index 0.4)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "system1-agents",
+   "author": "ThinkFlowLab",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/ThinkFlowLab/system1-agents",
+   "tweet": null,
+   "stars": 174,
+   "one_liner": "让 agent 用 System 1 决策模型(Jev、Laya、Cua-S1)做脑:浏览器、电脑、机器人、游戏预置 agent",
+   "metrics": "README 表:最高快 6 倍、便宜 25 倍、得分相同",
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "jevmlx(非官方)",
+   "author": "bnsd55",
+   "category": "alternative-runtime",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/bnsd55/jevmlx",
+   "tweet": null,
+   "stars": 75,
+   "one_liner": "非官方:Jev 风格并行约束决策,任意 MLX 模型在 Apple Silicon 上一次 prefill 给出 schema 合法 JSON 与每字段概率",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "vllm-jev(非官方)",
+   "author": "mode-io",
+   "category": "alternative-runtime",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/mode-io/vllm-jev",
+   "tweet": null,
+   "stars": 714,
+   "one_liner": "非官方:面向 Jev 类决策模型的原生 vLLM 服务(Linux/Apple Silicon/实验 Windows CPU),含 RadixFlow 前缀复用实验",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "Laya(非官方,开源兼容)",
+   "author": "NandhaKishorM",
+   "category": "model-weights",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/NandhaKishorM/laya",
+   "tweet": null,
+   "stars": 34146,
+   "one_liner": "开源 Jev 兼容 System 1 决策引擎:100+ 语言单次前向 33 ms,RLCD 训练,提供 pip/ONNX/MCP/LangChain 集成",
+   "metrics": "README:33 ms/请求",
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "laya-ts(非官方)",
+   "author": "receptron",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/receptron/laya",
+   "tweet": null,
+   "stars": 990,
+   "one_liner": "从 Node.js/TypeScript 经 ONNX Runtime 运行 Laya(开源 Jev 兼容 System 1 模型)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "jevos(非官方)",
+   "author": "feder-cr",
+   "category": "local-alternative",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/feder-cr/jev",
+   "tweet": null,
+   "stars": 902,
+   "one_liner": "非官方:Jev API 兼容的笔记本 CPU 本地决策模型,28–130 ms 返回各选项概率",
+   "metrics": "README:28–130 ms(笔记本 CPU)",
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "SelfJev(非官方)",
+   "author": "jwuthri-cloud",
+   "category": "local-alternative",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/jwuthri-cloud/SelfJev",
+   "tweet": null,
+   "stars": 49,
+   "one_liner": "非官方:自托管 4B 决策模型 selfjev-4b,Jev 兼容 HTTP API + Python SDK + 微调/RLCD",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "AnyJev(非官方)",
+   "author": "nokia-applied-research",
+   "category": "research",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/nokia-applied-research/AnyJev",
+   "tweet": null,
+   "stars": 1474,
+   "one_liner": "非官方:Nokia 应用研究院论文项目,把任意 LLM 变成 Jev 风格决策模型(类型化决策、真实概率、免训练),含 Decision Index 榜单成绩",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "tev1-4B-experimental(非官方)",
+   "author": "togethercomputer",
+   "category": "model-weights",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/togethercomputer/tev1",
+   "tweet": null,
+   "stars": 249,
+   "one_liner": "非官方:Together AI 在 Qwen3.5-4B 上微调的类 Jev 决策模型,附数据配方与训练示例(17 美元训练博客)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "JevAny(非官方)",
+   "author": "SimpleJev",
+   "category": "framework",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/SimpleJev/JevAny",
+   "tweet": null,
+   "stars": 117,
+   "one_liner": "非官方:System 1 决策模型训练/评测/部署开源基建",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "openjev(非官方)",
+   "author": "daseinlabs",
+   "category": "alternative-runtime",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/daseinlabs/open-jev",
+   "tweet": null,
+   "stars": 134,
+   "one_liner": "非官方:本地 Gemma 3 4B 的单次前向选项打分(MLX / PyTorch),无需解码",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "AgentJev-0.6B(非官方)",
+   "author": "malevrigns",
+   "category": "model-weights",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/malevrigns/agent-jev",
+   "tweet": null,
+   "stars": 395,
+   "one_liner": "非官方:0.6B 面向 agent 的 System One 决策模型,单次前向给出各选项概率",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-24"
    }
   }
  ]
