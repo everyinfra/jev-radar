@@ -36,7 +36,7 @@ Lo que lo puso en boca de todo el mundo en la comunidad de desarrollo: latencia 
 
 En sus primeros cinco días, el ecosistema Jev superó los **1,000 repositorios** (más de 21,600 estrellas al cuarto día). Jev Radar es un intento independiente de responder con evidencia a una sola pregunta: **¿qué está construyendo de verdad la gente con esto?**
 
-Cada caso se verificó contra una fuente primaria: un repositorio que abrimos, una demo en vivo que probamos o la publicación original de su autoría. Nada de rumores ni de listas infladas. Desde el 2026-09-19 un barrido automático (GitHub · X · cinco directorios de la comunidad) se ejecutó cada tres horas y, desde el 10-11, una vez al día a las 19:00 (UTC+8); lo nuevo se verifica, se califica y se sube al repositorio. El último barrido es del 2026-10-17.
+Cada caso se verificó contra una fuente primaria: un repositorio que abrimos, una demo en vivo que probamos o la publicación original de su autoría. Nada de rumores ni de listas infladas. Desde el 2026-09-19 un barrido automático (GitHub · X · cinco directorios de la comunidad) recoge candidatos; lo nuevo se verifica, se califica y se sube al repositorio. Último escaneo: 17-10-2026.
 
 ## Por qué puedes fiarte
 
