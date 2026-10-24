@@ -111,6 +111,18 @@ Content: **CC BY 4.0** · Data: **CC0**. Independent community research — **no
 
 Jev Radar is initiated and maintained by [EveryInfra](https://everyinfra.com) — public-data, web-search and CAPTCHA infrastructure for AI products, one API across 90 platforms. An independent report earns trust by disclosing its maintainer: editorial criteria, confidence grading and scan logs are all public in this repo, and this project is not affiliated with TypeSafe AI. If your Jev project needs live data as decision input, start at [everyinfra.com/docs](https://everyinfra.com/en/docs?utm_source=github&utm_medium=readme&utm_campaign=jev-radar&utm_content=maintainer_note) or the open-source [agent plugin](https://github.com/everyinfra/everyinfra-agent-plugins).
 
+#### Shipping activity
+
+<!-- readme-stats: charts are regenerated daily, do not edit by hand -->
+
+Commits per day across all EveryInfra repositories, including the private gateway (counts only), and releases per week. The chart is regenerated every day and prints its update time.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme-stats/activity-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/assets/readme-stats/activity-en-light.svg">
+  <img alt="Commits per day across all EveryInfra repositories and releases per week" src="docs/assets/readme-stats/activity-en-light.svg" width="100%">
+</picture>
+
 ---
 
 ## 中文
@@ -186,3 +198,15 @@ Jev 是 TypeSafe AI 于 **2026-09-15** 发布的首个 *System One* 模型。它
 ### 关于 EveryInfra(维护方披露)
 
 Jev Radar 由 [EveryInfra](https://everyinfra.com) 发起并维护——面向 AI 产品的公开数据、网页搜索与验证码基础设施,一个 API 覆盖 90 个平台。独立报告的公信力来自维护方披露:编辑标准、置信度分级与扫描日志全部公开于本仓,本项目与 TypeSafe AI 无关联。若你的 Jev 项目需要实时数据作为决策输入,可从 [everyinfra.com/docs](https://everyinfra.com/docs?utm_source=github&utm_medium=readme&utm_campaign=jev-radar&utm_content=maintainer_note_zh) 或开源的 [Agent 插件](https://github.com/everyinfra/everyinfra-agent-plugins)开始。
+
+#### 提交活跃度
+
+<!-- readme-stats: charts are regenerated daily, do not edit by hand -->
+
+EveryInfra 全部仓库（含未公开的网关仓，只统计数量）每天的提交和每周的发版。图每天重新生成，图上写着更新时间。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme-stats/activity-zh-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/assets/readme-stats/activity-zh-light.svg">
+  <img alt="EveryInfra 全部仓库每天的提交和每周的发版" src="docs/assets/readme-stats/activity-zh-light.svg" width="100%">
+</picture>

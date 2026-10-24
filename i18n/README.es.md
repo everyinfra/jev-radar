@@ -91,3 +91,15 @@ Contenido: **CC BY 4.0** · Datos: **CC0**. Investigación comunitaria independi
 ## Sobre EveryInfra (quién mantiene esto)
 
 Jev Radar lo inició y lo mantiene [EveryInfra](https://everyinfra.com/es?utm_source=github&utm_medium=readme&utm_campaign=jev-radar&utm_content=maintainer_note_es), infraestructura de datos públicos, búsqueda web y CAPTCHA para productos de IA. Un informe independiente se gana la confianza diciendo quién lo mantiene: los criterios editoriales, la calificación de confianza y los registros de barrido son públicos en este repositorio. Si tu proyecto con Jev necesita datos en vivo para decidir, mira el [plugin de código abierto para agentes](https://github.com/everyinfra/everyinfra-agent-plugins/blob/main/i18n/README.es.md).
+
+### Actividad de desarrollo
+
+<!-- readme-stats: charts are regenerated daily, do not edit by hand -->
+
+Commits por día en todos los repositorios de EveryInfra, incluido el gateway privado (solo recuentos), y versiones por semana. El gráfico se regenera cada día y muestra su hora de actualización.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../docs/assets/readme-stats/activity-es-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="../docs/assets/readme-stats/activity-es-light.svg">
+  <img alt="Commits por día en todos los repositorios de EveryInfra y versiones por semana" src="../docs/assets/readme-stats/activity-es-light.svg" width="100%">
+</picture>
