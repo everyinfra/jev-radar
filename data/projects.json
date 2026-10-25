@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1199,
+  "total_curated": 1227,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -23690,6 +23690,592 @@
     "method": "readme-read",
     "confidence": 0.9,
     "verified_at": "2026-10-24"
+   }
+  },
+  {
+   "name": "BotStory",
+   "author": "Incluwin",
+   "category": "game",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Incluwin/BotStory",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "MapleStory v83 私服:自主陪伴/居民/市民角色,聊天与意图判断用 Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "smart-doc-vision 智审图档",
+   "author": "ImYoyoData",
+   "category": "vertical",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/ImYoyoData/smart-doc-vision",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "档案图档智能审核平台(Go+Vue),通用大模型之外原生接入 Jev 结构化决策",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "greenlight",
+   "author": "KHAEntertainment",
+   "category": "agent-safety",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/KHAEntertainment/greenlight",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Pi 编码代理的风险命令闸门:把 Jev 标记的命令上报给编排者(Traycer/A2A)批准",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "jev-tune",
+   "author": "lijiawei255",
+   "category": "robotics",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/lijiawei255/jev-tune",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "PID 自整定的校准决策安全壳:温度缩放+split-conformal,附 C99/MATLAB 移植",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "jev-oracle",
+   "author": "RahulM0912",
+   "category": "game",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/RahulM0912/jev-oracle",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Next.js 小应用:占卜/8号球/20问/井字棋等 9 种 Jev 决策玩法,有线上 demo",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "Deterministic-Text-to-SQL",
+   "author": "snaga",
+   "category": "data-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/snaga/Deterministic-Text-to-SQL",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Jev+sqlglot 的确定性 Text-to-SQL,自述 <0.5ms 合成,支持 Apache Ossie 语义模型",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "buildornot",
+   "author": "blakestone-x",
+   "category": "tools",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/blakestone-x/buildornot",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "CLI:对副业点子给 BUILD/MAYBE/DON'T BUILD 判断并查 GitHub/HN 先例",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "jev-trolley-switch",
+   "author": "xiaotian1171",
+   "category": "eval",
+   "primitives": [
+    "choice",
+    "noul",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/xiaotian1171/jev-trolley-switch",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "电车难题决策实验室:同一情境跑 choice/noul/score 三原语对比(Pollinations Quest)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "laya Railway 模板(非官方)",
+   "author": "two-workspaces",
+   "category": "clone",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/two-workspaces/laya",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "非官方:把开源 Laya 决策模型以 Jev 兼容 API(/v1/systemone)部署到 Railway",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "jev-workshop",
+   "author": "jaimebuelta",
+   "category": "community",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/jaimebuelta/jev-workshop",
+   "tweet": null,
+   "stars": 10,
+   "one_liner": "Jev 工作坊(2026-10-24 Luma 活动)练习代码",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "ClinGuard-RAG(非官方,Laya)",
+   "author": "saberfazliahmadi",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/saberfazliahmadi/clinguard-laya-rag",
+   "tweet": null,
+   "stars": 5,
+   "one_liner": "非官方:基于 Laya/Jev 思路的医疗 RAG 五阶段决策安全层(仅教学演示,非医疗器械)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "Jev-Chat for WeChat",
+   "author": "lsp199308",
+   "category": "vertical",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/lsp199308/Jev-Chat-for-WeChat",
+   "tweet": null,
+   "stars": 11,
+   "one_liner": "iOS 越狱微信插件:消息意图分析卡片+4 条建议回复(Theos Tweak)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "Jev DevTools",
+   "author": "diegoag64",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/diegoag64/jev-devtools",
+   "tweet": null,
+   "stars": 5,
+   "one_liner": "React/Next.js 的 Jev 调用检查器:查看请求、返回概率与应用路径(npm v0.5.0,实验性)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "jev-browser-agent",
+   "author": "ali-master",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/ali-master/jev-browser-agent",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Bun/TS 浏览器代理库+CLI:给网站和目标,Jev 逐步点击/输入/读页并返回带来源结果",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "ats-search-tool",
+   "author": "MaksimZinovev",
+   "category": "vertical",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/MaksimZinovev/ats-search-tool",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "本地求职指挥台:Brave 搜 29 个 ATS 招聘平台,TypeSafe 四维度给匹配打分",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "Jev Cards",
+   "author": "Jose-Sabater",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Jose-Sabater/jevcards",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "视觉问答游戏:你对战 Jev 1.14,同图卡片约 0.25s 作答;2026-10-20 上 Show HN,v2 迁至 Opper",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "systemone-delphi",
+   "author": "danieleteti",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/danieleteti/systemone-delphi",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Delphi 的 System One 客户端(Jev、tev1、Ollama 上的 nimble),单文件 RTL",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "x-reply-judge-jev",
+   "author": "liaocaoxuezhe",
+   "category": "browser-extension",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/liaocaoxuezhe/x-reply-judge-jev",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Chrome 扩展:在 X 回复上标 AI 概率徽章(Clef 或 Jev),派生自 x-reply-guard",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "Photo Ferret",
+   "author": "JonesSteven",
+   "category": "tools",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/JonesSteven/photo-ferret",
+   "tweet": "https://x.com/yibie/status/2113174237251084670",
+   "stars": 3,
+   "one_liner": "Jev 图像模型给照片按几十个维度打分,访客用滑块浏览约 2800 张自然摄影",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "duckdb-jev-spatial(Laya)",
+   "author": "mraad",
+   "category": "data-infra",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/mraad/duckdb-jev-spatial",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "DuckDB 原生扩展:7 个 Jev 风格 SQL 函数,本地 Laya(Rust+ONNX)运行,无托管模型",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "ClauJev",
+   "author": "Civalski",
+   "category": "code-quality",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Civalski/claujev",
+   "tweet": "https://x.com/yibie/status/2113174237251084670",
+   "stars": 4,
+   "one_liner": "Claude Code 插件:改动落地前由 Jev 检查,留下请求、裁决与概率",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "dsh-jev-thinkout",
+   "author": "Han-1413141",
+   "category": "agent-context",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/Han-1413141/dsh-jev-thinkout",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "DeepSeek Harness 插件:用 JeV 从长思考中筛选任务信息,外显为聊天进度/规划/小结",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "MicroLLM(非官方)",
+   "author": "jmrenouard",
+   "category": "clone",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/jmrenouard/MicroLLM",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "非官方:本地 System-One 决策引擎,自述 CPU <5ms、JevCompat 32/32 兼容",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "alethe-jev",
+   "author": "Kc1t",
+   "category": "voice",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Kc1t/alethe-jev",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Alethe 的语音插件:语音指令经 OpenRouter decisions API 由 Jev 路由,听写+历史",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "Groot 1(非官方)",
+   "author": "leofmarciano",
+   "category": "clone",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/leofmarciano/groot",
+   "tweet": null,
+   "stars": 12,
+   "one_liner": "非官方:开源类 Jev 决策模型(482M/149M),64k 上下文单次前向校准输出",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "jev-communication-assistant",
+   "author": "ke971225-prog",
+   "category": "vertical",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ke971225-prog/jev-communication-assistant",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Windows 本地聊天辅助:读复制文本/截图,Jev 判意图并出翻译与回复草稿(早期预览)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "system_one_model_course",
+   "author": "ApurvaMisra",
+   "category": "community",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/ApurvaMisra/system_one_model_course",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "O'Reilly《Building with Jev and System One Models》课程 Jupyter 配套",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "arxiv-jev-digest",
+   "author": "Monkeypox966",
+   "category": "content-scoring",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/Monkeypox966/arxiv-jev-digest",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "GitHub Actions 每日 arXiv 筛选(Jev 判相关性)+DeepSeek 中文摘要邮件",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-25"
    }
   }
  ]
