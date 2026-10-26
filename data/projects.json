@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1227,
+  "total_curated": 1232,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -24276,6 +24276,108 @@
     "method": "readme-read",
     "confidence": 0.9,
     "verified_at": "2026-10-25"
+   }
+  },
+  {
+   "name": "AskJev",
+   "author": "ranjan2829",
+   "category": "browser-agent",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/ranjan2829/AskJev",
+   "tweet": null,
+   "stars": 8,
+   "one_liner": "Claude Desktop .mcpb 扩展:用自然语言驱动 Brave/Chrome,页面决策由 Jev 负责,Guard 冻结不可逆点击",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-26"
+   }
+  },
+  {
+   "name": "jev-skills",
+   "author": "eran-broder",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/eran-broder/jev-skills",
+   "tweet": null,
+   "stars": 6,
+   "one_liner": "Claude Code/Codex 插件:把 skill 移出上下文,每轮由 Jev 分类器选出该给模型看的 skill(常驻上下文 0 token)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-26"
+   }
+  },
+  {
+   "name": "jevbench",
+   "author": "dhruvmehra",
+   "category": "eval",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/dhruvmehra/jevbench",
+   "tweet": null,
+   "stars": 9,
+   "one_liner": "可复现基准:Jev、Laya、LLM、BERT 等 6 个分类器在 3 个公开数据集上比准确率/校准/延迟/成本",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-26"
+   }
+  },
+  {
+   "name": "vigilant-heron",
+   "author": "coo-quack",
+   "category": "agent-safety",
+   "primitives": [
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/coo-quack/vigilant-heron",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Rust 反向代理:固定规则拦明显攻击,可疑请求交决策模型(Jev/Clef 等)打分后放行或拦截;早期开发",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-26"
+   }
+  },
+  {
+   "name": "JevGAG",
+   "author": "j1s4nn",
+   "category": "vertical",
+   "primitives": [
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/j1s4nn/JevGAG",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "研究仓:Jev 驱动的因果视频生成自适应时间粒度(论文+审计,配项目页)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-26"
    }
   }
  ]

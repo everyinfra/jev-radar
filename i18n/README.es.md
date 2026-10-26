@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../docs/assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="../docs/assets/hero-light.svg">
-    <img alt="Un radar barre las categorías del ecosistema Jev; las entradas calificadas se iluminan a su paso y a la derecha aparecen los últimos proyectos verificados con su nivel. 1,227 entradas: A 562 y B 665." src="../docs/assets/hero-light.svg" width="100%">
+    <img alt="Un radar barre las categorías del ecosistema Jev; las entradas calificadas se iluminan a su paso y a la derecha aparecen los últimos proyectos verificados con su nivel. 1,232 entradas: A 567 y B 665." src="../docs/assets/hero-light.svg" width="100%">
   </picture>
 </p>
 
@@ -12,7 +12,7 @@
 
 ### El informe de campo independiente sobre el ecosistema Jev, con cada entrada calificada por su evidencia
 
-[![registry](https://img.shields.io/badge/registro-1227_entradas_calificadas-brightgreen)](../data/projects.json) [![cases](https://img.shields.io/badge/casebook-220%2B_casos-brightgreen)](../CASEBOOK.md) [![verified](https://img.shields.io/badge/evidencia-A%2FB%2FC-brightgreen)](#por-qué-puedes-fiarte) [![guide](https://img.shields.io/badge/guía_de_acceso_a_la_API-incluida-brightgreen)](../docs/jev-api-access-guide.zh.md) [![license](https://img.shields.io/badge/licencia-CC_BY_4.0_%C2%B7_datos_CC0-brightgreen)](../LICENSE)
+[![registry](https://img.shields.io/badge/registro-1232_entradas_calificadas-brightgreen)](../data/projects.json) [![cases](https://img.shields.io/badge/casebook-220%2B_casos-brightgreen)](../CASEBOOK.md) [![verified](https://img.shields.io/badge/evidencia-A%2FB%2FC-brightgreen)](#por-qué-puedes-fiarte) [![guide](https://img.shields.io/badge/guía_de_acceso_a_la_API-incluida-brightgreen)](../docs/jev-api-access-guide.zh.md) [![license](https://img.shields.io/badge/licencia-CC_BY_4.0_%C2%B7_datos_CC0-brightgreen)](../LICENSE)
 
 **[English](../README.md#english) · [简体中文](../README.md#中文) · Español**
 
@@ -36,11 +36,11 @@ Lo que lo puso en boca de todo el mundo en la comunidad de desarrollo: latencia 
 
 En sus primeros cinco días, el ecosistema Jev superó los **1,000 repositorios** (más de 21,600 estrellas al cuarto día). Jev Radar es un intento independiente de responder con evidencia a una sola pregunta: **¿qué está construyendo de verdad la gente con esto?**
 
-Cada caso se verificó contra una fuente primaria: un repositorio que abrimos, una demo en vivo que probamos o la publicación original de su autoría. Nada de rumores ni de listas infladas. Desde el 2026-09-19 un barrido automático (GitHub · X · cinco directorios de la comunidad) recoge candidatos; lo nuevo se verifica, se califica y se sube al repositorio. Último escaneo: 25-10-2026.
+Cada caso se verificó contra una fuente primaria: un repositorio que abrimos, una demo en vivo que probamos o la publicación original de su autoría. Nada de rumores ni de listas infladas. Desde el 2026-09-19 un barrido automático (GitHub · X · cinco directorios de la comunidad) recoge candidatos; lo nuevo se verifica, se califica y se sube al repositorio. Último escaneo: 26-10-2026.
 
 ## Por qué puedes fiarte
 
-Cada entrada estructurada del registro (108 en el primer lote del 2026-09-19, 1,227 tras el último barrido del 2026-10-25) lleva un bloque `verification` asignado durante la investigación:
+Cada entrada estructurada del registro (108 en el primer lote del 2026-09-19, 1,232 tras el último barrido del 2026-10-26) lleva un bloque `verification` asignado durante la investigación:
 
 | Nivel | Confianza | Cómo se gana |
 |---|---|---|
@@ -48,7 +48,7 @@ Cada entrada estructurada del registro (108 en el primer lote del 2026-09-19, 1,
 | **B** | 0.75 | Hay una fuente primaria en el expediente (repositorio o publicación original), revisada a nivel de descripción |
 | **C** | 0.60 | Solo aparece en un directorio; sube de nivel en el siguiente barrido, cuando se abre |
 
-Cohorte original de verificación de casos del 2026-09-19: **38 × A · 70 × B · 0 × C**. Distribución del registro tras el último barrido: 1,227 entradas, A 562 · B 665. Las cifras dentro de cada entrada son **las que declara su autoría**, salvo que se marquen como reproducidas. También documentamos lo que *no* funciona: confianza no es acierto, la sensibilidad al orden y una ola de demos falsas aceleradas, con indicaciones sobre qué repositorios tienen trazas reales.
+Cohorte original de verificación de casos del 2026-09-19: **38 × A · 70 × B · 0 × C**. Distribución del registro tras el último barrido: 1,232 entradas, A 567 · B 665. Las cifras dentro de cada entrada son **las que declara su autoría**, salvo que se marquen como reproducidas. También documentamos lo que *no* funciona: confianza no es acierto, la sensibilidad al orden y una ola de demos falsas aceleradas, con indicaciones sobre qué repositorios tienen trazas reales.
 
 ## Qué se está construyendo (por densidad)
 
