@@ -1,3 +1,6 @@
+<!-- rq223-banner -->
+<p align="center"><img alt="Jev Radar — A confidence-graded tracker of the Jev ecosystem, every entry traced to its source" src="docs/assets/banner-en.jpg" width="100%"></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/hero-dark.svg">
