@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1232,
+  "total_curated": 1286,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -24378,6 +24378,1106 @@
     "method": "readme-read",
     "confidence": 0.9,
     "verified_at": "2026-10-26"
+   }
+  },
+  {
+   "name": "jevmcp",
+   "author": "eaisdevelopment",
+   "category": "code-quality",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/eaisdevelopment/jevmcp",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Claude Code/Codex 插件:Jev 做规格漂移、CI 失败、代码规则违规的秒级筛查",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev",
+   "author": "david1gp",
+   "category": "sdk",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/david1gp/jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "@adaptive-ds/jev:Result 风格 TS 客户端+CLI,同时支持 TypeSafe System One、Cloudflare Clef、OpenAI Decisions,含图像输入",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "snapif",
+   "author": "snapif",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/snapif/snapif",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Rust 工具调用闸门:对单次 tool call 返回 Auto/Review/Escalate",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "btx-skill-jev-judge",
+   "author": "bitranox",
+   "category": "sdk",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/bitranox/btx-skill-jev-judge",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Claude Code 插件+Python CLI:把大批量重复判断交给 Jev,带脱敏、限速和试点",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-outlook-cleaner",
+   "author": "jimmyLC",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/jimmyLC/jev-outlook-cleaner",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "本地 Web 应用:用 Jev 谨慎清理 Outlook 旧收件箱,可从已删除恢复",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-ecosystem-research",
+   "author": "freezetheflame",
+   "category": "community",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/freezetheflame/jev-ecosystem-research",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 生态调研笔记(中文):开源复现规模、JevBench 解读、许可证陷阱;自述 Jev 本身闭源",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-atlas",
+   "author": "gorock007",
+   "category": "directory",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/gorock007/jev-atlas",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "独立的 Jev 实地指南(jev.gorock.sh),面向人和编码代理;声明与 TypeSafe 无关",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "decisionkit-dotnet",
+   "author": "iamjonatha",
+   "category": "sdk",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/iamjonatha/decisionkit-dotnet",
+   "tweet": null,
+   "stars": null,
+   "one_liner": ".NET 强类型、与供应商无关的决策/评估模型,TypeSafe JEV 是首个 provider",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-router",
+   "author": "hyspacex",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/hyspacex/jev-router",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "自托管模型路由:Jev 评估新任务后按 YAML 规则选模型和推理强度并保持整个会话",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-mcp",
+   "author": "freepik-company",
+   "category": "sdk",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/freepik-company/jev-mcp",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Freepik 出品 MCP 服务器:经 OpenRouter 或 TypeSafe 提供类型化决策",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-gate",
+   "author": "MongLong0214",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/MongLong0214/jev-gate",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Claude Code 模型路由:V3 原型可运行,按每轮任务难度选模型和 effort",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "local-software-update-monitor",
+   "author": "Jascenn",
+   "category": "vertical",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Jascenn/local-software-update-monitor",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "灵翼 App Watch:本地优先 macOS 软件更新看板,可选 Jev 做升级风险评估(Jev 为可选项)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "codex-thread-title-organizer",
+   "author": "overstarry",
+   "category": "code-quality",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/overstarry/codex-thread-title-organizer",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "用 Jev 判断 Codex 对话状态并维护标题前缀(Hook 驱动)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jobme-job-scout",
+   "author": "hwillysim",
+   "category": "vertical",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/hwillysim/jobme-job-scout",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "求职侦察:抓 150+ 澳洲雇主职位页,用 Jev 按个人画像打分出短名单",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-chess",
+   "author": "DevItaliya22",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/DevItaliya22/jev-chess",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 自对弈国际象棋,Stockfish 评分",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "claudecode-jev-marketplace",
+   "author": "skylence-org",
+   "category": "platform",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/skylence-org/claudecode-jev-marketplace",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "把 Jev 接进 Claude Code 的插件市场:hook 决策原语与 Skylence herdr 代理组织",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jcGearbox",
+   "author": "KevinYu1580",
+   "category": "routing",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/KevinYu1580/jcGearbox",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Claude Code mod:每会话选一次模型、每轮选 effort,用 Jev 判断任务难度",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "pi-typesafe-approve",
+   "author": "Davidasx",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Davidasx/pi-typesafe-approve",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Pi 扩展:用 System One (Jev) 自动批准例行 Bash 命令,其余升级给人",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev",
+   "author": "hdjekuue",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/hdjekuue/awesome-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "自更新三语 Jev 生态目录(AI 整理)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev",
+   "author": "yibie",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/yibie/awesome-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "按类别整理的 Jev 公开项目与实践 awesome 列表(脚本生成)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev-projects",
+   "author": "logicrw",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/logicrw/awesome-jev-projects",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Awesome Jev:带来源的开源生态雷达,自动同步 GitHub",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev",
+   "author": "Amal-David",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Amal-David/awesome-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 演示、项目、SDK 与技能列表,附 X 精选图集",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev",
+   "author": "AppitStudio",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/AppitStudio/awesome-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 应用、开发资源与可运行决策示例的精选列表",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev",
+   "author": "Promethe-us",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Promethe-us/awesome-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "带来源的 Jev/System One 知识地图:项目、论文、评测、机器人与社媒发现",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev",
+   "author": "MrJev",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/MrJev/awesome-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 项目、集成与资源精选列表",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev",
+   "author": "ckaraca",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/ckaraca/awesome-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "基于 Jev 的工具、集成与实验精选列表",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev",
+   "author": "jtnkminimal",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/jtnkminimal/awesome-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 项目精选列表,链接 Choice/Noul 等原语文档",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-jev",
+   "author": "majiayu000",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/majiayu000/awesome-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev/TypeSafe System One 项目、SDK、教程与评测精选(中英)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-system-one",
+   "author": "andyrewlee",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/andyrewlee/awesome-system-one",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "System One 决策模型清单:Jev 为首个,另含开源与托管替代品、代理、工具与基准",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "awesome-trustworthy-jev",
+   "author": "dongtsi",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/dongtsi/awesome-trustworthy-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 可信性与基于 Jev 的网络安全应用论文/项目合集(中英)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jevguide",
+   "author": "2456868764",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/2456868764/jevguide",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "按类别整理的 X 上 Jev 展示,附视频帧预览和原帖链接",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "JevHub",
+   "author": "frontierlabai",
+   "category": "directory",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/frontierlabai/JevHub",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 生态热榜:每日自动发现、按 Stars 排序,中英双语",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "Valen",
+   "author": "Valen-Team",
+   "category": "clone",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Valen-Team/Valen",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "自训练多模态 System One 决策模型(Jev 类开源,非官方)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "JevalKit",
+   "author": "Valen-Team",
+   "category": "eval",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Valen-Team/JevalKit",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 类模型开源评测工具包,支持 20+ 模型、8+ 基准(非官方)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-from-scratch",
+   "author": "I-You-Dream",
+   "category": "clone",
+   "primitives": [
+    "choice",
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/I-You-Dream/jev-from-scratch",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "基于 Qwen3.5-4B 从零复刻 Jev 范式,含 ECE 概率校准链路(非官方复现)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "beebots",
+   "author": "imikerussell",
+   "category": "trading",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/imikerussell/beebots",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "三只 AI 交易蜂在 OKX 用 Jev 决策;实验结束:30 天实盘 $999→$785.16(-21.4%),AI 调用另花 $42.35",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "ppj-paperjev",
+   "author": "YI-LON",
+   "category": "trading",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/YI-LON/ppj-paperjev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Jev 看 Hyperliquid BTC/ETH 订单簿下单,经 Papertrade 模拟成交",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jevcrawl",
+   "author": "RayenMlayeh",
+   "category": "browser-agent",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/RayenMlayeh/jevcrawl",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "给 AI 代理用的网页爬虫 MCP/CLI,宣称找到答案页的概率约为 Crawl4AI 的 2 倍",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jevfetch",
+   "author": "a2sys-ai",
+   "category": "browser-agent",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/a2sys-ai/jevfetch",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "给编码代理的网页阅读器:按问题返回页面相关原文片段",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "patrol-jev",
+   "author": "patrol-jev",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/patrol-jev/patrol-jev",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "韩语:上传照片生成巡逻日志并导出 hwpx;读图用通用 AI,判断用 Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-mcp",
+   "author": "blakestone-x",
+   "category": "sdk",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/blakestone-x/jev-mcp",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "TypeSafe Jev 的 MCP:classify/score/check/match/screen,每个答案带置信度",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jevcraft",
+   "author": "mrubens",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/mrubens/jevcraft",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Minecraft 机器人:2026-10-24 从零生存世界打败末影龙,全程不写一个字",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "JevLight",
+   "author": "usail-hkust",
+   "category": "robotics",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/usail-hkust/JevLight",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "HKUST 研究:Jev 驱动的交通信号控制(CityFlow/SUMO),输出相位与绿灯时长",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "tinycomputer",
+   "author": "tinyhumansai",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/tinyhumansai/tinycomputer",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Rust 桌面+浏览器自动化 harness,每个操作选择由 Jev 决定",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jevit",
+   "author": "Xvectorio",
+   "category": "browser-extension",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Xvectorio/jevit",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Thunderbird 邮件分拣插件:用是非问题(recipe)让 Jev 打标签;声明非官方",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "fastbrowse",
+   "author": "agent-labs-dev",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/agent-labs-dev/fastbrowse",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "快速浏览器代理:Jev 逐步选动作,LLM 阅读规划,答案每条引用原文",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "hiep-paseo-plugin",
+   "author": "HiepPP",
+   "category": "platform",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/HiepPP/hiep-paseo-plugin",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "本地 Paseo 插件套件,经 MCP 暴露 Jev 评估",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jevpact",
+   "author": "transcendr",
+   "category": "compaction",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/transcendr/jevpact",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Codex 插件:在合适的工作转换点请求原生压缩并安全继续",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-studio",
+   "author": "utk2103",
+   "category": "platform",
+   "primitives": [
+    "choice",
+    "score",
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/utk2103/jev-studio",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "把玩 Jev 的一站式套件:Choice/Noul/Score 的 MCP 工具",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-model-router",
+   "author": "zerone-agents",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/zerone-agents/jev-model-router",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "轻量代理模型路由网关,兼容 OpenAI/Anthropic API,Jev 按模型卡选模型",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "jev-codex-plugin",
+   "author": "integrate-your-mind",
+   "category": "platform",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/integrate-your-mind/jev-codex-plugin",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "Codex/Claude Code 插件:决策咨询、失败诊断和基于证据的完成度评审",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "Situation-Puzzle",
+   "author": "ZeroTang05",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/ZeroTang05/Situation-Puzzle",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "AI 海龟汤:由 Jev 当主持,逐条判「是/否/无关」",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "Jev-Desktop",
+   "author": "jacks3tr",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/jacks3tr/Jev-Desktop",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "经 MCP/命令行让 AI 代理操作 Windows 应用,Jev 观察窗口并选择控件",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-read",
+    "confidence": 0.9,
+    "verified_at": "2026-10-27"
+   }
+  },
+  {
+   "name": "whichLanguage",
+   "author": "AM5hubh",
+   "category": "idea",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AM5hubh/whichLanguage",
+   "tweet": null,
+   "stars": null,
+   "one_liner": "仓库描述称基于 TypeSafe Jev 做决策任务(当天新建,README 缺失,仅描述级核查)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-27"
    }
   }
  ]
