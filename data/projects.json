@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1333,
+  "total_curated": 1375,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -26437,6 +26437,850 @@
     "method": "description-level",
     "confidence": 0.75,
     "verified_at": "2026-10-28"
+   }
+  },
+  {
+   "name": "typesafe",
+   "author": "phpaisdk",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/phpaisdk/typesafe",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "PHP AI SDK 的原生 Jev 决策 provider(noul/choice/score,保留概率与置信度)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-lab",
+   "author": "Nijal-AI",
+   "category": "eval",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Nijal-AI/jev-lab",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "法语教学工坊:Jev 与 LLM 对比,反诈骗过滤任务与阈值校准(FastAPI)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "hermes-jev-routing",
+   "author": "psthi",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/psthi/hermes-jev-routing",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Hermes Agent 逐轮模型路由,经 OpenRouter Decisions API 调 Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-typesafe-gatekeeper",
+   "author": "sunjongos",
+   "category": "agent-infra",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/sunjongos/jev-typesafe-gatekeeper",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "90/10 混合闸门技能:Jev 先分流,再调 LLM",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-workspace",
+   "author": "freakngenius",
+   "category": "tools-and-apps",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/freakngenius/jev-workspace",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "本地运行:给任务和链接,Jev 逐条判断并实时展示结果页",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "abstract-sift",
+   "author": "ValiusSciences",
+   "category": "research",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ValiusSciences/abstract-sift",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "研究摘要筛选 CLI,OpenAI Decisions 与 Jev 并行打分对比;ESMO 全量 13.31 秒",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-broker",
+   "author": "AlekseiUL",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AlekseiUL/jev-broker",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "JEV Broker: TypeSafe JEV via OpenRouter for Hermes agents | JEV через OpenRouter для агентов Hermes",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-browser-wingman",
+   "author": "coderexpert123",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/coderexpert123/jev-browser-wingman",
+   "tweet": null,
+   "stars": 7,
+   "one_liner": "Browser automation where TypeSafe's Jev model picks each step. Attaches to an existing Chrome via CDP and runs alongside",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "courtvision",
+   "author": "aiden-guan",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/aiden-guan/courtvision",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Real-time basketball computer vision, live stats, TypeSafe Jev decision layer, and grounded AI narration with an operato",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-advisor-gateway",
+   "author": "1arley",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/1arley/jev-advisor-gateway",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Local gateway that routes coding-agent tool decisions through Jev and can attach a read-only advisor (GPT or Claude).",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "ai-news-aggregator",
+   "author": "flyryan",
+   "category": "content-scoring",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/flyryan/ai-news-aggregator",
+   "tweet": null,
+   "stars": 35,
+   "one_liner": "Multi-agent AI news pipeline powered by GLM-5.3-Flash and Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "connect-tycoon",
+   "author": "wonseokjung",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/wonseokjung/connect-tycoon",
+   "tweet": null,
+   "stars": 8,
+   "one_liner": "시뮬레이터로 기업 의사결정 모델을 학습시키는 오픈소스 강화학습 게임 · JEV · PPO · Human-in-the-loop",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-style",
+   "author": "lawrence3699",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/lawrence3699/jev-style",
+   "tweet": null,
+   "stars": 22,
+   "one_liner": "Local classification, routing, and scoring for AI agents, with option probabilities. Text + images, Python, MCP and agen",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jevia",
+   "author": "assistant-ui",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/assistant-ui/jevia",
+   "tweet": null,
+   "stars": 10,
+   "one_liner": "outcome-aware & adaptive model routing for coding agents with deterministic cache powered by Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-navigator",
+   "author": "ajbmachon",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ajbmachon/jev-navigator",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Find code with small, typed Jev judgments: a code index, closed yes/no and pick questions, and a best-first search where",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-model-router",
+   "author": "akamai-developers",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/akamai-developers/jev-model-router",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "A simple contextual model router build with Jev, Spin and TypeScript",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev4s",
+   "author": "maxtrezzi",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/maxtrezzi/jev4s",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Typed Scala client for Jev (TypeSafe AI): typed questions, typed answers, errors as values. Scala 3.9 and 2.13, Spark 4 ",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-demofast",
+   "author": "q3learners",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/q3learners/jev-demofast",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "One sentence in, a narrated product demo out. NVIDIA Nemotron on Nebius Token Factory writes the founder's script; Jev d",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "gallant",
+   "author": "madxmike",
+   "category": "code-quality",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/madxmike/gallant",
+   "tweet": null,
+   "stars": 11,
+   "one_liner": "Gallant is a customizable linter built to utilize Decision Models (i.e. Jev, Clef, and other system one models) to lint ",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "tribar-connector-for-typesafe-jev",
+   "author": "juanlentino",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/juanlentino/tribar-connector-for-typesafe-jev",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "Tribar Connector for TypeSafe Jev: a WordPress plugin for typed, confidence-scored answers your code can branch on.",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "rikkahub-sillytavern-android",
+   "author": "MiaoWuNYA",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/MiaoWuNYA/rikkahub-sillytavern-android",
+   "tweet": null,
+   "stars": 146,
+   "one_liner": "安卓AI聊天端:开箱即聊，无损导入酒馆卡，缓存强省用量，Jev 决策，专属RP模式，防空回，主动信息，前端卡支持，高定制主题，QQbot，AI群聊，插件系统，强兼容中转站。手机移动端原生支持，求 Star 收藏⭐Android AI Cha",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-browse",
+   "author": "0x7067",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/0x7067/jev-browse",
+   "tweet": null,
+   "stars": 5,
+   "one_liner": "Browser automation with Jev (TypeSafe) as decision model",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "last-exit",
+   "author": "0x963D",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/0x963D/last-exit",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "A cyberpunk border encounter powered by TypeSafe Jev. Bluff the guard. Inspect the receipts.",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jevegis",
+   "author": "0xArx",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/0xArx/jevegis",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Guardrails for LLM apps in one API call. Prompt injection, jailbreaks, leaks, unsafe content. Built on TypeSafe Jev. MIT",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "openpoke-meets-jev",
+   "author": "0xShin0221",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/0xShin0221/openpoke-meets-jev",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Open source implementation of Poke ",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "research_desk",
+   "author": "0xnairb",
+   "category": "content-scoring",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/0xnairb/research_desk",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "TypeSafe Jev demonstration for new analyzation — experimenting with Jev for fast analysis of news and tickers",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-fuse",
+   "author": "0xshikhar",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/0xshikhar/jev-fuse",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "A governed execution layer between typed-decision models (TypeSafe Jev) and agent/AI tooling like Claude Code, MCP, and ",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "rubikjev",
+   "author": "0xtrou",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/0xtrou/rubikjev",
+   "tweet": null,
+   "stars": 7,
+   "one_liner": "Challenge the Jev's intelligence in Rubik Cube puzzles",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "JevTrace",
+   "author": "123wwwa",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/123wwwa/JevTrace",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "An MCP server that cuts coding-agent token usage by retrieving only the relevant JS/TS code using the TypeScript compile",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-pr-labeler",
+   "author": "1jehuang",
+   "category": "code-quality",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/1jehuang/jev-pr-labeler",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "Semantic GitHub PR labels using Jev's typed decisions, with conceptual scope instead of line counts",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "Jev-Register-Tool",
+   "author": "2951461586",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/2951461586/Jev-Register-Tool",
+   "tweet": null,
+   "stars": 35,
+   "one_liner": "TypeSafe（Jev / System One）申请 → 确认邮件 → 获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "a0-typesafe-ai",
+   "author": "3clyp50",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/3clyp50/a0-typesafe-ai",
+   "tweet": null,
+   "stars": 5,
+   "one_liner": "TypeSafe AI Jev judgments for Agent Zero, with typed tools and probability cards.",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-codex-router-skill",
+   "author": "455-dIAO",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/455-dIAO/jev-codex-router-skill",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Portable Codex Skill for Jev model and reasoning-effort routing, with safe installation and Chinese usage guides",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "windows-save-token-jev-setup",
+   "author": "455-dIAO",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/455-dIAO/windows-save-token-jev-setup",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "Windows Codex Skill：通过 npx 或 Git 安装，安全配置 save-token-jev 的 PreCompact/SessionStart Hooks，并提供信任、原生压缩与旧内容隔离验证。",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "reflex-cu",
+   "author": "8itlab",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/8itlab/reflex-cu",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "Computer use MCP server for Claude Code, Codex and other AI agents. Reads the UI tree instead of taking a screenshot eve",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-router",
+   "author": "AABBAASS1",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AABBAASS1/jev-router",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Route any task to the right AI agent in under 1 second using Jev (TypeSafe System One). Supports Claude, ChatGPT, Cursor",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-factorio-agent",
+   "author": "AI-Ascension",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AI-Ascension/jev-factorio-agent",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "Factorio agent in which Jev chooses goals and actions as typed questions while deterministic code owns game rules and ac",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-crash-course",
+   "author": "AIAnytime",
+   "category": "community",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AIAnytime/jev-crash-course",
+   "tweet": null,
+   "stars": 17,
+   "one_liner": "All projects for learning Jev and other Decision (System-1) Models, a model that makes decisions instead of writing text",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-2048-selenium",
+   "author": "AMMIROSOH",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AMMIROSOH/jev-2048-selenium",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Selenium 2048 player powered by expectimax search and TypeSafe Jev, with portrait FFmpeg recording.",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-2048",
+   "author": "ARCJ137442",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ARCJ137442/jev-2048",
+   "tweet": null,
+   "stars": 5,
+   "one_liner": "An instrumented 2048 web lab where every move is a Jev (TypeSafe AI System One) Choice, with no heuristic fallback | 用 J",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "bicameral",
+   "author": "AbdelStark",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AbdelStark/bicameral",
+   "tweet": null,
+   "stars": 8,
+   "one_liner": "Hybrid coding harness: System 2 writes, System 1 (Jev) runs reflexes.",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "jev-benchmarks",
+   "author": "AbdelStark",
+   "category": "eval",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AbdelStark/jev-benchmarks",
+   "tweet": null,
+   "stars": 27,
+   "one_liner": "Probability-aware evaluation for typed decision models: calibration, selective risk, latency, and reproducible benchmark",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-29"
    }
   }
  ]
