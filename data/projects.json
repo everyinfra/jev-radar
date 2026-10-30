@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1375,
+  "total_curated": 1409,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -27281,6 +27281,686 @@
     "method": "description-level",
     "confidence": 0.75,
     "verified_at": "2026-10-29"
+   }
+  },
+  {
+   "name": "dsh-wsl-jev",
+   "author": "173787247",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/173787247/dsh-wsl-jev",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "DeepSeek Harness WSL plugin: TypeSafe Jev / OpenRouter System One (jev_ask / check / rank)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "Factorforge",
+   "author": "AceNanako0721",
+   "category": "trading",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/AceNanako0721/Factorforge",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Three-layer event-sentiment trading architecture: trading system, strategy framework, and SOXLUSDT/JEV application. MIT.",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jev-router",
+   "author": "Bender-88",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Bender-88/jev-router",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "# jev-router A Claude Code mod that uses [TypeSafe](https://typesafe.ai)'s Jev model to pick which Claude model each sub",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jevwire",
+   "author": "Brainwires",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Brainwires/jevwire",
+   "tweet": null,
+   "stars": 24,
+   "one_liner": "Jev decision layer for agents: MCP server, embeddable DecisionModel library, and an escalate-only Claude Code plugin (Ty",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "fow-cache",
+   "author": "Maby0",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Maby0/fow-cache",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "How often does your semantic cache serve the wrong answer? Benchmark, CI check and multi-turn guard.",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "among-us-jev",
+   "author": "Miyamura80",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Miyamura80/among-us-jev",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "🔪🩸 Among Us played by Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jev-paper-trader",
+   "author": "MojoAI-King",
+   "category": "trading",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/MojoAI-King/jev-paper-trader",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Paper trading real Polymarket and Kalshi markets with a fake $100k: can Jev + Claude research beat the market?",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "bin-replenish-lab",
+   "author": "RajaRuling",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/RajaRuling/bin-replenish-lab",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "A reproducible, pre-registered test of estimating how full warehouse pick bins are from photos (Amazon Bin Image Dataset",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "parcel-lens",
+   "author": "RajaRuling",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/RajaRuling/parcel-lens",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "A reproducible, pre-registered test of whether a small model can flag damaged parcels from pictures, on synthetic data, ",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "netizen",
+   "author": "Seheta",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Seheta/netizen",
+   "tweet": null,
+   "stars": 17,
+   "one_liner": "Simulasi reaksi netizen Indonesia terhadap post/isu (TypeSafe/Jev)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "AudioJev-Inference",
+   "author": "SihanLv",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/SihanLv/AudioJev-Inference",
+   "tweet": null,
+   "stars": 14,
+   "one_liner": "A Python inference library and HTTP service for AudioJev. Provide an audio clip and natural-language questions to get ca",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "MCP_Typesafe_JEV",
+   "author": "SykkoAtHome",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/SykkoAtHome/MCP_Typesafe_JEV",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Domain-agnostic MCP server for TypeSafe Jev (System One) evaluation engine across Claude Code, Codex, Gemini CLI, and An",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "doom-in-claude-code",
+   "author": "abelardodiaz",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/abelardodiaz/doom-in-claude-code",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Doom running inside a Claude Code pane, played by AI: Jev pilots, Claude narrates",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "juanegido_jev-pr-judge",
+   "author": "actions-marketplace-validations",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/actions-marketplace-validations/juanegido_jev-pr-judge",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "# PR Judge [![CI](https://github.com/juanegido/jev-pr-judge/actions/workflows/ci.yml/badge.svg)](https://github.com/juan",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jev-evidence-triage",
+   "author": "anondo1969",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/anondo1969/jev-evidence-triage",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Screening life science abstracts with Jev, the typed decision model from TypeSafe AI.  The demo screens PubMed abstracts",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "hermes-adaptive-effort",
+   "author": "atostivint",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/atostivint/hermes-adaptive-effort",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Hermes Agent plugin that sets the reasoning effort of each request with a separate decision model: Jev, OpenAI Decisions",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jev-router",
+   "author": "bedasrv",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/bedasrv/jev-router",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "# jev-router An OmniRoute plugin that picks the model for `free` / `paid` requests, plus the small upstream patch it nee",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "circulo",
+   "author": "cmatosengenharia",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/cmatosengenharia/circulo",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Círculo autoevolutivo Jev First — controle financeir da família",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jev",
+   "author": "dulin20240919-dot",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/dulin20240919-dot/jev",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "本项目是对 **jev 模型** 的调用尝试，基于 `search_jev使用文档.md`（内部使用文档）与 `jev官方文档.md`（来自 https://docs.typesafe.ai 的官方文档）整理而成",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "final-project",
+   "author": "game-design-projects",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/game-design-projects/final-project",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Donjon, final project: a Wizardry-style wireframe dungeon crawler whose monsters think with Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "Custos",
+   "author": "george-amir",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/george-amir/Custos",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Autonomous Rust behavioral security engine & cross-platform firewall bouncer (pf, nftables, ipset, netsh) powered by Typ",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jevalan",
+   "author": "jevalan",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/jevalan/jevalan",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Local typed decision hub for AI agents and developer tools",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jev-proxy-pool",
+   "author": "left0ver",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/left0ver/jev-proxy-pool",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Rotating TypeSafe Jev API key pool with a web admin panel, deployable to Vercel in one click. ｜ 支持自动轮换的 TypeSafe Jev API",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "dsh-intent-recognition",
+   "author": "lilixinsniper",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/lilixinsniper/dsh-intent-recognition",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Five-layer intent recognition pipeline (rules, pgvector retrieval, Jev scoring, fine-tuned arbitration, LLM fallback) wi",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "dsh-jev-plugin",
+   "author": "luobosibing2",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/luobosibing2/dsh-jev-plugin",
+   "tweet": null,
+   "stars": 200,
+   "one_liner": "Native DeepSeek Harness (DSH) plugin integrating TypeSafe Jev or Decision api like luna as a System One decision layer f",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jev-personalization",
+   "author": "manji6",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/manji6/jev-personalization",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "# JevSense（ジェブセンス） 運用先の[管理画面](https://jev-personalization.manji6.workers.dev/admin)。初回利用にはCloudflare側のSecrets登録が必要です。[配備",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "pi-plugins",
+   "author": "meimingqi222",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/meimingqi222/pi-plugins",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "A bun workspace of independently published pi extensions: secret redaction (pi-redact) and Jev-based verbatim compaction",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "ticket-triage",
+   "author": "nacknime-official",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/nacknime-official/ticket-triage",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Support-ticket triage service in Go: Kafka, Postgres, and TypeSafe Jev classification (learning project)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "kureksistant",
+   "author": "nodaysidle",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/nodaysidle/kureksistant",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Autonomous, sub-second personal AI assistant daemon for Arch Linux (Hyprland) with Kurek Remote Android pairing. ~333MB ",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "harness2-jev-connector",
+   "author": "reeschan",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/reeschan/harness2-jev-connector",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "English | [日本語](README.ja.md) # harness2-jev-connector ## Overview harness2-jev-connector is a task connector for [harne",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "bernoulli",
+   "author": "shyamsfo",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/shyamsfo/bernoulli",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "JEV inspired, open-weights",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "colibri-mcp",
+   "author": "t4zxxx1",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/t4zxxx1/colibri-mcp",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "🐦 Colibri — the hummingbird browser for AI agents (Claude, Copilot, Cursor, Codex…): pages as compact text, not screensh",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "radar-30x",
+   "author": "victorgomezadapty",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/victorgomezadapty/radar-30x",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Radar de tendencias para 30X: detecta qué crece en 5 redes, explica por qué funciona y lo adapta a tu audiencia. JEV + D",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "description-level",
+    "confidence": 0.75,
+    "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jevgammon",
+   "author": "zekiworks",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/zekiworks/jevgammon",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "LLMs playing backgammon",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-30"
    }
   }
  ]
