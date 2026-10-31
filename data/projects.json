@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1409,
+  "total_curated": 1421,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -27961,6 +27961,261 @@
     "method": "readme-fetched",
     "confidence": 0.9,
     "verified_at": "2026-10-30"
+   }
+  },
+  {
+   "name": "jev-mobile-pilot",
+   "author": "heyk1njo",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/heyk1njo/jev-mobile-pilot",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Coding agents drive iOS Simulators and Android devices; Jev picks each step from the accessibility tree",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "jev-decision-mcp",
+   "author": "amidabuddha",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/amidabuddha/jev-decision-mcp",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Local stdio MCP server exposing a jev_decide tool for typed decisions",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "pgdocket",
+   "author": "ElyasEbrahim",
+   "category": "data-infra",
+   "primitives": [
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ElyasEbrahim/pgdocket",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Durable, versioned, calibrated AI decisions stored as data in Postgres",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "private-jev",
+   "author": "swami8791",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/swami8791/private-jev",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Owner-private ChatGPT/MCP integration turning vague opinions into structured Jev judgments",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "system2",
+   "author": "jhartquist",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/jhartquist/system2",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Idiomatic Rust SDK for Jev with derive-based ordered levels",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "typesafe-cli",
+   "author": "y0usaf",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/y0usaf/typesafe-cli",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "Shell command: state and typed questions in, typed answers out",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "pi-jev",
+   "author": "y0usaf",
+   "category": "agent-safety",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/y0usaf/pi-jev",
+   "tweet": null,
+   "stars": 164,
+   "one_liner": "Jev as a decision layer for the Pi coding agent, including a tool-call gate",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "pi-taskmesh",
+   "author": "0x1f",
+   "category": "routing",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/0x1f/pi-taskmesh",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Task-aware multi-model orchestration for Pi; Jev is an optional judgment backend",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "jev-job-by-job",
+   "author": "WeBuildDatabases",
+   "category": "eval",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/WeBuildDatabases/jev-job-by-job",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Field guide testing the 20 jobs taught by the 21 official Jev cookbooks with own examples",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "hey-jev",
+   "author": "henryklunaris",
+   "category": "voice",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/henryklunaris/hey-jev",
+   "tweet": null,
+   "stars": 120,
+   "one_liner": "Mac voice assistant where Jev makes every decision in one call, LLM wakes only for questions",
+   "metrics": "$0.00004 per request (author-reported)",
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "jev-rag",
+   "author": "aifabrice",
+   "category": "data-infra",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/aifabrice/jev-rag",
+   "tweet": null,
+   "stars": 15,
+   "one_liner": "Open-source local knowledge search: BM25 plus Jev passage reranking across seven pipelines",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "jevvy",
+   "author": "PanAchy",
+   "category": "agent-safety",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/PanAchy/jevvy",
+   "tweet": null,
+   "stars": 28,
+   "one_liner": "Jev-powered plugin collection (permissions etc.) for coding agents, published on npm",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-10-31"
    }
   }
  ]
