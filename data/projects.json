@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1421,
+  "total_curated": 1427,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -28216,6 +28216,128 @@
     "method": "readme-fetched",
     "confidence": 0.9,
     "verified_at": "2026-10-31"
+   }
+  },
+  {
+   "name": "astrbot-betterchat",
+   "author": "AS214933",
+   "category": "sdk",
+   "primitives": [
+    "noul"
+   ],
+   "status": "live",
+   "url": "https://github.com/AS214933/astrbot-betterchat",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "AstrBot plugin: merges private-chat bursts into one reply; Jev decides whether to chime in on group chats",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-11-01"
+   }
+  },
+  {
+   "name": "recall",
+   "author": "ebuojr",
+   "category": "browser-extension",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/ebuojr/recall",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Chrome history search with local index and optional Jev ranking of a shortlist",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-11-01"
+   }
+  },
+  {
+   "name": "humain-vs-jev",
+   "author": "rocktane",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/rocktane/humain-vs-jev",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Go web game: human vs Jev spotting the AI-generated image in five rounds",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-11-01"
+   }
+  },
+  {
+   "name": "topic-gate",
+   "author": "tauseefau",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/tauseefau/topic-gate",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Skill detecting conversation topic drift with Jev (same/subtopic/new_topic) and resetting the session",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-11-01"
+   }
+  },
+  {
+   "name": "dsh-jev-mcp",
+   "author": "bojansandhaus",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/bojansandhaus/dsh-jev-mcp",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Dependency-free Jev client and stdio MCP server (jev_check/route/score/evaluate) for DeepSeek Harness",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "readme-fetched",
+    "confidence": 0.9,
+    "verified_at": "2026-11-01"
+   }
+  },
+  {
+   "name": "PAI-ros-jev_demo",
+   "author": "fujihoge",
+   "category": "robotics",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/fujihoge/PAI-ros-jev_demo",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "ROS 2/Gazebo AMR picks next job (supply vs defect pickup) via Jev, replaying recorded decisions",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-01"
    }
   }
  ]
