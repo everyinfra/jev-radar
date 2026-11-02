@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1427,
+  "total_curated": 1486,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -28338,6 +28338,1172 @@
     "method": "repo-description",
     "confidence": 0.75,
     "verified_at": "2026-11-01"
+   }
+  },
+  {
+   "name": "AwesomeJev",
+   "author": "XueruiSu",
+   "category": "directory",
+   "primitives": [],
+   "status": "prototype",
+   "url": "https://github.com/XueruiSu/AwesomeJev",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Community awesome list of Jev projects, SDKs and cases (unofficial)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "awesome-jev-cases",
+   "author": "onlyoasis",
+   "category": "directory",
+   "primitives": [],
+   "status": "prototype",
+   "url": "https://github.com/onlyoasis/awesome-jev-cases",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Source-linked Jev use cases with input, judgment and follow-up action per case (unofficial)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev_info_site",
+   "author": "wizicer",
+   "category": "directory",
+   "primitives": [],
+   "status": "prototype",
+   "url": "https://github.com/wizicer/jev_info_site",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "jev.info community index of Jev tools, models and use cases (unofficial)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "awesome-jev-hub",
+   "author": "supermanc417-alt",
+   "category": "directory",
+   "primitives": [],
+   "status": "prototype",
+   "url": "https://github.com/supermanc417-alt/awesome-jev-hub",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Curated hub of the Jev ecosystem: concepts and 51 verified projects in 12 categories (unofficial)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "coding-router-jev",
+   "author": "guanghuang",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/guanghuang/coding-router-jev",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "codex-jev launcher routing Codex turns through Jev with model and reasoning-effort selection",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "fuzzy-jev",
+   "author": "dsaad68",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/dsaad68/fuzzy-jev",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Rust crate and Python client for OpenRouter decision models, Jev by default, typed Choice/Score/Noul answers",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "decisionlint",
+   "author": "nolindnaidoo",
+   "category": "code-quality",
+   "primitives": [],
+   "status": "prototype",
+   "url": "https://github.com/nolindnaidoo/decisionlint",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "VS Code extension, CI CLI and MCP server that lint Jev/Luna decision questions",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "physical-ai-2026-advanced-1-final-assignment",
+   "author": "uhiron55",
+   "category": "robotics",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/uhiron55/physical-ai-2026-advanced-1-final-assignment",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Gazebo pick-and-place demo generation where Jev picks the high-level phase, for CRANE+ imitation learning",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "pi-jev-todo-audit",
+   "author": "xz-dev",
+   "category": "agent-safety",
+   "primitives": [
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/xz-dev/pi-jev-todo-audit",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Pi extension auditing todo-board drift every 10 agent loops with Jev and injecting corrections",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevracket",
+   "author": "IoTone",
+   "category": "sdk",
+   "primitives": [],
+   "status": "prototype",
+   "url": "https://github.com/IoTone/jevracket",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Racket client for the live TypeSafe System One API",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevellan-skills",
+   "author": "gongiskhan",
+   "category": "platform",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/gongiskhan/jevellan-skills",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Claude Code skills plus a jv runtime that make a session a coordinator with Jev placement",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-decision-wall",
+   "author": "charles-forsyth",
+   "category": "platform",
+   "primitives": [
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/charles-forsyth/jev-decision-wall",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "200 parallel yes/no Jev judgments rendered as a live heatmap in ~200 ms (independent experiment)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "llm-as-jev",
+   "author": "Athe-kunal",
+   "category": "clone",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Athe-kunal/llm-as-jev",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Train LLMs as Jev-style decision models with ContextCite attribution (non-official)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "rea-jev",
+   "author": "dbrckk",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/dbrckk/rea-jev",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Free web UI that uploads APK/EXE/DLL files and returns a Jev-assisted inspection report",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "minecraft-jev-agent",
+   "author": "souta-lab",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/souta-lab/minecraft-jev-agent",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Embodied Minecraft agent: LLM planner plus a Jev typed decision plane choosing grounded transitions",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "trade-jev",
+   "author": "justinhe16",
+   "category": "trading",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/justinhe16/trade-jev",
+   "tweet": null,
+   "stars": 12,
+   "one_liner": "Backtests Jev as a BUY/SELL/HOLD trader on NQ L10 order-book data, 15 trading days",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-sentinel",
+   "author": "shapor",
+   "category": "agent-safety",
+   "primitives": [
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/shapor/jev-sentinel",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Per-action monitor for AI agents using Jev; replayed 53,870 real attack payloads",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "decision-forge",
+   "author": "rachitdev",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/rachitdev/decision-forge",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Harness-agnostic Rust decision engine plugin with Jev dynamic fallback",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "agent-sdk-2048",
+   "author": "Rperry2174",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Rperry2174/agent-sdk-2048",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Two Agent SDK players race 2048 in an emulator: regular model-turn agent vs Jev decide() agent",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-calibration-lab",
+   "author": "veermshah",
+   "category": "eval",
+   "primitives": [
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/veermshah/jev-calibration-lab",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Independent calibration benchmark of Jev vs Claude and a TF-IDF baseline",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "playjev",
+   "author": "filedcom",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/filedcom/playjev",
+   "tweet": null,
+   "stars": 18,
+   "one_liner": "Typed browser automation powered by Jev and Playwright",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev_demo",
+   "author": "monkey-jz",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/monkey-jz/jev_demo",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Two interactive Jev demos (sleep-band support triage, Jev plays Tetris) with API examples",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "JEV_MOCK",
+   "author": "rajkumar611",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/rajkumar611/JEV_MOCK",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Python insurance-claim categorization demo using Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-trader-cpu",
+   "author": "INAPP-Mobile",
+   "category": "trading",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/INAPP-Mobile/jev-trader-cpu",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Railway-deployable CPU Jev trader template (migrated from mc9max)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "nyotti-xray",
+   "author": "viva-lee",
+   "category": "trading",
+   "primitives": [
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/viva-lee/nyotti-xray",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Replays a public BitMEX trade history fill by fill against the exchange tape, read with Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "pi-omarchy-cu",
+   "author": "Paul-Yuchao-Dong",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Paul-Yuchao-Dong/pi-omarchy-cu",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Computer use for the Pi coding agent on Omarchy (Hyprland Wayland) with Jev-backed decisions",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "python-streamlit-jev-ant",
+   "author": "gkvoelkl",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/gkvoelkl/python-streamlit-jev-ant",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Streamlit ant colony where every ant asks Jev what to do next, plus a German tutorial",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "pr-wall",
+   "author": "House-elves",
+   "category": "code-quality",
+   "primitives": [
+    "noul"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/House-elves/pr-wall",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Wall of a repo's open PRs annotated with what Jev says about their tests",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-and-ai-sdk",
+   "author": "midomidoz25190-max",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/midomidoz25190-max/jev-and-ai-sdk",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Three AI SDK forms that route submissions by context with Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "dsh-system1",
+   "author": "exoticknight",
+   "category": "sdk",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/exoticknight/dsh-system1",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "One interface to Jev, Clef, Drex, self-hosted Laya and custom decision providers",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-chat-jarvis-ios",
+   "author": "jev-chat",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/jev-chat/jev-chat-jarvis-ios",
+   "tweet": null,
+   "stars": 61,
+   "one_liner": "iOS keyboard that reads intent and risk and suggests replies inside any chat app via Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "edgejev",
+   "author": "yzfly",
+   "category": "clone",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/yzfly/edgejev",
+   "tweet": null,
+   "stars": 34,
+   "one_liner": "Offline CPU Jev-compatible inference (ONNX INT8), 15.6 ms per question on 4 cores (non-official)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-browser-mcp",
+   "author": "eduardo-xyz",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/eduardo-xyz/jev-browser-mcp",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Daemon plus MCP front end exposing the Jev browser agent to Claude Code/Desktop",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevos",
+   "author": "INAPP-Mobile",
+   "category": "clone",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/INAPP-Mobile/jevos",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Open-source CPU-only Jev alternative deployable on Railway (non-official)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "lock-in",
+   "author": "VishalJ99",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/VishalJ99/lock-in",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "macOS focus pet comparing Decisions and Jev judgments against Codex and Chrome activity",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "browserpaw",
+   "author": "GoldenLoaf24h",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/GoldenLoaf24h/browserpaw",
+   "tweet": null,
+   "stars": 38,
+   "one_liner": "Browser automation inside the user's everyday Chrome from AI agents, Jev among supported agents",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevcommunity",
+   "author": "syrex1013",
+   "category": "clone",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/syrex1013/jevcommunity",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Local Jev-compatible System One decision server for Apple Silicon (Kev-0.8B/MLX, non-official)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-lite",
+   "author": "INAPP-Mobile",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/INAPP-Mobile/jev-lite",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Self-hosted Jev-compatible proxy template (migrated from mc9max)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-call-center",
+   "author": "seanbrookes",
+   "category": "vertical",
+   "primitives": [
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/seanbrookes/jev-call-center",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Mock multi-company call-center simulator for exploring Jev as an analytics tool",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "ai-core-engineering-workbench",
+   "author": "Anirach",
+   "category": "community",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Anirach/ai-core-engineering-workbench",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "15-lesson AI-Core/Jev/skills software engineering course with runnable companion code",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "system1-fraud-interceptor-demo",
+   "author": "ordepas",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ordepas/system1-fraud-interceptor-demo",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Simulated fraud interceptor comparing System 1 (Jev) with an LLM on synthetic transactions",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "local-jev-bench",
+   "author": "tak-bro",
+   "category": "eval",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/tak-bro/local-jev-bench",
+   "tweet": null,
+   "stars": 5,
+   "one_liner": "Benchmarks local Jev-style decision models (Kev, Laya, AnyJev, CLM...) on Apple Silicon",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-spamassassin",
+   "author": "jovaneyck",
+   "category": "community",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/jovaneyck/jev-spamassassin",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Tutorial: build a spam filter with Jev on the SpamAssassin public corpus in one hour",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "BrighTO_Router",
+   "author": "thusinh1969",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/thusinh1969/BrighTO_Router",
+   "tweet": null,
+   "stars": 22,
+   "one_liner": "Rust LLM gateway/router with a SystemOne router layer",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "JevRadar",
+   "author": "PedroReoli",
+   "category": "vertical",
+   "primitives": [
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/PedroReoli/JevRadar",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Local-first desktop radar for sentiment and market signals using typed Jev classifications",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevellan-monorepo",
+   "author": "gongiskhan",
+   "category": "platform",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/gongiskhan/jevellan-monorepo",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Autonomous development coordinator that places tasks with Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevellan-harness-skills",
+   "author": "gongiskhan",
+   "category": "platform",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/gongiskhan/jevellan-harness-skills",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "17 skills turning a Claude Code session into a coordinator with Jev placement and a durable ledger",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "browser-agents",
+   "author": "hiszpan400",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/hiszpan400/browser-agents",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Hardened FastAPI orchestrator routing goals to browser agents (Jev, Ghost, Laya)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "supersonic-ontology",
+   "author": "lyhmain",
+   "category": "data-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/lyhmain/supersonic-ontology",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "SuperSonic plug-ins for ontology-driven NL2Analytics with Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-typesafeai",
+   "author": "vishivishvish",
+   "category": "sdk",
+   "primitives": [],
+   "status": "prototype",
+   "url": "https://github.com/vishivishvish/jev-typesafeai",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Minimal client for the Jev /v1/systemone endpoint, used with Claude Code",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "physical-ai-final-jev-quad",
+   "author": "neko-rr",
+   "category": "robotics",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/neko-rr/physical-ai-final-jev-quad",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Physical AI course final: Jev selects cat-like quadruped behaviors (Genesis/PyBullet)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-cloud-quiz",
+   "author": "minorun365",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/minorun365/jev-cloud-quiz",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Demo where Jev judges with probabilities which cloud (AWS/Azure/GCP) a feature name belongs to",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-poc",
+   "author": "SobujRoySunday",
+   "category": "data-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/SobujRoySunday/jev-poc",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Proof of concept for document retrieval with Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "master-typesafe-jev",
+   "author": "huytranvan2010",
+   "category": "community",
+   "primitives": [],
+   "status": "prototype",
+   "url": "https://github.com/huytranvan2010/master-typesafe-jev",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Companion code for the Udemy course Master TypeSafe Jev AI",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-rpa-assistant",
+   "author": "ChanghaoLiao",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ChanghaoLiao/jev-rpa-assistant",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Windows e-commerce support RPA prototype: Clicknium, vision OCR, Jev Choice over approved replies, SQLite audit",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "memory-failover-router",
+   "author": "tauseefau",
+   "category": "data-infra",
+   "primitives": [
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/tauseefau/memory-failover-router",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Agent memory with paid-API failover and Jev-ranked recall",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevons",
+   "author": "swiftj",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/swiftj/jevons",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Compiled Go router that picks the cheapest capable Claude tier per prompt using Jev",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-prototyping",
+   "author": "lonelyrobot",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/lonelyrobot/jev-prototyping",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "ColorApi prototype sending an image to Jev to pick one of 8 crayon colors",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "repo-description",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "quackd",
+   "author": "rokbenko",
+   "category": "robotics",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/rokbenko/quackd",
+   "tweet": null,
+   "stars": 289,
+   "one_liner": "One CLI to connect and command robots, each with an LLM brain and Jev decision layer",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
    }
   }
  ]
