@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1486,
+  "total_curated": 1532,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -29503,6 +29503,942 @@
     "tier": "A",
     "method": "artifact-inspected",
     "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "laya-serve",
+   "author": "tuvl-io",
+   "category": "alternative-runtime",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/tuvl-io/laya-serve",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "非官方:把开源权重 Laya 打包成容器,按 /v1/systemone 协议(与 Jev API 同线格式)对外服务",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevway",
+   "author": "AbdallahAHO",
+   "category": "mcp",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/AbdallahAHO/jevway",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "把浏览器目标交给 Jev 的 MCP 服务器 + CLI,任意编码 agent 可调",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-demo",
+   "author": "liangkingjin",
+   "category": "education",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/liangkingjin/jev-demo",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "工单进→概率分布出→按阈值分三档动作的离线可跑演示,终端可视化",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "Jev-Router",
+   "author": "AIAnytime",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/AIAnytime/Jev-Router",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "决策优先、OpenAI 兼容的 AI 路由器:每个请求由 Jev 类型化决策分派到模型/agent/工具并给出理由",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "systemone-lab",
+   "author": "baldellimtt",
+   "category": "alternative-runtime",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/baldellimtt/systemone-lab",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "非官方:Jev 兼容的 Noul/Choice/Score 实验室,后端是本地开源权重 Laya",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "customs-authority",
+   "author": "Robot-Friends-Community",
+   "category": "devtools",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Robot-Friends-Community/customs-authority",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Claude Code 的决策层工具包:确定的走快速通道,其余转二级检查",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-mcp",
+   "author": "synthet",
+   "category": "mcp",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/synthet/jev-mcp",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "把 TypeSafe Jev 判断暴露给 AI agent 的 MCP 服务器(stdio)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-browser",
+   "author": "tontoko",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/tontoko/jev-browser",
+   "tweet": null,
+   "stars": 13,
+   "one_liner": "Jev 并行语义决策 + 确定性 Playwright 操作 + 显式验证来源;含 SDK、CLI、MCP",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "capture",
+   "author": "sgaabdu4",
+   "category": "productivity",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/sgaabdu4/capture",
+   "tweet": null,
+   "stars": 4,
+   "one_liner": "Mac 私人语音日记:本地 Parakeet 转写,Jev 分类,存入 Notion",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "ConsciousDB",
+   "author": "bodepudimuneendra-netizen",
+   "category": "data-infra",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/bodepudimuneendra-netizen/ConsciousDB",
+   "tweet": null,
+   "stars": 53,
+   "one_liner": "与数据库无关的 Agentic GraphRAG 框架,可换 System One 模型(本地 Laya/云端 Jev)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevCabin",
+   "author": "ranpin",
+   "category": "vertical",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ranpin/jevCabin",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "车载座舱人员/座位信息提取:Jev 类型化决策替代巨型 prompt",
+   "metrics": {
+    "zero_shot_f1": 0.916,
+    "latency_ms": 44
+   },
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-router-eval",
+   "author": "home45006",
+   "category": "eval",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/home45006/jev-router-eval",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "验证 Jev 能否做车机语音前置分流打标(16 个 domain)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-kit",
+   "author": "keiffff",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/keiffff/jev-kit",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "让 Jev 可靠驱动应用控制流:上下文、问题、阈值与回退的工具包",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "JEVPFN",
+   "author": "andreasgoethals",
+   "category": "research",
+   "primitives": [
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/andreasgoethals/JEVPFN",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "研究:决策模型的概率文本特征能否提升固定表格预测器(MulTaBench)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-learnings",
+   "author": "RobGruhl",
+   "category": "education",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/RobGruhl/jev-learnings",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "三个项目的 Jev 实战心得:邮箱初筛、Melvor Idle agent 等",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "VerdictAD-Jev-AD",
+   "author": "sgstq0811",
+   "category": "research",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/sgstq0811/VerdictAD-Jev-AD",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "VerdictAD:免训练少样本工业异常检测,Jev 决策引导精修",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "gou-na-zhu-yi",
+   "author": "LucianaiB2004",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/LucianaiB2004/gou-na-zhu-yi",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "飞猪 Skill × Jev 的 AI 旅行决策助手(2026 飞猪 AI 旅行创新大赛作品)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "vestiaire-7",
+   "author": "emilio-n8n",
+   "category": "game",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/emilio-n8n/vestiaire-7",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "手球主题协作逃脱游戏,聊天由 Jev 审核",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "minicpm-ocr-workbench",
+   "author": "bruceleezqbx",
+   "category": "data-infra",
+   "primitives": [
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/bruceleezqbx/minicpm-ocr-workbench",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "非官方:MiniCPM-OCR 本机部署,Jev 逐块质检 + Word 公式导出",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "dsh-jev-mcp",
+   "author": "NingYuanLee",
+   "category": "mcp",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/NingYuanLee/dsh-jev-mcp",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "DeepSeek Harness 的 Jev MCP 适配",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevguard",
+   "author": "Dehumanizer77",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/Dehumanizer77/jevguard",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "编码 agent 的提示词注入防护,经 Claude Code/Codex hook 运行",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev_visualnovel",
+   "author": "saikawaniania",
+   "category": "creative",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/saikawaniania/jev_visualnovel",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Jev 自动把青空文库做成视觉小说,Python 与 Node 双版本",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-stocks",
+   "author": "landeqiming666",
+   "category": "trading",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/landeqiming666/jev-stocks",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Thesis Sentinel:本地投资逻辑哨兵,盯住买入理由是否被公告推翻(不荐股)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "home-assistant-laya",
+   "author": "allenporter",
+   "category": "alternative-runtime",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/allenporter/home-assistant-laya",
+   "tweet": null,
+   "stars": 9,
+   "one_liner": "非官方:Home Assistant Assist 的完全本地对话 agent,基于开源权重 Laya",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "ci-triage",
+   "author": "tejred213",
+   "category": "code-quality",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/tejred213/ci-triage",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "Jev 分类 CI 失败并路由:毛刺重跑、真 bug 开工单",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "CognitiveMirror-Jev-MCP",
+   "author": "MrKyaw",
+   "category": "mcp",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/MrKyaw/CognitiveMirror-Jev-MCP",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "个人/企业 agent 的认知中间件:14 个 MCP 工具 + REST API",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "evalr",
+   "author": "alexnodeland",
+   "category": "eval",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/alexnodeland/evalr",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "agent 系统的类型化评估:DSPy judge + Jev 决策模型",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-embodied-agent",
+   "author": "tourmii",
+   "category": "robotics",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/tourmii/jev-embodied-agent",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "RoboCasa 厨房里串联已验证技能的具身 agent,Jev 做快速规划",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "backoffice-agents",
+   "author": "lucianoon",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/lucianoon/backoffice-agents",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "后台 agent 试点:LLM 生成推理,Jev 决策、路由、校验",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "ResolveIQ-by-Jev",
+   "author": "Tanish-o9",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Tanish-o9/ResolveIQ-by-Jev",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "客服工单分类与优先级分诊平台",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-browse",
+   "author": "danielnc",
+   "category": "browser-agent",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/danielnc/jev-browse",
+   "tweet": null,
+   "stars": 10,
+   "one_liner": "给 Claude 等 agent 的快速便宜浏览器子任务,基于 browser-harness",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "edge-jev",
+   "author": "ShaneLiu04",
+   "category": "alternative-runtime",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ShaneLiu04/edge-jev",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "非官方:端侧快慢双系统 AI 运行时(类型化决策、级联路由、全本地)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-attack-surface-analysis",
+   "author": "franciscocarloserra",
+   "category": "agent-safety",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/franciscocarloserra/jev-attack-surface-analysis",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "PoC:用 Jev 分类器给 Python/JS 代码库攻击面热力图排序",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "lark-mbti-jev",
+   "author": "akiiwa-games",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/akiiwa-games/lark-mbti-jev",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "飞书群聊 MBTI 实时悬浮标签(Windows UIA)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-mnist-tutorial",
+   "author": "gisbi-kim",
+   "category": "education",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/gisbi-kim/jev-mnist-tutorial",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "MNIST 决策模型实验笔记:Unsloth、Qwen LoRA、decision head",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jevchik",
+   "author": "smixs",
+   "category": "content-scoring",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/smixs/jevchik",
+   "tweet": null,
+   "stars": 6,
+   "one_liner": "Telegram 群聊机器人:有用消息记 karma、新人反垃圾,由 Jev 判定",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-research-engineering",
+   "author": "MehradYaghoubi",
+   "category": "devtools",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/MehradYaghoubi/jev-research-engineering",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "编码与研究 skill:用所选模型筛证据,主 agent 不被打断",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-mem",
+   "author": "illescasDaniel",
+   "category": "agent-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/illescasDaniel/jev-mem",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "Jev 决策驱动的 agent 长期记忆,环路里没有生成式 LLM(MCP)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "omp-maestro",
+   "author": "hsmoviich",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/hsmoviich/omp-maestro",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "oh-my-pi 一键配置:公开插件+自带 Jev Router+三套可切换模型",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-society",
+   "author": "isaacbitran",
+   "category": "research",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/isaacbitran/jev-society",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "1 万社媒账号的代理人模拟,信念相容性由决策模型裁判",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "jev-router-playground",
+   "author": "hugo-alves",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/hugo-alves/jev-router-playground",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "对接 OpenRouter 模型的 Jev 路由决策互动试验场",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "android-jev",
+   "author": "FZ2000",
+   "category": "mcp",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/FZ2000/android-jev",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "让 agent 经 adb 自然操控安卓手机的 MCP + skill",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "laravel-jev-moderation",
+   "author": "phoenix1331",
+   "category": "content-scoring",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/phoenix1331/laravel-jev-moderation",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "Laravel 置信度感知内容审核:Eloquent 模型分类后路由",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "Jev-Selection-Bias",
+   "author": "nick7nlp",
+   "category": "research",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/nick7nlp/Jev-Selection-Bias",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "论文评估代码与数据:Jev 类 System One 模型的结构能否降低选择偏差",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "archai-jev",
+   "author": "ArchAI-Labs",
+   "category": "alternative-runtime",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ArchAI-Labs/archai-jev",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "非官方:System One 决策模型的 Rust 高性能实现",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
+    "verified_at": "2026-11-02"
+   }
+  },
+  {
+   "name": "vd-jev",
+   "author": "ondata",
+   "category": "data-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/ondata/vd-jev",
+   "tweet": null,
+   "stars": 2,
+   "one_liner": "VisiData 插件:对文本列每一行问封闭问题(Jev 或 OpenRouter 模型)",
+   "metrics": null,
+   "verification": {
+    "tier": "B",
+    "method": "primary-source-exists",
+    "confidence": 0.75,
     "verified_at": "2026-11-02"
    }
   }
