@@ -9,7 +9,7 @@
    "score"
   ],
   "generated_at": "2026-09-19",
-  "total_curated": 1978,
+  "total_curated": 1988,
   "sources": [
    "awesome-typesafe",
    "awesomejev.com",
@@ -39430,6 +39430,215 @@
     "method": "artifact-inspected",
     "confidence": 0.9,
     "verified_at": "2026-11-03"
+   }
+  },
+  {
+   "name": "pi-jev-router-pro",
+   "author": "01Joseph-Hwang10",
+   "category": "routing",
+   "primitives": [
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/01Joseph-Hwang10/pi-jev-router-pro",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Pi coding agent 的单入口模型路由:虚拟模型 jev/auto 用 Jev 判断任务档位,按候选链和配额/预算过滤派发",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
+   }
+  },
+  {
+   "name": "jev-readout",
+   "author": "Arohtea",
+   "category": "vertical",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/Arohtea/jev-readout",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "把一段内容交给 Jev,展示带概率分布的结构化判断,页面常驻原始请求/响应通信记录",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
+   }
+  },
+  {
+   "name": "jev (HappyHackingSpace)",
+   "author": "HappyHackingSpace",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/HappyHackingSpace/jev",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "非官方:Jev System One API 的 Go SDK + CLI + MCP 服务器 + agent skill",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
+   }
+  },
+  {
+   "name": "coffee-cart-demo",
+   "author": "Caph-dev",
+   "category": "vertical",
+   "primitives": [
+    "noul",
+    "choice"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/Caph-dev/coffee-cart-demo",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "公司点咖啡 demo:口语点单经 Choice/noul 拆成订单,份数与冷热由 Jev 归类",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
+   }
+  },
+  {
+   "name": "next-steps-jev",
+   "author": "kevinyin9",
+   "category": "code-quality",
+   "primitives": [
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/kevinyin9/next-steps-jev",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "Claude Code 插件:让 Jev 给模型建议的三条下一步提示打分,最优排第一",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
+   }
+  },
+  {
+   "name": "JevGraph",
+   "author": "chenmingtang830",
+   "category": "data-infra",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/chenmingtang830/jevgraph",
+   "tweet": null,
+   "stars": 47,
+   "one_liner": "文档转知识图谱管线:用 Jev 的类型化关系选择产出带证据的候选边,再做确定性 schema 校验",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
+   }
+  },
+  {
+   "name": "legends-jev",
+   "author": "avalonreset",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/avalonreset/legends-jev",
+   "tweet": null,
+   "stars": 3,
+   "one_liner": "基于 Jev 1.14 的 OCR、门店招牌核验、边界框定位和类型化电脑操作决策 CLI",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
+   }
+  },
+  {
+   "name": "ComfyUI-Jev",
+   "author": "hndrr",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "prototype",
+   "url": "https://github.com/hndrr/ComfyUI-Jev",
+   "tweet": null,
+   "stars": 6,
+   "one_liner": "ComfyUI 自定义节点:用 Jev 做文本选择、条件判断、打分和数值提取(WIP)",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
+   }
+  },
+  {
+   "name": "tidy",
+   "author": "abhibansal60",
+   "category": "vertical",
+   "primitives": [
+    "choice"
+   ],
+   "status": "live",
+   "url": "https://github.com/abhibansal60/tidy",
+   "tweet": null,
+   "stars": 1,
+   "one_liner": "清理 Gmail 与 YouTube 订阅:Jev 逐封/逐频道判断,普通代码限定权限,人工批准;pipx install tidy-ai",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
+   }
+  },
+  {
+   "name": "jev-algorithms",
+   "author": "HikaruEgashira",
+   "category": "sdk",
+   "primitives": [
+    "noul",
+    "choice",
+    "score"
+   ],
+   "status": "live",
+   "url": "https://github.com/HikaruEgashira/jev-algorithms",
+   "tweet": null,
+   "stars": 0,
+   "one_liner": "与运行时无关的算法库(sort/selectTopK/findFirstTrue/clusterByRelation),npm @hikae/jev-algorithms",
+   "metrics": null,
+   "verification": {
+    "tier": "A",
+    "method": "artifact-inspected",
+    "confidence": 0.9,
+    "verified_at": "2026-11-04"
    }
   }
  ]
