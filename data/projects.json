@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 2802,
+    "total_curated": 2806,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -57297,6 +57297,88 @@
         "method": "artifact-inspected",
         "confidence": 0.9,
         "verified_at": "2026-11-05"
+      }
+    },
+    {
+      "name": "jev-doom",
+      "author": "olivier-motium",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/olivier-motium/jev-doom",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "非官方:Jev 在本地面板里玩 Freedoom,显示选项概率、延迟和花费,可走 TypeSafe 直连或 Vercel AI Gateway",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-06"
+      }
+    },
+    {
+      "name": "JevDuo",
+      "author": "AI45Lab",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/AI45Lab/JevDuo",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Computer Use 快慢双模 harness:慢模型规划,Jev 作快策略在候选动作里选一步",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-06"
+      }
+    },
+    {
+      "name": "jevlint",
+      "author": "INDXDev",
+      "category": "code-quality",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/INDXDev/jevlint",
+      "tweet": null,
+      "stars": 13,
+      "one_liner": "基于模型打分的 linter,读整个仓库告诉你先重构什么(npm @indxjp/jevlint)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-06"
+      }
+    },
+    {
+      "name": "jev-runtime-extension",
+      "author": "marshal-runtime",
+      "category": "clone",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/marshal-runtime/jev-runtime-extension",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "非官方:Marshal Runtime 的 Jev 契约兼容扩展,背后实际由 OpenAI Structured Outputs 回答",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-06"
       }
     }
   ]
