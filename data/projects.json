@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 2876,
+    "total_curated": 2885,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -58739,6 +58739,189 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-11-08"
+      }
+    },
+    {
+      "name": "ap-sis",
+      "author": "0atxl",
+      "category": "vertical",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/0atxl/ap-sis",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Solana 支付时顺带回收空 token 账户押金;用 Jev(jev-1.14.0)判断哪些账户可安全关闭(MLH 黑客松项目)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "readme-read",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "jev-tier-router",
+      "author": "vhsgreed",
+      "category": "routing",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/vhsgreed/jev-tier-router",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Hermes Agent 插件:每轮用 Jev 判断走 Haiku 还是 Opus(作者称实验快照,已停用)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "readme-read",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "tripwire",
+      "author": "Sraavan",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Sraavan/tripwire",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Claude Code PreToolUse hook:每次工具调用前问 Jev 七个是非题,返回 allow/ask/deny",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "readme-read",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "jev-python",
+      "author": "devgomesai",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/devgomesai/jev-python",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "OpenRouter Decisions API 的 Python 沙盒封装,含 noul/choice/score 示例",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "readme-read",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "Ripple",
+      "author": "anjfgkfkrh",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/anjfgkfkrh/Ripple",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "韩语个人应用:自动收集持仓相关新闻,用 Jev 判相关度、影响度与利好利空",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "readme-read",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "Jev-AI",
+      "author": "tunacetinkaya",
+      "category": "education",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/tunacetinkaya/Jev-AI",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "土耳其语新手教程:读 Google Form 回答,用 JEV 逐条做决定并在面板实时展示",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "readme-read",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "hermes-jev-thread-status",
+      "author": "xiaoyaner0201",
+      "category": "productivity",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/xiaoyaner0201/hermes-jev-thread-status",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "Hermes 在 Discord 线程里的状态标题([Running]→[Needs feedback]→[Done])由 Jev 判定",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "readme-read",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "JevRerank",
+      "author": "alirezamirrokni",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/alirezamirrokni/JevRerank",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "论文复现代码:把 Jev 当零样本重排器,对比五个神经重排模型和 GPT-4o-mini",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "readme-read",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "banking-complaint-intelligence-Jev",
+      "author": "sathishbabu89",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sathishbabu89/banking-complaint-intelligence-Jev",
+      "tweet": null,
+      "stars": null,
+      "one_liner": "实验性多代理银行投诉分析应用,集成 TypeSafe Jev(仓库描述为证,README 未取到)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-09"
       }
     }
   ]
