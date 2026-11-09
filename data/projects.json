@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 2885,
+    "total_curated": 2894,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -58921,6 +58921,179 @@
         "tier": "B",
         "method": "primary-source-exists",
         "confidence": 0.75,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "kneejerk",
+      "author": "moudrkat",
+      "category": "clone",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/moudrkat/kneejerk",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "非官方:基于 llama.cpp 的端侧决策模型库(兼容 /v1/systemone,可跑 d1、OpenJev),无服务器、单次前向、面向手机/Capacitor 插件",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "jev-workbench",
+      "author": "pausanchez",
+      "category": "platform",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pausanchez/jev-workbench",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "给产品经理用的免编程工作台:载入数据,Claude Opus 起草问题,逐行跑 Jev 并导出",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "jev-node1",
+      "author": "heiwa4126",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/heiwa4126/jev-node1",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "用 pnpm+node 跑 @typesafe-ai/sdk 0.7.0 的示例(绕开 Bun 下 SDK 的 \"Body already used\" 报错,SDK issue #20)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "jev-php",
+      "author": "ksilyanov",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ksilyanov/jev-php",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "PHP 最小 Jev 客户端(走 Cloudflare Workers AI 的 typesafe/jev),带 Laravel 集成",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "spring-ai-with-hybrid-search-and-system-one-typesafe-jev",
+      "author": "letrthang",
+      "category": "vertical",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/letrthang/spring-ai-with-hybrid-search-and-system-one-typesafe-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Spring AI + Vaadin 的 RAG 演示:Weaviate 混合检索,System One 模型筛段落,LLM 写答案",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "jev-harness",
+      "author": "legido-ai",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/legido-ai/jev-harness",
+      "tweet": "https://x.com/mr_buzzoni/status/2104783226833186920",
+      "stars": 0,
+      "one_liner": "System One 决策开源 harness:按置信度分级的四层级联(规则→决策模型→聊天模型→人)、审计账本、影子模式(推文取自 README 引用)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "jev-pilot",
+      "author": "kelvinvalani",
+      "category": "browser-extension",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/kelvinvalani/jev-pilot",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Manifest V3 Chrome 扩展:用 Jev 选活动标签页上要操作的元素(走 BeatAPI 的 jev-1.14-free)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "jev-robot",
+      "author": "arterialist",
+      "category": "robotics",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/arterialist/jev-robot",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "MuJoCo 里的 Unitree G1 机器人:Jev 做电机决策、Gemini 规划,带浏览器控制台(仅仿真)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "corporation-001",
+      "author": "him300",
+      "category": "trading",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/him300/corporation-001",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "微观结构市场模拟:5 个参与者都是 Jev,每轮答一个概率问题,代码把概率变成订单",
+      "metrics": "约 350ms/轮、约 $0.00014/轮(作者自报)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
         "verified_at": "2026-11-09"
       }
     }
