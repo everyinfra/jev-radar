@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 2894,
+    "total_curated": 2904,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -59095,6 +59095,197 @@
         "method": "artifact-inspected",
         "confidence": 0.9,
         "verified_at": "2026-11-09"
+      }
+    },
+    {
+      "name": "calllens",
+      "author": "kitrakrev",
+      "category": "observability",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/kitrakrev/calllens",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Vapi 黑客松作品:逐轮诊断语音 agent 通话(延迟分段、死寂、听错),Jev 判质量/目标是否达成/语言,并自动 PATCH 线上助手自愈",
+      "metrics": "重复通话:地名 3 次重问降至 1 次,轮数 22→17;平均轮延迟 2731→2947ms(作者自报,未修好)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "rooms",
+      "author": "Wenjix",
+      "category": "ui",
+      "primitives": [],
+      "status": "prototype",
+      "url": "https://github.com/Wenjix/rooms",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "语音驱动的空间工作区:对房间说问题,Jev 路由让相关想法浮到前景(Bun/TS,Deepgram+Claude+Exa)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "mem100",
+      "author": "jugripa",
+      "category": "memory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jugripa/mem100",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "两层 agent 记忆引擎:一次 Jev 调用做语义检索,本地 Okapi BM25 兜底,跨时代持续整合;适配 Claude Code/Cursor 等",
+      "metrics": "v1.0.1,MIT",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "verify-copy",
+      "author": "aarondcarr",
+      "category": "eval",
+      "primitives": [],
+      "status": "prototype",
+      "url": "https://github.com/aarondcarr/verify-copy",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "反套话闸门对照实验:正则+Haiku 对比挂在钩子上的 Jev 分类器,问是否值得常驻加载大写作 skill",
+      "metrics": "MIT,附夹具",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "data-workbench",
+      "author": "Richard-X46",
+      "category": "experiment",
+      "primitives": [],
+      "status": "prototype",
+      "url": "https://github.com/Richard-X46/data-workbench",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "个人作品集:TypeSafe Jev、Polars、Modal 的玩具管线与示例(README 仅占位)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "Flide(非官方)",
+      "author": "OmniJev",
+      "category": "alternative-runtime",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/OmniJev/Flide",
+      "tweet": null,
+      "stars": 325,
+      "one_liner": "非官方:面向 Jev 类决策模型的高速推理引擎,靠精确状态分叉,自称比 vLLM/SGLang 快至多 9.5 倍;有 arXiv 论文、PyPI、文档站",
+      "metrics": "最高 9.5× vs vLLM/SGLang(作者自报);Apache-2.0",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "scikit-jev",
+      "author": "engkimo",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/engkimo/scikit-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "scikit-learn 集成:一次请求拿一个样本的全部问题,把概率张量变成 sklearn 特征/分类器/回归器;含免密钥离线示例",
+      "metrics": "pre-alpha;离线示例 fit 0 调用、流水线训练 8 调用",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "thinkthen",
+      "author": "botassembly",
+      "category": "cli",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/botassembly/thinkthen",
+      "tweet": null,
+      "stars": 8,
+      "one_liner": "命令行与库:decide/choose/filter/tag/score/rank/find 等十个函数,默认走 Jev,decide 低高两道线之间输出 unsure 转人工",
+      "metrics": "每问为一次付费 Jev 调用",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "egolite-jev",
+      "author": "raydocs",
+      "category": "agent-skill",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/raydocs/egolite-jev",
+      "tweet": null,
+      "stars": 5,
+      "one_liner": "ego lite 浏览器的配套 skill:agent 只给目标和成功判据,Jev 逐步选点击,成功以 URL/标题匹配为准,不把页面快照灌给编码模型",
+      "metrics": "TypeSafe 约 90ms/决策,OpenRouter 约 250ms(作者自报)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "Jev_Survey",
+      "author": "OmniAI-Lab-CUHKSZ",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/OmniAI-Lab-CUHKSZ/Jev_Survey",
+      "tweet": null,
+      "stars": 18,
+      "one_liner": "港中大(深圳)实验室的综述清单《Fast Decisions Meet Deliberate Reasoning》:261 篇论文/模型/基准,覆盖到 2026-10,论文即将发布",
+      "metrics": "261 条资源",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-10"
       }
     }
   ]
