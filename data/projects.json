@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 2904,
+    "total_curated": 2911,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -59286,6 +59286,145 @@
         "method": "artifact-inspected",
         "confidence": 0.9,
         "verified_at": "2026-11-10"
+      }
+    },
+    {
+      "name": "chrome-use",
+      "author": "hyrious",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/hyrious/chrome-use",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "面向 agent 的有头 Chrome 命令行(snap/click/type/upload),可选 Jev 支持:agent --goal 由 Jev 选下一步;未发布 npm",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-11"
+      }
+    },
+    {
+      "name": "codex-jev-router",
+      "author": "revoirb612",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/revoirb612/codex-jev-router",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "本地 Python 工具:Jev 对任务做 quick/deep 二选一,再启动对应 Codex CLI 模型;不确定走 deep,任务与会话 ID 存本地 SQLite 可 resume",
+      "metrics": "不确定一律走 deep",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-11"
+      }
+    },
+    {
+      "name": "hermes-jev-quota-routing",
+      "author": "Antony-12s",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Antony-12s/hermes-jev-quota-routing",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev 为 Hermes Agent(主聊天+子代理)选模型和 effort,置信度低于 0.65 保留用户所选;Claude 额度≤10% 时预警并切 Codex",
+      "metrics": "置信度阈值 0.65",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-11"
+      }
+    },
+    {
+      "name": "mdlt-jev-slm",
+      "author": "Dias8777",
+      "category": "eval",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Dias8777/mdlt-jev-slm",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "AITU 课程作业:同一手标测试集上比较 Jev、LLM 与 LoRA 微调 Qwen3-0.6B 工单路由器;结果表与图均存仓内,Colab 可复现",
+      "metrics": "Jev vs LLM vs 0.6B LoRA 三方对照",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-11"
+      }
+    },
+    {
+      "name": "decision-benchmark",
+      "author": "bladerik",
+      "category": "eval",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/bladerik/decision-benchmark",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "斯洛伐克语 agent skill:判断任务是否适合决策模型,并在用户自标的 50–100 条样本上经 OpenRouter 同测 Jev、Luna、Drex、Clef 等,出准确率、置信校准、速度和每千条成本",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-11"
+      }
+    },
+    {
+      "name": "qwen-jev-rsi",
+      "author": "binary-husky",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/binary-husky/qwen-jev-rsi",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "System-One RSI 学术项目页(中英双语):推理引导学习如何把有限真实环境交互变成 JEV 类模型的外置「肌肉记忆」",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-11"
+      }
+    },
+    {
+      "name": "open-jev-multiquestion",
+      "author": "lsxblh",
+      "category": "clone",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/lsxblh/open-jev-multiquestion",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "非官方:Qwen3.5-4B + NF4 + LoRA,一次前向同时给多个问题打带校准的概率(Open-Jev V3);无 README,仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-11"
       }
     }
   ]
