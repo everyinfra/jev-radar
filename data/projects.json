@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 2911,
+    "total_curated": 2957,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -59425,6 +59425,948 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-11-11"
+      }
+    },
+    {
+      "name": "jev-effort-router",
+      "author": "AlphaPerseii3000",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/AlphaPerseii3000/jev-effort-router",
+      "tweet": null,
+      "stars": 8,
+      "one_liner": "Hermes Agent 每轮同时用 Jev 选模型和推理强度(Ollama:Cloud 档,带置信度保护与路由记录)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "shot-grouping-decision-models",
+      "author": "JasonMakes801",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/JasonMakes801/shot-grouping-decision-models",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "给 124 个镜头两两问是/否,用 Jev 1.14 聚类分场景与调色组;对比 Cloudflare Clef",
+      "metrics": "Jev:122/124 场景、124/124 调色组,$0.079、7.8 秒;Clef:115/124、97/124,$0.97、6 分 32 秒(作者自报)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-test (paulopasso)",
+      "author": "paulopasso",
+      "category": "robotics",
+      "primitives": [
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/paulopasso/jev-test",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Lift 机器人演示里用 Jev 1.13 当 episode 质量筛选器,配合逆动力学伪动作训练策略",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-skill (abhisheksharma001)",
+      "author": "abhisheksharma001",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/abhisheksharma001/jev-skill",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Jev 的 agent skill:适配度检查、集成配方、校准、multi-Jev,补官方 skill 没覆盖的部分",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-retention-agent",
+      "author": "aidan269",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/aidan269/jev-retention-agent",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "电池公司客户留存机器人:电量越过 30%/25% 出更新草稿,Jev 评估客户回复并升级为 HubSpot 任务",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-playground (giovannirco)",
+      "author": "giovannirco",
+      "category": "game",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/giovannirco/jev-playground",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "20 个小站展示 Jev(经 OpenRouter)做决策,每页带 x-ray 看请求与响应",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "universal-jev",
+      "author": "raj8525",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/raj8525/universal-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "给编码 agent 用的 Jev 运行时插件+MCP:压缩终端日志为验证回执,并带两层浏览器引擎",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "Astra-Ares",
+      "author": "miuuyy",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/miuuyy/Astra-Ares",
+      "tweet": null,
+      "stars": 314,
+      "one_liner": "在 Codex 任务运行中用 Jev 为 GPT-6 逐步调整推理强度以省 token(打过补丁的 Codex CLI,实验性)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "agent-router (nidhi-singh02)",
+      "author": "nidhi-singh02",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/nidhi-singh02/agent-router",
+      "tweet": null,
+      "stars": 124,
+      "one_liner": "本地优先、按配额路由:Jev 在 Cursor/Claude Code/Codex/OpenCode 中选代理、模型与推理强度并启动",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "TartanIMU-Cognitive-Stack",
+      "author": "Agnuxo1",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/Agnuxo1/TartanIMU-Cognitive-Stack",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Deterministic-first cognitive orchestration with bounded TypeSafe JEV supervision, evidence-aware escalation, and privacy-minimizing telemet;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "Universal-Cognitive-Architecture-JEV-v2",
+      "author": "Agnuxo1",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/Agnuxo1/Universal-Cognitive-Architecture-JEV-v2",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Executable cognitive architecture: validated graph context, deterministic cache, bounded JEV routing and evidence-gated model collaboration.;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "Jev-AutoYOLO",
+      "author": "DreamBlooms",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/DreamBlooms/Jev-AutoYOLO",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Images or videos in → YOLO model out / 图片视频扔进去 → YOLO 模型训出来 | A one-key integrated pipeline for the automated labelling and training of YOLO;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "bouncer",
+      "author": "Faycall1l",
+      "category": "clone",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/Faycall1l/bouncer",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "非官方:Programmable live-chat mod in one 30ms System One pass (Laya/Jev-compatible);仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-cannibalization",
+      "author": "NicoSKOOL",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/NicoSKOOL/jev-cannibalization",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Claude Code skill: find searches where Google shows the wrong one of your pages, from Search Console, judged by TypeSafe's Jev model. Under ;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-internal-links",
+      "author": "NicoSKOOL",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/NicoSKOOL/jev-internal-links",
+      "tweet": null,
+      "stars": 18,
+      "one_liner": "Claude Code skill: find every internal link your site is missing, decided by TypeSafe's Jev model. One command, about $1, interactive report;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "mem-jev",
+      "author": "Sauhard74",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/Sauhard74/mem-jev",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "Deterministic procedural memory for agents;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "Search-Function-Test",
+      "author": "Shifros",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/Shifros/Search-Function-Test",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "A test project based on Jev AI, the goal is to build a search function for a blog/article website that has 100s of articles to search from, ;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev_projects",
+      "author": "X0EF",
+      "category": "directory",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/X0EF/jev_projects",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "list of projects that use typesafe's jev;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "opencode-jev-orchestrator",
+      "author": "aaronshaf",
+      "category": "routing",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/aaronshaf/opencode-jev-orchestrator",
+      "tweet": null,
+      "stars": 8,
+      "one_liner": "Keeps OpenCode on a cheap sticky model for warm cache; Jev escalates hard turns to stronger subagents.;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "typesafe-demo-mcp",
+      "author": "bestagentkits",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/bestagentkits/typesafe-demo-mcp",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "MCP server exposing TypeSafe System One judgments (noul, choice, score) as agent tools;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "rulesmith",
+      "author": "bradAGI",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/bradAGI/rulesmith",
+      "tweet": null,
+      "stars": 12,
+      "one_liner": "DSPy searches for a readable rules file: field checks settle the easy cases for free, and a small judge model answers the rest with calibrat;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "quiet-feed",
+      "author": "briwilcox",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/briwilcox/quiet-feed",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "Chrome extension that filters X timelines with your own TypeSafe Jev API key, or GLiNER-Decide locally;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "dsh-decide",
+      "author": "calmzealA",
+      "category": "routing",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/calmzealA/dsh-decide",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Multi-provider decision models for DeepSeek Harness: TypeSafe Jev, TokenRhythm NeoHorse-Jev, OpenAI Decisions, and local System One endpoint;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-instance-review",
+      "author": "chuloontop4-code",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/chuloontop4-code/jev-instance-review",
+      "tweet": null,
+      "stars": 70,
+      "one_liner": "Best Roblox Studio Instance Reviewer 2026: Typed Jev Criteria and Exact Citations;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-laya-toolkit",
+      "author": "codelivin",
+      "category": "platform",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/codelivin/jev-laya-toolkit",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "Dashboard and local proxy for SystemOne decision models - Jev (TypeSafe API) and self-hosted Laya. Send one state with up to 8 typed questio;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "OpenDecision",
+      "author": "deepanwadhwa",
+      "category": "clone",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/deepanwadhwa/OpenDecision",
+      "tweet": null,
+      "stars": 116,
+      "one_liner": "非官方:Free open source alternative for Jev that supports text, documents and images and runs at ~2GB of ram on a CPU.;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "lossless-rewrite",
+      "author": "dttfrancesco",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/dttfrancesco/lossless-rewrite",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Cut words, not ideas. Preserve important meaning, exact wording and writing rules in AI rewrites. Chrome extension, local editor and CLI.;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "pm-decisions",
+      "author": "geektuhin123",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/geektuhin123/pm-decisions",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Claude Code plugin: a fast decision layer for product managers, backed by TypeSafe's Jev. Triage, duplicates, story readiness, risk flags, p;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-java",
+      "author": "gudcks",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/gudcks/jev-java",
+      "tweet": null,
+      "stars": 6,
+      "one_liner": "Unofficial Java SDK for TypeSafe Jev and Vercel AI Gateway, with Spring Boot and WebClient support;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "slidepilot",
+      "author": "harshil1712",
+      "category": "voice",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/harshil1712/slidepilot",
+      "tweet": null,
+      "stars": 8,
+      "one_liner": "Voice-driven semantic auto-advance for Slidev, powered by Cloudflare Agents and TypeSafe AI Jev;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "Hunkpick",
+      "author": "hfnissum-byte",
+      "category": "code-quality",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/hfnissum-byte/Hunkpick",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Resolve git merge conflicts by enumeration and judgment: code enumerates every valid resolution, a TypeSafe System One model picks, code gat;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-sec.github.io",
+      "author": "jev-sec",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/jev-sec/jev-sec.github.io",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Jev IDS website: one flow. one request. one verdict.;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "dsh-swarm-jev",
+      "author": "jmflorent",
+      "category": "routing",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/jmflorent/dsh-swarm-jev",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "A swarm kit for DeepSeek Harness: role personas, a self-hosted System One decision layer, and an objective/progress orchestrator design.;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "LegalForecastBench",
+      "author": "johnhughes3",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/johnhughes3/LegalForecastBench",
+      "tweet": null,
+      "stars": 12,
+      "one_liner": "LegalForecast-MTD benchmark alpha and official evaluation workflows;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jevstyle.com",
+      "author": "lawrence3699",
+      "category": "clone",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/lawrence3699/jevstyle.com",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "非官方:JevStyle — small, calibrated decision models (site source for jevstyle.com);仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "typesafe-vs-deepseek",
+      "author": "markfive-proto",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/markfive-proto/typesafe-vs-deepseek",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "TypeSafe (Jev) vs DeepSeek-flash: side-by-side speed/token/cost/accuracy comparison across invoice extraction, email classification, and rer;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "Kev-Bio",
+      "author": "moeinheidari7829",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/moeinheidari7829/Kev-Bio",
+      "tweet": null,
+      "stars": 5,
+      "one_liner": "Official code for \"Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry\" (arXiv 2611.03360);仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "Jev-Interaction",
+      "author": "native-bond-lab",
+      "category": "voice",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/native-bond-lab/Jev-Interaction",
+      "tweet": null,
+      "stars": 24,
+      "one_liner": "System-One-controlled full-duplex voice interaction: turn-taking as plain-language decisions judged by Jev.;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "jev-amazon-keyword-checker",
+      "author": "nexscope-ai",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/nexscope-ai/jev-amazon-keyword-checker",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Find Amazon keyword ideas with Nexscope and evaluate their relevance to listing text with Jev.;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "pdoom-protocol",
+      "author": "onionminionops-beep",
+      "category": "game",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/onionminionops-beep/pdoom-protocol",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "USER + JEV: P(DOOM) PROTOCOL — co-op platform shooter where TypeSafe Jev plays alongside you;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "answerr",
+      "author": "pCwOrM",
+      "category": "routing",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/pCwOrM/answerr",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "A.N.S.W.E.R.R. — The Zero-Latency Reflex AI. Bridges deliberative language models with werr's zero-memory procedural boundary engine. Instan;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "laya-server",
+      "author": "pjt3591oo",
+      "category": "clone",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/pjt3591oo/laya-server",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "非官方:typesafe ai > systemone > jev;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "kyotsu-ai-bench",
+      "author": "shibadogcap",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/shibadogcap/kyotsu-ai-bench",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "AI benchmark on Japan's 2026 Common Test: Jev vs luna-none vs luna-low (static dashboard);仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "FinancialPredictionJev",
+      "author": "thodoh1",
+      "category": "trading",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/thodoh1/FinancialPredictionJev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Using Jev to test how well it predicts financial markets(just like most llms as of september 2026, it doesnt do that good);仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "browser-laya",
+      "author": "wexare-ai",
+      "category": "clone",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/wexare-ai/browser-laya",
+      "tweet": null,
+      "stars": 9,
+      "one_liner": "非官方:Run Laya, the open-source System One decision model, entirely in your browser. Typed questions in, calibrated probabilities out. WebGPU, no ;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "file-guide",
+      "author": "zljr",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/zljr/file-guide",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "AI-assisted file organizer built on Electron + Vue 3 + TypeSafe (Jev) - AI 归档建议与逐层查找;仅据仓库描述收录",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-11-12"
       }
     }
   ]
