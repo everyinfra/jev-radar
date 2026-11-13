@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 2957,
+    "total_curated": 2965,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -60367,6 +60367,172 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-11-12"
+      }
+    },
+    {
+      "name": "s1kit",
+      "author": "Eliot5566",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Eliot5566/s1kit",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Test, calibrate and route System One decision models (Jev, Laya, kev, llama.cpp, Ollama) on your own data; s1kit test/calibrate/Router plus a CI accuracy-drop Action",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-13"
+      }
+    },
+    {
+      "name": "jade-decision-governance",
+      "author": "vahidkaargar",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/vahidkaargar/jade-decision-governance",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Decision governance for AI coding agents using Jev: journaled calls, calibrated abstention, human-held single-use execution permits; jade 0.3.3",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-13"
+      }
+    },
+    {
+      "name": "dsh-jev-goal-judge",
+      "author": "kittimzhe",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/kittimzhe/dsh-jev-goal-judge",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Jev progress judgment between DeepSeek Harness goal rounds: one fan-out per round end, budgeted steer nudges, shadow mode by default, fail-open",
+      "metrics": "≈$0.02 per thousand rounds (author-reported)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-13"
+      }
+    },
+    {
+      "name": "jev-harness",
+      "author": "Talya1412",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Talya1412/jev-harness",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Jev integrations across 14 packages (OMP, MCP, Claude Code, Pi, CI actions, CLIs, editor extensions): fail-open routing, gating, verbatim compaction",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-13"
+      }
+    },
+    {
+      "name": "jev-replay",
+      "author": "poisson-labs",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/poisson-labs/jev-replay",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Paired-replay reliability study of jev-1.13.0 near shipped thresholds: 12,705 calls, 847 items, replication data and verification suite (非官方第三方研究)",
+      "metrics": "159/858 actions flipped at c=0.50 (18.53%) on near-threshold items (author-reported)",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-13"
+      }
+    },
+    {
+      "name": "dbt-decisions",
+      "author": "dbt-labs",
+      "category": "data-infra",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/dbt-labs/dbt-decisions",
+      "tweet": null,
+      "stars": 5,
+      "one_liner": "dbt package for using Jev-class System One decision models inside SQL",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-13"
+      }
+    },
+    {
+      "name": "wisp",
+      "author": "nomanjack",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/nomanjack/wisp",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "Content-aware video player that fades video edges into the page, using Jev's image model to keep people, animals and faces sharp",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-13"
+      }
+    },
+    {
+      "name": "Jev AI 归屿 (jev-ai-organizer)",
+      "author": "Jessie-jzn",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Jessie-jzn/jev-ai-organizer",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Local file organizer sorting by type and capture date, with optional Jev AI category suggestions via TYPESAFE_API_KEY; Node 22+, macOS media metadata",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected",
+        "confidence": 0.9,
+        "verified_at": "2026-11-13"
       }
     }
   ]
