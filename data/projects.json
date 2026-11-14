@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 2965,
+    "total_curated": 2977,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -60533,6 +60533,257 @@
         "method": "artifact-inspected",
         "confidence": 0.9,
         "verified_at": "2026-11-13"
+      }
+    },
+    {
+      "name": "Mule4 Wrapper: Jev for OpenAI",
+      "author": "A2D-Agentic-Asset-Designer",
+      "category": "sdk",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/A2D-Agentic-Asset-Designer/Mule4-Wrapper-Jev-for-OpenAI",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Mule 4 app exposing OpenAI-style /v1/chat/completions and /v1/responses: Jev (via OpenRouter) picks the tool or respond_to_user, a fallback chat model writes the text; usable as an Agent Fabric broker LLM; x-jev-decision header",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "Eclipse",
+      "author": "Jimuelle07",
+      "category": "agent-safety",
+      "primitives": [
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Jimuelle07/eclipse-near",
+      "tweet": "https://x.com/Jimuelle17/status/2121470442712236097",
+      "stars": 4,
+      "one_liner": "Payment firewall for AI agents on NEAR: Guardian contract holds funds, off-host checker (OutLayer TEE + Jev) returns allow/hold/block, every verdict leaves an on-chain receipt; testnet demo blocks a 180 tUSDC lookalike-account payment",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "bilterm-visual-regression",
+      "author": "bsommers",
+      "category": "eval",
+      "primitives": [
+        "box",
+        "choice",
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/bsommers/bilterm-visual-regression",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Semantic visual regression harness for the bilterm terminal emulator: sends framebuffer snapshots to Jev to locate drawer/status bar (Box), classify layout/theme, and assert visibility with calibrated thresholds instead of pixel diffs",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "Jev Inspector",
+      "author": "diegoag64",
+      "category": "data-infra",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/diegoag64/jev-inspector",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Native Rust desktop inspector for TypeSafe API traffic: local jev-bridge relay records every request, response and Jev answer with filters and search; MIT, experimental, macOS/Windows",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "Signal Decision Lab",
+      "author": "larsmartens",
+      "category": "trading",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/larsmartens/signal-decision-lab",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Extracts trading claims from market-commentary transcripts with source references, then asks Jev (via OpenRouter) to review each interpretation and compares rules in paper replay",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "Same bet? (Polymarket vs Kalshi)",
+      "author": "siddhanttiwary25-eng",
+      "category": "eval",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/siddhanttiwary25-eng/same-bet-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Decides whether a Polymarket and a Kalshi market are the same bet, a variant or different with Jev; benchmarked against title matching on 197 hand-labeled look-alike pairs (test run under $0.01)",
+      "metrics": "197 labeled pairs; test set run once < $0.01",
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "DecisionMachines3000",
+      "author": "schalkneethling",
+      "category": "platform",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/schalkneethling/decision-machines-3000",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Demo app for Jev's three primitives: tree-based branch composer, multi-provider side-by-side Run with probability bars, image input and warm-connection latency demo",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "hermes-jev-curator",
+      "author": "anpicasso",
+      "category": "agent-safety",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/anpicasso/hermes-jev-curator",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "Hermes Agent plugin: typed per-pair skill-relationship judgments from Jev for the background curator, safe archive plans, read-only observe by default; experimental 0.1.1",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "Building with Jev (workshop demos)",
+      "author": "raptatinha",
+      "category": "community",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/raptatinha/twr-jev-nov2026",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "Two-hour hands-on workshop repo: Playwright + DemoQA demos racing every model on one question, edge-case failures, per-decision debugging and a 48-failure benchmark",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "JOSH (Jev Onco Statistical Hierarchy)",
+      "author": "samplebias",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/samplebias/jev_onco_statistical_hierarchy",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Rust CLI/TUI for cancer-of-unknown-primary research: one jev-1.13.0 request returns origin distribution over 22 classes plus evidence-sufficiency Nouls, then local gates mark abstain/review_required",
+      "metrics": "v0.8.0; 22-class Choice per request",
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "Muscle Memory",
+      "author": "shri2007",
+      "category": "code-quality",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/shri2007/muscle-memory-aie-mlh",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "1st place AIE x MLH Hackathon (Code Summit, 2026-11-13): code-cleanup editor where Gemini thinks slowly at first, then proven cuts become learned Semgrep rules and Jev handles them as reflexes",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "jev-plays-pokemon",
+      "author": "2389-research",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/2389-research/jev-plays-pokemon",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Agent that plays Pokémon Red through the PyBoy emulator; listed on the Jev directories (README read at description level)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": 0.75,
+        "confidence": "primary-source-exists",
+        "verified_at": "2026-11-14"
       }
     }
   ]
