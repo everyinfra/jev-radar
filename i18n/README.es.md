@@ -5,7 +5,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../docs/assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="../docs/assets/hero-light.svg">
-    <img alt="Un radar barre las categorías del ecosistema Jev; las entradas calificadas se iluminan a su paso y a la derecha aparecen los últimos proyectos verificados con su nivel. 2,977 entradas: A 2062 y B 915." src="../docs/assets/hero-light.svg" width="100%">
+    <img alt="Un radar barre las categorías del ecosistema Jev; las entradas calificadas se iluminan a su paso y a la derecha aparecen los últimos proyectos verificados con su nivel. 2,982 entradas: A 2067 y B 915." src="../docs/assets/hero-light.svg" width="100%">
   </picture>
 </p>
 
@@ -15,7 +15,7 @@
 
 ### El informe de campo independiente sobre el ecosistema Jev, con cada entrada calificada por su evidencia
 
-[![registry](https://img.shields.io/badge/registro-2977_entradas_calificadas-brightgreen)](../data/projects.json) [![cases](https://img.shields.io/badge/casebook-220%2B_casos-brightgreen)](../CASEBOOK.md) [![verified](https://img.shields.io/badge/evidencia-A%2FB%2FC-brightgreen)](#por-qué-puedes-fiarte) [![guide](https://img.shields.io/badge/guía_de_acceso_a_la_API-incluida-brightgreen)](../docs/jev-api-access-guide.zh.md) [![license](https://img.shields.io/badge/licencia-CC_BY_4.0_%C2%B7_datos_CC0-brightgreen)](../LICENSE)
+[![registry](https://img.shields.io/badge/registro-2982_entradas_calificadas-brightgreen)](../data/projects.json) [![cases](https://img.shields.io/badge/casebook-220%2B_casos-brightgreen)](../CASEBOOK.md) [![verified](https://img.shields.io/badge/evidencia-A%2FB%2FC-brightgreen)](#por-qué-puedes-fiarte) [![guide](https://img.shields.io/badge/guía_de_acceso_a_la_API-incluida-brightgreen)](../docs/jev-api-access-guide.zh.md) [![license](https://img.shields.io/badge/licencia-CC_BY_4.0_%C2%B7_datos_CC0-brightgreen)](../LICENSE)
 
 **[English](../README.md#english) · [简体中文](../README.md#中文) · Español**
 
@@ -43,7 +43,7 @@ Cada caso se verificó contra una fuente primaria: un repositorio que abrimos, u
 
 ## Por qué puedes fiarte
 
-Cada entrada estructurada del registro (108 en el primer lote del 2026-09-19, 2,977 tras el último barrido del 2026-11-14) lleva un bloque `verification` asignado durante la investigación:
+Cada entrada estructurada del registro (108 en el primer lote del 2026-09-19, 2,982 tras el último barrido del 2026-11-14) lleva un bloque `verification` asignado durante la investigación:
 
 | Nivel | Confianza | Cómo se gana |
 |---|---|---|
@@ -51,7 +51,7 @@ Cada entrada estructurada del registro (108 en el primer lote del 2026-09-19, 2,
 | **B** | 0.75 | Hay una fuente primaria en el expediente (repositorio o publicación original), revisada a nivel de descripción |
 | **C** | 0.60 | Solo aparece en un directorio; sube de nivel en el siguiente barrido, cuando se abre |
 
-Cohorte original de verificación de casos del 2026-09-19: **38 × A · 70 × B · 0 × C**. Distribución del registro tras el último barrido: 2,977 entradas, A 2062 · B 915. Las cifras dentro de cada entrada son **las que declara su autoría**, salvo que se marquen como reproducidas. También documentamos lo que *no* funciona: confianza no es acierto, la sensibilidad al orden y una ola de demos falsas aceleradas, con indicaciones sobre qué repositorios tienen trazas reales.
+Cohorte original de verificación de casos del 2026-09-19: **38 × A · 70 × B · 0 × C**. Distribución del registro tras el último barrido: 2,982 entradas, A 2067 · B 915. Las cifras dentro de cada entrada son **las que declara su autoría**, salvo que se marquen como reproducidas. También documentamos lo que *no* funciona: confianza no es acierto, la sensibilidad al orden y una ola de demos falsas aceleradas, con indicaciones sobre qué repositorios tienen trazas reales.
 
 ## Qué se está construyendo (por densidad)
 

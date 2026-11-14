@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 2977,
+    "total_curated": 2982,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -60783,6 +60783,109 @@
         "tier": "B",
         "method": 0.75,
         "confidence": "primary-source-exists",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "dsh-jev-auto-approve",
+      "author": "Vultwo",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Vultwo/dsh-jev-auto-approve",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "DeepSeek Harness 插件:用 Jev 的 safe/irreversible/authorized 三道是非题自动放行审批,未过关则回到人工确认",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "jev_model_routers",
+      "author": "himanshu231204",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/himanshu231204/jev_model_routers",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "JEV Router:本地代理,每轮由 Jev 在 Haiku/Sonnet/Opus 间选模型,Claude Code 无需改动(PyPI jev-model-router)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "jevstice",
+      "author": "veschin",
+      "category": "agent-safety",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/veschin/jevstice",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "oh-my-pi 扩展:在工具调用边界让 Jev 复核执行者的需求/计划/验收决定,拒绝即留下 finding 并挂起后续动作",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "JevGuard",
+      "author": "pablozr",
+      "category": "code-quality",
+      "primitives": [
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/pablozr/JevGuard",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "编码代理语义策略引擎:按仓库 Markdown 规则逐条用 Jev 判 PASS/WARN/FAIL,支持 OpenCode 与 Claude Code",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-14"
+      }
+    },
+    {
+      "name": "JevforCoentent (judge)",
+      "author": "TangVarie",
+      "category": "content-scoring",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/TangVarie/JevforCoentent",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "BYWOOD 内容生产共用判定服务:稿件写前/写中/写后与评论层用 Jev 做闭集概率判断并记账本",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
         "verified_at": "2026-11-14"
       }
     }
