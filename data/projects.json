@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 3017,
+    "total_curated": 3033,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -61604,6 +61604,308 @@
         "method": 0.9,
         "confidence": "artifact-inspected",
         "verified_at": "2026-11-15"
+      }
+    },
+    {
+      "name": "jev-router-shield",
+      "author": "ddzelal",
+      "category": "router",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/ddzelal/jev-router-shield",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "本地代理:Claude Code 每条消息由 Jev 选 Claude 模型与 effort,公司数据不出本机",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "feed-filter",
+      "author": "ranawaqas-ai",
+      "category": "browser-extension",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ranawaqas-ai/feed-filter",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chrome 扩展:YouTube 首页卡片先模糊,Jev 按用户目标打分后才显示",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "decider-model (MiniJev)",
+      "author": "spraja08",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/spraja08/decider-model",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "非官方:字符级小型决策模型,仿 Jev 的学习项目",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "dify-review",
+      "author": "asukaminato0721",
+      "category": "code-quality",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/asukaminato0721/dify-review",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "从 PR 评审历史学规则,用 Jev 判断新 PR 是否触发规则",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "jev-captcha",
+      "author": "nima1313",
+      "category": "tools",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/nima1313/jev-captcha",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "用 Jev 提问式读取 3–8 位图片验证码,代码做最终决策",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "jev-decision-model-architecture",
+      "author": "abdmaajith-dot",
+      "category": "clone",
+      "primitives": [],
+      "status": "prototype",
+      "url": "https://github.com/abdmaajith-dot/jev-decision-model-architecture",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "非官方:Jev 式决策模型完整架构的 Excalidraw 图",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "chatbot-jev-gemini",
+      "author": "jfmdev",
+      "category": "chat-bot",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jfmdev/chatbot-jev-gemini",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev 加 Gemini 的简单客服机器人",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "decision-model (New.bi)",
+      "author": "TokenService",
+      "category": "cli",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/TokenService/decision-model",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "决策模型命令行与 agent 技能,适配 Jev / System One,阈值、预设、fail-open",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "webhand",
+      "author": "sakamoto66",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/sakamoto66/webhand",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Claude Code 插件:Claude 规划,Jev 逐步选点击与输入的浏览器 agent",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "SystemOneDSL (jev_dsl)",
+      "author": "boxxxie",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/boxxxie/jev_dsl",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Elixir:编译期契约 DSL、双层缓存与执行器,对接 Jev SystemOneSDK",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "claude-jev",
+      "author": "zachshallbetter",
+      "category": "agent-skill",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/zachshallbetter/claude-jev",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Claude Code 插件:Jev 做排序、路由、分诊与校准的类型化决策",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "SEO-magus",
+      "author": "lucasrafaldini",
+      "category": "seo-tool",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/lucasrafaldini/SEO-magus",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "SEO 分析与自动内链,设 TYPESAFE_API_KEY 时用 Jev,否则离线启发式",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "jev-gate",
+      "author": "lymagics",
+      "category": "ci-tooling",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/lymagics/jev-gate",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "GitHub Action:代码违反质量规则时用 Jev 决策让流水线失败",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "pi-auto",
+      "author": "ekil1100",
+      "category": "router",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ekil1100/pi-auto",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Pi 扩展:每个任务前用 Jev 自动选 thinking effort,不切换模型",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "jev_for_antigravity",
+      "author": "vutung2311",
+      "category": "plugin",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/vutung2311/jev_for_antigravity",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Google Antigravity 的 Jev 协处理器:调用前决策与工具调用护栏",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "kickbase-copilot",
+      "author": "milopraetzel",
+      "category": "sports",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/milopraetzel/kickbase-copilot",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Kickbase 自主交易 agent,配置 Jev 时把新闻转成首发概率",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-16"
       }
     }
   ]
