@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 3033,
+    "total_curated": 3050,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -61906,6 +61906,320 @@
         "method": 0.9,
         "confidence": "artifact-inspected",
         "verified_at": "2026-11-16"
+      }
+    },
+    {
+      "name": "Jev-AutoLaya",
+      "author": "DreamBlooms",
+      "category": "clone",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/DreamBlooms/Jev-AutoLaya",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "本地领域决策模型构建工具:用 Jev/LLM/人工标注数据训练 Laya/GLiNER(Laya 为非官方)(非官方)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "lean-jev-bridge",
+      "author": "RevanthM",
+      "category": "research",
+      "primitives": [],
+      "status": "prototype",
+      "url": "https://github.com/RevanthM/lean-jev-bridge",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev 概率提案后接 Lean 确定性验收边界的合成原型(无真实 Jev 输出)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "Switchboard",
+      "author": "gauravlahoti",
+      "category": "agent",
+      "primitives": [],
+      "status": "prototype",
+      "url": "https://github.com/gauravlahoti/Switchboard",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "IT 工单分诊 agent:Jev 筛每张工单、代码套规则、高风险等人审(Google ADK 2.0,合成数据)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": 0.75,
+        "confidence": "primary-source-exists",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "jev-dns-filter",
+      "author": "klara406",
+      "category": "idea",
+      "primitives": [],
+      "status": "idea",
+      "url": "https://github.com/klara406/jev-dns-filter",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "用 Jev 对 AdGuard Home 查询日志里的域名分类生成动态黑名单(仅设计笔记,未实现)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "jev-holdem",
+      "author": "lawsirlawsir-png",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/lawsirlawsir-png/jev-holdem",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "对战 Jev 的单挑无限注德州扑克,引擎发牌、Jev 答 Choice/Score/Noul、代码下注",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "JEV (pramodklal)",
+      "author": "pramodklal",
+      "category": "app",
+      "primitives": [],
+      "status": "prototype",
+      "url": "https://github.com/pramodklal/JEV",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Streamlit + OpenAI 聊天机器人,用 Jev 做前置 System One 决策,附完整原理指南",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "hermes-system-one",
+      "author": "salismt",
+      "category": "plugin",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/salismt/hermes-system-one",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Hermes Agent 插件:一个工具切换 Jev / Liquid d1.2 / Laya 等 System One 供应商,含花费上限",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "deskrecall",
+      "author": "sreenivasanac",
+      "category": "desktop",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/sreenivasanac/deskrecall",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "macOS 菜单栏应用,按显示器配置恢复窗口布局,模糊匹配交给 Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "medical-jev-train",
+      "author": "JuneYaooo",
+      "category": "model-alt",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/JuneYaooo/medical-jev-train",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "本地 4B 医疗决策模型(非官方 Jev 类模型),1514 题 69.35%,不用于临床",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "jev-guard",
+      "author": "ClemensSchartmueller",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ClemensSchartmueller/jev-guard",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "AI 编码代理安全闸:执行前检查命令与文件读写,模糊调用交给 Jev 结合用户意图判断",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "jev-router (phoem)",
+      "author": "phoem",
+      "category": "router",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/phoem/jev-router",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Claude Code mod:Jev 判断提示难度并选当轮 Claude 模型,可报告或应用模式",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "typesafe-jev-handson",
+      "author": "mwmw7",
+      "category": "education",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/mwmw7/typesafe-jev-handson",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "空军 AI 教育 Jev 实操:一次调用三问(choice/score/noul)判断是否升空拦截,代码定规则",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "arXiv Radar (haydarsahin0/Jev)",
+      "author": "haydarsahin0",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/haydarsahin0/Jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "每日两次扫 arXiv 新论文,Jev 给新颖度/证据评分与话题,发布到 GitHub Pages",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "jev-claud",
+      "author": "thiago-lage",
+      "category": "agent-context",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/thiago-lage/jev-claud",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "为主代理整理证据、降噪:代码用 Jev 类型化判断、人读文本交给 LLM,默认零成本(PyPI,v1.0.1)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "jev-humanize-writing",
+      "author": "win4r",
+      "category": "writing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/win4r/jev-humanize-writing",
+      "tweet": null,
+      "stars": 5,
+      "one_liner": "Jev 辅助去 AI 味写作 Skill:保留事实与归因,代码保护数字引语",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "jev-security-scan",
+      "author": "win4r",
+      "category": "security",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/win4r/jev-security-scan",
+      "tweet": null,
+      "stars": 11,
+      "one_liner": "用 Jev + 静态检查审查 Agent Skill / MCP 的可疑行为,输出行号与覆盖缺口",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "pi-jev-router",
+      "author": "win4r",
+      "category": "router",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/win4r/pi-jev-router",
+      "tweet": null,
+      "stars": 12,
+      "one_liner": "Pi Coding Agent 的任务边界模型路由扩展,Jev 判档位,含精确缓存与故障切换",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-17"
       }
     }
   ]
