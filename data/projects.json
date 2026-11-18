@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 3050,
+    "total_curated": 3060,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -62220,6 +62220,193 @@
         "method": 0.9,
         "confidence": "artifact-inspected",
         "verified_at": "2026-11-17"
+      }
+    },
+    {
+      "name": "AI_Ticket_Routing_JEV",
+      "author": "mr-kittureddy",
+      "category": "vertical",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/mr-kittureddy/AI_Ticket_Routing_JEV",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "IT 工单分诊单页原型:Jev 1.14 的 choice/noul 选团队并判断是否需人工,再用 Gemini 起草处理步骤",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "jev-if-player",
+      "author": "klavdiy-core",
+      "category": "game",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/klavdiy-core/jev-if-player",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "文字互动小说盲测:AI 读者从头玩 Twine/ink 游戏并逐回合报告阅读欲望,输出一页报告",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "trading-desk",
+      "author": "nkrarupclemmensen10-star",
+      "category": "trading",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/nkrarupclemmensen10-star/trading-desk",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Trading Desk-in-a-Box:6 智能体 memecoin 纸面交易台,含只读 Freqtrade/Jev 桥接(丹麦语文档)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "IGRIS",
+      "author": "JlassiRafet",
+      "category": "agent-infra",
+      "primitives": [],
+      "status": "prototype",
+      "url": "https://github.com/JlassiRafet/IGRIS",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "早期项目:聊天请求经 Hermes 让 Jev 或 Laya 选 agent 与模型,Herdr 里一建一审再跑测试",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "telegram-antispam-bot",
+      "author": "pedxyuyuko",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/pedxyuyuko/telegram-antispam-bot",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Go 写的 Telegram 群反垃圾机器人,调用 Jev/System One 兼容接口识别诈骗和黑灰产,默认只记录",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "pyjev",
+      "author": "ledgerwerk",
+      "category": "sdk",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ledgerwerk/pyjev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Python 的可复用、可检视 Jev 决策契约库(PyPI 发布,含覆盖率徽章)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "uprosti-vibe",
+      "author": "uprosti-tech",
+      "category": "routing",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/uprosti-tech/uprosti-vibe",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "本地 OpenAI 兼容 Polza 代理:model=auto 时 Jev 按任务复杂度选执行模型,含视觉预处理缓存",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "jev-pr-classifier",
+      "author": "Xm-Coding",
+      "category": "code-quality",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/Xm-Coding/jev-pr-classifier",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "输入 GitHub/Gitee/GitCode/AtomGit 的 PR 或 commit 链接,调用官方 Jev API 输出主类别与七类概率",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "claude-si",
+      "author": "u007",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/u007/claude-si",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "个人 Claude Code 插件市场,含 jev-guard:PostToolUse 钩子用 Jev 扫描入站网页/MCP 结果",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "hf-second-opinion-triage",
+      "author": "hidefujimori",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/hidefujimori/hf-second-opinion-triage",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Splunk ES 发现项的二次判读应用:默认调 Jev 给出 TP/FP/Benign/Undetermined 建议处置",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-18"
       }
     }
   ]
