@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 3060,
+    "total_curated": 3079,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -62407,6 +62407,395 @@
         "method": 0.9,
         "confidence": "artifact-inspected",
         "verified_at": "2026-11-18"
+      }
+    },
+    {
+      "name": "social-monitor",
+      "author": "777genius",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/777genius/social-monitor",
+      "tweet": null,
+      "stars": 53,
+      "one_liner": "跨 X/Reddit/Telegram/新闻的去重信息流,用 Jev 筛出有价值的独特帖子",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "bitra",
+      "author": "BijectiveLabs",
+      "category": "trading",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/BijectiveLabs/bitra",
+      "tweet": null,
+      "stars": 47,
+      "one_liner": "确定性执行的自主交易代理,Jev 把头条读成封闭问题并给出事件类型概率",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "Jeveration",
+      "author": "Carol-lyh",
+      "category": "clone",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/Carol-lyh/Jeveration",
+      "tweet": null,
+      "stars": 31,
+      "one_liner": "(非官方)论文《Jeveration》:冻结视觉语言模型一次联合决策输出整张 512×512 图像",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "ChatJev",
+      "author": "JamesANZ",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/JamesANZ/ChatJev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "网页聊天界面:上传文档提问,由 Jev 给出类型化判断并用自然语言解读",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "jev-test",
+      "author": "JustinRoderick",
+      "category": "data-infra",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/JustinRoderick/jev-test",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "本地 POC:TanStack Start + DuckDB,用 Jev 的 Noul/Score 检查列提案的语义支持与信息损失",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "JevMajhong",
+      "author": "YokyYao",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/YokyYao/JevMajhong",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Jev Mahjong 桌面端麻将 AI(Jev Play v2 权重),含桌面识别与操作",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "jev-workshop",
+      "author": "asusoda",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/asusoda/jev-workshop",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "围绕 Jev 的工作坊起步仓库,以工单分诊演示三类问题",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "customer_support",
+      "author": "chyzm",
+      "category": "vertical",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/chyzm/customer_support",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "FastAPI + SQLite 的置信度门控工单分诊 API,低置信转人工,默认离线 mock",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "model-effort-router",
+      "author": "cmdaltctr",
+      "category": "routing",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/cmdaltctr/model-effort-router",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Claude Code mod:用 Jev 给每个提示打分,设置推理强度与子代理模型",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "jev-router-effort",
+      "author": "globalmpc",
+      "category": "routing",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/globalmpc/jev-router-effort",
+      "tweet": null,
+      "stars": 15,
+      "one_liner": "gargpratyush/jev-router 的衍生版,为 Claude Code 等路由模型与推理强度",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "job-hunter-agent",
+      "author": "kikidorion",
+      "category": "vertical",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/kikidorion/job-hunter-agent",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "求职代理:用 16 个类型化 Jev 问题给岗位排序,生成简历与求职信,Telegram 摘要",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "the-verification-gate",
+      "author": "nullghost-io",
+      "category": "eval",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/nullghost-io/the-verification-gate",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "研究短文+最小可运行范例:以 Jev 为案例的类型化校准门控(中英/西)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "onlyread",
+      "author": "onlyreadai",
+      "category": "agent-safety",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/onlyreadai/onlyread",
+      "tweet": null,
+      "stars": 106,
+      "one_liner": "Chrome 扩展:让浏览器代理只读,拦截写操作,Jev 决策、Claude 复核疑难",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "pi-advisor",
+      "author": "philipbrembeck",
+      "category": "agent-safety",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/philipbrembeck/pi-advisor",
+      "tweet": null,
+      "stars": 68,
+      "one_liner": "Pi Coding Agent 的 Advisor/Executor 插件,可选 Jev 分类器筛咨询与回合门控",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "jevtophoto",
+      "author": "qeoplkm",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/qeoplkm/jevtophoto",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "照片垃圾分诊实验:结论是规则写清后 Jev 增益有限,适合写规则与处理边界案例",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "jev(ritchieking)",
+      "author": "ritchieking",
+      "category": "community",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ritchieking/jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev 工作原理解释站,服务端代理持有 TypeSafe key",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "codex-sift",
+      "author": "romanmeclazcke",
+      "category": "routing",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/romanmeclazcke/codex-sift",
+      "tweet": null,
+      "stars": 9,
+      "one_liner": "按回合问 Jev 任务难度,YAML 策略路由到 flash/craft/forge 模型,实测均值 418ms",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "Jetriever",
+      "author": "imlrz",
+      "category": "compaction",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/imlrz/Jetriever",
+      "tweet": null,
+      "stars": 7,
+      "one_liner": "基于 Jev 的代理记忆检索系统与研究产物,Noul 效用分数重排",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "Visual-Jev",
+      "author": "guanxuyu-sv",
+      "category": "clone",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/guanxuyu-sv/Visual-Jev",
+      "tweet": null,
+      "stars": 56,
+      "one_liner": "(非官方)Visual Jev:visual-jev-4b 视觉决策模型与项目页",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-19"
       }
     }
   ]
