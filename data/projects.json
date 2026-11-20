@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 3079,
+    "total_curated": 3092,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -62796,6 +62796,284 @@
         "method": 0.9,
         "confidence": "artifact-inspected",
         "verified_at": "2026-11-19"
+      }
+    },
+    {
+      "name": "jev-mcp-unraid",
+      "author": "jbowensii",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/jbowensii/jev-mcp-unraid",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Jev 判断 MCP 服务容器化:用 mcp-proxy 把 stdio 版 @jkudish/jev-mcp 转成 streamable HTTP(8933 端口),供 Unraid / MCPJungle 注册",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "gliner-emoji-filter",
+      "author": "aleksbal",
+      "category": "clone",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/aleksbal/gliner-emoji-filter",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "(非官方)研究:本地 GLiNER 模型能否在笔记本 CPU 上替代 Jev 做 emoji 自由文本过滤(624 个 emoji);matcher 与 Streamlit 应用尚未写完",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "typesafe-ruby",
+      "author": "revans",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/revans/typesafe-ruby",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "TypeSafe System One API 的 Ruby 客户端:覆盖 Noul/Choice/Score/Box 四类问题、图像、压缩、重试,仅依赖标准库 Net::HTTP",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "x-ai-detect (Anti-XAI)",
+      "author": "ninehills",
+      "category": "content-scoring",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/ninehills/x-ai-detect",
+      "tweet": null,
+      "stars": 11,
+      "one_liner": "Chrome 扩展+数据标注器:用 Jev / Gemini Decisions 探测 X 回复区的 AI Slop;作者声明实测基于 gemini-decision-1 且不再维护",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "quickverdict",
+      "author": "janmm97",
+      "category": "clone",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/janmm97/quickverdict",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "(非官方)本地开源分类服务器:小模型跑在自己 GPU 上,接口与 System One 线协议兼容,返回校准概率;自带 CLERC 基准对比,承认 1.5B 模型在重排上仍落后 Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "Rag_with_Jev_AI",
+      "author": "Sriman-Kabilan",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/Sriman-Kabilan/Rag_with_Jev_AI",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "FAISS+BM25 混合检索 RAG:Jev 对每个候选片段给校准概率做噪声过滤与提示注入防御,NVIDIA NIM 生成;Jev 不可达时自动回退到普通 RAG",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "voicecom-jev",
+      "author": "MatthewRuizDiaz",
+      "category": "vertical",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/MatthewRuizDiaz/voicecom-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Mac 语音多指令:本地 Whisper 转写,Jev 判断哪条命令、边界在哪、是否会丢数据;动作由确定性代码执行,一句话多条命令约 1 秒",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "JevRSI",
+      "author": "usail-hkust",
+      "category": "eval",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/usail-hkust/JevRSI",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "论文 Think Once, Act Fast(arXiv:2611.22432)代码:Jev 式 System-1 低延迟选动作,异步 System-2 LLM 递归改进外围 harness",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "JevBeez",
+      "author": "Scr34m1nG",
+      "category": "vertical",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/Scr34m1nG/JevBeez",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "事实核查与虚假信息检测引擎(印尼语):Jev 校准概率加网络证据检索,输出 Verdict、置信分与原始文献出处;Go+Nuxt",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "decision-pentest",
+      "author": "Ar39",
+      "category": "agent-safety",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/Ar39/decisionPentest",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Hermes 编排、Jev 规划的流量驱动自动化渗透测试:Burp 流量归一化→Jev 结构化规划→IDOR/SQLi/SSRF/XXE 专项 Agent→独立 Validator 验证",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "SparkScore",
+      "author": "Enntity",
+      "category": "clone",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Enntity/sparkscore",
+      "tweet": null,
+      "stars": 13,
+      "one_liner": "(非官方)单台 NVIDIA DGX Spark 上跑 d3-ultra 27B NVFP4(Atlas 引擎),提供 Jev 形状接口",
+      "metrics": {
+        "JevBench public": "90.9%",
+        "p50": "146 ms"
+      },
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "JevCaptcha",
+      "author": "sgstq0811",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/sgstq0811/JevCaptcha",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "论文代码 Enumerate, Ask, Aggregate:把 CAPTCHA 拆成有限动作空间,逐候选向类型化决策模型 Clef-flash 9B 提是非/选择题再聚合",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "guardrail-chatbot-jev",
+      "author": "Nhat-Nguyet",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Nhat-Nguyet/guardrail-chatbot-jev",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "聊天机器人内容安全护栏:一份策略文件检查输入、输出和整段对话,18 类危害对齐 MLCommons/Llama Guard/OWASP,含越南合规包;Python/TS/Go 三语",
+      "metrics": {
+        "live multi-turn": "0/194 harmless held, 19/19 harmful caught"
+      },
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-20"
       }
     }
   ]
