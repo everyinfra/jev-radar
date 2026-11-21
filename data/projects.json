@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 3092,
+    "total_curated": 3108,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -63074,6 +63074,329 @@
         "method": 0.9,
         "confidence": "artifact-inspected",
         "verified_at": "2026-11-20"
+      }
+    },
+    {
+      "name": "opencode-cua-tutor",
+      "author": "adunne09",
+      "category": "browser-agent",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/adunne09/opencode-cua-tutor",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "OpenCode 插件:macOS 电脑操作教学助手,Jev 4 个 Noul 做意图门,Cua Driver 只画指针不点击",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "git-ontology-agent",
+      "author": "gogoymh",
+      "category": "agent-safety",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/gogoymh/git-ontology-agent",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "每次请求一个 git 分支,本体决定重做哪些步骤和如何合并;决策模型含 Typesafe Jev(typesafe/jev-1.14)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "sift",
+      "author": "nihirdhamecha",
+      "category": "vertical",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/nihirdhamecha/sift",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "简历筛选:隐去姓名后让 Jev 给匹配分和入围建议,部署到 Vercel",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "revision-imagenes",
+      "author": "oscarmat",
+      "category": "vertical",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/oscarmat/revision-imagenes",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "WordPress 插件:用 Jev 对媒体库图片打分,找出该删的图,WP-Cron 后台队列",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "jevbrev",
+      "author": "parker-brown-family",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/parker-brown-family/jevbrev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "把 API 定义压成 .brev 文件,再生成要问 Jev 的问题、读答案的代码和 HTTP 调用",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "jev-codex-harness",
+      "author": "teo-nex",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/teo-nex/jev-codex-harness",
+      "tweet": null,
+      "stars": 22,
+      "one_liner": "Agent 优先的安装包:让编码代理为 Codex 配好 Jev 路由",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "jev-youtube-guard",
+      "author": "yoshi47",
+      "category": "browser-extension",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/yoshi47/jev-youtube-guard",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "iPhone Safari 用户脚本:用 Jev 判定并拦截 YouTube 视频页",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "droidjev",
+      "author": "mkruglikov",
+      "category": "browser-agent",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/mkruglikov/droidjev",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "免截图的 Android 模拟器点击器:读视图层级,让 Jev 选下一步",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "ha-jev-voice-pipeline",
+      "author": "armandodollia",
+      "category": "voice",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/armandodollia/ha-jev-voice-pipeline",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Home Assistant 语音管线:Windows 游戏机上跑本地 Jev 模式 llama.cpp,GPU Whisper/Piper",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "jev-play-games",
+      "author": "ege-bulut",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/ege-bulut/jev-play-games",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "实时观看 Jev 玩浏览器游戏,屏幕显示每步概率",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "jevban",
+      "author": "fmxexpress",
+      "category": "agent-safety",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/fmxexpress/jevban",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Jev 扫描 Web 日志中的 URL 探测行为并封禁",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "laya-vs-jev-on-open-food-facts-dataset",
+      "author": "godatadriven",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/godatadriven/laya-vs-jev-on-open-food-facts-dataset",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "创新日项目:在 Open Food Facts 数据集上对比 Laya 与 Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "guardrail-rag-jev",
+      "author": "nhat-nguyet",
+      "category": "agent-safety",
+      "primitives": [
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/nhat-nguyet/guardrail-rag-jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "RAG 内容护栏:索引前、查询、检索段落和生成答案四处检查,标注违规法律依据",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "product-skill-jev",
+      "author": "nhat-nguyet",
+      "category": "vertical",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/nhat-nguyet/product-skill-jev",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "产品经理副驾驶:写文档、守流程,决策留给人",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "jev-factorio-agent",
+      "author": "jevplay-games",
+      "category": "game",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/jevplay-games/jev-factorio-agent",
+      "tweet": null,
+      "stars": 4,
+      "one_liner": "Factorio 代理:Jev 以类型化问题选目标和动作,确定性代码负责规则与执行",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "frontier-orchestration",
+      "author": "bebecap",
+      "category": "routing",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/bebecap/frontier-orchestration",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "把高风险任务路由给 Claude/Codex/Gemini,决策引擎(Jev、OpenJev 或本地规则)选模型,另一家复核",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-21"
       }
     }
   ]
