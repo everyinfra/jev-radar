@@ -13,10 +13,10 @@
 
 # Jev Radar 📡
 
-### 验证最严谨的 Jev 生态独立白皮书与实时监控
 ### The most rigorously verified independent field report & live monitor of the Jev ecosystem
+### 验证最严谨的 Jev 生态独立白皮书与实时监控
 
-**验证最严,没有之一 · Every entry graded A/B by evidence depth — the only registry in the ecosystem that does.**
+**Every entry graded A/B by evidence depth — the only registry in the ecosystem that does. · 验证最严,没有之一**
 
 [![registry](https://img.shields.io/badge/registry-3119_graded_entries-brightgreen)](data/projects.json) [![cases](https://img.shields.io/badge/casebook-220%2B_cases-brightgreen)](CASEBOOK.md) [![verified](https://img.shields.io/badge/evidence_graded-A%2FB%2FC-brightgreen)](#why-you-can-trust-it) [![guide](https://img.shields.io/badge/API_access_guide-included-brightgreen)](docs/jev-api-access-guide.zh.md) [![license](https://img.shields.io/badge/license-CC_BY_4.0_%C2%B7_data_CC0-brightgreen)](LICENSE)
 
