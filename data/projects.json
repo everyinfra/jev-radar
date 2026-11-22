@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 3108,
+    "total_curated": 3119,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -63397,6 +63397,232 @@
         "method": 0.9,
         "confidence": "artifact-inspected",
         "verified_at": "2026-11-21"
+      }
+    },
+    {
+      "name": "jev-enhanced-plugin",
+      "author": "JiaWeiXie",
+      "category": "platform",
+      "primitives": [
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/JiaWeiXie/jev-enhanced-plugin",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "Codex/Claude Code/Oh My Pi 插件:六个技能各加一个 Jev 类型化判断,Jev 只提供建议、不做决定",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "is_even_ai",
+      "author": "chayuto",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/chayuto/is_even_ai",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "恶搞 Ruby gem:用 Jev 或 LLM 判断整数奇偶",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "jev-migration-analyzer",
+      "author": "rambmehta",
+      "category": "code-quality",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/rambmehta/jev-migration-analyzer",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Claude Code 技能:审计代码库里的 LLM 调用,找出可迁到 Jev 的并估算成本延迟(非官方)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "somewhat-magical-jev-ball",
+      "author": "raunaqgupta",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/raunaqgupta/somewhat-magical-jev-ball",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "由 Jev 决定答案的魔法 8 号球,Cloudflare Worker 服务端调用,线上 somewhatmagicaljevball.com",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "docfriction",
+      "author": "cyruspastelero",
+      "category": "content-scoring",
+      "primitives": [
+        "score",
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/cyruspastelero/docfriction",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "逐段向 Jev 问固定类型化问题,为文档页生成摩擦日志(PyPI 包,alpha)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "jev-vs-llm-ticket-router",
+      "author": "SarathChandraBellam",
+      "category": "eval",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/SarathChandraBellam/jev-vs-llm-ticket-router",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "基准:Jev 与 OpenRouter LLM 在工单分派上的准确率、延迟和成本对比",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "jev-lint",
+      "author": "schalkneethling",
+      "category": "code-quality",
+      "primitives": [
+        "choice"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/schalkneethling/jev-lint",
+      "tweet": null,
+      "stars": 1,
+      "one_liner": "用 Jev 做语义 lint:HTML 9 条、JS/TS 10 条规则,报告依赖词义的问题",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "jevjavauosdk",
+      "author": "Ultonian",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/Ultonian/jevjavauosdk",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "非官方 Java 21+ SDK,同步/异步、路由助手、Micrometer 指标(预发布)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "archies-appstore-lookup",
+      "author": "soloiaros",
+      "category": "vertical",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/soloiaros/archies-appstore-lookup",
+      "tweet": null,
+      "stars": 75,
+      "one_liner": "用自然语言查 App Store 榜单,Jev 给出每个匹配的可能性",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "jev-scout",
+      "author": "kierandotai",
+      "category": "agent-safety",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/kierandotai/jev-scout",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "MCP 服务:guarded_search/fetch/research_report,每条查询与网页都由 Jev 打分并实时仪表盘显示",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "BookmarX",
+      "author": "peterrauscher",
+      "category": "browser-extension",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/peterrauscher/BookmarX",
+      "tweet": null,
+      "stars": 2,
+      "one_liner": "Chrome 扩展:用 Jev 把 X 书签建议归入已有文件夹,低置信度留给用户",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-22"
       }
     }
   ]
