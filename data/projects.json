@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 3119,
+    "total_curated": 3129,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -63623,6 +63623,215 @@
         "method": 0.9,
         "confidence": "artifact-inspected",
         "verified_at": "2026-11-22"
+      }
+    },
+    {
+      "name": "jev_tutorial",
+      "author": "ady95",
+      "category": "course",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/ady95/jev_tutorial",
+      "tweet": null,
+      "stars": 15,
+      "one_liner": "韩文书《Jev 따라하기》配套示例代码(ch02 起步、并行调用、与 LLM 对比基准)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "typesafe-jev-workflows",
+      "author": "chaitanya-y",
+      "category": "demo",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/chaitanya-y/typesafe-jev-workflows",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "TypeSafe Use Case Lab:本地应用,32 个 Jev 工作流示例,可编辑输入、带类型的判断、决策规则和测试",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "recalibench",
+      "author": "dagap",
+      "category": "eval-tooling",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/dagap/recalibench",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "置信度校准基准与工具包,在 Jev 上实测,事后校准、不重训,附 bootstrap 置信区间、HTML 报告和 Streamlit 应用",
+      "metrics": "声称置信度误差降低 3–20 倍(作者自述)",
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "viva-recall",
+      "author": "jacquescogal",
+      "category": "education",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/jacquescogal/viva-recall",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "桌面闪卡应用:用自己的话作答,LLM 拆成 yes/no 检查,Jev 给出校准概率判分,FSRS 排期",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "voc-research-workbench",
+      "author": "kurikiwoods-coder",
+      "category": "research",
+      "primitives": [
+        "noul",
+        "choice"
+      ],
+      "status": "idea",
+      "url": "https://github.com/kurikiwoods-coder/voc-research-workbench",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "VOC 研究工作台:站外用户原话发现意图,用 Jev 规模化编码并生成调查问卷;README 声明 P0 仅设计文档、尚未实现",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "os1-her",
+      "author": "nickvasilescu",
+      "category": "voice",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/nickvasilescu/os1-her",
+      "tweet": null,
+      "stars": 48,
+      "one_liner": "受《Her》启发的语音优先个人操作系统:Hermes 后台 agent、LiveKit、Three.js,Jev 负责生成式 UI",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "nu_plugin_jev",
+      "author": "quietlight",
+      "category": "sdk",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/quietlight/nu_plugin_jev",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Nushell 插件:把 Jev 的 noul/choice/score 做成管道命令,让 agent 的 nu 环境能要判断而不必开放 http post",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "yt-ai-filter",
+      "author": "tim-polodev",
+      "category": "browser-extension",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/tim-polodev/yt-ai-filter",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Chrome/Edge 扩展:按自然语言规则用 Jev noul 概率模糊 YouTube 缩略图和标题,可点击查看",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "decision-agent-kit",
+      "author": "urzuahq",
+      "category": "agent-infra",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "prototype",
+      "url": "https://github.com/urzuahq/decision-agent-kit",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "让编码 agent 的 harness 向决策模型询问会话状态的工具集;Claude Code/Codex 适配,README 称 Jev 已配置但尚未调用",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "jev-rag-toolbox",
+      "author": "bloosiee",
+      "category": "eval",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/bloosiee/jev-rag-toolbox",
+      "tweet": null,
+      "stars": 3,
+      "one_liner": "训练并评测 Jev 门控:RAG 证据是否充分、是否需要再搜;含 HotpotQA 真实回放(95.30% 置信停搜被改为继续后答对)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-23"
       }
     }
   ]
