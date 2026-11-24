@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 3129,
+    "total_curated": 3133,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -63832,6 +63832,90 @@
         "method": 0.9,
         "confidence": "artifact-inspected",
         "verified_at": "2026-11-23"
+      }
+    },
+    {
+      "name": "oneclip",
+      "author": "janmm97",
+      "category": "content-scoring",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/janmm97/oneclip",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "开源本地 AI 视频剪辑:Jev 对候选片段按六个维度打分并判钩子类型,再由 AI 规划剪辑、FFmpeg+Remotion 渲染竖屏短片(经 One CLI 调用 Jev)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-24"
+      }
+    },
+    {
+      "name": "jev_board",
+      "author": "rttq",
+      "category": "eval",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/rttq/jev_board",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "本地 Jev 工作台:单题运行 Noul/Choice/Score/Box、多输入措辞对比实验矩阵、标注算准确率、记录每次请求及成本(与 jevable 上 Zahle Khan 的 Jev board 无关,非同一项目)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-24"
+      }
+    },
+    {
+      "name": "jev-builds",
+      "author": "EventumAI",
+      "category": "directory",
+      "primitives": [
+        "noul",
+        "choice",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/EventumAI/jev-builds",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "Eventum(TypeSafe 官方技术伙伴)的 Jev 构建日志索引:每条把 Jev 放在一个真实决策上并与另一种做法对比,数字均为构建者自测",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-24"
+      }
+    },
+    {
+      "name": "dsh-quick-find-en",
+      "author": "eliaweiss",
+      "category": "vertical",
+      "primitives": [
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/eliaweiss/dsh-quick-find-en",
+      "tweet": null,
+      "stars": 0,
+      "one_liner": "DeepSeek Harness 对话内按含义搜索(Cmd/Ctrl+F),用 TypeSafe Jev 排序相关句并高亮定位;dsh-quick-find 的英文版(非官方)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": 0.9,
+        "confidence": "artifact-inspected",
+        "verified_at": "2026-11-24"
       }
     }
   ]
